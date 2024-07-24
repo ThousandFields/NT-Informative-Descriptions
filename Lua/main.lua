@@ -103,6 +103,9 @@ end
 
 function IsModEnabled(workshopId)
     local value = false
+    if workshopId == nil or workshopId == "" then
+        return false
+    end
     for package in ContentPackageManager.EnabledPackages.All do
         if tostring(package.UgcId) == workshopId then
             value = true

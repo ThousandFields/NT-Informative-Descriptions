@@ -15,5 +15,12 @@ if CLIENT or not Game.IsMultiplayer then
   end,1)
 end
 
-
-
+if CLIENT and Game.IsSubEditor then
+  Timer.Wait(function()
+	if NTC == nil then
+		return
+	end
+	LuaUserData.MakeMethodAccessible(Descriptors["Barotrauma.SubEditorScreen"], "UpdateEntityList")
+	Game.SubEditorScreen.UpdateEntityList()
+  end,5)
+end

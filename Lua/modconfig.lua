@@ -23,14 +23,13 @@ local config = {
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
 		} 
 	},
-	-- Curly's Surgery Plus
+	-- Curly's Surgery Plus (disabled)
 	{
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,
-		workshopId = "2857967391",
+		workshopId = "",
 		loadpriority = 1,
 		files = {
-			"%ModDir%/Localization/%Language%/SurgeryPlus.xml"
 			} 
 	},
 	-- Example blank

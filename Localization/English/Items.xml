@@ -33,7 +33,7 @@
 		
 		<entitydescription.antidama2>A very potent opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. Analgesia will not only prevent ‖color:gui.green‖pain‖end‖, but will also ‖color:gui.green‖strengthen tissue‖end‖ against damage. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama2>
 
-		<entitydescription.antinarc>An opioid antagonist for the treatment of opiate ‖color:gui.green‖withdrawal‖end‖ and ‖color:gui.green‖overdose‖end‖. Additionally, it will reduce the ‖color:gui.green‖analgesic‖end‖ effect of opiates. On failure, it is less effective.</entitydescription.antinarc>
+		<entitydescription.antinarc>An opioid antagonist for the treatment of opiate ‖color:gui.green‖withdrawal‖end‖ and ‖color:gui.green‖overdose‖end‖. Additionally, it will reduce the ‖color:gui.green‖analgesic‖end‖ effect of opiates. On failure, it is less effective and may cause a short ‖color:gui.red‖coma‖end‖.</entitydescription.antinarc>
 
 		<entitydescription.antibiotics>An antibiotic that acts against a wide range of disease-causing bacteria, making it an effective treatment for ‖color:gui.green‖sepsis‖end‖ and to a lesser extent, ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
 		
@@ -212,8 +212,8 @@
 		<entitydescription.bloodpackabminus>Can be administered to: AB-, AB+</entitydescription.bloodpackabminus>
 
 		<Override>
-		<entityname.antibloodloss2>Blood Pack O-</entityname.antibloodloss2>
-		<entitydescription.antibloodloss2>Can be administered to: Any</entitydescription.antibloodloss2>
+			<entityname.antibloodloss2>Blood Pack O-</entityname.antibloodloss2>
+			<entitydescription.antibloodloss2>Can be administered to: Any</entitydescription.antibloodloss2>
 		</Override>
 
 		<entityname.ominuscard>Donor Card O-</entityname.ominuscard>
@@ -341,7 +341,7 @@
 		<entitydescription.tourniquet>A first aid item that prevents ‖color:gui.green‖major arteries from bleeding‖end‖. However, it is important for blood ‖color:gui.red‖reach the head‖end‖. Clogging bleeds will cause ‖color:gui.red‖gangrene‖end‖ over time. It is removed during surgery. On failure, causes ‖color:gui.red‖blunt force trauma‖end‖</entitydescription.tourniquet>
 
 		<entityname.needle>Needle</entityname.needle>
-		<entitydescription.needle>A specialized needle used to depressurize air in the pleural cavity, as a first aid option for ‖color:gui.green‖pneumothorax‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing. On failure, causes ‖color:gui.red‖organ damage‖end‖ and ‖color:gui.red‖bleeding‖end‖.</entitydescription.needle>
+		<entitydescription.needle>A specialized needle used to depressurize air in the pleural cavity, as a first aid option for ‖color:gui.green‖pneumothorax‖end‖. If the patient does not already have pneumothorax, it will ‖color:gui.red‖cause it instead‖end‖. On failure, causes ‖color:gui.red‖organ damage‖end‖ and ‖color:gui.red‖bleeding‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.needle>
 
 		<entityname.ringerssolution>Ringer's Solution</entityname.ringerssolution>
 		<entitydescription.ringerssolution>An isotonic solution used to increase ‖color:gui.green‖blood pressure‖end‖.</entitydescription.ringerssolution>

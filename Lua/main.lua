@@ -6,6 +6,8 @@ local FileList = {}
 
 LuaUserData.MakeFieldAccessible(Descriptors["Barotrauma.GameSettings"], "currentConfig")
 local ClientLanguage = tostring(GameSettings.currentConfig.Language)
+local localizationTrimmed = string.sub(ClientLanguage, 2) .. ".xml"
+
 
 for package in ContentPackageManager.EnabledPackages.All do
     local path = string.gsub(tostring(package.Dir),"\\","/")
@@ -32,7 +34,7 @@ function EnableTextFile(file, workshopId)
     end
 
     if targetPackage == nil then
-        print("TEST Could not find package to enable with workshop id ", workshopId)
+        print("Could not find package to enable with workshop id ", workshopId)
         return false
     end
 
@@ -82,7 +84,7 @@ function DisableTextPackage(workshopId)
     end
 
     for file in targetPackage.Files do
-        if LuaUserData.IsTargetType(file, "Barotrauma.TextFile") and string.endsWith(file.Path.Value, "nglish.xml") then
+        if LuaUserData.IsTargetType(file, "Barotrauma.TextFile") and string.endsWith(file.Path.Value, localizationTrimmed) then
             file.UnloadFile()
             --print("Disabled " .. file.Path.Value .. " in package ", workshopId)
             break

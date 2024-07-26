@@ -23,7 +23,7 @@ local config = {
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
 		} 
 	},
-	-- Curly's Surgery Plus 
+	-- Curly's Surgery Plus (disabled)
 	{
 		supportedlanguages = {"English","Simplified Chinese"},
 		IgnoreTargetModState = false,

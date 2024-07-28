@@ -291,7 +291,7 @@
 		
 		<entityname.livertransplant>Liver</entityname.livertransplant>
 		<entitydescription.livertransplant>A human liver. Liver damage compromises the body's natural ability to heal ‖color:gui.red‖bleeding‖end‖, along with causing some ‖color:gui.red‖neurotrauma‖end‖, increasing ‖color:gui.red‖blood pressure‖end‖, and causing continuous ‖color:gui.red‖internal bleeding‖end‖ upon total failure. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if left outside.</entitydescription.livertransplant>
-		<entityname.livertransplant_q1>Liver Transplant</entityname.livertransplant_q1>
+		<entityname.livertransplant_q1>Liver</entityname.livertransplant_q1>
 		<entitydescription.livertransplant_q1>A human liver. Liver damage compromises the body's natural ability to heal ‖color:gui.red‖bleeding‖end‖, along with causing some ‖color:gui.red‖neurotrauma‖end‖, increasing ‖color:gui.red‖blood pressure‖end‖, and causing continuous ‖color:gui.red‖internal bleeding‖end‖ upon total failure. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if left outside.</entitydescription.livertransplant_q1>
 		
 		<entityname.lungtransplant>Lungs</entityname.lungtransplant>

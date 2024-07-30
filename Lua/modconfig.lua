@@ -13,7 +13,7 @@ local config = {
 			} 
 	},
 	-- Neurotrauma Mannatu
-		{
+	{
 		supportedlanguages = {"English","Simplified Chinese"}, 
 		IgnoreTargetModState = false, 
 		workshopId = "2776270649", 
@@ -21,7 +21,7 @@ local config = {
 		files = {
 			"%ModDir%/Localization/%Language%/Items.xml",
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
-		} 
+			} 
 	},
 	-- Curly's Surgery Plus (disabled)
 	{
@@ -30,6 +30,16 @@ local config = {
 		workshopId = "",
 		loadpriority = 1,
 		files = {
+			} 
+	},
+	-- Cybernetics
+	{
+		supportedlanguages = {"English"},
+		IgnoreTargetModState = false,
+		workshopId = "2788543375",
+		loadpriority = 0,
+		files = {
+			"%ModDir%/Localization/%Language%/Cybernetics.xml"
 			} 
 	},
 	-- Example blank

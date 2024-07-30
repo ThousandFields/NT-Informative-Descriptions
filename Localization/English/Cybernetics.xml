@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by ThousandFields -->
+<infotexts language="English" nowhitespace="false" translatedname="English">
+	<Override>
+        <!-- Vanilla Items-->
+        <entitydescription.screwdriver>Makes electrical repairs and rewiring possible. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriver>
+
+        <entitydescription.fpgacircuit>Field-programmable gate array—a multipurpose circuit that can be reconfigured for use in a large variety of electrical devices. Also used to replace ‖color:gui.green‖broken circuitry‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.fpgacircuit>
+
+        <entitydescription.weldingtool>One of the most crucial tools on board the submarine. Also works underwater, and is used to repair ‖color:gui.green‖bent metal‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.weldingtool>
+
+        <entitydescription.steel>A strong metal alloy of iron and carbon. Used in fuel rod manufacturing, as well as many military applications. Also used to replace ‖color:gui.green‖lost material‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.steel>
+
+        <!-- Cybernetics Items -->
+        <entityname.cyberarm>Cyberarm</entityname.cyberarm>
+        <entitydescription.cyberarm>A powerful inorganic arm which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.</entitydescription.cyberarm>
+
+        <entityname.cyberleg>Cyberleg</entityname.cyberleg>
+        <entitydescription.cyberleg>A powerful inorganic leg which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖
+        <!-- Cybernetics Afflictions -->
+        <afflictionname.ntc_cyberarm>Cyberarm</afflictionname.ntc_cyberarm>
+        <afflictiondescription.ntc_cyberarm>This inorganic arm is impervious to biological faults, but it must be maintained using inorganic materials. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberarm>
+
+        <afflictionname.ntc_cyberleg>Cyberleg</afflictionname.ntc_cyberleg>
+        <afflictiondescription.ntc_cyberleg>This inorganic leg is impervious to biological faults, but it must be maintained using inorganic materials. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberleg>
+
+        <afflictionname.ntc_loosescrews>Loose screws</afflictionname.ntc_loosescrews>
+        <afflictiondescription.ntc_loosescrews>Screws have loosened as a result of physical trauma, or from other loose screws. If the screws are not tightened using a screwdriver, motion may loosen more screws.</afflictiondescription.ntc_loosescrews>
+
+        <afflictionname.ntc_damagedelectronics>Damaged electronics</afflictionname.ntc_damagedelectronics>
+        <afflictiondescription.ntc_damagedelectronics>Delicate circuitry has been damaged by water or physical trauma. If the circuits are not replaced by FPGAs, the limb may occasionally malfunction.</afflictiondescription.ntc_damagedelectronics>
+
+        <afflictionname.ntc_bentmetal>Bent metal</afflictionname.ntc_bentmetal>
+        <afflictiondescription.ntc_bentmetal>The limb has been bent by physical trauma, making it harder to use. It can be welded back in place.</afflictiondescription.ntc_bentmetal>
+
+        <afflictionname.ntc_materialloss>Material loss</afflictionname.ntc_materialloss>
+        <afflictiondescription.ntc_materialloss>The limb has lost parts due to physical trauma. It can be repaired using steel. If too many parts are lost, the limb may be destroyed. Loose screws make it easier to lose parts.</afflictiondescription.ntc_materialloss>
+    </Override>
+</infotexts>

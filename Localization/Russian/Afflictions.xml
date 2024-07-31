@@ -190,7 +190,7 @@
 		<afflictiondescription.seizure>У пациента судороги всего тела. Обычно вызывается ацидозом, инсультом, передозировкой опиатов или лучевой болезнью.</afflictiondescription.seizure>
 
 		<afflictionname.sym_craving>Зависимость</afflictionname.sym_craving>
-		<afflictiondescription.sym_craving>Сильная тяга. К наркотикам.</afflictiondescription.sym_craving>
+		<afflictiondescription.sym_craving>Тяга к наркотикам, вызванная синдромом отмены.</afflictiondescription.sym_craving>
 		
 		<afflictionname.onfire>В огне!</afflictionname.onfire>
 		<afflictiondescription.onfire>Я будто бы во сне, мой дом весь в огне...</afflictiondescription.onfire> <!-- TRACK: Серега Пират - Зомби апокалипсис (припев) -->
@@ -213,19 +213,19 @@
 		<afflictiondescription.traumaticshock>Обычно происходит в условиях небезопасной хирургии, вызывая потенциально смертельную гипотонию. Для безопасного проведения операции пациент должен быть обезболен и находиться рядом с кроватью, либо быть без сознания.</afflictiondescription.traumaticshock>
 
 		<afflictionname.surgeryincision>Хирургический разрез</afflictionname.surgeryincision>
-		<afflictiondescription.surgeryincision>Надрез, сделанный скальпелем. Он болезненный и вызывает кровотечение, которое предотвращается с помощью гемостата.</afflictiondescription.surgeryincision>
+		<afflictiondescription.surgeryincision>Надрез, сделанный скальпелем. Он болезненный и вызывает кровопотерю, которое предотвращается с помощью гемостата.</afflictiondescription.surgeryincision>
 		
 		<afflictionname.clampedbleeders>Зажатое кровотечение</afflictionname.clampedbleeders>
-		<afflictiondescription.clampedbleeders>Хирургические кровотечения останавливаются. Разрез все также болезненный.</afflictiondescription.clampedbleeders>
+		<afflictiondescription.clampedbleeders>Хирургические кровотечения были остановлены. Разрез все также болезненный.</afflictiondescription.clampedbleeders>
 
 		<afflictionname.retractedskin>Оттянутая кожа</afflictionname.retractedskin>
 		<afflictiondescription.retractedskin>Кожа удерживается в открытом положении с помощью набора ретракторов. Это неописуемо неудобно, и безопасно проводить процедуру можно только рядом с кроватью или в бессознательном состоянии.</afflictiondescription.retractedskin>
 
 		<afflictionname.suturedi>Наложенные швы</afflictionname.suturedi>
-		<afflictiondescription.suturedi>Разрез был закрыт швами.</afflictiondescription.suturedi>
+		<afflictiondescription.suturedi>Разрез был зашит.</afflictiondescription.suturedi>
 
 		<afflictionname.drilledbones>Просверленные кости</afflictionname.drilledbones>
-		<afflictiondescription.drilledbones>Кости были распилены, что позволяет установить имплантаты для остеосинтеза.</afflictiondescription.drilledbones>
+		<afflictiondescription.drilledbones>Кости были просверленны, что позволяет установить имплантаты для остеосинтеза.</afflictiondescription.drilledbones>
 		
 		<afflictionname.bonecut>Распиленные кости</afflictionname.bonecut>
 		<afflictiondescription.bonecut>Кость была отпилена хирургическим путем, чтобы удалить конечность или подготовить ее к установке другой.</afflictiondescription.bonecut>

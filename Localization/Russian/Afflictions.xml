@@ -19,7 +19,7 @@
 		<afflictiondescription.explosiondamage>Область окрашивается в фиолетовый цвет. На ощупь эта ткань отличается от остальной кожи. Вероятно инфекция, а также попадание осколков.</afflictiondescription.explosiondamage>
 		<afflictiondescription.explosiondamage.low>Участок кожи выглядит ушибленным. Возможно, туда попала инфекция или остался осколок.</afflictiondescription.explosiondamage.low>
 
-		<afflictiondescription.bleeding>Из этой ужасной рваной раны течёт кровь. Если станет хуже, то это приведет к разрыву артерии.</afflictiondescription.bleeding>
+		<afflictiondescription.bleeding>Из этой ужасной раны течёт кровь. Если станет хуже, то это приведет к разрыву артерии.</afflictiondescription.bleeding>
 		<afflictiondescription.bleeding.low>Из раны медленно сочится кровь.</afflictiondescription.bleeding.low>
 		<afflictiondescription.bleeding.high>Из раны происходит огромная кровопотеря. Это может привести к разрыву артерии.</afflictiondescription.bleeding.high>
 
@@ -78,19 +78,19 @@
 		<afflictiondescription.dislocation4>Кость в левой руке сместилась в результате травмы, вызывая боль и невозможность использовать конечность. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation4>
 
 		<afflictionname.ll_arterialcut>Кровотечение из бедренной артерии</afflictionname.ll_arterialcut>
-		<afflictiondescription.ll_arterialcut>Левая бедренная артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.ll_arterialcut>
+		<afflictiondescription.ll_arterialcut>Левая бедренная артерия была повреждена в результате сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.ll_arterialcut>
 		
 		<afflictionname.rl_arterialcut>Кровотечение из бедренной артерии</afflictionname.rl_arterialcut>
-		<afflictiondescription.rl_arterialcut>Правая бедренная артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.rl_arterialcut>
+		<afflictiondescription.rl_arterialcut>Правая бедренная артерия была повреждена в результате сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.rl_arterialcut>
 		
 		<afflictionname.la_arterialcut>Кровотечение из плечевой артерии</afflictionname.la_arterialcut>
-		<afflictiondescription.la_arterialcut>Левая плечевая артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.la_arterialcut>
+		<afflictiondescription.la_arterialcut>Левая плечевая артерия была повреждена в результате сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.la_arterialcut>
 		
 		<afflictionname.ra_arterialcut>Кровотечение из плечевой артерии</afflictionname.ra_arterialcut>
-		<afflictiondescription.ra_arterialcut>Правая плечевая артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.ra_arterialcut>
+		<afflictiondescription.ra_arterialcut>Правая плечевая артерия была повреждена в результате сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.ra_arterialcut>
 		
 		<afflictionname.h_arterialcut>Кровотечение из сонной артерии</afflictionname.h_arterialcut>
-		<afflictiondescription.h_arterialcut>Сонная артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Останавливать кровотечение жгутом опасно, поэтому требуется наложение хирургического шва.</afflictiondescription.h_arterialcut>
+		<afflictiondescription.h_arterialcut>Сонная артерия была повреждена в результате сильного кровотечения или пореза, и вызывает сильную кровопотерю. Останавливать кровотечение жгутом опасно, поэтому требуется наложение хирургического шва.</afflictiondescription.h_arterialcut>
 
 		<afflictionname.gangrene>Гангрена</afflictionname.gangrene>
 		<afflictiondescription.gangrene>Конечность уменьшилась в размерах и почернела из-за сепсиса или подавления кровотока. Конечность должна быть ампутирована более чем на 15%, так как она больше не будет заживать.</afflictiondescription.gangrene>
@@ -102,7 +102,7 @@
 		<afflictiondescription.burn_deg2>На пораженных участках появляются очень болезненные волдыри. Высока вероятность инфекции, которое приведет к саморазрушающему сепсису. Для лечения достаточно повязки или мазь.</afflictiondescription.burn_deg2>
 		
 		<afflictionname.burn_deg3>Ожог третьей степени</afflictionname.burn_deg3>
-		<afflictiondescription.burn_deg3>В этой кожистой, жесткой области нет боли. Инфекция происходит практически мгновенно, и быстро развивается сепсис. Антибиотическая клей - самое быстрое лечение.</afflictiondescription.burn_deg3>
+		<afflictiondescription.burn_deg3>В этой области мертвая и ороговевшая кожа. Инфекция происходит практически мгновенно, и быстро развивается сепсис. Антибиотический клей - самое быстрое лечение.</afflictiondescription.burn_deg3>
 
 		<!-- NT Симптомы -->
 		<afflictionname.tachycardia>Повышенное сердцебиение</afflictionname.tachycardia>
@@ -151,7 +151,7 @@
 		<afflictiondescription.sym_weakness>Снижение мышечной способности конечностей. Вызвано тампонадой сердца, кровопотерей или ацидозом.</afflictiondescription.sym_weakness>
 		
 		<afflictionname.sym_wheezing>Хрипение</afflictionname.sym_wheezing>
-		<afflictiondescription.sym_wheezing>BПри дыхании издаются высокочастотные звуки. Вызывается гемотрансфузионным шоком.</afflictiondescription.sym_wheezing>
+		<afflictiondescription.sym_wheezing>При дыхании издаются высокочастотные звуки. Вызывается гемотрансфузионным шоком.</afflictiondescription.sym_wheezing>
 		
 		<afflictionname.sym_vomiting>Рвота</afflictionname.sym_vomiting>
 		<afflictiondescription.sym_vomiting>Периодическая рвота. Обычно вызывается повреждением почек, алкоголем или гемотрансфузионным шоком.</afflictiondescription.sym_vomiting>

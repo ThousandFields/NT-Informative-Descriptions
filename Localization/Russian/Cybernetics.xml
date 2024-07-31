@@ -26,15 +26,15 @@
         <afflictiondescription.ntc_cyberleg>Эта неорганическая нога невосприимчива к биологическим повреждениям, но для ее поддержания необходимо использовать неорганические материалы. Её можно грубо удалить с помощью лома.</afflictiondescription.ntc_cyberleg>
 
         <afflictionname.ntc_loosescrews>Ослабленные винты</afflictionname.ntc_loosescrews>
-        <afflictiondescription.ntc_loosescrews>Винты ослабли в результате физической травмы или из-за других ослабленных винтов. Если не затянуть винты с помощью отвертки, движение может привести к ослаблению большего количества винтов.</afflictiondescription.ntc_loosescrews>
+        <afflictiondescription.ntc_loosescrews>Винты ослабли в результате травмы или из-за других ослабленных винтов. Если не затянуть винты с помощью отвертки, движение может привести к ослаблению большего количества винтов.</afflictiondescription.ntc_loosescrews>
 
         <afflictionname.ntc_damagedelectronics>Поврежденная электроника</afflictionname.ntc_damagedelectronics>
         <afflictiondescription.ntc_damagedelectronics>Деликатные схемы были повреждены водой или физическими травмами. Если не заменить эти схемы на ППВМ, конечность может периодически выходить из строя.</afflictiondescription.ntc_damagedelectronics>
 
         <afflictionname.ntc_bentmetal>Гнутый металл</afflictionname.ntc_bentmetal>
-        <afflictiondescription.ntc_bentmetal>Конечность была согнута в результате физической травмы, что затрудняет ее использование. Ее можно приварить на место.</afflictiondescription.ntc_bentmetal>
+        <afflictiondescription.ntc_bentmetal>Конечность была согнута в результате травмы, что затрудняет ее использование. Ее можно приварить на место.</afflictiondescription.ntc_bentmetal>
 
         <afflictionname.ntc_materialloss>Потеря материалов</afflictionname.ntc_materialloss>
-        <afflictiondescription.ntc_materialloss>Конечность потеряла части из-за физической травмы. Ее можно восстановить с помощью стали. Если потеряно слишком много частей, конечность может быть разрушена. Ослабленные винты облегчают потерю частей.</afflictiondescription.ntc_materialloss>
+        <afflictiondescription.ntc_materialloss>Конечность потеряла части из-за травмы. Ее можно восстановить с помощью стали. Если потеряно слишком много частей, конечность может быть разрушена. Ослабленные винты облегчают потерю частей.</afflictiondescription.ntc_materialloss>
     </Override>
 </infotexts>

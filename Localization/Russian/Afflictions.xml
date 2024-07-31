@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by REZNYA -->
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+	<Override>
+		<!-- Ванильные видимые эффекты -->
+		<afflictiondescription.gunshotwound>Входное отверстие - маленькая темная дырочка с синяком с небольшим количеством вытекающей крови. А выходное отверстие представляет собой большой рваный кусок плоти, и из него сочится кровь. Скорее всего, произойдет инфекция, и, возможно, внутри еще остались пули.</afflictiondescription.gunshotwound>
+		<afflictiondescription.gunshotwound.low>Пуля не задела жизненно важные органы и прошла насквозь, но боль реальная, как и риск инфекции. Возможно, внутри еще есть пули</afflictiondescription.gunshotwound.low>
+
+		<afflictiondescription.blunttrauma>Это место имеет уродливый фиолетовый оттенок, и к нему очень больно прикосаться. Вы подозреваете, что может быть сломана кость. Эту рану нельзя зашить</afflictiondescription.blunttrauma>
+		<afflictiondescription.blunttrauma.low>На месте удара виднеется легкий синяк, но не похоже, что что-то сломано. Однако, эту рану нельзя зашить.</afflictiondescription.blunttrauma.low>
+
+		<afflictiondescription.lacerations>Кожа проколота, и есть глубоко кровоточащие раны. Это может привести к инфекции.</afflictiondescription.lacerations>
+		<afflictiondescription.lacerations.low>Порезы выглядят хуже, чем есть на самом деле, но не следует исключать возможность инфекции.</afflictiondescription.lacerations.low>
+		
+		<afflictiondescription.bitewounds>В этой области сильно повреждены мягкие ткани и имеются ассимитричные кровоточащие раны. Это может привести к инфекции.</afflictiondescription.bitewounds>
+		<afflictiondescription.bitewounds.low>Что-то попыталось откусить большой кусок, но, к счастью, успело только погрызть. Однако, это может привести к инфекции.</afflictiondescription.bitewounds.low>
+		
+		<afflictiondescription.explosiondamage>Область окрашивается в фиолетовый цвет. На ощупь эта ткань отличается от остальной кожи. Вероятно инфекция, а также попадание осколков.</afflictiondescription.explosiondamage>
+		<afflictiondescription.explosiondamage.low>Участок кожи выглядит ушибленным. Возможно, туда попала инфекция или остался осколок.</afflictiondescription.explosiondamage.low>
+
+		<afflictiondescription.bleeding>Из этой ужасной рваной раны течёт кровь. Если станет хуже, то это приведет к разрыву артерии.</afflictiondescription.bleeding>
+		<afflictiondescription.bleeding.low>Из раны медленно сочится кровь.</afflictiondescription.bleeding.low>
+		<afflictiondescription.bleeding.high>Из раны происходит огромная кровопотеря. Это может привести к разрыву артерии.</afflictiondescription.bleeding.high>
+
+		<!-- NT Видимые эффекты -->
+
+		<!-- NT Травмы -->
+		<afflictionname.ra_fracture>Перелом правой плечевой кости</afflictionname.ra_fracture>
+		<afflictiondescription.ra_fracture>Правая рука сломана, вероятно, из-за травмы. Перелом не позволит использовать эту руку до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.ra_fracture>
+		
+		<afflictionname.la_fracture>Перелом левой плечевой кости</afflictionname.la_fracture>
+		<afflictiondescription.la_fracture>Левая рука сломана, вероятно, из-за травмы. Перелом не позволит использовать эту руку до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.la_fracture>
+		
+		<afflictionname.rl_fracture>Перелом правого бедра</afflictionname.rl_fracture>
+		<afflictiondescription.rl_fracture>Правая нога сломана, вероятно, из-за травмы. Передвижение будет затруднено до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.rl_fracture>
+		
+		<afflictionname.ll_fracture>Перелом левого бедра</afflictionname.ll_fracture>
+		<afflictiondescription.ll_fracture>Левая нога сломана, вероятно, из-за травмы. Передвижение будет затруднено до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.ll_fracture>
+		
+		<afflictionname.t_fracture>Перелом ребер</afflictionname.t_fracture>
+		<afflictiondescription.t_fracture>Одно или более ребро сломано, вероятно, из-за травмы. Структурная неустойчивость может привести к пневмотораксу. Необходимо провести остеосинтез для восстановления.</afflictiondescription.t_fracture>
+		
+		<afflictionname.h_fracture>Перелом черепа</afflictionname.h_fracture>
+		<afflictiondescription.h_fracture>Череп сломан, вероятно, из-за травмы. Осколки черепа и структурная неустойчивость могут начать нейротравму. Необходимо провести остеосинтез для восстановления.</afflictiondescription.h_fracture>
+		
+		<afflictionname.n_fracture>Перелом шеи</afflictionname.n_fracture>
+		<afflictiondescription.n_fracture>Шея сломана в результате травмы. Структурная нестабильность обнажает спинной мозг, что приводит к его легкому повреждению. Необходимо провести остеосинтез для восстановления.</afflictiondescription.n_fracture>
+		
+		<afflictionname.tra_amputation>Травматическая ампутация</afflictionname.tra_amputation>
+		<afflictiondescription.tra_amputation>Большая часть правой руки была оторвана в результате травмы, что привело к разрыву артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.tra_amputation>
+		
+		<afflictionname.tla_amputation>Травматическая ампутация</afflictionname.tla_amputation>
+		<afflictiondescription.tla_amputation>Большая часть левой руки была оторвана в результате травмы, что привело к разрыву артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.tla_amputation>
+		
+		<afflictionname.trl_amputation>Травматическая ампутация</afflictionname.trl_amputation>
+		<afflictiondescription.trl_amputation>Большая часть правой ноги была оторвана в результате травмы, что привело к разрыву артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.trl_amputation>
+		
+		<afflictionname.tll_amputation>Травматическая ампутация</afflictionname.tll_amputation>
+		<afflictiondescription.tll_amputation>Большая часть левой ноги была оторвана в результате травмы, что привело к разрыву артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.tll_amputation>
+		
+		<afflictionname.th_amputation>Травматическая ампутация</afflictionname.th_amputation>
+		<afflictiondescription.th_amputation>Взрыв оторвал голову, что привело к моментальной смерти.</afflictiondescription.th_amputation>
+
+		<afflictionname.t_paralysis>Травма спинного мозга</afflictionname.t_paralysis>
+		<afflictiondescription.t_paralysis>Позвоночник был поврежден в результате перелома шеи, что приводит к параличу всего тела. Пациент до сих пор в сознании. Необходимо провести операцию на спинном мозге для восстановления</afflictiondescription.t_paralysis>
+
+		<afflictionname.dislocation1>Вывих</afflictionname.dislocation1>
+		<afflictiondescription.dislocation1>Кость в правой ноге сместилась в результате травмы, вызывая боль и затрудняя передвижение. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation1>
+		
+		<afflictionname.dislocation2>Вывих</afflictionname.dislocation2>
+		<afflictiondescription.dislocation2>Кость в левой ноге сместилась в результате травмы, вызывая боль и затрудняя передвижение. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation2>
+		
+		<afflictionname.dislocation3>Вывих</afflictionname.dislocation3>
+		<afflictiondescription.dislocation3>Кость в правой руке сместилась в результате травмы, вызывая боль и невозможность использовать конечность. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation3>
+		
+		<afflictionname.dislocation4>Вывих</afflictionname.dislocation4>
+		<afflictiondescription.dislocation4>Кость в левой руке сместилась в результате травмы, вызывая боль и невозможность использовать конечность. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation4>
+
+		<afflictionname.ll_arterialcut>Кровотечение из бедренной артерии</afflictionname.ll_arterialcut>
+		<afflictiondescription.ll_arterialcut>Левая бедренная артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.ll_arterialcut>
+		
+		<afflictionname.rl_arterialcut>Кровотечение из бедренной артерии</afflictionname.rl_arterialcut>
+		<afflictiondescription.rl_arterialcut>Правая бедренная артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.rl_arterialcut>
+		
+		<afflictionname.la_arterialcut>Кровотечение из плечевой артерии</afflictionname.la_arterialcut>
+		<afflictiondescription.la_arterialcut>Левая плечевая артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.la_arterialcut>
+		
+		<afflictionname.ra_arterialcut>Кровотечение из плечевой артерии</afflictionname.ra_arterialcut>
+		<afflictiondescription.ra_arterialcut>Правая плечевая артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Ее следует сдавливать жгутом до тех пор, пока не будет наложен хирургический шов.</afflictiondescription.ra_arterialcut>
+		
+		<afflictionname.h_arterialcut>Кровотечение из сонной артерии</afflictionname.h_arterialcut>
+		<afflictiondescription.h_arterialcut>Сонная артерия была повреждена в ходе сильного кровотечения или пореза, и вызывает сильную кровопотерю. Останавливать кровотечение жгутом опасно, поэтому требуется наложение хирургического шва.</afflictiondescription.h_arterialcut>
+
+		<afflictionname.gangrene>Гангрена</afflictionname.gangrene>
+		<afflictiondescription.gangrene>Конечность уменьшилась в размерах и почернела из-за сепсиса или подавления кровотока. Конечность должна быть ампутирована более чем на 15%, так как она больше не будет заживать.</afflictiondescription.gangrene>
+
+		<afflictionname.burn_deg1>Ожог первой степени</afflictionname.burn_deg1>
+		<afflictiondescription.burn_deg1>Эта область кожи красная и болезненная на ощупь, но она не вызовет инфекции, если не станет хуже. При необходимости достаточно наложить повязку или мазь.</afflictiondescription.burn_deg1>
+		
+		<afflictionname.burn_deg2>Ожог второй степени</afflictionname.burn_deg2>
+		<afflictiondescription.burn_deg2>На пораженных участках появляются очень болезненные волдыри. Высока вероятность инфекции, которое приведет к саморазрушающему сепсису. Для лечения достаточно повязки или мазь.</afflictiondescription.burn_deg2>
+		
+		<afflictionname.burn_deg3>Ожог третьей степени</afflictionname.burn_deg3>
+		<afflictiondescription.burn_deg3>В этой кожистой, жесткой области нет боли. Инфекция происходит практически мгновенно, и быстро развивается сепсис. Антибиотическая клей - самое быстрое лечение.</afflictiondescription.burn_deg3>
+
+		<!-- NT Симптомы -->
+		<afflictionname.tachycardia>Повышенное сердцебиение</afflictionname.tachycardia>
+		<afflictiondescription.tachycardia>Сердцебиение аномально высокое. Если оно увеличивается, возникает потенциально смертельно опасная фибрилляция. Обычно вызвана гипотонией или гипоксемией.</afflictiondescription.tachycardia>
+
+		<afflictionname.fibrillation>Неравномерное сердцебиение</afflictionname.fibrillation>
+		<afflictiondescription.fibrillation>Сердцебиение имеет аномальный характер. Фибрилляция потенциально смертельна. Обычно вызвана гипотонией или гипоксемией.</afflictiondescription.fibrillation>
+
+		<afflictionname.cardiacarrest>Сердечный приступ</afflictionname.cardiacarrest>
+		<afflictiondescription.cardiacarrest>Сердце не бьется. Смертельно опасное состояние, которое не позволяет нормализовать артериальное давление, а при отсутствии лечения вызывает кому. Является конечным результатом фибрилляции, а также вызвано гипоксемией. Сердце должно быть перезапущено с помощью дефибриллятора, адреналина или СЛР.</afflictiondescription.cardiacarrest>
+
+		<afflictionname.respiratoryarrest>Остановка дыхания</afflictionname.respiratoryarrest>
+		<afflictiondescription.respiratoryarrest>Без дыхания. Смертельно опасное состояние, при котором кровь не насыщается кислородом. Обычно вызывается гипоксемией или передозировкой опиатов.</afflictiondescription.respiratoryarrest>
+		
+		<afflictionname.hyperventilation>Гипервентиляция</afflictionname.hyperventilation>
+		<afflictiondescription.hyperventilation>Частота дыхания аномально высокая. Постепенно нарастает нелетальный алкалоз. Обычно вызывается гипотонией, гипоксемией или пневмотораксом.</afflictiondescription.hyperventilation>
+		
+		<afflictionname.hypoventilation>Гиповентиляция</afflictionname.hypoventilation>
+		<afflictiondescription.hypoventilation>Частота дыхания аномально низкая. Постепенно нарастает потенциально смертельный ацидоз. Обычно вызывается анальгезией. Тяжелый ацидоз вызывает фибрилляцию.</afflictiondescription.hypoventilation>
+		
+		<afflictionname.dyspnea>Одышка</afflictionname.dyspnea>
+		<afflictiondescription.dyspnea>Дыхание затруднено. Обычно вызвано тампонадой сердца, пневмотораксом или гипоксемией.</afflictiondescription.dyspnea>
+
+		<afflictionname.sym_cough>Кашель</afflictionname.sym_cough>
+		<afflictiondescription.sym_cough>Периодический кашель. Причина - тампонада сердца, повреждение легких или сердца.</afflictiondescription.sym_cough>
+		
+		<afflictionname.sym_paleskin>Бледная кожа</afflictionname.sym_paleskin>
+		<afflictiondescription.sym_paleskin>Кожа бледная. Вызывается гипоксемией или потерей крови.</afflictiondescription.sym_paleskin>
+		
+		<afflictionname.sym_lightheadedness>Головокружение</afflictionname.sym_lightheadedness>
+		<afflictiondescription.sym_lightheadedness>Головокружение. Вызвано гипотонией.</afflictiondescription.sym_lightheadedness>
+		
+		<afflictionname.sym_blurredvision>Затуманенное зрение</afflictionname.sym_blurredvision>
+		<afflictiondescription.sym_blurredvision>Затруднение фокусировки глазного яблока. Обычно вызвано гипотонией или сотрясением мозга.</afflictiondescription.sym_blurredvision>
+		
+		<afflictionname.sym_confusion>Замешательство</afflictionname.sym_confusion>
+		<afflictiondescription.sym_confusion>Затруднение в формировании мыслей. Обычно вызывается гипоксемией, ацидозом или сотрясением мозга.</afflictiondescription.sym_confusion>
+		
+		<afflictionname.sym_headache>Головная боль</afflictionname.sym_headache>
+		<afflictiondescription.sym_headache>Боль в голове. Обычно вызвана гипоксемией, переломом черепа, ацидозом, сотрясением мозга или инсультом.</afflictiondescription.sym_headache>
+		
+		<afflictionname.sym_legswelling>Отек ног</afflictionname.sym_legswelling>
+		<afflictiondescription.sym_legswelling>Скопление жидкости в ногах. Вызвано поражением печени, почек или сердца.</afflictiondescription.sym_legswelling>
+		
+		<afflictionname.sym_weakness>Слабость</afflictionname.sym_weakness>
+		<afflictiondescription.sym_weakness>Снижение мышечной способности конечностей. Вызвано тампонадой сердца, кровопотерей или ацидозом.</afflictiondescription.sym_weakness>
+		
+		<afflictionname.sym_wheezing>Хрипение</afflictionname.sym_wheezing>
+		<afflictiondescription.sym_wheezing>BПри дыхании издаются высокочастотные звуки. Вызывается гемотрансфузионным шоком.</afflictiondescription.sym_wheezing>
+		
+		<afflictionname.sym_vomiting>Рвота</afflictionname.sym_vomiting>
+		<afflictiondescription.sym_vomiting>Периодическая рвота. Обычно вызывается повреждением почек, алкоголем или гемотрансфузионным шоком.</afflictiondescription.sym_vomiting>
+		
+		<afflictionname.sym_hematemesis>Рвота кровью</afflictionname.sym_hematemesis>
+		<afflictiondescription.sym_hematemesis>Периодическая рвота кровью. Обычно вызывается сильным внутренним кровотечением или печеночной недостаточностью.</afflictiondescription.sym_hematemesis>
+		
+		<afflictionname.fever>Лихорадка</afflictionname.fever>
+		<afflictiondescription.fever>Аномально высокая температура тела. Обычно вызывается сепсисом.</afflictiondescription.fever>
+		
+		<afflictionname.sym_abdomdiscomfort>Дискомфорт в животе</afflictionname.sym_abdomdiscomfort>
+		<afflictiondescription.sym_abdomdiscomfort>Дискомфорт в области живота. Вызвано повреждением печени.</afflictiondescription.sym_abdomdiscomfort>
+		
+		<afflictionname.sym_bloating>Вздутие</afflictionname.sym_bloating>
+		<afflictiondescription.sym_bloating>Вздутие живота. Вызвано повреждением печени.</afflictiondescription.sym_bloating>
+		
+		<afflictionname.sym_jaundice>Желтуха</afflictionname.sym_jaundice>
+		<afflictiondescription.sym_jaundice>Кожа желтая. Вызвано тяжелым поражением печени.</afflictiondescription.sym_jaundice>
+		
+		<afflictionname.sym_sweating>Потливость</afflictionname.sym_sweating>
+		<afflictiondescription.sym_sweating>Ненормально обильное потоотделение. Вызвано сердечным приступом или синдромом отмены.</afflictiondescription.sym_sweating>
+		
+		<afflictionname.sym_palpitations>Учащенное сердцебиение</afflictionname.sym_palpitations>
+		<afflictiondescription.sym_palpitations>Ощущение учащенного сердцебиения. Вызвано алкалозом.</afflictiondescription.sym_palpitations>
+		
+		<afflictionname.sym_unconsciousness>Без сознания</afflictionname.sym_unconsciousness>
+		<afflictiondescription.sym_unconsciousness>Пациент находятся без сознания. Обычно вызывается тяжелой физической травмой, гипоксемией, нейротравмой, разрывом аорты или передозировкой опиатов.</afflictiondescription.sym_unconsciousness>
+		
+		<afflictionname.inflammation>Воспаление</afflictionname.inflammation>
+		<afflictiondescription.inflammation>Ткани выглядят опухшими. Причина - инфекция или инородные тела.</afflictiondescription.inflammation>
+		
+		<afflictionname.spasm>Спазм</afflictionname.spasm>
+		<afflictiondescription.spasm>Непроизвольные мышечные сокращения, вызванные судорогами. Обычно вызывается ацидозом, инсультом, передозировкой опиатов или лучевой болезнью.</afflictiondescription.spasm>
+
+		<afflictionname.seizure>Судороги</afflictionname.seizure>
+		<afflictiondescription.seizure>У пациента судороги всего тела. Обычно вызывается ацидозом, инсультом, передозировкой опиатов или лучевой болезнью.</afflictiondescription.seizure>
+
+		<afflictionname.sym_craving>Зависимость</afflictionname.sym_craving>
+		<afflictiondescription.sym_craving>Сильная тяга. К наркотикам.</afflictiondescription.sym_craving>
+		
+		<afflictionname.onfire>В огне!</afflictionname.onfire>
+		<afflictiondescription.onfire>Я будто бы во сне, мой дом весь в огне...</afflictiondescription.onfire> <!-- TRACK: Серега Пират - Зомби апокалипсис (припев) -->
+		
+		<afflictionname.pain_chest>Боль в груди</afflictionname.pain_chest>
+		<afflictiondescription.pain_chest>Пронзительная боль в груди. Причина - переломы ребер или гемотрансфузионный шок.</afflictiondescription.pain_chest>
+		
+		<afflictionname.pain_abdominal>Боль в животе</afflictionname.pain_abdominal>
+		<afflictiondescription.pain_abdominal>Боль в животе. Вызывается гемотрансфузионным шоком.</afflictiondescription.pain_abdominal>
+		
+		<afflictionname.pain_extremity>Острая боль</afflictionname.pain_extremity>
+		<afflictiondescription.pain_extremity>Очень сильная боль. Обычно возникает при вывихах или переломах.</afflictiondescription.pain_extremity>
+		
+		<afflictionname.sym_nausea>Тошнота</afflictionname.sym_nausea>
+		<afflictiondescription.sym_nausea>Тошнотворное ощущение. Обычно вызывается повреждением почек, сотрясением мозга, синдромом отмены или гемотрансфузионным шоком.</afflictiondescription.sym_nausea>
+
+		<!-- NT Хирургия -->
+		<!-- Те, что появляются на правой стороне BHUI, имеют титульную оболочку, похожую на баффы -->
+		<afflictionname.traumaticshock>Травматический шок</afflictionname.traumaticshock>
+		<afflictiondescription.traumaticshock>Обычно происходит в условиях небезопасной хирургии, вызывая потенциально смертельную гипотонию. Для безопасного проведения операции пациент должен быть обезболен и находиться рядом с кроватью, либо быть без сознания.</afflictiondescription.traumaticshock>
+
+		<afflictionname.surgeryincision>Хирургический разрез</afflictionname.surgeryincision>
+		<afflictiondescription.surgeryincision>Надрез, сделанный скальпелем. Он болезненный и вызывает кровотечение, которое предотвращается с помощью гемостата.</afflictiondescription.surgeryincision>
+		
+		<afflictionname.clampedbleeders>Зажатое кровотечение</afflictionname.clampedbleeders>
+		<afflictiondescription.clampedbleeders>Хирургические кровотечения останавливаются. Разрез все также болезненный.</afflictiondescription.clampedbleeders>
+
+		<afflictionname.retractedskin>Оттянутая кожа</afflictionname.retractedskin>
+		<afflictiondescription.retractedskin>Кожа удерживается в открытом положении с помощью набора ретракторов. Это неописуемо неудобно, и безопасно проводить процедуру можно только рядом с кроватью или в бессознательном состоянии.</afflictiondescription.retractedskin>
+
+		<afflictionname.suturedi>Наложенные швы</afflictionname.suturedi>
+		<afflictiondescription.suturedi>Разрез был закрыт швами.</afflictiondescription.suturedi>
+
+		<afflictionname.drilledbones>Просверленные кости</afflictionname.drilledbones>
+		<afflictiondescription.drilledbones>Кости были распилены, что позволяет установить имплантаты для остеосинтеза.</afflictiondescription.drilledbones>
+		
+		<afflictionname.bonecut>Распиленные кости</afflictionname.bonecut>
+		<afflictiondescription.bonecut>Кость была отпилена хирургическим путем, чтобы удалить конечность или подготовить ее к установке другой.</afflictiondescription.bonecut>
+
+		<afflictionname.heartremoved>Удаленное сердце</afflictionname.heartremoved>
+		<afflictiondescription.heartremoved>Сердце было удалено хирургическим путем. Сердце необходимо для перекачки насыщенной кислородом крови. Повреждение сердца обычно вызвано гипоксемией, сердечным приступом или огнестрельным ранением.</afflictiondescription.heartremoved>
+
+		<afflictionname.brainremoved>Удаленный мозг</afflictionname.brainremoved>
+		<afflictiondescription.brainremoved>Мозг был удален хирургическим путем. Мозг необходим для сознания. Нейротравма обычно вызвана гипоксемией или инсультом.</afflictiondescription.brainremoved>
+		
+		<afflictionname.lungremoved>Удаленные лёгкие</afflictionname.lungremoved>
+		<afflictiondescription.lungremoved>Легкие были удалены хирургическим путем. Легкие необходимы для насыщения крови кислородом. Повреждение легких обычно вызвано гипоксемией, огнестрельными ранениями или курением.</afflictiondescription.lungremoved>
+
+		<afflictionname.kidneyremoved>Удаленные почки</afflictionname.kidneyremoved>
+		<afflictiondescription.kidneyremoved>Почки были удалены хирургическим путем. Почки необходимы для регуляции кислотности, минералов в костях и кровяного давления, но человек может жить и только с одной почкой. Повреждение почек обычно вызвано гипоксемией или огнестрельными ранениями.</afflictiondescription.kidneyremoved>
+
+		<afflictionname.liverremoved>Удаленная печень</afflictionname.liverremoved>
+		<afflictiondescription.liverremoved>Печень была удалена хирургическим путем. Печень необходима для свертывания крови и регулирования кровяного давления. Повреждение печени обычно вызвано гипоксемией, огнестрельными ранениями или чрезмерным распитием алкоголя.</afflictiondescription.liverremoved>
+
+		<afflictionname.arteriesclamp>Зажатая артерия</afflictionname.arteriesclamp>
+		<afflictiondescription.arteriesclamp>Кровотечение из артерии остановлено, но приток крови к конечности сильно снижен, что может привести к гангрене, если оставить ее надолго.</afflictiondescription.arteriesclamp>
+		
+		<afflictionname.balloonedaorta>Воздушная аорта</afflictionname.balloonedaorta>
+		<afflictiondescription.balloonedaorta>Кровотечение в аорте остановлено, но приток крови к конечностям прекращен, что может привести к гангрене при длительном сохранении.</afflictiondescription.balloonedaorta>
+		
+		<afflictionname.sra_amputation>Ампутация</afflictionname.sra_amputation>
+		<afflictiondescription.sra_amputation>Правая рука была ампутирована хирургическим путем. Эта процедура не приводит к разрыву артерий.</afflictiondescription.sra_amputation>
+		
+		<afflictionname.sla_amputation>Ампутация</afflictionname.sla_amputation>
+		<afflictiondescription.sla_amputation>Левая рука была ампутирована хирургическим путем. Эта процедура не приводит к разрыву артерий.</afflictiondescription.sla_amputation>
+		
+		<afflictionname.srl_amputation>Ампутация</afflictionname.srl_amputation>
+		<afflictiondescription.srl_amputation>Правая нога была ампутирована хирургическим путем. Эта процедура не приводит к разрыву артерий.</afflictiondescription.srl_amputation>
+		
+		<afflictionname.sll_amputation>Ампутация</afflictionname.sll_amputation>
+		<afflictiondescription.sll_amputation>Левая нога была ампутирована хирургическим путем. Эта процедура не приводит к разрыву артерий.</afflictiondescription.sll_amputation>
+		
+		<afflictionname.sh_amputation>Ампутация</afflictionname.sh_amputation>
+		<afflictiondescription.sh_amputation>Голова была ампутирована хирургическим путем. Эта процедура не приводит к разрыву артерий... но вызывает моментальную смерть.</afflictiondescription.sh_amputation>
+
+		<!-- NT Лечение -->
+		<!-- Те, что появляются на правой стороне BHUI, имеют титульную оболочку, похожую на баффы -->
+		<afflictionname.boneclamp>Шина</afflictionname.boneclamp>
+		<afflictiondescription.boneclamp>Перелом был скреплен шиной.</afflictiondescription.boneclamp>
+		
+		<afflictionname.bandaged>Забинтованно</afflictionname.bandaged>
+		<afflictiondescription.bandaged>Защищает от инфекции, стабилизирует вывихи и переломы, способствует заживлению ран. Слегка ограничивает движения.</afflictiondescription.bandaged>
+		
+		<afflictionname.dirtybandage>Грязный бинт</afflictionname.dirtybandage>
+		<afflictiondescription.dirtybandage>Повязка, которую носили слишком долго, должна быть снята или заменена, так как она способствует развитию инфекций.</afflictiondescription.dirtybandage>
+		
+		<afflictionname.gypsumcast>Гипс</afflictionname.gypsumcast>
+		<afflictiondescription.gypsumcast>Полностью стабилизирует переломы, позволяя им зажить. Значительно затрудняет передвижение.</afflictiondescription.gypsumcast>
+		
+		<afflictionname.ointmented>Мазь</afflictionname.ointmented>
+		<afflictiondescription.ointmented>Слой мази с антибиотиком защищает и очищает рану от микробов.</afflictiondescription.ointmented>
+		
+		<afflictionname.needlec>Игла</afflictionname.needlec>
+		<afflictiondescription.needlec>Игла с воздушным клапаном в грудной клетке предотвращает усугубление пневмоторакса.</afflictiondescription.needlec>
+
+		<afflictionname.bonegrowth>Стимулированный Рост Костей</afflictionname.bonegrowth>
+		<afflictiondescription.bonegrowth>Стимулируется рост костей. Чтобы вылечить остеонекроз, этот эффект должен быть на каждом участке тела.</afflictiondescription.bonegrowth>
+
+		<afflictionname.analgesia>Анальгезия</afflictionname.analgesia>
+		<afflictiondescription.analgesia>Обезболивание подавляет некоторые симптомы, делает возможным хирургическое вмешательство и позволяет дольше бороться.</afflictiondescription.analgesia>
+		
+		<afflictionname.anesthesia>Анестезия</afflictionname.anesthesia>
+		<afflictiondescription.anesthesia>Препарат вызвал контролируемую потерю сознания. Этому человеку можно смело делать операцию.</afflictiondescription.anesthesia>
+
+		<afflictionname.suturedw>Зашитая рана</afflictionname.suturedw>
+		<afflictiondescription.suturedw>Раны были зашиты. Зашитые раны не подвержены инфекции, и заживают гораздо быстрее, чем открытые.</afflictiondescription.suturedw>
+
+		<!-- NT Мета -->
+		<afflictionname.luabotomy>Нет Lua</afflictionname.luabotomy>
+		<afflictiondescription.luabotomy>Lua не запущен. Это значит, что Neurotrauma и любые другие моды которые его используют не будут работать. Пожалуйста, ознакомтесь с страницами модификаций, которые вы планируете использовать.</afflictiondescription.luabotomy>
+		
+		<afflictionname.modconflict>Конфликт модов</afflictionname.modconflict>
+		<afflictiondescription.modconflict>Упс, произошел конфликт с модами. Какой-то из ваших включенных модификаций заменяет предметы, которые уже заменяет Neurotrauma. Некоторые функции могут работать некорректно. Пожалуйста, измените порядок загрузки, или, если это предполагалось, отключите проверку конфликтов модов в конфиге Neurotrauma.</afflictiondescription.modconflict>
+
+		<!-- Неиспользованные и скрытые эффекты -->
+		<!-- Они должны быть здесь, иначе у них не будет игрового имени -->
+		<afflictioncauseofdeath.t_paralysis>Смерть от паралича</afflictioncauseofdeath.t_paralysis>
+		<afflictioncauseofdeathself.t_paralysis>Вы умерли от паралича.</afflictioncauseofdeathself.t_paralysis>
+
+		<afflictionname.necrosis>Некроз</afflictionname.necrosis>
+		<afflictiondescription.necrosis></afflictiondescription.necrosis>
+		<afflictioncauseofdeath.necrosis>Умер от некротической раны.</afflictioncauseofdeath.necrosis>
+		<afflictioncauseofdeathself.necrosis>Вы умерли от некроза.</afflictioncauseofdeathself.necrosis>
+
+		<afflictionname.t_arterialcut>Разрыт аорты</afflictionname.t_arterialcut>
+
+		<afflictionname.immunity>Иммунитет</afflictionname.immunity>
+		<afflictiondescription.immunity></afflictiondescription.immunity>
+
+		<afflictionname.infectedwound>Инфицированная рана</afflictionname.infectedwound>
+		<afflictiondescription.infectedwound></afflictiondescription.infectedwound>
+
+		<afflictionname.sepsis>Сепсис</afflictionname.sepsis>
+		<afflictiondescription.sepsis></afflictiondescription.sepsis>
+
+		<afflictionname.afadrenaline>Андреналин</afflictionname.afadrenaline>
+		<afflictiondescription.afadrenaline></afflictiondescription.afadrenaline>
+
+		<afflictionname.afstreptokinase>Анти-тромб</afflictionname.afstreptokinase>
+		<afflictiondescription.afstreptokinase></afflictiondescription.afstreptokinase>
+
+		<afflictionname.afthiamine>Тиамин</afflictionname.afthiamine>
+		<afflictiondescription.afthiamine></afflictiondescription.afthiamine>
+
+		<afflictionname.afpressuredrug>Понижение артериального давления</afflictionname.afpressuredrug>
+		<afflictiondescription.afpressuredrug></afflictiondescription.afpressuredrug>
+
+		<afflictionname.afsaline>Физраствор</afflictionname.afsaline>
+		<afflictiondescription.afsaline></afflictiondescription.afsaline>
+
+		<afflictionname.afringerssolution>Раствор Рингера</afflictionname.afringerssolution>
+		<afflictiondescription.afringerssolution></afflictiondescription.afringerssolution>
+
+		<afflictionname.afmannitol>Маннитол</afflictionname.afmannitol>
+		<afflictiondescription.afmannitol></afflictiondescription.afmannitol>
+
+		<afflictionname.afantibiotics>Антибиотики</afflictionname.afantibiotics>
+		<afflictiondescription.afantibiotics></afflictiondescription.afantibiotics>
+
+		<afflictionname.afimmunosuppressant>Имуннодепрессанты</afflictionname.afimmunosuppressant>
+		<afflictiondescription.afimmunosuppressant></afflictiondescription.afimmunosuppressant>
+
+		<afflictionname.hemotransfusionshock>Гемотрансфузионный шок</afflictionname.hemotransfusionshock>
+		<afflictiondescription.hemotransfusionshock></afflictiondescription.hemotransfusionshock>
+
+		<afflictionname.foreignbody>Инородный объект</afflictionname.foreignbody>
+		<afflictiondescription.foreignbody></afflictiondescription.foreignbody>
+
+		<afflictionname.tamponade>Тампонада сердца</afflictionname.tamponade>
+		<afflictiondescription.tamponade></afflictiondescription.tamponade>
+
+		<afflictionname.internalbleeding>Внутреннее кровотечение</afflictionname.internalbleeding>
+		<afflictiondescription.internalbleeding></afflictiondescription.internalbleeding>
+
+		<afflictionname.heartattack>Сердечный приступ</afflictionname.heartattack>
+		<afflictiondescription.heartattack></afflictiondescription.heartattack>
+
+		<afflictionname.heartdamage>Повреждение сердца</afflictionname.heartdamage>
+		<afflictiondescription.heartdamage></afflictiondescription.heartdamage>
+
+		<afflictionname.heartfailure>Сердечная недостаточность</afflictionname.heartfailure>
+		<afflictiondescription.heartfailure></afflictiondescription.heartfailure>
+
+		<afflictionname.cerebralhypoxia>Нейротравма</afflictionname.cerebralhypoxia>
+		<afflictiondescription.cerebralhypoxia></afflictiondescription.cerebralhypoxia>
+		<afflictioncauseofdeath.cerebralhypoxia>Смерть от нейротравмы</afflictioncauseofdeath.cerebralhypoxia>
+		<afflictioncauseofdeathself.cerebralhypoxia>Вы умерли от нейротравмы.</afflictioncauseofdeathself.cerebralhypoxia>
+
+		<afflictionname.stroke>Инсульт</afflictionname.stroke>
+		<afflictiondescription.stroke></afflictiondescription.stroke>
+
+		<afflictionname.seizure>Конвульсии</afflictionname.seizure>
+		<afflictiondescription.seizure></afflictiondescription.seizure>
+
+		<afflictionname.coma>Кома</afflictionname.coma>
+		<afflictiondescription.coma></afflictiondescription.coma>
+
+		<afflictionname.bloodpressure>Кровяное давление</afflictionname.bloodpressure>
+		<afflictiondescription.bloodpressure></afflictiondescription.bloodpressure>
+
+		<afflictionname.hypoxemia>Гипоксемия</afflictionname.hypoxemia>
+		<afflictiondescription.hypoxemia></afflictiondescription.hypoxemia>
+
+		<afflictionname.alkalosis>Алкалоз</afflictionname.alkalosis>
+		<afflictiondescription.alkalosis></afflictiondescription.alkalosis>
+
+		<afflictionname.acidosis>Ацидоз</afflictionname.acidosis>
+		<afflictiondescription.acidosis></afflictiondescription.acidosis>
+
+		<afflictionname.rili>Радиационно-индуцированные поражения легких</afflictionname.rili>
+		<afflictiondescription.rili></afflictiondescription.rili>
+
+		<afflictionname.pneumothorax>Пневмоторакс</afflictionname.pneumothorax>
+		<afflictiondescription.pneumothorax></afflictiondescription.pneumothorax>
+
+		<afflictionname.lungdamage>Повреждение легких</afflictionname.lungdamage>
+		<afflictiondescription.lungdamage></afflictiondescription.lungdamage>
+
+		<afflictionname.lungfailure>Легочная недостаточность</afflictionname.lungfailure>
+		<afflictiondescription.lungfailure></afflictiondescription.lungfailure>
+
+		<afflictionname.kidneydamage>Повреждение почек</afflictionname.kidneydamage>
+		<afflictiondescription.kidneydamage></afflictiondescription.kidneydamage>
+
+		<afflictionname.kidneyfailure>Почечная недостаточность</afflictionname.kidneyfailure>
+		<afflictiondescription.kidneyfailure></afflictiondescription.kidneyfailure>
+
+		<afflictionname.bonedamage>Повреждение костей</afflictionname.bonedamage>
+		<afflictiondescription.bone></afflictiondescription.bone>
+
+		<afflictionname.bonedeath>Остеонекроз</afflictionname.bonedeath>
+		<afflictiondescription.bonedeath></afflictiondescription.bonedeath>
+
+		<afflictionname.liverdamage>Поражение печени</afflictionname.liverdamage>
+		<afflictiondescription.liverdamage></afflictiondescription.liverdamage>
+
+		<afflictionname.liverfailure>Печеночная недостаточность</afflictionname.liverfailure>
+		<afflictiondescription.liverfailure></afflictiondescription.liverfailure>
+
+		<connection.aliveout>Живой</connection.aliveout>
+
+		<connection.consciousout>Сознание</connection.consciousout>
+
+		<connection.nameout>Имя_пациента</connection.nameout>
+
+		<connection.vitalityout>Живучесть</connection.vitalityout>
+		
+		<connection.heartrateout>Сердцебиение</connection.heartrateout>
+		
+		<connection.breathingrateout>Частота дыхания</connection.breathingrateout>
+		
+		<connection.bloodpressureout>Кровяное давление</connection.bloodpressureout>
+		
+		<connection.bloodoxygenout>Насыщение кислородом</connection.bloodoxygenout>
+		
+		<connection.neurotraumaout>Нейротравма</connection.neurotraumaout>
+		
+		<connection.organdamageout>Повреждение органов</connection.organdamageout>
+		
+		<connection.insurgeryout>В_хирургии</connection.insurgeryout>
+		
+		<connection.causeofdeathout>Причина_смерти</connection.causeofdeathout>
+		
+		<connection.bloodphout>Кровь_pH</connection.bloodphout>
+		
+		<roomname.surgical>Хирургия</roomname.surgical>
+	</Override>
+</infotexts>

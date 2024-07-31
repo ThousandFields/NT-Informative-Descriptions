@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <Override>
+    <!-- Color Code Guide
+	Blue: refers to another item
+	Green: a beneficial affliction caused by the item, or a cured affliction
+	Red: a detrimental affliction caused by the item, or downside -->
+    <!-- Vanilla Tools -->
+    <entityname.screwdriver>Манекен 1 имя</entityname.screwdriver>
+    <entitydescription.screwdriver>Манекен 1 описание</entitydescription.screwdriver>
+
+  </Override>
+</infotexts>

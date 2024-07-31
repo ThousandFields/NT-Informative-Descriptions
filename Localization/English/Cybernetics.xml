@@ -17,13 +17,14 @@
         <entitydescription.cyberarm>A powerful inorganic arm which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.</entitydescription.cyberarm>
 
         <entityname.cyberleg>Cyberleg</entityname.cyberleg>
-        <entitydescription.cyberleg>A powerful inorganic leg which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.
-        <!-- Cybernetics Afflictions -->
+        <entitydescription.cyberleg>A powerful inorganic leg which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.</entitydescription.cyberleg>
+        
+		<!-- Cybernetics Afflictions -->
         <afflictionname.ntc_cyberarm>Cyberarm</afflictionname.ntc_cyberarm>
-        <afflictiondescription.ntc_cyberarm>This inorganic arm is impervious to biological faults, but it must be maintained using inorganic materials. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberarm>
+        <afflictiondescription.ntc_cyberarm>This inorganic arm is impervious to biological faults, but it must be maintained to be effective. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberarm>
 
         <afflictionname.ntc_cyberleg>Cyberleg</afflictionname.ntc_cyberleg>
-        <afflictiondescription.ntc_cyberleg>This inorganic leg is impervious to biological faults, but it must be maintained using inorganic materials. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberleg>
+        <afflictiondescription.ntc_cyberleg>This inorganic leg is impervious to biological faults, but it must be maintained to be effective. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberleg>
 
         <afflictionname.ntc_loosescrews>Loose screws</afflictionname.ntc_loosescrews>
         <afflictiondescription.ntc_loosescrews>Screws have loosened as a result of physical trauma, or from other loose screws. If the screws are not tightened using a screwdriver, motion may loosen more screws.</afflictiondescription.ntc_loosescrews>

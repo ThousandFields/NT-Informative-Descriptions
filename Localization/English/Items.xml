@@ -25,7 +25,7 @@
 
 		<entitydescription.antibleeding1>Basic bandages, useful in the treatment of ‖color:gui.green‖bleeding‖end‖, and promotes the healing of ‖color:gui.green‖minor burns‖end‖ and ‖color:gui.green‖wounds‖end‖. Additionally, bandages stabilize ‖color:gui.green‖fractures‖end‖, preventing them from causing internal damage.</entitydescription.antibleeding1>
 
-		<entitydescription.antibleeding2>A synthetic skin with hemostatic properties, able to effectively seal ‖color:gui.green‖bleeds‖end‖, and is a good treatment against ‖color:gui.green‖minor burns‖end‖ while promoting the healing of ‖color:gui.green‖wounds‖end‖. Additionally, plastiseal stabilizes ‖color:gui.green‖fractures‖end‖, preventing them from causing damage.</entitydescription.antibleeding2>
+		<entitydescription.antibleeding2>A synthetic skin with hemostatic properties, able to effectively seal ‖color:gui.green‖bleeds‖end‖, and is a good treatment against ‖color:gui.green‖minor burns‖end‖ while promoting the healing of ‖color:gui.green‖wounds‖end‖. Additionally, plastiseal stabilizes ‖color:gui.green‖fractures‖end‖, preventing them from causing internal damage.</entitydescription.antibleeding2>
 
 		<entitydescription.opium>A relatively mild opioid ‖color:gui.green‖analgesic‖end‖ obtained from aquatic poppy. Most commonly used to manufacture morphine and fentanyl. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.opium>
 
@@ -75,10 +75,10 @@
 
 		<!-- NT Tools -->
 		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>
-		<entitydescription.defibrillator>A tool that uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ or reset ‖color:gui.green‖fibrillation‖end‖. Use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 80. On failure, causes ‖color:gui.red‖cardiac arrest‖end‖.</entitydescription.defibrillator>
+		<entitydescription.defibrillator>A tool that uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ or reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 80. On failure, causes ‖color:gui.red‖cardiac arrest‖end‖.</entitydescription.defibrillator>
 
 		<entityname.aed>Automated External Defibrillator</entityname.aed>
-		<entitydescription.aed>The AED uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖. Use the ‖color:gui.blue‖manual defibrillator‖end‖ instead if medical skill is above 80.</entitydescription.aed>
+		<entitydescription.aed>The AED uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ and is guaranteed to reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖manual defibrillator‖end‖ instead if medical skill is above 80. It will never cause cardiac arrest.</entitydescription.aed>
 
 		<entityname.bvm>Ambu Bag</entityname.bvm>
 		<entitydescription.bvm>The BVM will treat ‖color:gui.green‖oxygen low‖end‖ when provided an with oxygen tank, and additionally treats ‖color:gui.green‖respiratory arrest‖end‖ when provided with an oxygenite tank.</entitydescription.bvm>

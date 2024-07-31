@@ -172,7 +172,7 @@
 		<afflictiondescription.sym_jaundice>The skin is yellow. Caused by severe liver damage.</afflictiondescription.sym_jaundice>
 		
 		<afflictionname.sym_sweating>Sweating</afflictionname.sym_sweating>
-		<afflictiondescription.sym_sweating>Abnormally excessive sweating.. Caused by a heart attack or drug withdrawal.</afflictiondescription.sym_sweating>
+		<afflictiondescription.sym_sweating>Abnormally excessive sweating. Caused by a heart attack or drug withdrawal.</afflictiondescription.sym_sweating>
 		
 		<afflictionname.sym_palpitations>Palpitations</afflictionname.sym_palpitations>
 		<afflictiondescription.sym_palpitations>Sensation of a pounding heartbeat. Caused by alkalosis.</afflictiondescription.sym_palpitations>
@@ -190,7 +190,7 @@
 		<afflictiondescription.seizure>They are having a full-body seizure. Usually caused by severe abnormal blood acidity, a stroke, opiate overdose, or radiation sickness.</afflictiondescription.seizure>
 
 		<afflictionname.sym_craving>Craving</afflictionname.sym_craving>
-		<afflictiondescription.sym_craving>A strong craving. For drugs.</afflictiondescription.sym_craving>
+		<afflictiondescription.sym_craving>A craving for drugs, caused by withdrawal.</afflictiondescription.sym_craving>
 		
 		<afflictionname.onfire>On fire!</afflictionname.onfire>
 		<afflictiondescription.onfire>Burn those who dare to care for me...</afflictiondescription.onfire>
@@ -213,7 +213,7 @@
 		<afflictiondescription.traumaticshock>Usually occurring during unsafe surgery conditions, causing potentially-lethal hypotension. For safe surgery, a patient must be analgesized and near any bed, or be unconscious.</afflictiondescription.traumaticshock>
 
 		<afflictionname.surgeryincision>Surgery Incision</afflictionname.surgeryincision>
-		<afflictiondescription.surgeryincision>An incision has been made by a scalpel. It is painful. It also causes bleeding, which is prevented by a hemostat.</afflictiondescription.surgeryincision>
+		<afflictiondescription.surgeryincision>An incision has been made by a scalpel. It is painful. It also causes bloodloss, which is prevented by a hemostat.</afflictiondescription.surgeryincision>
 		
 		<afflictionname.clampedbleeders>Clamped Bleeding</afflictionname.clampedbleeders>
 		<afflictiondescription.clampedbleeders>Surgical bleeders have been staunched. This doesn't prevent pain from the incision.</afflictiondescription.clampedbleeders>
@@ -225,7 +225,7 @@
 		<afflictiondescription.suturedi>An incision has been closed via sutures.</afflictiondescription.suturedi>
 
 		<afflictionname.drilledbones>Drilled Bones</afflictionname.drilledbones>
-		<afflictiondescription.drilledbones>The bones have been sawed, allowing the installation of osteosynthesis implants. </afflictiondescription.drilledbones>
+		<afflictiondescription.drilledbones>The bones have been drilled, allowing the installation of osteosynthesis implants. </afflictiondescription.drilledbones>
 		
 		<afflictionname.bonecut>Sawed Bones</afflictionname.bonecut>
 		<afflictiondescription.bonecut>The bone has been surgically sawed off to remove a limb, or to prepare for the installation of another.</afflictiondescription.bonecut>

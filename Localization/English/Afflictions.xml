@@ -63,7 +63,7 @@
 		<afflictiondescription.th_amputation>The head has been torn off by an explosion, causing immediate death.</afflictiondescription.th_amputation>
 
 		<afflictionname.t_paralysis>Spinal cord injury</afflictionname.t_paralysis>
-		<afflictiondescription.t_paralysis>The spine has been injured due to exposure from a neck fracture, causing full-body paralysis. They are still conscious. It must be repaired in a spinal cord surgery.</afflictiondescription.t_paralysis>
+		<afflictiondescription.t_paralysis>The spine has been injured due to exposure from a neck fracture, causing full-body paralysis and analgesia. They are still conscious. It must be surgically repaired using spinal cord implants.</afflictiondescription.t_paralysis>
 
 		<afflictionname.dislocation1>Dislocation</afflictionname.dislocation1>
 		<afflictiondescription.dislocation1>A bone in the right leg has been displaced by physical trauma, causing pain and making movement difficult. A wrench may be used to relocate the bone.</afflictiondescription.dislocation1>

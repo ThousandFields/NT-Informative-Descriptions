@@ -63,7 +63,7 @@
 		<afflictiondescription.th_amputation>Взрыв оторвал голову, что привело к моментальной смерти.</afflictiondescription.th_amputation>
 
 		<afflictionname.t_paralysis>Травма спинного мозга</afflictionname.t_paralysis>
-		<afflictiondescription.t_paralysis>Позвоночник был поврежден в результате перелома шеи, что приводит к параличу всего тела. Пациент до сих пор в сознании. Необходимо провести операцию на спинном мозге для восстановления</afflictiondescription.t_paralysis>
+		<afflictiondescription.t_paralysis>Позвоночник был поврежден в результате перелома шеи, что приводит к параличу всего тела и анальгезии. Пациент до сих пор в сознании. Его необходимо хирургически восстановить используя импланты для спинного мозга.</afflictiondescription.t_paralysis>
 
 		<afflictionname.dislocation1>Вывих</afflictionname.dislocation1>
 		<afflictiondescription.dislocation1>Кость в правой ноге сместилась в результате травмы, вызывая боль и затрудняя передвижение. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation1>

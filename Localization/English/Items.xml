@@ -338,7 +338,7 @@
 		<entitydescription.ointment>An antiseptic gel that will aid against fighting ‖color:gui.green‖infected wounds‖end‖ and relieve minor ‖color:gui.green‖burns‖end‖. On failure, it is less effective.</entitydescription.ointment>
 
 		<entityname.tourniquet>Tourniquet</entityname.tourniquet>
-		<entitydescription.tourniquet>A first aid item that prevents ‖color:gui.green‖major arteries from bleeding‖end‖. However, it is important for blood ‖color:gui.red‖reach the head‖end‖. Clogging bleeds will cause ‖color:gui.red‖gangrene‖end‖ over time. It is removed during surgery. On failure, causes ‖color:gui.red‖blunt force trauma‖end‖</entitydescription.tourniquet>
+		<entitydescription.tourniquet>An item that prevents ‖color:gui.green‖major arteries from bleeding‖end‖. It cannot be used for the ‖color:gui.red‖carotid artery‖end‖. Clamping arteries will cause ‖color:gui.red‖gangrene‖end‖ over time, and it is removed during surgery. On failure, causes ‖color:gui.red‖blunt force trauma‖end‖.</entitydescription.tourniquet>
 
 		<entityname.needle>Needle</entityname.needle>
 		<entitydescription.needle>A specialized needle used to depressurize air in the pleural cavity, as a first aid option for ‖color:gui.green‖pneumothorax‖end‖. If the patient does not already have pneumothorax, it will ‖color:gui.red‖cause it instead‖end‖. On failure, causes ‖color:gui.red‖organ damage‖end‖ and ‖color:gui.red‖bleeding‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.needle>

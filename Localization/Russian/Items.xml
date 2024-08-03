@@ -338,7 +338,7 @@
 		<entitydescription.ointment>Антисептический гель, который поможет в борьбе с ‖color:gui.green‖инфецированными ранами‖end‖ и облегчит незначительные ‖color:gui.green‖ожоги‖end‖. При неудаче, он менее эффективен.</entitydescription.ointment>
 
 		<entityname.tourniquet>Жгут</entityname.tourniquet>
-		<entitydescription.tourniquet>Средство, которое предотвращает ‖color:gui.green‖крупное артериальное кровотечение‖end‖. Он не может быть наложен на ‖color:gui.red‖сонную артерию‖end‖. Через время, зажатые артерии приведут к ‖color:gui.red‖гангрене‖end‖ на конечности. Жгут может быть удален при помощи операции. При неудаче, вызывает ‖color:gui.red‖тупую травму‖end‖</entitydescription.tourniquet>
+		<entitydescription.tourniquet>Средство, которое предотвращает ‖color:gui.green‖крупное артериальное кровотечение‖end‖. Он не может быть наложен на ‖color:gui.red‖сонную артерию‖end‖. Через время, зажатые артерии на конечности приведут к ‖color:gui.red‖гангрене‖end‖. Жгут может быть удален при помощи операции. При неудаче, вызывает ‖color:gui.red‖тупую травму‖end‖</entitydescription.tourniquet>
 
 		<entityname.needle>Игла</entityname.needle>
 		<entitydescription.needle>Специализированная игла, используемая для разгерметизации воздуха в плевральной полости в качестве средства первой помощи при ‖color:gui.green‖пневмотораксе‖end‖. Если у пациента еще нет пневмоторакса, то ‖color:gui.red‖он появится‖end‖. При неудаче, вызывает ‖color:gui.red‖повреждение органов‖end‖ и ‖color:gui.red‖кровотечение‖end‖. Пневмоторакс - это потенциально опасное состояние, поскольку он препятствует уменьшению гипоксемии.</entitydescription.needle>

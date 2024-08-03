@@ -5,7 +5,7 @@
 	<Override>
 		<!-- Vanilla Visible Afflictions -->
 		<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood. An infection will likely occur, and there is probably still bullets inside.</afflictiondescription.gunshotwound>
-		<afflictiondescription.gunshotwound.low>The bullet missed all the important bits and went straight through, but the pain is real and so is the risk of infection. There may still be bullets inside.</afflictiondescription.gunshotwound.low>
+		<afflictiondescription.gunshotwound.low>The bullet missed all the important bits, but the pain is real and so is the risk of infection. There may still be bullets inside.</afflictiondescription.gunshotwound.low>
 
 		<afflictiondescription.blunttrauma>The area is an ugly shade of purple, and apparently very painful to touch. You suspect a bone might be broken. This wound can't be stitched.</afflictiondescription.blunttrauma>
 		<afflictiondescription.blunttrauma.low>A light bruise shows where something hit, but it doesn’t look like anything is broken. This wound can't be stitched, however.</afflictiondescription.blunttrauma.low>

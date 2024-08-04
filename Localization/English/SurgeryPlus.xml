@@ -37,7 +37,7 @@
         <entitydescription.experimentaltreatment>A highly experimental drug that can cause either a little (or a lot) of good (or bad).</entitydescription.experimentaltreatment>
 
         <!-- NT Afflictions -->
-        <afflictiondescription.ointmented>A layer of antibiotic gel protects and cleans the wound from any germs. Prevents infection during surgery.</afflictiondescription.ointmented>
+        <afflictiondescription.ointmented>A layer of antibiotic gel protects and cleans the wound from any germs. Prevents sepsis during surgery.</afflictiondescription.ointmented>
 
         <!-- SurgeryPlus Afflictions -->
         <afflictionname.preventativepermit>Preventative Permit</afflictionname.preventativepermit>

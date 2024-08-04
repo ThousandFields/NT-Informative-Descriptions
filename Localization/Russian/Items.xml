@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by guns / Heelge and Сол -->
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <Override>
+    <!-- Color Code Guide
+	Blue: refers to another item
+	Green: a beneficial affliction caused by the item, or a cured affliction
+	Red: a detrimental affliction caused by the item, or downside -->
+
+    <!-- Vanilla Tools -->
+    <entityname.healthscanner>Сканер здоровья</entityname.healthscanner>
+    <entitydescription.healthscanner>Питаемый аккумулятором прибор, отображающий статусы. Он может быть прицелен на человека для сканирования всего тела, либо лечением в интерфейсе здоровья отобразить статус выбранной конечности. Использование вызывает небольшую ‖color:gui.red‖радиационную болезнь‖end‖. Не показывает группу крови, сепсис, иммунитет, кислотность крови, наркотики, ибо необходим ‖color:gui.blue‖гематологический анализатор‖end‖.</entitydescription.healthscanner>
+
+    <entitydescription.wrench>Позволяет чинить механические устройства. Еще используется для вправления ‖color:gui.green‖вывихов‖end‖, что в два раза легче если пациент не чувствителен к боли.</entitydescription.wrench>
+
+    <!-- Vanilla Items -->
+    <entitydescription.idcard>Обеспечивает ограниченный доступ в различные части подлодки. Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</entitydescription.idcard>
+
+    <!--idcardnamejob>This belongs to [name], the [job]. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</idcardnamejob-->
+
+    <entitydescription.alienblood>Кровь одного из обитателей Европы. Она ‖color:gui.red‖несовместима‖end‖ с кровью человека.</entitydescription.alienblood>
+
+    <entitydescription.antibloodloss1>Инъекция раствора натрия и хлора, использующаяся для увеличения ‖color:gui.green‖кровяного давления‖end‖, и при этом увеличивает ‖color:gui.green‖кислотность крови‖end‖, ‖color:gui.red‖вызывая ацидоз‖end‖.</entitydescription.antibloodloss1>
+
+    <entitydescription.antibleeding1>Обычный бинт, помогающий справиться с ‖color:gui.green‖кровотечениями‖end‖, и способствует заживлению ‖color:gui.green‖небольших ожогов‖end‖ и ‖color:gui.green‖ран‖end‖. При этом забинтованные конечности временно стабилизируют ‖color:gui.green‖переломы‖end‖, предотвращая внутренние травмы. При неудачном применении, он менее эффективен.</entitydescription.antibleeding1>
+
+    <entitydescription.antibleeding2>Синтетическая кожа с кровоостанавливающими свойствами, способная быстро исцелить ‖color:gui.green‖кровотечения‖end‖, является хорошим медикаментом против ‖color:gui.green‖небольших ожогов‖end‖, спобоствует заживлению ‖color:gui.green‖ран‖end‖. При применении на ‖color:gui.blue‖растянутой кожи‖end‖, полностью вылечивает ‖color:gui.green‖ожоги‖end‖ любой степени. При этом забинтованные конечности временно стабилизируют ‖color:gui.green‖переломы‖end‖, предотвращая внутренние травмы. При неудачном применении, он менее эффективен.</entitydescription.antibleeding2>
+
+    <entitydescription.opium>Относительно безопасный ‖color:gui.green‖анальгезирующий‖end‖ опиат, добываемый из водяного мака. Чаще всего используется в производстве морфина и фентанила. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.opium>
+
+    <entitydescription.antidama1>Сильный ‖color:gui.green‖анальгезирующий‖end‖ опиат, но при частом употреблении вызывает ‖color:gui.red‖зависимость‖end‖ и ‖color:gui.red‖передозировку‖end‖. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.antidama1>
+
+    <entitydescription.antidama2>Очень сильный ‖color:gui.green‖анальгезирующий‖end‖ опиат, но при частом употреблении вызывает ‖color:gui.red‖зависимость‖end‖ и ‖color:gui.red‖передозировку‖end‖. Анальгезия не только подавляет ‖color:gui.green‖боль‖end‖, но и ‖color:gui.green‖поддерживает ткань‖end‖ против урона. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.antidama2>
+
+    <entitydescription.antinarc>Препарат, нейтрализующий опиатные ‖color:gui.green‖воздержание‖end‖ и ‖color:gui.green‖передозировку‖end‖. При этом снижает ‖color:gui.green‖анальгезирующий‖end‖ эффект от опиатов. При неудачном применении, он менее эффективен и есть риск короткой ‖color:gui.red‖комы‖end‖.</entitydescription.antinarc>
+
+    <entitydescription.antibiotics>Антибиотик, уничтожающий большинство болезнетворных бактерий, делая его эффективным медикаментом от ‖color:gui.green‖сепсиса‖end‖ и в меньшей степени, ‖color:gui.green‖заражения паразитами‖end‖. Однако, он обладает пониженной специфичностью и вызывает ‖color:gui.red‖повреждение органов‖end‖. Используется в качестве компонента многих медикаментов. При неудачном применении, он менее эффективен.</entitydescription.antibiotics>
+
+    <entitydescription.adrenaline>Природный гормон, полезный в качестве стимулятора, вызывающий такие эффекты как увеличение ‖color:gui.green‖кровяного давления‖end‖, снижение ‖color:gui.green‖восприимчивости к оглушению‖end‖, укреплению ‖color:gui.green‖быстро сокращающихся мышц‖end‖ и улучшению ‖color:gui.green‖функций сердца‖end‖ в моменте стресса. При этом, он активизирует ‖color:gui.green‖остановленное сердце‖end‖ и предотвратит ‖color:gui.green‖боль‖end‖. Может использоваться для изготовления лекарств и боевых стимуляторов.</entitydescription.adrenaline>
+
+    <entitydescription.captainspipe>Для успокоения нервов, когда на море качка. Хотя, это будет вредно для легких.</entitydescription.captainspipe>
+
+    <entitydescription.cigar>Жизнь на подлодке давит на психику, а эта эксклюзивная сигара ручной работы помогает успокоить нервы. Хотя, это будет вредно для легких.</entitydescription.cigar>
+
+    <entitydescription.liquidoxygenite>‖color:gui.red‖Токсичный‖end‖ шприц с кислородитом который можно ввести, принудительно ‖color:gui.green‖насыщая кислородом кровь‖end‖ на короткий промежуток времени. Однако, токсичность кислородита вызывает немного ‖color:gui.red‖повреждения органов‖end‖. При неудачном применении, насыщение ‖color:gui.red‖моментально‖end‖ и ‖color:gui.red‖органам наносится дополнительный вред‖end‖. Гипоксемия вызывает нейротравму и повреждения органов, являясь собой главным источником смертей от боевых ранений.</entitydescription.liquidoxygenite>
+
+    <entitydescription.deusizine>Стимулятор увеличивающий ‖color:gui.green‖выносливость мускулатуры‖end‖ и используется как медикамент для лечения ‖color:gui.green‖внутренних травм‖end‖, ‖color:gui.green‖кислородного голодания‖end‖ и ‖color:gui.green‖кровопотери‖end‖. При неудачном применении, он менее эффективен.</entitydescription.deusizine>
+
+    <entitydescription.antibleeding3>Антибиотический клей с кровоостанавливающими свойствами. Почти мгновенно останавливает  ‖color:gui.green‖кровотечение‖end‖ и предотвращает ‖color:gui.green‖заражение раны‖end‖. Также эффективен против ‖color:gui.green‖ожогов‖end‖. Используйте с осторожностью, так как при неудаче оно может вызвать ‖color:gui.red‖подвижные тромбы‖end‖ в кровеносной системе.</entitydescription.antibleeding3>
+
+    <entitydescription.meth>Сильнодействующий стимулятор нервной системы, временно повышающий ‖color:gui.green‖скорость мускулатуры‖end‖. Однако, он вызывает ‖color:gui.red‖зависимость‖end‖, слегка повреждает ‖color:gui.red‖органы‖end‖ и вызывает немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении, он менее эффективен, вызывает более сильную ‖color:gui.red‖зависимость‖end‖ и нанесет больше ‖color:gui.red‖повреждений‖end‖.</entitydescription.meth>
+
+    <entitydescription.steroids>Временно повышает ‖color:gui.green‖силу мускулатуры‖end‖ и ‖color:gui.green‖выносливость‖end‖. Он вызывает зависимость. При неудачном применении, он менее эффективен и вызывает более сильную ‖color:gui.red‖зависимость‖end‖.</entitydescription.steroids>
+
+    <entitydescription.hyperzine>Крайне мощный мышечный стимулятор - то что нужно, чтобы совершить тот самый важный рывок. Повышает ‖color:gui.green‖силу мускулатуры‖end‖, ‖color:gui.green‖выносливость‖end‖ и ‖color:gui.green‖скорость‖end‖, понижает ‖color:gui.green‖восприимчивость к оглушению‖end‖. Он вызывает ‖color:gui.red‖зависимость‖end‖ и немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖нейротравмы‖end‖.</entitydescription.hyperzine>
+
+    <entitydescription.antipsychosis>Сильный ‖color:gui.green‖антипсихотический‖end‖ препарат.</entitydescription.antipsychosis>
+
+    <entitydescription.antiparalysis>Лекарство от ‖color:gui.green‖паралича‖end‖, преждевременно прекращает ‖color:gui.green‖общую анестезию‖end‖. Чрезмерное использование может привести к ‖color:gui.red‖психозу‖end‖.</entitydescription.antiparalysis>
+
+    <entitydescription.tonicliquid>Медицинский раствор, который иногда применяется для лечения ‖color:gui.green‖внутренних травм‖end‖, но обычно используется, чтобы ‖color:gui.green‖продлить действие‖end‖ препаратов действующих на кровеносную систему или стимуляторов.</entitydescription.tonicliquid>
+
+    <entitydescription.nitroglycerin>Крайне неустойчивая жидкость, которая может взорваться при нагревании или от удара. При приеме внутрь, он вызовет расширение сосудов и понизит ‖color:gui.green‖кровяное давление‖end‖.</entitydescription.nitroglycerin>
+
+    <entitydescription.pomegrenadeextract>Концентрированный сок взрывного граната. Обладает некоторыми ‖color:gui.green‖ранозаживляющими‖end‖ свойствами, в том числе ‖color:gui.green‖зашитые раны‖end‖.</entitydescription.pomegrenadeextract>
+
+    <entitydescription.combatstimulantsyringe>Усовершенствованный стимулятор, быстро излечивает пользователя от ‖color:gui.green‖ран‖end‖, ‖color:gui.green‖ожогов‖end‖ и ‖color:gui.green‖кровопотери‖end‖. Также воздействие свертывающего реагента залечит ‖color:gui.green‖внешние‖end‖ и ‖color:gui.green‖внутренние кровотечения‖end‖. Он вызывает ‖color:gui.red‖зависимость‖end‖. При неудачном применении, он вызовет больше ‖color:gui.red‖зависимости‖end‖.</entitydescription.combatstimulantsyringe>
+
+    <entitydescription.ethanol>Медицинский спирт, который используется в качестве компонента различных медикаментов. Пить его на службе не рекомендуется, а чрезмерное употребление вредно для печени.</entitydescription.ethanol>
+
+    <entitydescription.rum>Выпивка на основе сока бича раптора или взрывного граната. Пуристы считают, что настоящий ром можно сделать только из сахарного тростника – но попробуй найди его на Европе. Его высокое содержание алкоголя достаточно что бы истребить раннее ‖color:gui.green‖заражение паразитом‖end‖, но чрезмерное употребление вредно для печени.</entitydescription.rum>
+
+    <entitydescription.divingknife>Режет, колет, рубит и рассекает. Также используется чтобы снять старые ‖color:gui.green‖бинты‖end‖. При неудачном применении, вызывает ‖color:gui.red‖рваные раны‖end‖ и ‖color:gui.red‖кровотечение‖end‖.</entitydescription.divingknife>
+
+    <!-- NT Tools -->
+    <entityname.defibrillator>Ручной дефибриллятор</entityname.defibrillator>
+    <entitydescription.defibrillator>Инструмент использующий заряд аккумулятора для лечения ‖color:gui.green‖остановки сердца‖end‖ или ‖color:gui.green‖фибрилляции‖end‖. Используйте ‖color:gui.blue‖автоматизированый внешний дефибрилятор‖end‖ если навык медицины ниже 80. При неудачном применении, вызывает ‖color:gui.red‖остановку сердца‖end‖.</entitydescription.defibrillator>
+
+    <entityname.aed>Автоматизированый внешний дефибрилятор</entityname.aed>
+    <entitydescription.aed>Автоматизированный вариант дефибриллятора использует заряд аккумулятора для лечения ‖color:gui.green‖остановки сердца‖end‖. Используйте ‖color:gui.blue‖ручной дефибриллятор‖end‖ если навык медицины выше 80.</entitydescription.aed>
+
+    <entityname.bvm>Мешок амбу</entityname.bvm>
+    <entitydescription.bvm>Инструмент лечит ‖color:gui.green‖нехватку кислорода‖end‖ при наличии кислородного баллона, и дополнительно лечит ‖color:gui.green‖остановку дыхания‖end‖ при наличии баллона с кислородитом.</entitydescription.bvm>
+
+    <entityname.autocpr>АвтоПульс</entityname.autocpr>
+    <entitydescription.autocpr>Механизм занимающий слот верхней одежды. После некоторого времени, лечит ‖color:gui.green‖остановку сердца‖end‖ и ‖color:gui.green‖фибрилляцию‖end‖. Предотвращает отрицательные эффекты от статуса ‖color:gui.green‖остановки дыхания‖end‖. Ношение АвтоПульса дополнительно увеличивает ‖color:gui.green‖кровяное давление‖end‖ во время использования, что может быть полезно в экстренной ситуации. Не забудьте снять его, если он больше не нужен!</entitydescription.autocpr>
+
+    <entityname.bloodanalyzer>Гематологический анализатор</entityname.bloodanalyzer>
+    <entitydescription.bloodanalyzer>Инструмент который отображает иммунитет, группу и резус фактор крови. Также способен показать кровопотерю, сепсис, аномальную кислотность крови или действующие препараты в кровотоке. Если в слоте устройства находится ‖color:gui.blue‖пустая карта донора‖end‖, он распечатает группу и резус фактор крови в удостоверение личности пациента, если там есть пустой слот. Использование гематологического анализатора требует немного ‖color:gui.red‖крови‖end‖.</entitydescription.bloodanalyzer>
+
+    <entityname.bloodcollector>Пустая карта донора</entityname.bloodcollector>
+    <entitydescription.bloodcollector>Пустая карта использующаяся в ‖color:gui.blue‖гематологическом анализаторе‖end‖, чтобы распечатать карту донора для пациента.</entitydescription.bloodcollector>
+
+    <entityname.traumashears>Медицинские ножницы</entityname.traumashears>
+    <entitydescription.traumashears>Инструмент для снятия ‖color:gui.green‖бинтов‖end‖ или ‖color:gui.green‖гипсовых слепков‖end‖. При неудачном применении, вызывает ‖color:gui.red‖кровотечение‖end‖ и ‖color:gui.red‖рваные раны‖end‖.</entitydescription.traumashears>
+
+    <entityname.wheelchair>Инвалидная коляска</entityname.wheelchair>
+    <entitydescription.wheelchair>Средство передвижения занимающее слот верхней одежды. Позволяет полагаться на свои руки во время движения, улучшая ходьбу при нерабочих ногах.</entitydescription.wheelchair>
+
+    <entityname.blahaj>Синяя акула</entityname.blahaj>
+    <entitydescription.blahaj>Милая акулка, при применении в лечении совсем немного снижает ‖color:gui.green‖психоз‖end‖.</entitydescription.blahaj>
+
+    <entityname.bodybag>Мешок для трупа</entityname.bodybag>
+    <entitydescription.bodybag>Мешок носимый в слоте верхней одежды. Позволяет тащить пациента или труп в ‖color:gui.green‖полной скорости‖end‖, но еще живой человек не сможет дышать через мешок, что вызывает ‖color:gui.red‖кислородное голодание‖end‖.</entitydescription.bodybag>
+
+    <entityname.stasisbag>Стазис мешок</entityname.stasisbag>
+    <entitydescription.stasisbag>Мешок носимый в слоте верхней одежды. Позволяет тащить пациента или труп в ‖color:gui.green‖полной скорости‖end‖. При ношении живым человеком он вызывает ‖color:gui.red‖остановку сердца‖end‖, ‖color:gui.red‖остановку дыхания‖end‖, ‖color:gui.red‖бессознательность‖end‖ и ‖color:gui.red‖запрещает проводить хирургию‖end‖, но при этом ‖color:gui.green‖приостанавливает большинство ухудшающих здоровье эффектов‖end‖. Мешок портится на 1% каждые 4 секунды активного ношения.</entitydescription.stasisbag>
+    <stasisbagequipconfirmation>После надевания Вы ‖color:gui.red‖потеряете сознание‖end‖. Вы уверены что хотите надеть стазис мешок?</stasisbagequipconfirmation>
+
+    <!-- NT Surgery -->
+    <entityname.advscalpel>Скальпель</entityname.advscalpel>
+    <entitydescription.advscalpel>Инструмент для хирургических ‖color:gui.green‖надрезов‖end‖. Надрез является первым действием в любой хирургической процедуре, но вызывает ‖color:gui.red‖кровопотерю‖end‖, если после него не использовать ‖color:gui.blue‖зажим‖end‖. Кроме того, надрезы выполняются только если пациент не чувствителен к боли, в ином случае процедура вызовет ‖color:gui.red‖травматический шок‖end‖. При неудачном применении, вызывает ‖color:gui.red‖кровотечение‖end‖ и ‖color:gui.red‖рваные раны‖end‖.</entitydescription.advscalpel>
+
+    <entityname.advhemostat>Зажим</entityname.advhemostat>
+    <entitydescription.advhemostat>Инструмент для хирургического ‖color:gui.green‖зажатия кровеносных сосудов‖end‖. Является вторым действием в большинстве хирургических процедур, выполняемый после ‖color:gui.blue‖надреза скальпелем‖end‖.</entitydescription.advhemostat>
+
+    <entityname.advretractors>Расширитель</entityname.advretractors>
+    <entitydescription.advretractors>Инструмент для хирургического ‖color:gui.green‖растягивания кожи‖end‖. Оттягивание кожи является третьим действием в большинстве хирургических процедур, но вызовет ‖color:gui.red‖травматический шок‖end‖, если пациент в сознании и не близок к больничной кровати или ‖color:gui.blue‖операционному столу‖end‖. Используется после ‖color:gui.blue‖зажима кровеносных сосудов‖end‖. При неудачном применении, вызывает ‖color:gui.red‖внутренние травмы‖end‖.</entitydescription.advretractors>
+
+    <entityname.tweezers>Полустерильный пинцет</entityname.tweezers>
+    <entitydescription.tweezers>Инструмент позволяющий удалять нежелательную ткань. Может быть использован после ‖color:gui.blue‖растянутой кожи‖end‖, чтобы удалить немного ‖color:gui.green‖инородных тел‖end‖ или конвертации ‖color:gui.green‖сильного ушиба‖end‖ и ‖color:gui.green‖внутренних травм‖end‖ в ‖color:gui.blue‖зашиваемые‖end‖ ‖color:gui.green‖рваные раны‖end‖. ‖color:gui.green‖Инородные тела‖end‖ также могут быть удалены через открытые огнестрельные или повреждение глубоких тканей, но это вызовет немного ‖color:gui.red‖травматического шока‖end‖. При неудачном применении, вызывает ‖color:gui.red‖внутренние травмы‖end‖.</entitydescription.tweezers>
+
+    <entityname.surgerysaw>Хирургическая пила</entityname.surgerysaw>
+    <entitydescription.surgerysaw>Инструмент для хирургического ‖color:gui.green‖распиливания костей‖end‖. Может быть использован после ‖color:gui.blue‖растянутой кожи‖end‖, чтобы распилить кость и либо удалить конечность, либо пришить ее. Замена конечности необходима если сила гангрены выше 15%. При неудачном применении, вызывает ‖color:gui.red‖кровотечение‖end‖, ‖color:gui.red‖внутренние травмы‖end‖ и ‖color:gui.red‖рваные раны‖end‖.</entitydescription.surgerysaw>
+
+    <entityname.suture>Медицинские швы</entityname.suture>
+    <entitydescription.suture>Синтетические рассасывающиеся швы использующиеся для завершения хирургии. При применении, прекращает хирургические операции в любом этапе. Дополнительно, они используются для ‖color:gui.red‖зашивания‖end‖ ‖color:gui.green‖открытых ран‖end‖ и лечения больших внешних ‖color:gui.green‖кровотечений‖end‖. При неудачном применении, вызывает ‖color:gui.red‖внутренние травмы‖end‖.</entitydescription.suture>
+
+    <entityname.surgicaldrill>Хирургическая дрель</entityname.surgicaldrill>
+    <entitydescription.surgicaldrill>Инструмент для хирургического ‖color:gui.green‖просверливания костей‖end‖. Могут быть использованы после ‖color:gui.blue‖растянутой кожи‖end‖, чтобы просверлить кость, вставить ‖color:gui.blue‖остеосинтетический‖end‖ имплант и вылечить переломы. При неудачном применении, вызывает ‖color:gui.red‖кровотечение‖end‖ и ‖color:gui.red‖внутренние травмы‖end‖.</entitydescription.surgicaldrill>
+
+    <entityname.osteosynthesisimplants>Остеосинтетические импланты</entityname.osteosynthesisimplants>
+    <entitydescription.osteosynthesisimplants>Титановые импланты для лечения переломов. Могут быть вставлены после ‖color:gui.blue‖просверленных костей‖end‖. В случае костной смерти, остеосинтетическая процедура должна быть сделана в каждом участке тела. При неудачном применении, вызывает ‖color:gui.red‖кровотечение‖end‖ и ‖color:gui.red‖внутренние травмы‖end‖.</entitydescription.osteosynthesisimplants>
+
+    <entityname.spinalimplant>Импланты позвоночного столба</entityname.spinalimplant>
+    <entitydescription.spinalimplant>Титановые импланты для лечения травм позвоночного столба. Могут быть вставлены после ‖color:gui.blue‖растянутой кожи‖end‖. Однако, позвоночный столб будет снова травмирован, если перелом шеи не вылечен ‖color:gui.blue‖остеосинтетической‖end‖ процедурой.</entitydescription.spinalimplant>
+
+    <entityname.endovascballoon>Эндоваскулярный баллон</entityname.endovascballoon>
+    <entitydescription.endovascballoon>Баллон, вставляемый в аорту при его разрыве. Это остановит ‖color:gui.green‖кровопотерю‖end‖ вызываемой разрывом, но закупоренность со временем вызывает ‖color:gui.red‖гангрену‖end‖. Может быть вставлен после ‖color:gui.blue‖надреза скальепелем‖end‖.</entitydescription.endovascballoon>
+
+    <entityname.medstent>Медицинский стент</entityname.medstent>
+    <entitydescription.medstent>Пластиковая конструкция которая вставляется в аорту для лечения разрыва аорты. Может быть использован после ‖color:gui.blue‖закупоренной баллоном аорты‖end‖.</entitydescription.medstent>
+
+    <entityname.drainage>Дренаж</entityname.drainage>
+    <entitydescription.drainage>Используется для лечения ‖color:gui.green‖пневмоторакса‖end‖, удаляя воздух из плевральной полости. Может быть использован после ‖color:gui.blue‖растянутой кожи‖end‖. Пневмоторакс это потенциально опасный статус, потому что он предотвращает снижение гипоксемии.</entitydescription.drainage>
+
+    <entityname.operatingtable>Операционный стол</entityname.operatingtable>
+    <entitydescription.operatingtable>Транспортируемая версия больничной койки, предназначенная для установки на подлодках. Как и больничная койка, он идет в комлекте с ‖color:gui.green‖искусственной вентиляцией‖end‖. В дополнении, он имеет проводимые выводы для отображения данных о здоровье пациента.</entitydescription.operatingtable>
+
+    <entityname.organscalpel_liver>Скалпель для извлечения печени</entityname.organscalpel_liver>
+    <entitydescription.organscalpel_liver>Спец скальпель для извлечения печени. Может использоваться после ‖color:gui.blue‖растянутой кожи‖end‖ на торсе.</entitydescription.organscalpel_liver>
+
+    <entityname.organscalpel_kidneys>Скалпель для извлечения почек</entityname.organscalpel_kidneys>
+    <entitydescription.organscalpel_kidneys>Спец скальпель для извлечения почек. Может использоваться после ‖color:gui.blue‖растянутой кожи‖end‖ на торсе.</entitydescription.organscalpel_kidneys>
+
+    <entityname.organscalpel_lungs>Скалпель для извлечения легких</entityname.organscalpel_lungs>
+    <entitydescription.organscalpel_lungs>Спец скальпель для извлечения легких. Может использоваться после ‖color:gui.blue‖растянутой кожи‖end‖ на торсе.</entitydescription.organscalpel_lungs>
+
+    <entityname.organscalpel_heart>Скалпель для извлечения сердца</entityname.organscalpel_heart>
+    <entitydescription.organscalpel_heart>Спец скальпель для извлечения сердца. Может использоваться после ‖color:gui.blue‖растянутой кожи‖end‖ на торсе.</entitydescription.organscalpel_heart>
+
+    <entityname.organscalpel_brain>Скалпель для извлечения мозга</entityname.organscalpel_brain>
+    <entitydescription.organscalpel_brain>Спец скальпель для извлечения мозга. Может использоваться после ‖color:gui.blue‖растянутой кожи‖end‖ на голове.</entitydescription.organscalpel_brain>
+
+    <entityname.multiscalpel>Универсальный скальпель</entityname.multiscalpel>
+    <entitydescription.multiscalpel>Скальпель для выполнения надрезов, извлечения органов, снятия бинтов / гипсовых слепков или небрежной медицинской практики. Возьмите его в руки для изменения режима действия.</entitydescription.multiscalpel>
+    <multiscalpel.incision>Режим: Хирургический надрез. Возьмите его в руки для изменения режима действия.</multiscalpel.incision>
+    <multiscalpel.kidneys>Режим: Извлечь почки</multiscalpel.kidneys>
+    <multiscalpel.liver>Режим: Извлечь печень</multiscalpel.liver>
+    <multiscalpel.lungs>Режим: Извлечь легкие</multiscalpel.lungs>
+    <multiscalpel.heart>Режим: Извлечь сердце</multiscalpel.heart>
+    <multiscalpel.brain>Режим: Извлечь мозг</multiscalpel.brain>
+    <multiscalpel.bandage>Режим: Снять бинт, гипсовый слепок, небрежная практика. Возьмите его в руки для изменения режима действия.</multiscalpel.bandage>
+    <multiscalpel.speedflex>Режим: Адаптивное извлечение органов. Применение на голове извлекает мозг, левая рука - почки, торс - печень, правая рука - сердце, левая нога - легкие. Возьмите его в руки для изменения режима действия.</multiscalpel.speedflex>
+
+    <multiscalpel.btn.incision>Надрез</multiscalpel.btn.incision>
+    <multiscalpel.btn.kidneys>Почки</multiscalpel.btn.kidneys>
+    <multiscalpel.btn.liver>Печень</multiscalpel.btn.liver>
+    <multiscalpel.btn.lungs>Легкие</multiscalpel.btn.lungs>
+    <multiscalpel.btn.heart>Сердце</multiscalpel.btn.heart>
+    <multiscalpel.btn.brain>Мозг</multiscalpel.btn.brain>
+    <multiscalpel.btn.bandage>Бинт, гипсовые слепки, небрежная практика</multiscalpel.btn.bandage>
+    <multiscalpel.btn.speedflex>Адаптивное извлечение органов</multiscalpel.btn.speedflex>
+
+    <!-- NT Blood -->
+    <entityname.emptybloodpack>Пустой пакет для крови</entityname.emptybloodpack>
+    <entitydescription.emptybloodpack>Пустой пакет для переливания крови. При наполнении пакета, учитывается ‖color:gui.red‖кислотность крови‖end‖ и наличие ‖color:gui.red‖сепсиса‖end‖ у донора. Брать один пакет крови у донора безопасно, если донор здоров. При неудачном изъятии крови, донор потеряет ‖color:gui.red‖потенциально смертельное‖end‖ количество крови.</entitydescription.emptybloodpack>
+
+    <entityname.bloodpackoplus>Пакет крови O+</entityname.bloodpackoplus>
+    <entitydescription.bloodpackoplus>Можно переливать реципиентам с: O+, A+, B+, AB+</entitydescription.bloodpackoplus>
+
+    <entityname.bloodpackominus>Пакет крови O-</entityname.bloodpackominus>
+    <entitydescription.bloodpackominus>Можно переливать любым реципиентам.</entitydescription.bloodpackominus>
+
+    <entityname.bloodpackaplus>Пакет крови A+</entityname.bloodpackaplus>
+    <entitydescription.bloodpackaplus>Можно переливать реципиентам с: A+, AB+</entitydescription.bloodpackaplus>
+
+    <entityname.bloodpackbplus>Пакет крови B+</entityname.bloodpackbplus>
+    <entitydescription.bloodpackbplus>Можно переливать реципиентам с: B+, AB+</entitydescription.bloodpackbplus>
+
+    <entityname.bloodpackabplus>Пакет крови AB+</entityname.bloodpackabplus>
+    <entitydescription.bloodpackabplus>Можно переливать реципиентам с: AB+</entitydescription.bloodpackabplus>
+
+    <entityname.bloodpackaminus>Пакет крови A-</entityname.bloodpackaminus>
+    <entitydescription.bloodpackaminus>Можно переливать реципиентам с: A-, A+, AB-, AB+</entitydescription.bloodpackaminus>
+
+    <entityname.bloodpackbminus>Пакет крови B-</entityname.bloodpackbminus>
+    <entitydescription.bloodpackbminus>Можно переливать реципиентам с: B-, B+, AB-, AB+</entitydescription.bloodpackbminus>
+
+    <entityname.bloodpackabminus>Пакет крови AB-</entityname.bloodpackabminus>
+    <entitydescription.bloodpackabminus>Можно переливать реципиентам с: AB-, AB+</entitydescription.bloodpackabminus>
+
+    <Override>
+      <entityname.antibloodloss2>Пакет крови O-</entityname.antibloodloss2>
+      <entitydescription.antibloodloss2>Можно переливать любым реципиентам.</entitydescription.antibloodloss2>
+    </Override>
+
+    <entityname.ominuscard>Карточка донора O-</entityname.ominuscard>
+    <entitydescription.ominuscard>Реципиент для: O-
+		Донор для любого типа крови</entitydescription.ominuscard>
+
+    <entityname.opluscard>Карточка донора O+</entityname.opluscard>
+    <entitydescription.opluscard>Реципиент для: O-, O+
+		Донор для: O+, A+, B+, AB+</entitydescription.opluscard>
+
+    <entityname.aminuscard>Карточка донора A-</entityname.aminuscard>
+    <entitydescription.aminuscard>Реципиент для: O-, A-
+		Донор для: A-, A+, AB-, AB+</entitydescription.aminuscard>
+
+    <entityname.apluscard>Карточка донора A+</entityname.apluscard>
+    <entitydescription.apluscard>Реципиент для: O-, O+, A-, A+
+		Донор для: A+, AB+</entitydescription.apluscard>
+
+    <entityname.bminuscard>Карточка донора B-</entityname.bminuscard>
+    <entitydescription.bminuscard>Реципиент для: O-, B-
+		Донор для: B-, B+, AB-, AB+</entitydescription.bminuscard>
+
+    <entityname.bpluscard>Карточка донора B+</entityname.bpluscard>
+    <entitydescription.bpluscard>Реципиент для: O-, O+, B-, B+
+		Донор для: B+, AB+</entitydescription.bpluscard>
+
+    <entityname.abminuscard>Карточка донора AB-</entityname.abminuscard>
+    <entitydescription.abminuscard>Реципиент для: O-, A-, B-, AB-
+		Донор для: AB-, AB+</entitydescription.abminuscard>
+
+    <entityname.abpluscard>Карточка донора AB+</entityname.abpluscard>
+    <entitydescription.abpluscard>Реципиент для любого типа крови
+		Донор для: AB+</entitydescription.abpluscard>
+
+    <!-- NT Containers -->
+    <entityname.medtoolbox>Аптечка общего назначения</entityname.medtoolbox>
+    <entitydescription.medtoolbox>Может хранить только медицинские предметы.</entitydescription.medtoolbox>
+
+    <entityname.surgerytoolbox>Аптечка хирурга</entityname.surgerytoolbox>
+    <entitydescription.surgerytoolbox>Может хранить только хирургические предметы.</entitydescription.surgerytoolbox>
+
+    <entityname.organtoolbox>Холодильный контейнер</entityname.organtoolbox>
+    <entitydescription.organtoolbox>Контейнер для хранения донорских органов и конечностей. Органы умирают быстро вне холодильного контейнера, а конечности умирают медленнее чем органы. Органы и конечности регенерируют в холодильном контейнере: органы, если их состояние выше 90%; конечености, если их состояние выше 95%.</entitydescription.organtoolbox>
+
+    <entityname.organcrate>Холодильный ящик</entityname.organcrate>
+    <entitydescription.organcrate>Ящик для хранения донорских органов и конечностей. Органы умирают быстро вне холодильного ящика, а конечности умирают медленнее чем органы. Органы и конечности регенерируют в холодильном ящике: органы, если их состояние выше 90%; конечности, если их состояние выше 95%.</entitydescription.organcrate>
+
+    <entityname.medstartercrate>Базовый медицинский набор</entityname.medstartercrate>
+    <entitydescription.medstartercrate>Набор со всеми базовыми медицинскими предметами в небольшом количестве.</entitydescription.medstartercrate>
+
+    <!-- Human Resources -->
+    <entityname.rarm>Правая рука</entityname.rarm>
+    <entitydescription.rarm>Ампутированная правая рука. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖. Умирает вне холодильного контейнера. Может быть переработана на ‖color:gui.green‖кальций‖end‖.</entitydescription.rarm>
+
+    <entityname.larm>Левая рука</entityname.larm>
+    <entitydescription.larm>Ампутированная левая рука. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖. Умирает вне холодильного контейнера. Может быть переработана на ‖color:gui.green‖кальций‖end‖.</entitydescription.larm>
+
+    <entityname.rleg>Правая нога</entityname.rleg>
+    <entitydescription.rleg>Ампутированная правая нога. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖. Умирает вне холодильного контейнера. Может быть переработана на ‖color:gui.green‖кальций‖end‖.</entitydescription.rleg>
+
+    <entityname.lleg>Левая нога</entityname.lleg>
+    <entitydescription.lleg>Ампутированная левая нога. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖. Умирает вне холодильного контейнера. Может быть переработана на ‖color:gui.green‖кальций‖end‖.</entitydescription.lleg>
+
+    <entityname.rarmp>Бионическая правая рука</entityname.rarmp>
+    <entitydescription.rarmp>Заменяет соответствующую ампутированную конечность и выполняет всё её функции. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖.</entitydescription.rarmp>
+
+    <entityname.larmp>Бионическая левая рука</entityname.larmp>
+    <entitydescription.larmp>Заменяет соответствующую ампутированную конечность и выполняет всё её функции. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖.</entitydescription.larmp>
+
+    <entityname.rlegp>Бионическая правая нога</entityname.rlegp>
+    <entitydescription.rlegp>Заменяет соответствующую ампутированную конечность и выполняет всё её функции. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖.</entitydescription.rlegp>
+
+    <entityname.llegp>Бионическая левая нога</entityname.llegp>
+    <entitydescription.llegp>Заменяет соответствующую ампутированную конечность и выполняет всё её функции. Может быть пришита после ‖color:gui.blue‖распиливания кости‖end‖.</entitydescription.llegp>
+
+    <entityname.livertransplant>Печень</entityname.livertransplant>
+    <entitydescription.livertransplant>Повреждение печени нарушает естественную способность организма к регенерации ‖color:gui.red‖кровотечения‖end‖, а так же влияет на увеличение ‖color:gui.red‖нейротравмы‖end‖, повышает ‖color:gui.red‖кровяное давление‖end‖, и вызывает постоянное ‖color:gui.red‖внутреннее кровотечение‖end‖ при полном отказе органа. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.livertransplant>
+    <entityname.livertransplant_q1>Печень</entityname.livertransplant_q1>
+    <entitydescription.livertransplant_q1>Повреждение печени нарушает естественную способность организма к регенерации ‖color:gui.red‖кровотечения‖end‖, а так же влияет на постепенное увеличение ‖color:gui.red‖нейротравмы‖end‖, повышает ‖color:gui.red‖кровяное давление‖end‖, и вызывает постоянное ‖color:gui.red‖внутреннее кровотечение‖end‖ при полном отказе органа. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.livertransplant_q1>
+
+    <entityname.lungtransplant>Легкие</entityname.lungtransplant>
+    <entitydescription.lungtransplant>Полный отказ легких вызывает ‖color:gui.red‖остановку дыхания‖end‖. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.lungtransplant>
+    <entityname.lungtransplant_q1>Легкие</entityname.lungtransplant_q1>
+    <entitydescription.lungtransplant_q1>Полный отказ легких вызывает ‖color:gui.red‖остановку дыхания‖end‖. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.lungtransplant_q1>
+
+    <entityname.kidneytransplant>Почка</entityname.kidneytransplant>
+    <entitydescription.kidneytransplant>Высокие повреждения почек вызывают ‖color:gui.red‖ацидоз‖end‖, постепенное увеличение ‖color:gui.red‖нейротравмы‖end‖, ‖color:gui.red‖повреждение костей‖end‖, и повышает ‖color:gui.red‖кровяное давление‖end‖. При повреждении почек на 50% считается, что одна почка отказала и больше не способна к самовосстановлению. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.kidneytransplant>
+    <entityname.kidneytransplant_q1>Почка</entityname.kidneytransplant_q1>
+    <entitydescription.kidneytransplant_q1>Высокие повреждения почек вызывают ‖color:gui.red‖ацидоз‖end‖, постепенное увеличение ‖color:gui.red‖нейротравмы‖end‖, ‖color:gui.red‖повреждение костей‖end‖, и повышает ‖color:gui.red‖кровяное давление‖end‖. При повреждении почек на 50% считается, что одна почка отказала и больше не способна к самовосстановлению. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.kidneytransplant_q1>
+
+    <entityname.hearttransplant>Сердце</entityname.hearttransplant>
+    <entitydescription.hearttransplant>Полный отказ сердца вызывает ‖color:gui.red‖остановку сердца‖end‖. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.hearttransplant>
+    <entityname.hearttransplant_q1>Сердце</entityname.hearttransplant_q1>
+    <entitydescription.hearttransplant_q1>Полный отказ сердца вызывает ‖color:gui.red‖остановку сердца‖end‖. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает вне холодильного контейнера.</entitydescription.hearttransplant_q1>
+
+    <entityname.braintransplant>Мозг</entityname.braintransplant>
+    <entitydescription.braintransplant>Извлеченный мозг вызывает стремительный рост ‖color:gui.red‖нейротравмы‖end‖. Мозг человека можно пересадить другому человеку, чтобы он мог управлять им. Для пересадки органа, старый орган должен быть извлечен при помощи ‖color:gui.blue‖скальпеля для органа‖end‖. Орган погибает крайне быстро вне человека.</entitydescription.braintransplant>
+
+    <entityname.armlock1>Нерабочая правая рука</entityname.armlock1>
+    <entitydescription.armlock1>Эта рука не работает, так как была ‖color:gui.red‖вывихнута‖end‖, ‖color:gui.red‖сломана‖end‖, или ‖color:gui.red‖полностью потеряна‖end‖.</entitydescription.armlock1>
+
+    <entityname.armlock2>Нерабочая левая рука</entityname.armlock2>
+    <entitydescription.armlock2>Эта рука не работает, так как была ‖color:gui.red‖вывихнута‖end‖, ‖color:gui.red‖сломана‖end‖, или ‖color:gui.red‖полностью потеряна‖end‖.</entitydescription.armlock2>
+
+    <!-- NT Treatments -->
+    <entityname.mannitol>Маннитол</entityname.mannitol>
+    <entitydescription.mannitol>Сахарный спирт применяемый для лечения ‖color:gui.green‖нейротравмы‖end‖. Важно помнить, что это лекарство имеет наилучшую эффективность при ‖color:gui.red‖кровяном давлении‖end‖ выше 70% и при ‖color:gui.red‖гипоксемии‖end‖ ниже 30%. Вызывает повреждение ‖color:gui.red‖сердца‖end‖ и ‖color:gui.red‖почек‖end‖. При неудачном применении, лекарство будет менее эффективно и вызовет больше повреждений ‖color:gui.red‖сердца‖end‖ и ‖color:gui.red‖почек‖end‖.</entitydescription.mannitol>
+
+    <entityname.streptokinase>Стрептокиназа</entityname.streptokinase>
+    <entitydescription.streptokinase>Фермент, разрушающий кровяные сгустки. Лечит ‖color:gui.green‖инфаркт‖end‖ и ‖color:gui.green‖гемотрансфузионный шок‖end‖. По неясной причине усугубляет течение ‖color:gui.red‖инсульта‖end‖.</entitydescription.streptokinase>
+
+    <entityname.immunosuppressant>Азатиоприн</entityname.immunosuppressant>
+    <entitydescription.immunosuppressant>Иммунодепрессант, снижающий ‖color:gui.green‖иммунитет‖end‖, для предотвращения ‖color:gui.green‖отторжения органа‖end‖ или для переливания ‖color:gui.green‖несовместимого типа крови‖end‖ без появления гемотрансфузионного шока. Но, чем ниже иммунитет, тем пациент более предрасположен к ‖color:gui.red‖сепсису‖end‖. Если производить трансплантацию чужого органа при иммунитете выше 10%, то орган погибнет. При неудачном применении есть риск вызвать ‖color:gui.red‖сепсис‖end‖.</entitydescription.immunosuppressant>
+
+    <entityname.thiamine>Тиамин</entityname.thiamine>
+    <entitydescription.thiamine>Витамин B1, немого ускоряющий ‖color:gui.green‖регенерацию органов‖end‖. При неудачном применении действует менее эффективно.</entitydescription.thiamine>
+
+    <entityname.pressuremeds>Нитропруссид натрия</entityname.pressuremeds>
+    <entitydescription.pressuremeds>Медикамент, предназначенный для снижения ‖color:gui.green‖кровяного давления‖end‖. При неудачном применении действует менее эффективно.</entitydescription.pressuremeds>
+
+    <entityname.ointment>Антибиотическая мазь</entityname.ointment>
+    <entitydescription.ointment>Антибиотическая мазь, предназначенная для устранения ‖color:gui.green‖зараженных ран‖end‖ и ‖color:gui.green‖ожогов 1-ой и 2-ой степени‖end‖. При неудачном применении действует менее эффективно.</entitydescription.ointment>
+
+    <entityname.tourniquet>Жгут</entityname.tourniquet>
+    <entitydescription.tourniquet>Предмет первой помощи для предотвращения ‖color:gui.green‖кровопотери из кровоточащей артерии‖end‖. Ухудшает состояние пострадавшего при применении на ‖color:gui.red‖голову‖end‖. Пережатые артерии вызывают ‖color:gui.red‖гангрену‖end‖ с течением времени. Жгут снимется после завершения хирургического закрытия артерии. При неудачном применении вызывает ‖color:gui.red‖ушиб‖end‖</entitydescription.tourniquet>
+
+    <entityname.needle>Игла</entityname.needle>
+    <entitydescription.needle>Специальная игла, предназначенная для оказания первой помощи при ‖color:gui.green‖пневмотораксе‖end‖. Применение вызывает ‖color:gui.red‖пневмоторакс‖end‖, но не позволяет ему стать выше 15%. При неудачном применении наносит ‖color:gui.red‖повреждение органам‖end‖ и ‖color:gui.red‖кровотечение‖end‖. При высоких значениях пневмоторакса, гипоксемия не будет проходить естественным путём.</entitydescription.needle>
+
+    <entityname.ringerssolution>Раствор Рингера</entityname.ringerssolution>
+    <entitydescription.ringerssolution>Изотонический раствор, применяемый для повышения ‖color:gui.green‖кровяного давления‖end‖.</entitydescription.ringerssolution>
+
+    <entityname.antiseptic>Антисептик</entityname.antiseptic>
+    <entitydescription.antiseptic>Используется в ‖color:gui.blue‖антисептическом спрее‖end‖, который применяется для устранения ‖color:gui.green‖зараженных ран‖end‖.</entitydescription.antiseptic>
+
+    <entityname.antisepticspray>Антисептический спрей</entityname.antisepticspray>
+    <entitydescription.antisepticspray>Предназначен для устранения ‖color:gui.green‖зараженных ран‖end‖. Требует ‖color:gui.blue‖антисептик‖end‖ для применения.</entitydescription.antisepticspray>
+
+    <entityname.propofol>Пропофол</entityname.propofol>
+    <entitydescription.propofol>Вводит общий ‖color:gui.green‖наркоз‖end‖. Действует постепенно, переводя пациента в статус ‖color:gui.red‖без сознания‖end‖. После чего позволяет избегать ‖color:gui.green‖травматического шока‖end‖ во время операции. Для быстрого выведения из наркоза применяется ‖color:gui.blue‖анапарализатор‖end‖.</entitydescription.propofol>
+
+    <entityname.gypsum>Гипс</entityname.gypsum>
+    <entitydescription.gypsum>Используется для стабилизации ‖color:gui.green‖переломов‖end‖, позволяя им заживать. Используется после перевязки конечности ‖color:gui.blue‖бинтом‖end‖. При неудачном применении расходуется без пользы.</entitydescription.gypsum>
+
+  </Override>
+</infotexts>

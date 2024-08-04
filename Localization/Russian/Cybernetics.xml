@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by guns / Heelge -->
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+	<Override>
+        <!-- Vanilla Items-->
+        <entitydescription.screwdriver>Позволяет чинить электрику и работать с проводкой. Также используется для ‖color:gui.green‖прикручивания винтов‖end‖ на ‖color:gui.blue‖кибернетической конечности‖end‖.</entitydescription.screwdriver>
+
+        <entitydescription.fpgacircuit>Программируемая пользователем вентильная матрица - универсальная схема, конфигурацию которой можно свободно менять для использования в ряде электрических устройств. Также используется для замены ‖color:gui.green‖поврежденной электроники‖end‖ на ‖color:gui.blue‖кибернетической конечности‖end‖.</entitydescription.fpgacircuit>
+
+        <entitydescription.weldingtool>Один из важнейших инструментов на борту подлодки. Работает даже под водой и используется для выравнивания ‖color:gui.green‖погнутого металла‖end‖ на ‖color:gui.blue‖кибернетической конечности‖end‖.</entitydescription.weldingtool>
+
+        <entitydescription.steel>Прочный металлический сплав железа и углерода. Используется в производстве топливных стержней, а также во многих военных целях. Также используется для восстановления ‖color:gui.green‖потери материала‖end‖ на ‖color:gui.blue‖кибернетической конечности‖end‖.</entitydescription.steel>
+
+        <!-- Cybernetics Items -->
+        <entityname.cyberarm>Кибернетическая рука</entityname.cyberarm>
+        <entitydescription.cyberarm>Силовая неорганическая рука которая не может ‖color:gui.green‖кровоточить‖end‖ или ‖color:gui.green‖переламываться‖end‖. Однако, она требует ‖color:gui.red‖ремонтирование‖end‖ и уязвима к ‖color:gui.red‖воде‖end‖. Она может быть установлена после ампутирования.</entitydescription.cyberarm>
+
+        <entityname.cyberleg>Кибернетическая нога</entityname.cyberleg>
+        <entitydescription.cyberleg>Силовая неорганическая нога которая не может ‖color:gui.green‖кровоточить‖end‖ или ‖color:gui.green‖переламываться‖end‖. Однако, она требует ‖color:gui.red‖ремонтирование‖end‖ и уязвима к ‖color:gui.red‖воде‖end‖. Она может быть установлена после ампутирования.</entitydescription.cyberleg>
+
+		<!-- Cybernetics Afflictions -->
+        <afflictionname.ntc_cyberarm>Кибернетическая рука</afflictionname.ntc_cyberarm>
+        <afflictiondescription.ntc_cyberarm>Эта неорганическая рука невосприимчива к биологическим повреждениям, но требует ремонта чтобы быть эффективной. Она может быть грубо удалена ломом.</afflictiondescription.ntc_cyberarm>
+
+        <afflictionname.ntc_cyberleg>Кибернетическая нога</afflictionname.ntc_cyberleg>
+        <afflictiondescription.ntc_cyberleg>Эта неорганическая нога невосприимчива к биологическим повреждениям, но требует ремонта чтобы быть эффективной. Она может быть грубо удалена ломом.</afflictiondescription.ntc_cyberleg>
+
+        <afflictionname.ntc_loosescrews>Раскрученные винты</afflictionname.ntc_loosescrews>
+        <afflictiondescription.ntc_loosescrews>Винты ослабли в результате физической травмы или от остальных раскрученных винтов. Если винты не прикручены используя отвертку, движение может ослабить больше винтов.</afflictiondescription.ntc_loosescrews>
+
+        <afflictionname.ntc_damagedelectronics>Поврежденная электроника</afflictionname.ntc_damagedelectronics>
+        <afflictiondescription.ntc_damagedelectronics>Хрупкие электрические схемы были повреждены водой или физической травмой. Если поврежденная электроника не заменена используя схемы на базе ППВМ, то конечность может иногда давать сбои.</afflictiondescription.ntc_damagedelectronics>
+
+        <afflictionname.ntc_bentmetal>Погнутый металл</afflictionname.ntc_bentmetal>
+        <afflictiondescription.ntc_bentmetal>Конечость была погнута в результате физической травмы, затрудняя ее пользование. Она может быть выровнена используя сварочный аппарат.</afflictiondescription.ntc_bentmetal>
+
+        <afflictionname.ntc_materialloss>Потеря материала</afflictionname.ntc_materialloss>
+        <afflictiondescription.ntc_materialloss>Конечность потеряла материал в результате физической травмы. Она может быть восстановлена используя сталь. Если сила потери материала слишком большая, то конечность будет уничтожена. Раскрученные винты увеличивают потерю материала.</afflictiondescription.ntc_materialloss>
+    </Override>
+</infotexts>

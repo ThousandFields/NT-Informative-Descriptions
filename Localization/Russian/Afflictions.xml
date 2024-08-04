@@ -27,55 +27,55 @@
 
     <!-- NT Trauma -->
     <afflictionname.ra_fracture>Перелом правой плечевой кости</afflictionname.ra_fracture>
-    <afflictiondescription.ra_fracture>Правая рука была сломана, скорее всего из-за физической травмы. Она запретит использовать руку пока на нее не наложен гипс, или не восстановят хирургическим путем.</afflictiondescription.ra_fracture>
+    <afflictiondescription.ra_fracture>Правая рука была сломана, скорее всего из-за физической травмы. Перелом не позволит использовать эту руку до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.ra_fracture>
 
     <afflictionname.la_fracture>Перелом левой плечевой кости</afflictionname.la_fracture>
-    <afflictiondescription.la_fracture>Левая рука была сломана, скорее всего из-за физической травмы. Она запретит использовать руку пока на нее не наложен гипс, или не восстановят хирургическим путем.</afflictiondescription.la_fracture>
+    <afflictiondescription.la_fracture>Левая рука была сломана, скорее всего из-за физической травмы. Перелом не позволит использовать эту руку до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.la_fracture>
 
     <afflictionname.rl_fracture>Перелом правой бедренной кости</afflictionname.rl_fracture>
-    <afflictiondescription.rl_fracture>Правая нога была сломана, скорее всего из-за физической травмы. Она затрудняет движение, пока на нее не наложен гипс, или не восстановят хирургическим путем.</afflictiondescription.rl_fracture>
+    <afflictiondescription.rl_fracture>Правая нога была сломана, скорее всего из-за физической травмы. Передвижение будет затруднено до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.rl_fracture>
 
     <afflictionname.ll_fracture>Перелом левой бедренной кости</afflictionname.ll_fracture>
-    <afflictiondescription.ll_fracture>Левая нога была сломана, скорее всего из-за физической травмы. Она затрудняет движение, пока на нее не наложен гипс, или не восстановят хирургическим путем.</afflictiondescription.ll_fracture>
+    <afflictiondescription.ll_fracture>Левая нога была сломана, скорее всего из-за физической травмы. Передвижение будет затруднено до тех пор, пока не будет проведено хирургическое вмешательство или пока не наложен гипс.</afflictiondescription.ll_fracture>
 
     <afflictionname.t_fracture>Сломанные ребра</afflictionname.t_fracture>
-    <afflictiondescription.t_fracture>Одно или более ребер сломаны, скорее всего из-за физической травмы. Есть риск пневмоторакса из-за нестабильной структуры. Она должна быть вылечена остеосинтетической хирургией.</afflictiondescription.t_fracture>
+    <afflictiondescription.t_fracture>Одно или более ребер сломаны, скорее всего из-за физической травмы. Есть риск пневмоторакса из-за нестабильной структуры. Необходимо провести остеосинтетическую хирургию для восстановления.</afflictiondescription.t_fracture>
 
     <afflictionname.h_fracture>Перелом черепа</afflictionname.h_fracture>
-    <afflictiondescription.h_fracture>Череп был сломан, скорее всего из-за физической травмы. Нестабильность структуры и костные фрагменты будут наносить небольшую травму мозга. Она должна быть вылечена остеосинтетической хирургией.</afflictiondescription.h_fracture>
+    <afflictiondescription.h_fracture>Череп был сломан, скорее всего из-за физической травмы.  Осколки черепа и структурная неустойчивость могут вызвать травму мозга. Необходимо провести остеосинтетическую хирургию для восстановления.</afflictiondescription.h_fracture>
 
     <afflictionname.n_fracture>Перелом шеи</afflictionname.n_fracture>
-    <afflictiondescription.n_fracture>Шея была сломана, скорее всего из-за физической травмы. Нестабильная структура обнажает спинной мозг, с легкостью травмируя позвоночный столб. Она должна быть вылечена остеосинтетической хирургией.</afflictiondescription.n_fracture>
+    <afflictiondescription.n_fracture>Шея была сломана, скорее всего из-за физической травмы. Структурная нестабильность обнажает спинной мозг, с легкостью травмируя позвоночный столб. Необходимо провести остеосинтетическую хирургию для восстановления.</afflictiondescription.n_fracture>
 
     <afflictionname.tra_amputation>Травматическая ампутация</afflictionname.tra_amputation>
-    <afflictiondescription.tra_amputation>Большая часть тканей правой руки была оторвана физическим путем, вызывая разрыв артерии. Эта конечность должна быть заменена после распиленной кости.</afflictiondescription.tra_amputation>
+    <afflictiondescription.tra_amputation>Большая часть правой руки была оторвана в результате физической травмы, вызывая разрыв артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.tra_amputation>
 
     <afflictionname.tla_amputation>Травматическая ампутация</afflictionname.tla_amputation>
-    <afflictiondescription.tla_amputation>Большая часть тканей левой руки была оторвана физическим путем, вызывая разрыв артерии. Эта конечность должна быть заменена после распиленной кости.</afflictiondescription.tla_amputation>
+    <afflictiondescription.tla_amputation>Большая часть левой руки была оторвана результате физической травмы, вызывая разрыв артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.tla_amputation>
 
     <afflictionname.trl_amputation>Травматическая ампутация</afflictionname.trl_amputation>
-    <afflictiondescription.trl_amputation>Большая часть тканей правой ноги была оторвана физическим путем, вызывая разрыв артерии. Эта конечность должна быть заменена после распиленной кости.</afflictiondescription.trl_amputation>
+    <afflictiondescription.trl_amputation>Большая часть правой ноги была оторвана результате физической травмы, вызывая разрыв артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.trl_amputation>
 
     <afflictionname.tll_amputation>Травматическая ампутация</afflictionname.tll_amputation>
-    <afflictiondescription.tll_amputation>Большая часть тканей левой ноги была оторвана физическим путем, вызывая разрыв артерии. Эта конечность должна быть заменена после распиленной кости.</afflictiondescription.tll_amputation>
+    <afflictiondescription.tll_amputation>Большая часть тканей левой ноги была оторвана физическим путем, вызывая разрыв артерии. Необходимо распилить кости и заменить конечность.</afflictiondescription.tll_amputation>
 
     <afflictionname.th_amputation>Травматическая ампутация</afflictionname.th_amputation>
     <afflictiondescription.th_amputation>Голова была грубо сорвана с плеч из-за действия взрыва, вызывая моментальную смерть.</afflictiondescription.th_amputation>
 
     <afflictionname.t_paralysis>Травма позвоночного столба</afflictionname.t_paralysis>
-    <afflictiondescription.t_paralysis>Позвоночный столб был поврежден из-за перелома шеи, вызывая полный паралич и анальгезию. Пациент все так же в сознании. Она должна быть вылечена остеосинтетической хирургией.</afflictiondescription.t_paralysis>
+    <afflictiondescription.t_paralysis>Позвоночный столб был поврежден из-за перелома шеи, вызывая полный паралич и анальгезию. Пациент все так же в сознании. Необходимо провести остеосинтетическую хирургию для восстановления.</afflictiondescription.t_paralysis>
 
     <afflictionname.dislocation1>Вывих</afflictionname.dislocation1>
-    <afflictiondescription.dislocation1>Сустав правой ноги был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Что бы вправить, можно использовать гаечный ключ.</afflictiondescription.dislocation1>
+    <afflictiondescription.dislocation1>Сустав правой ноги был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation1>
 
     <afflictionname.dislocation2>Вывих</afflictionname.dislocation2>
-    <afflictiondescription.dislocation2>Сустав левой ноги был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Что бы вправить, можно использовать гаечный ключ.</afflictiondescription.dislocation2>
+    <afflictiondescription.dislocation2>Сустав левой ноги был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation2>
 
     <afflictionname.dislocation3>Вывих</afflictionname.dislocation3>
-    <afflictiondescription.dislocation3>Сустав правой руки был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Что бы вправить, можно использовать гаечный ключ.</afflictiondescription.dislocation3>
+    <afflictiondescription.dislocation3>Сустав правой руки был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation3>
 
     <afflictionname.dislocation4>Вывих</afflictionname.dislocation4>
-    <afflictiondescription.dislocation4>Сустав левой руки был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Что бы вправить, можно использовать гаечный ключ.</afflictiondescription.dislocation4>
+    <afflictiondescription.dislocation4>Сустав левой руки был вывихнут из-за физической травмы, вызывая боль и затрудняя движения. Гаечный ключ может вернуть кость на место.</afflictiondescription.dislocation4>
 
     <afflictionname.ll_arterialcut>Кровотечение из бедренной артерии</afflictionname.ll_arterialcut>
     <afflictiondescription.ll_arterialcut>Левая бедренная артерия была разорвана инородным телом или вызвана огромным кровотечением, она вызывает обильную кровопотерю. Наложение жгута временно остановит кровопотерю, пока не будет хирургически закрыта.</afflictiondescription.ll_arterialcut>
@@ -90,7 +90,7 @@
     <afflictiondescription.ra_arterialcut>Правая плечевая артерия была разорвана инородным телом или вызвана огромным кровотечением, она вызывает обильную кровопотерю. Наложение жгута временно остановит кровопотерю, пока не будет хирургически закрыта.</afflictiondescription.ra_arterialcut>
 
     <afflictionname.h_arterialcut>Кровотечение из сонной артерии</afflictionname.h_arterialcut>
-    <afflictiondescription.h_arterialcut>Сонная артерия была разорвана инородным телом или вызвана огромным кровотечением, она вызывает обильную кровопотерю. Наложение жгута опасно для временной остановки кровотечения, при этом необходимо ее хирургически закрыть.</afflictiondescription.h_arterialcut>
+    <afflictiondescription.h_arterialcut>Сонная артерия была разорвана инородным телом или вызвана огромным кровотечением, она вызывает обильную кровопотерю. Наложение жгута опасно для временной остановки кровотечения и может вызвать повреждение мозга, Необходимо ее хирургически закрыть.</afflictiondescription.h_arterialcut>
 
     <afflictionname.gangrene>Гангрена</afflictionname.gangrene>
     <afflictiondescription.gangrene>Конечность усохла и почернела из-за сепсиса или остановленного кровотечения. Если ее сила выше 15%, конечность сама по себе не вылечится и должна быть ампутирована.</afflictiondescription.gangrene>
@@ -106,16 +106,16 @@
 
     <!-- NT Symptoms -->
     <afflictionname.tachycardia>Ускоренное сердцебиение</afflictionname.tachycardia>
-    <afflictiondescription.tachycardia>Сердце бьется с тревожно высокой скоростью. Если она растет, есть риск потенциально смертельной фибрилляции, обычно вызываемой либо гипотензией, либо гипоксемией.</afflictiondescription.tachycardia>
+    <afflictiondescription.tachycardia>Сердцебиение аномально высокое. Если оно увеличивается, возникает потенциально смертельно опасная фибрилляция. Jбычно вызвано либо гипотензией, либо гипоксемией.</afflictiondescription.tachycardia>
 
     <afflictionname.fibrillation>Фибрилляция</afflictionname.fibrillation>
     <afflictiondescription.fibrillation>Сердце сокращается быстро, слабо и обрывисто. Фибрилляция потенциально смертальная, обычно вызвана либо гипотензией, либо гипоксемией.</afflictiondescription.fibrillation>
 
     <afflictionname.cardiacarrest>Остановка сердца</afflictionname.cardiacarrest>
-    <afflictiondescription.cardiacarrest>Нет пульса. Смертельное состояние которое предотвратит нормализацию кровяного давления, и, если не оказать помощь, вызывает при этом кому. Окончательный результат фибрилляции, вызываемой чаще всего гипоксемией. Сердце должно быть снова запущено дефибриллятором, адреналином или СЛР вручную.</afflictiondescription.cardiacarrest>
+    <afflictiondescription.cardiacarrest>Нет пульса. Смертельное состояние которое предотвращает нормализацию кровяного давления, а при отсутствии лечения вызывает кому. Окончательный результат фибрилляции, вызываемой чаще всего гипоксемией. Сердце должно быть снова запущено дефибриллятором, адреналином или СЛР вручную.</afflictiondescription.cardiacarrest>
 
     <afflictionname.respiratoryarrest>Остановка дыхания</afflictionname.respiratoryarrest>
-    <afflictiondescription.respiratoryarrest>Нет дыхания. Смертельное состояние которове предотвратит насыщение крови кислородом. Обычно вызывается гипоксемией или передозировкой опиатов.</afflictiondescription.respiratoryarrest>
+    <afflictiondescription.respiratoryarrest>Нет дыхания. Смертельное состояние которове предотвращает насыщение крови кислородом. Обычно вызывается гипоксемией или передозировкой опиатов.</afflictiondescription.respiratoryarrest>
 
     <afflictionname.hyperventilation>Гипервентиляция</afflictionname.hyperventilation>
     <afflictiondescription.hyperventilation>Дыхание в тревожно быстром темпе. Постепенно увеличивает несмертельный алкалоз, и обычно вызывается гипотензией, гипоксемией или пневмотораксом.</afflictiondescription.hyperventilation>
@@ -210,16 +210,16 @@
     <!-- NT Surgery -->
     <!-- Ones that appear on the right side of BHUI have title casing, similar to buffs -->
     <afflictionname.traumaticshock>Травматический шок</afflictionname.traumaticshock>
-    <afflictiondescription.traumaticshock>Обычно вызывается из-за небезопасных условий для хирургии, вызывая потенциально опасную гипотензию. Для безопасных условий хирургии пациент должен быть под анальгезией и рядом с больничной кроватью, либо находится в без сознания.</afflictiondescription.traumaticshock>
+    <afflictiondescription.traumaticshock>Обычно вызывается из-за небезопасных условий для хирургии, вызывая потенциально опасную гипотензию. Для безопасных условий хирургии пациент должен быть под анальгезией и рядом с больничной кроватью, либо находится без сознания.</afflictiondescription.traumaticshock>
 
     <afflictionname.surgeryincision>Хирургический надрез</afflictionname.surgeryincision>
     <afflictiondescription.surgeryincision>Сделанный скальпелем разрез. Он больный. Также вызывает кровопотерю, которая останавливается зажимами.</afflictiondescription.surgeryincision>
 
     <afflictionname.clampedbleeders>Прижатое кровотечение</afflictionname.clampedbleeders>
-    <afflictiondescription.clampedbleeders>Хирургическое кровотечение сдержано. Но не предупреждает боль от разреза.</afflictiondescription.clampedbleeders>
+    <afflictiondescription.clampedbleeders>Хирургическое кровотечение сдержано. Разрез все также болезненный.</afflictiondescription.clampedbleeders>
 
     <afflictionname.retractedskin>Кожа растянута</afflictionname.retractedskin>
-    <afflictiondescription.retractedskin>Кожа удерживается открытой при помощи расширителя. Это очень болезненно, но безопасно рядом с больничной кроватью или при нахождении в без сознания.</afflictiondescription.retractedskin>
+    <afflictiondescription.retractedskin>Кожа удерживается открытой при помощи расширителя. Это очень болезненно, но безопасно рядом с больничной кроватью или если пациент без сознания.</afflictiondescription.retractedskin>
 
     <afflictionname.suturedi>Зашитый надрез</afflictionname.suturedi>
     <afflictiondescription.suturedi>Надрез закрыт швами.</afflictiondescription.suturedi>
@@ -284,7 +284,7 @@
     <afflictiondescription.ointmented>Слой антибиотической мази защищает от заражения и сохраняет рану стерильной.</afflictiondescription.ointmented>
 
     <afflictionname.needlec>Игла</afflictionname.needlec>
-    <afflictiondescription.needlec>Вставленная в грудь игла с воздушным клапаном предотвратит ухудшение пневмоторакса.</afflictiondescription.needlec>
+    <afflictiondescription.needlec>Вставленная в грудь игла с воздушным клапаном предотвращает ухудшение пневмоторакса.</afflictiondescription.needlec>
 
     <afflictionname.bonegrowth>Стимулированный рост костей</afflictionname.bonegrowth>
     <afflictiondescription.bonegrowth>Простимулированное отрастание костей. Для лечения костной смерти, этот статус должен быть на каждой части тела.</afflictiondescription.bonegrowth>
@@ -293,7 +293,7 @@
     <afflictiondescription.analgesia>Нечувствительность к боли подавляет некоторые симптомы, позволяет безопасную хирургию и дает больше времени для сражений.</afflictiondescription.analgesia>
 
     <afflictionname.anesthesia>Анестезия</afflictionname.anesthesia>
-    <afflictiondescription.anesthesia>Влияние наркотика вызывающего состояние в без сознания. Проводить хирургию безопасно.</afflictiondescription.anesthesia>
+    <afflictiondescription.anesthesia>Влияние наркотика вызывающего бессознательном состояние. Проводить хирургию безопасно.</afflictiondescription.anesthesia>
 
     <afflictionname.suturedw>Зашитая рана</afflictionname.suturedw>
     <afflictiondescription.suturedw>Рана была закрыта швами. Зашитые раны заживают намного быстрее чем открытые, и они невосприимчивы к заражению.</afflictiondescription.suturedw>
@@ -303,7 +303,7 @@
     <afflictiondescription.luabotomy>Lua не работает. Это значит, что Нейротравма и прочие модификации, использующие Lua не будут функционировать. Пожалуйста, прочитайте страницы мастерской модов которые вы планируете использовать.</afflictiondescription.luabotomy>
 
     <afflictionname.modconflict>Конфликт мода</afflictionname.modconflict>
-    <afflictiondescription.modconflict>Замечен конфликт. Другой мод перезаписывает некоторые предметы которые также делает Нейротравма. Некоторые вещи будут вести себя неправильно. Пожалуйста, отрегулируйте Ваш порядок модов, но если должно быть так, то уберите галочку проверки конфликтов в меню конфигурации Нейротравмы.</afflictiondescription.modconflict>
+    <afflictiondescription.modconflict>Замечен конфликт. Другой мод перезаписывает некоторые предметы которые также перезаписывает Нейротравма. Некоторые вещи будут вести себя неправильно. Пожалуйста, отрегулируйте Ваш порядок модов, но если должно быть так, то уберите галочку проверки конфликтов в меню конфигурации Нейротравмы.</afflictiondescription.modconflict>
 
     <!-- Unused and Hidden Afflictions -->
     <!-- These must be here or else they will have no ingame name -->

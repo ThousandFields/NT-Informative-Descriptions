@@ -229,4 +229,4 @@ end, GetValidArguments)
 
 
 LoadPatches()
-ContentPackageManager.ReloadContentPackage(pkg)
+--ContentPackageManager.ReloadContentPackage(pkg) This somehow causes mod to unload on leaving server?

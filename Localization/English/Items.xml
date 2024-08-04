@@ -47,11 +47,11 @@
 		
 		<entitydescription.deusizine>A stimulant that increases ‖color:gui.green‖muscular endurance‖end‖ and can be used in the treatment of ‖color:gui.green‖internal damage‖end‖, ‖color:gui.green‖oxygen deprivation‖end‖, and ‖color:gui.green‖blood loss‖end‖. On failure, it is less effective.</entitydescription.deusizine>
 		
-		<entitydescription.antibleeding3>An antibiotic glue with hemostatic properties. Seals ‖color:gui.green‖bleeding‖end‖ wounds almost immediately and prevents them from getting ‖color:gui.green‖infected‖end‖. Also effective against ‖color:gui.green‖burns‖end‖. Use with care, as it may cause ‖color:gui.red‖mobile clots‖end‖ in the bloodstream.</entitydescription.antibleeding3>
+		<entitydescription.antibleeding3>An antibiotic glue with hemostatic properties. Seals ‖color:gui.green‖bleeding‖end‖ wounds almost immediately and prevents them from getting ‖color:gui.green‖infected‖end‖. Also effective against ‖color:gui.green‖burns‖end‖. On failure, it may cause ‖color:gui.red‖mobile clots‖end‖ in the bloodstream.</entitydescription.antibleeding3>
 		
 		<entitydescription.meth>A potent nervous system stimulant, temporarily boosting the user's ‖color:gui.green‖muscular speed‖end‖. However, it is ‖color:gui.red‖addictive‖end‖, slightly damages ‖color:gui.red‖organs‖end‖, and will cause some ‖color:gui.red‖brain damage‖end‖. On failure, it is less effective, more ‖color:gui.red‖addicting‖end‖, and will cause increased ‖color:gui.red‖damage‖end‖.</entitydescription.meth>
 
-		<entitydescription.steroids>Temporarily boosts ‖color:gui.green‖muscular strength‖end‖ and ‖color:gui.green‖endurance‖end‖. It is addictive. On failure, it is less effective and more addicting.</entitydescription.steroids>
+		<entitydescription.steroids>Temporarily boosts ‖color:gui.green‖muscular strength‖end‖ and ‖color:gui.green‖endurance‖end‖. It is addictive. On failure, it is less effective and more ‖color:gui.red‖addicting‖end‖.</entitydescription.steroids>
 		
 		<entitydescription.hyperzine>An extremely potent muscle stimulant for those moments when you gotta go fast. Boosts ‖color:gui.green‖muscular strength‖end‖, ‖color:gui.green‖endurance‖end‖, and ‖color:gui.green‖speed‖end‖, and reduces ‖color:gui.green‖stun susceptibility‖end‖. It is ‖color:gui.red‖addictive‖end‖ and causes a small amount of ‖color:gui.red‖brain damage‖end‖. On failure, it is more ‖color:gui.red‖addictive‖end‖ and causes more ‖color:gui.red‖brain damage‖end‖.</entitydescription.hyperzine>
 		
@@ -67,9 +67,9 @@
 		
 		<entitydescription.combatstimulantsyringe>A highly advanced stimulant that makes the user rapidly recover from ‖color:gui.green‖damage‖end‖, ‖color:gui.green‖burns‖end‖, and ‖color:gui.green‖bloodloss‖end‖. In addition, the user will rapidly coagulate ‖color:gui.green‖external‖end‖ and ‖color:gui.green‖internal bleeding‖end‖. It is ‖color:gui.red‖addictive‖end‖. On failure, it is more ‖color:gui.red‖addicting‖end‖.</entitydescription.combatstimulantsyringe>
 
-		<entitydescription.ethanol>Medical alcohol used as an ingredient in the manufacture of various medicines. Drinking while on duty is not advised, and binge-drinking is hard on the lungs.</entitydescription.ethanol>
+		<entitydescription.ethanol>Medical alcohol used as an ingredient in the manufacture of various medicines. Drinking while on duty is not advised, and binge-drinking is hard on the liver.</entitydescription.ethanol>
 
-		<entitydescription.rum>A fine liquor made from raptor bane or pomegrenade juice. Some purists insist real rum is made from sugarcane, but good luck finding any of that on Europa. Its potency is sufficient to damage early ‖color:gui.green‖husk infections‖end‖, but binge-drinking is hard on the lungs.</entitydescription.rum>
+		<entitydescription.rum>A fine liquor made from raptor bane or pomegrenade juice. Some purists insist real rum is made from sugarcane, but good luck finding any of that on Europa. Its potency is sufficient to damage early ‖color:gui.green‖husk infections‖end‖, but binge-drinking is hard on the liver.</entitydescription.rum>
 
 		<entitydescription.divingknife>Stabs, pokes, cuts and slashes. Also can be used to remove old ‖color:gui.green‖bandages‖end‖. On failure, causes ‖color:gui.red‖lacerations‖end‖ and ‖color:gui.red‖bleeding‖end‖.</entitydescription.divingknife>
 
@@ -119,7 +119,7 @@
 		<entitydescription.advretractors>A tool used to ‖color:gui.green‖retract skin‖end‖ during surgery. Retracting the skin is the third step in most surgical operations, but will cause ‖color:gui.red‖traumatic shock‖end‖ if the patient is conscious and not close to a bed or ‖color:gui.blue‖surgery table‖end‖. Used after ‖color:gui.blue‖hemostat clamping‖end‖. On failure, causes ‖color:gui.red‖internal damage‖end‖.</entitydescription.advretractors>
 
 		<entityname.tweezers>Tweezers</entityname.tweezers>
-		<entitydescription.tweezers>A small tool that allows for removing unwanted tissue. After ‖color:gui.blue‖skin retraction‖end‖, tweezers can be used to remove some ‖color:gui.green‖foreign bodies‖end‖ or convert ‖color:gui.green‖blunt force trauma‖end‖ and ‖color:gui.green‖internal damage‖end‖ into ‖color:gui.blue‖suturable‖end‖ ‖color:gui.blue‖lacerations‖end‖. ‖color:gui.green‖Foreign bodies‖end‖ can also be removed through open gunshot or deep tissue wounds, but this will cause minor ‖color:gui.red‖traumatic shock‖end‖. On failure, causes ‖color:gui.red‖internal damage‖end‖.</entitydescription.tweezers>
+		<entitydescription.tweezers>A small tool that allows for removing unwanted tissue. After ‖color:gui.blue‖skin retraction‖end‖, tweezers can be used to remove some ‖color:gui.green‖foreign bodies‖end‖ or convert ‖color:gui.green‖blunt force trauma‖end‖ and ‖color:gui.green‖internal damage‖end‖ into ‖color:gui.blue‖suturable‖end‖ ‖color:gui.red‖lacerations‖end‖. ‖color:gui.green‖Foreign bodies‖end‖ can also be removed through open gunshot or deep tissue wounds, but this will cause minor ‖color:gui.red‖traumatic shock‖end‖. On failure, causes ‖color:gui.red‖internal damage‖end‖.</entitydescription.tweezers>
 
 		<entityname.surgerysaw>Surgical Saw</entityname.surgerysaw>
 		<entitydescription.surgerysaw>A tool used to ‖color:gui.green‖saw bones‖end‖. After ‖color:gui.blue‖skin retraction‖end‖, bones can be sawed to remove existing limbs or add new ones. Replacing limbs is required if gangrene exceeds 15%. On failure, causes ‖color:gui.red‖bleeding‖end‖, ‖color:gui.red‖internal damage‖end‖, and ‖color:gui.red‖lacerations‖end‖.</entitydescription.surgerysaw>		

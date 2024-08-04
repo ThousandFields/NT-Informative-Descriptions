@@ -6,8 +6,8 @@
         <!-- NT Items -->
         
         <!-- SurgeryPlus Items -->
-        <entityname.mannitolplus>Mannitol plus</entityname.mannitolplus>
-        <entitydescription.mannitolplus>An improved version of mannitol. It is used to quickly treat neurotrauma.</entitydescription.mannitolplus>
+        <entityname.mannitolplus>Mannitol Plus</entityname.mannitolplus>
+        <entitydescription.mannitolplus>An improved mannitol formula. It will treat some ‖color:gui.green‖neurotrauma‖end‖, regardless of patient stability, and does not damage organs.</entitydescription.mannitolplus>
         
         <entityname.artificialbrain>Artificial brain</entityname.artificialbrain>
         <entitydescription.artificialbrain>An artificial brain transplant that keeps a body alive when the original brain is removed.</entitydescription.artificialbrain>

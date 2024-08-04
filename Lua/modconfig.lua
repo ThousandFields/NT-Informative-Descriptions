@@ -23,13 +23,14 @@ local config = {
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
 			}
 	},
-	-- Curly's Surgery Plus
+	-- Curly's Surgery Plus (not yet ready)
 	{
 		supportedlanguages = {"English","Simplified Chinese","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "",
 		loadpriority = 1,
 		files = {
+			--"%ModDir%/Localization/%Language%/SurgeryPlus.xml"
 			}
 	},
 	-- Cybernetics

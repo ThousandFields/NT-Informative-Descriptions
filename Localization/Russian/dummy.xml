@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <Override>
+    <!-- Color Code Guide
+	Blue: refers to another item
+	Green: a beneficial affliction caused by the item, or a cured affliction
+	Red: a detrimental affliction caused by the item, or downside -->
+    <!-- Vanilla Tools -->
+    <entityname.screwdriver>Dummy 1 name</entityname.screwdriver>
+    <entitydescription.screwdriver>Dummy 1 description</entitydescription.screwdriver>
+  </Override>
+</infotexts>

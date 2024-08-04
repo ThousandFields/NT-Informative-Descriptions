@@ -1,7 +1,7 @@
 -- Config to enable language files based on enabled mods.
 
 local config = {
-	--Neurotrauma guns fork as example
+	--Neurotrauma guns fork
 	{
 		supportedlanguages = {"English","Simplified Chinese","Russian"}, -- which languages patch supports for this specific mod {"English","German","Russian"} etc
 		IgnoreTargetModState = false, -- doesnt check for target mod being enabled. Still respects supported languages.
@@ -23,7 +23,7 @@ local config = {
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
 			}
 	},
-	-- Curly's Surgery Plus (disabled)
+	-- Curly's Surgery Plus
 	{
 		supportedlanguages = {"English","Simplified Chinese","Russian"},
 		IgnoreTargetModState = false,
@@ -41,17 +41,17 @@ local config = {
 		files = {
 			"%ModDir%/Localization/%Language%/Cybernetics.xml"
 			}
-	},
-	-- Example blank
-	{
-		supportedlanguages = {"English"},
-		IgnoreTargetModState = false,
-		workshopId = "", -- if empty doesnt announce patch being enabled or check for other mods
-		loadpriority = 1, -- patches with same priority would load in random order
-		files = {
-			"%ModDir%/Localization/%Language%/dummy.xml"
-			}
 	}
+	-- Example blank, you dont need to add localization for this
+	-- {
+	-- 	supportedlanguages = {"English"},
+	-- 	IgnoreTargetModState = false,
+	-- 	workshopId = "", -- if empty doesnt announce patch being enabled or check for other mods 
+	-- 	loadpriority = 1, -- patches with same priority would load in random order
+	-- 	files = {
+	-- 		"%ModDir%/Localization/%Language%/dummy.xml"
+	-- 		} 
+	-- }
 }
 
 return config

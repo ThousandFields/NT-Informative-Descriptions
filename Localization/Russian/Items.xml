@@ -21,7 +21,7 @@
 
     <entitydescription.alienblood>Кровь одного из обитателей Европы. Она ‖color:gui.red‖несовместима‖end‖ с кровью человека.</entitydescription.alienblood>
 
-    <entitydescription.antibloodloss1>Инъекция раствора натрия и хлора, использующаяся для увеличения ‖color:gui.green‖кровяного давления‖end‖, и при этом увеличивает ‖color:gui.green‖кислотность крови‖end‖.</entitydescription.antibloodloss1>
+    <entitydescription.antibloodloss1>Инъекция раствора натрия и хлора, использующаяся для увеличения ‖color:gui.green‖кровяного давления‖end‖, и при этом увеличивает ‖color:gui.green‖кислотность крови‖end‖, ‖color:gui.red‖вызывая ацидоз‖end‖.</entitydescription.antibloodloss1>
 
     <entitydescription.antibleeding1>Обычный бинт, помогающий справиться с ‖color:gui.green‖кровотечениями‖end‖, и способствует заживлению ‖color:gui.green‖небольших ожогов‖end‖ и ‖color:gui.green‖ран‖end‖. При этом забинтованные конечности временно стабилизируют ‖color:gui.green‖переломы‖end‖, предотвращая внутренние травмы. При неудачном применении, он менее эффективен.</entitydescription.antibleeding1>
 
@@ -84,7 +84,7 @@
     <entitydescription.bvm>Инструмент лечит ‖color:gui.green‖нехватку кислорода‖end‖ при наличии кислородного баллона, и дополнительно лечит ‖color:gui.green‖остановку дыхания‖end‖ при наличии баллона с кислородитом.</entitydescription.bvm>
 
     <entityname.autocpr>АвтоПульс</entityname.autocpr>
-    <entitydescription.autocpr>Механизм занимающий слот верхней одежды. После некоторого времени, лечит ‖color:gui.green‖остановку сердца‖end‖ и ‖color:gui.green‖фибрилляцию‖end‖, Предотвращает отрицательные эффекты от статуса ‖color:gui.green‖остановки дыхания‖end‖. Ношение АвтоПульса дополнительно увеличивает ‖color:gui.green‖кровяное давление‖end‖ во время использования, что может быть полезно в экстренной ситуации. Не забудьте снять его, если он больше не нужен!</entitydescription.autocpr>
+    <entitydescription.autocpr>Механизм занимающий слот верхней одежды. После некоторого времени, лечит ‖color:gui.green‖остановку сердца‖end‖ и ‖color:gui.green‖фибрилляцию‖end‖. Предотвращает отрицательные эффекты от статуса ‖color:gui.green‖остановки дыхания‖end‖. Ношение АвтоПульса дополнительно увеличивает ‖color:gui.green‖кровяное давление‖end‖ во время использования, что может быть полезно в экстренной ситуации. Не забудьте снять его, если он больше не нужен!</entitydescription.autocpr>
 
     <entityname.bloodanalyzer>Гематологический анализатор</entityname.bloodanalyzer>
     <entitydescription.bloodanalyzer>Инструмент который отображает иммунитет, группу и резус фактор крови. Также способен показать кровопотерю, сепсис, аномальную кислотность крови или действующие препараты в кровотоке. Если в слоте устройства находится ‖color:gui.blue‖пустая карта донора‖end‖, он распечатает группу и резус фактор крови в удостоверение личности пациента, если там есть пустой слот. Использование гематологического анализатора требует немного ‖color:gui.red‖крови‖end‖.</entitydescription.bloodanalyzer>

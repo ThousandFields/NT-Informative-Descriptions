@@ -184,10 +184,10 @@
 		<afflictiondescription.inflammation>Tissue appears swollen. Caused by an infection or foreign bodies.</afflictiondescription.inflammation>
 		
 		<afflictionname.spasm>Spasm</afflictionname.spasm>
-		<afflictiondescription.spasm>Involuntary muscle contractions caused by a seizure. Usually caused by severe abnormal blood acidity, a stroke, opiate overdose, or radiation sickness.</afflictiondescription.spasm>
+		<afflictiondescription.spasm>Involuntary muscle contractions caused by a seizure. Usually caused by severe acidosis or alkalosis, a stroke, opiate overdose, or radiation sickness.</afflictiondescription.spasm>
 
 		<afflictionname.seizure>Seizure</afflictionname.seizure>
-		<afflictiondescription.seizure>They are having a full-body seizure. Usually caused by severe abnormal blood acidity, a stroke, opiate overdose, or radiation sickness.</afflictiondescription.seizure>
+		<afflictiondescription.seizure>They are having a full-body seizure. Usually caused by severe acidosis or alkalosis, a stroke, opiate overdose, or radiation sickness.</afflictiondescription.seizure>
 
 		<afflictionname.sym_craving>Craving</afflictionname.sym_craving>
 		<afflictiondescription.sym_craving>A craving for drugs, caused by withdrawal.</afflictiondescription.sym_craving>
@@ -240,7 +240,7 @@
 		<afflictiondescription.lungremoved>The lungs have been surgically removed. Lungs are required to oxygenate blood. Lung damage is usually caused by hypoxemia, gunshot wounds, or heavy smoking.</afflictiondescription.lungremoved>
 
 		<afflictionname.kidneyremoved>Kidneys removed</afflictionname.kidneyremoved>
-		<afflictiondescription.kidneyremoved>The kidneys have been surgically removed. Kidneys are required to regulate acidity, bone minerals, and blood pressure, but a person can live with only one. Kidney damage is usually caused by hypoxemia or gunshot wounds.</afflictiondescription.kidneyremoved>
+		<afflictiondescription.kidneyremoved>The kidneys have been surgically removed. Kidneys are required to regulate acidosis, strong bones, and blood pressure, but a person can live with only one. Kidney damage is usually caused by hypoxemia or gunshot wounds.</afflictiondescription.kidneyremoved>
 
 		<afflictionname.liverremoved>Liver removed</afflictionname.liverremoved>
 		<afflictiondescription.liverremoved>The liver has been surgically removed. A liver is required to clot bleeding and regulate blood pressure. Liver damage is usually caused by hypoxemia, gunshot wounds, or heavy drinking.</afflictiondescription.liverremoved>

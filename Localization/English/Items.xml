@@ -10,7 +10,7 @@
 	
 		<!-- Vanilla Tools -->
 		<entityname.healthscanner>Health Scanner</entityname.healthscanner>
-		<entitydescription.healthscanner>A tool that uses battery power to display afflictions. It can be aimed at a person for a full-body scan, or administered in the Health UI to show afflictions on a specific body part. Using the scanner causes a minor amount of ‖color:gui.red‖radiation sickness‖end‖. Will not display blood type, sepsis, immunity, abnormal acidity, or drugs, as a ‖color:gui.blue‖hematology analyzer‖end‖ is required.</entitydescription.healthscanner>
+		<entitydescription.healthscanner>A tool that uses battery power to display afflictions. It can be aimed at a person for a full-body scan, or administered in the Health UI to show afflictions on a specific body part. Using the scanner causes a minor amount of ‖color:gui.red‖radiation sickness‖end‖. Will not display blood type, sepsis, immunity, acidosis, alkalosis, or drugs, as a ‖color:gui.blue‖hematology analyzer‖end‖ is required.</entitydescription.healthscanner>
 
 		<entitydescription.wrench>Makes mechanical repairs possible. It is also used to fix ‖color:gui.green‖dislocations‖end‖, which is twice as easier to do if the patient does not feel pain. Failing to fix a dislocation will result in a ‖color:gui.red‖fracture‖end‖, however.</entitydescription.wrench>
 		
@@ -87,7 +87,7 @@
 		<entitydescription.autocpr>A machine that occupies a patient's Outerwear slot. Over time, cures ‖color:gui.green‖cardiac arrest‖end‖ and ‖color:gui.green‖fibrillation‖end‖, and prevents the negative effects of ‖color:gui.green‖respiratory arrest‖end‖. Wearing the AutoPulse will additionally increase ‖color:gui.green‖blood pressure‖end‖ over time, which may useful in an emergency. Remember to take it off when no longer needed!</entitydescription.autocpr>
 
 		<entityname.bloodanalyzer>Hematology Analyzer</entityname.bloodanalyzer>
-		<entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, abnormal acidity, or drugs in the bloodstream. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
+		<entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, acidosis, alkalosis, or drugs in the bloodstream. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
 
 		<entityname.bloodcollector>Blank Donor Card</entityname.bloodcollector>
 		<entitydescription.bloodcollector>An empty donor card used by the ‖color:gui.blue‖hematology analyzer‖end‖ to imprint a patient's blood type.</entitydescription.bloodcollector>
@@ -185,7 +185,7 @@
 		
 		<!-- NT Blood -->
 		<entityname.emptybloodpack>Empty Blood Pack</entityname.emptybloodpack>
-		<entitydescription.emptybloodpack>An empty blood pack for the drawing of blood. The drawn blood will retain a small amount of the donor's ‖color:gui.red‖abnormal acidity‖end‖ or ‖color:gui.red‖sepsis‖end‖, if they had any. It is safe to draw a single pack of blood from a patient, provided that they are healthy. On failure, it will draw a ‖color:gui.red‖potentially-lethal‖end‖ amount of blood.</entitydescription.emptybloodpack>
+		<entitydescription.emptybloodpack>An empty blood pack for the drawing of blood. The drawn blood will retain a small amount of the donor's ‖color:gui.red‖acidosis‖end‖, ‖color:gui.red‖alkalosis‖end‖, or ‖color:gui.red‖sepsis‖end‖, if they had any. It is safe to draw a single pack of blood from a patient, provided that they are healthy. On failure, it will draw a ‖color:gui.red‖potentially-lethal‖end‖ amount of blood.</entitydescription.emptybloodpack>
 
 		<entityname.bloodpackoplus>Blood Pack O+</entityname.bloodpackoplus>
 		<entitydescription.bloodpackoplus>Can be administered to: O+, A+, B+, and AB+</entitydescription.bloodpackoplus>

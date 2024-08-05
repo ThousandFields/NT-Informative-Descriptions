@@ -105,8 +105,8 @@
 		<entitydescription.bodybag>A bag that occupies a patient or corpse's Outerwear slot. Allows them to be ‖color:gui.green‖dragged at full speed‖end‖, but a living person cannot breathe through the bag, causing ‖color:gui.red‖oxygen low‖end‖.</entitydescription.bodybag>
 		
 		<entityname.stasisbag>Stasis Bag</entityname.stasisbag>
-		<entitydescription.stasisbag>A bag that occupies a patient's Outerwear slot. This will cause ‖color:gui.red‖cardiac arrest‖end‖, ‖color:gui.red‖respiratory arrest‖end‖, ‖color:gui.red‖unconsciousness‖end‖, and ‖color:gui.red‖prevent surgical operations‖end‖, but will ‖color:gui.green‖pause the progression of negative afflictions‖end‖ while worn. When worn, the bag deteriorates by 1% every four seconds.</entitydescription.stasisbag>
-		<stasisbagequipconfirmation>You will go ‖color:gui.green‖unconscious‖end‖. Are you sure you want to equip the stasis bag?</stasisbagequipconfirmation>
+		<entitydescription.stasisbag>A bag that occupies a patient's Outerwear slot, protecting against pressure down to 10,000 meters. This will cause ‖color:gui.red‖cardiac arrest‖end‖, ‖color:gui.red‖respiratory arrest‖end‖, ‖color:gui.red‖unconsciousness‖end‖, and ‖color:gui.red‖prevent surgical operations‖end‖, but will ‖color:gui.green‖pause the progression of negative afflictions‖end‖ while worn. When worn, the bag deteriorates by 1% every four seconds.</entitydescription.stasisbag>
+		<stasisbagequipconfirmation>You will go unconscious. Are you sure you want to equip the stasis bag?</stasisbagequipconfirmation>
 
 		<!-- NT Surgery -->
 		<entityname.advscalpel>Scalpel</entityname.advscalpel>

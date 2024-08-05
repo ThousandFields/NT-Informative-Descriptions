@@ -21,7 +21,7 @@
 
 		<entitydescription.alienblood>Blood extracted from a Europan lifeform. It is ‖color:gui.red‖incompatible‖end‖ with human blood.</entitydescription.alienblood>
 
-		<entitydescription.antibloodloss1>A sodium chloride infusion used to increase ‖color:gui.green‖blood pressure‖end‖, and additionally causes ‖color:gui.green‖acidosis‖end‖.</entitydescription.antibloodloss1>
+		<entitydescription.antibloodloss1>A sodium chloride infusion used to increase ‖color:gui.green‖blood pressure‖end‖, and additionally causes ‖color:gui.green‖acidosis‖end‖. On failure, it is less effective.</entitydescription.antibloodloss1>
 
 		<entitydescription.antibleeding1>Basic bandages, useful in the treatment of ‖color:gui.green‖bleeding‖end‖, and promotes the healing of ‖color:gui.green‖minor burns‖end‖ and ‖color:gui.green‖wounds‖end‖. Additionally, bandages stabilize ‖color:gui.green‖fractures‖end‖, preventing them from causing internal damage. On failure, it is less effective.</entitydescription.antibleeding1>
 
@@ -72,6 +72,8 @@
 		<entitydescription.rum>A fine liquor made from raptor bane or pomegrenade juice. Some purists insist real rum is made from sugarcane, but good luck finding any of that on Europa. Its potency is sufficient to damage early ‖color:gui.green‖husk infections‖end‖, but binge-drinking is hard on the liver.</entitydescription.rum>
 
 		<entitydescription.divingknife>Stabs, pokes, cuts and slashes. Also can be used to remove old ‖color:gui.green‖bandages‖end‖. On failure, causes ‖color:gui.red‖lacerations‖end‖ and ‖color:gui.red‖bleeding‖end‖.</entitydescription.divingknife>
+
+		<entitydescription.raptorbaneextract>Concentrated raptorbane juice. Mildly toxic for humans, catastrophically toxic for mudraptors. It will induce vomiting in humans, making it a decent treatment for ‖color:gui.green‖acidosis‖end‖. On failure, it does not induce vomiting.</entitydescription.raptorbaneextract>
 
 		<!-- NT Tools -->
 		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>

@@ -63,7 +63,7 @@
 		
 		<entitydescription.nitroglycerin>A highly unstable liquid that may explode when subjected to heat or physical shock. When administered to a patient, it will cause vasodilation and decrease ‖color:gui.green‖blood pressure‖end‖.</entitydescription.nitroglycerin>
 		
-		<entitydescription.pomegrenadeextract>Concentrated pomegrenade juice. It offers minor ‖color:gui.green‖wound-healing‖end‖ properties, including that of ‖color:gui.green‖stitched wounds‖end‖.</entitydescription.pomegrenadeextract>
+		<entitydescription.pomegrenadeextract>Concentrated pomegrenade juice. It offers minor ‖color:gui.green‖wound-healing‖end‖ properties, including that of ‖color:gui.green‖stitched wounds‖end‖. On failure, it is less effective.</entitydescription.pomegrenadeextract>
 		
 		<entitydescription.combatstimulantsyringe>A highly advanced stimulant that makes the user rapidly recover from ‖color:gui.green‖damage‖end‖, ‖color:gui.green‖burns‖end‖, and ‖color:gui.green‖bloodloss‖end‖. In addition, the user will rapidly coagulate ‖color:gui.green‖external‖end‖ and ‖color:gui.green‖internal bleeding‖end‖. It is ‖color:gui.red‖addictive‖end‖. On failure, it is more ‖color:gui.red‖addicting‖end‖.</entitydescription.combatstimulantsyringe>
 

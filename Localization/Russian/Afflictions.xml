@@ -5,7 +5,7 @@
   <Override>
     <!-- Vanilla Visible Afflictions -->
     <afflictiondescription.gunshotwound>Входное отверстие - небольшое, чуть темное и немного кровоточит. На выходе все гораздо хуже - открытая рана, разорванная плоть и сильное кровотечение. Возможно заражение раны, и, скорее всего, внутри остались осколки пуль.</afflictiondescription.gunshotwound>
-    <afflictiondescription.gunshotwound.low>Пуля не задела важные органы и прошла навылет, но боль сильная, как и риск заражения раны. Также внутри могут быть осколки пуль.</afflictiondescription.gunshotwound.low>
+    <afflictiondescription.gunshotwound.low>Пуля не задела важные органы, но боль сильная, как и риск заражения раны. Также внутри могут быть осколки пуль.</afflictiondescription.gunshotwound.low>
 
     <afflictiondescription.blunttrauma>На месте ушиба уже налился синяк, прикосновение к которому причиняет боль. Возможно, сломана кость. Эту рану нельзя зашить.</afflictiondescription.blunttrauma>
     <afflictiondescription.blunttrauma.low>Есть небольшой синяк от удара, но переломов вроде бы нет. Эту рану нельзя зашить.</afflictiondescription.blunttrauma.low>
@@ -22,6 +22,10 @@
     <afflictiondescription.bleeding>Из рваной открытой раны фонтаном бьет кровь. Если рана достаточно сильная, то  она может разорвать артерию.</afflictiondescription.bleeding>
     <afflictiondescription.bleeding.low>Из раны медленно сочится кровь.</afflictiondescription.bleeding.low>
     <afflictiondescription.bleeding.high>Кровь струей хлещет из раны. Рана достаточно сильная и способна разорвать артерию.</afflictiondescription.bleeding.high>
+
+    <afflictiondescription.nausea>Кожа пациента покрыта потом, и его периодически рвет. Рвота вызывает алкалоз.</afflictiondescription.nausea>
+		<afflictiondescription.nausea.low>Слегка подташнивает, просто надо немного отдохнуть. Рвота вызывает алкалоз.</afflictiondescription.nausea.low>
+		<afflictiondescription.nausea.high>Ты в плохом состоянии. Стоит беспокоиться об этом или лучше отдохнуть? Рвота вызывает алкалоз.</afflictiondescription.nausea.high>
 
     <!-- NT Visible Afflictions -->
 
@@ -106,7 +110,7 @@
 
     <!-- NT Symptoms -->
     <afflictionname.tachycardia>Ускоренное сердцебиение</afflictionname.tachycardia>
-    <afflictiondescription.tachycardia>Сердцебиение аномально высокое. Если оно увеличивается, возникает потенциально смертельно опасная фибрилляция. Jбычно вызвано либо гипотензией, либо гипоксемией.</afflictiondescription.tachycardia>
+    <afflictiondescription.tachycardia>Сердцебиение аномально высокое. Если оно увеличивается, возникает потенциально смертельно опасная фибрилляция. Обычно вызвано либо гипотензией, либо гипоксемией.</afflictiondescription.tachycardia>
 
     <afflictionname.fibrillation>Фибрилляция</afflictionname.fibrillation>
     <afflictiondescription.fibrillation>Сердце сокращается быстро, слабо и обрывисто. Фибрилляция потенциально смертальная, обычно вызвана либо гипотензией, либо гипоксемией.</afflictiondescription.fibrillation>
@@ -154,7 +158,7 @@
     <afflictiondescription.sym_wheezing>При дыхании издаются посторонние звуки. Вызывается гемотрансфузионным шоком.</afflictiondescription.sym_wheezing>
 
     <afflictionname.sym_vomiting>Рвота</afflictionname.sym_vomiting>
-    <afflictiondescription.sym_vomiting>Периодическая рвота. Обычно вызывается повреждением почек, опьянением или гемотрансфузионным шоком.</afflictiondescription.sym_vomiting>
+    <afflictiondescription.sym_vomiting>Периодическая рвота. Обычно вызывается повреждением почек, опьянением или гемотрансфузионным шоком. Рвота вызывает алкалоз.</afflictiondescription.sym_vomiting>
 
     <afflictionname.sym_hematemesis>Рвота с кровью</afflictionname.sym_hematemesis>
     <afflictiondescription.sym_hematemesis>Периодическая рвота кровью. Обычно вызывается внутренним кровотечением или отказом печени.</afflictiondescription.sym_hematemesis>
@@ -205,7 +209,7 @@
     <afflictiondescription.pain_extremity>Сильная боль в конечности. Обычно вызывается вывихом или переломом.</afflictiondescription.pain_extremity>
 
     <afflictionname.sym_nausea>Тошнота</afflictionname.sym_nausea>
-    <afflictiondescription.sym_nausea>Состояние тошноты. Обычно вызывается повреждением почек, сотрясением, воздержанием от веществ или гемотрансфузионным шоком.</afflictiondescription.sym_nausea>
+    <afflictiondescription.sym_nausea>Состояние тошноты. Обычно вызывается повреждением почек, сотрясением, воздержанием от веществ или гемотрансфузионным шоком. Рвота вызывает алкалоз.</afflictiondescription.sym_nausea>
 
     <!-- NT Surgery -->
     <!-- Ones that appear on the right side of BHUI have title casing, similar to buffs -->
@@ -240,7 +244,7 @@
     <afflictiondescription.lungremoved>Легкие хирургически удалены. Орган необходим для насыщения кислородом крови. Повреждение легких обычно вызывается гипоксемией, огнестрельным ранением или частым курением.</afflictiondescription.lungremoved>
 
     <afflictionname.kidneyremoved>Удаленные почки</afflictionname.kidneyremoved>
-    <afflictiondescription.kidneyremoved>Почки хирургически удалены. Орган необходим для регуляции кислотности крови, костяных минералов и кровяного давления. Для человека необходима хотя бы 1 почка. Повреждение почек обычно вызывается гипоксемией или огнестрельным ранением.</afflictiondescription.kidneyremoved>
+    <afflictiondescription.kidneyremoved>Почки хирургически удалены. Орган необходим для регуляции ацидоза, здоровых костей и кровяного давления. Для человека необходима хотя бы 1 почка. Повреждение почек обычно вызывается гипоксемией или огнестрельным ранением.</afflictiondescription.kidneyremoved>
 
     <afflictionname.liverremoved>Печень удалена</afflictionname.liverremoved>
     <afflictiondescription.liverremoved>Печень хирургически удалена. Орган необходим для заживления кровотечений и регуляции кровяного давления. Повреждение печени обычно вызывается гипоксемией, огнестрельным ранением или сильным опьянением.</afflictiondescription.liverremoved>

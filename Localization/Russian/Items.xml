@@ -10,7 +10,7 @@
 
     <!-- Vanilla Tools -->
     <entityname.healthscanner>Сканер здоровья</entityname.healthscanner>
-    <entitydescription.healthscanner>Питаемый аккумулятором прибор, отображающий статусы. Он может быть прицелен на человека для сканирования всего тела, либо лечением в интерфейсе здоровья отобразить статус выбранной конечности. Использование вызывает небольшую ‖color:gui.red‖радиационную болезнь‖end‖. Не показывает группу крови, сепсис, иммунитет, кислотность крови, наркотики, ибо необходим ‖color:gui.blue‖гематологический анализатор‖end‖.</entitydescription.healthscanner>
+    <entitydescription.healthscanner>Питаемый аккумулятором прибор, отображающий статусы. Он может быть прицелен на человека для сканирования всего тела, либо лечением в интерфейсе здоровья отобразить статус выбранной конечности. Использование вызывает небольшую ‖color:gui.red‖радиационную болезнь‖end‖. Не показывает группу крови, сепсис, иммунитет, алкалоз, ацидоз, наркотики, ибо необходим ‖color:gui.blue‖гематологический анализатор‖end‖.</entitydescription.healthscanner>
 
     <entitydescription.wrench>Позволяет чинить механические устройства. Еще используется для вправления ‖color:gui.green‖вывихов‖end‖, что в два раза легче если пациент не чувствителен к боли.</entitydescription.wrench>
 
@@ -21,21 +21,21 @@
 
     <entitydescription.alienblood>Кровь одного из обитателей Европы. Она ‖color:gui.red‖несовместима‖end‖ с кровью человека.</entitydescription.alienblood>
 
-    <entitydescription.antibloodloss1>Инъекция раствора натрия и хлора, использующаяся для увеличения ‖color:gui.green‖кровяного давления‖end‖, и при этом увеличивает ‖color:gui.green‖кислотность крови‖end‖, ‖color:gui.red‖вызывая ацидоз‖end‖.</entitydescription.antibloodloss1>
+    <entitydescription.antibloodloss1>Инъекция раствора натрия и хлора, использующаяся для увеличения ‖color:gui.green‖кровяного давления‖end‖, при этом вызывает ‖color:gui.green‖ацидоз‖end‖. При неудачном применении действует менее эффективно.</entitydescription.antibloodloss1>
 
-    <entitydescription.antibleeding1>Обычный бинт, помогающий справиться с ‖color:gui.green‖кровотечениями‖end‖, и способствует заживлению ‖color:gui.green‖небольших ожогов‖end‖ и ‖color:gui.green‖ран‖end‖. При этом забинтованные конечности временно стабилизируют ‖color:gui.green‖переломы‖end‖, предотвращая внутренние травмы. При неудачном применении, он менее эффективен.</entitydescription.antibleeding1>
+    <entitydescription.antibleeding1>Обычный бинт, помогающий справиться с ‖color:gui.green‖кровотечениями‖end‖, и способствует заживлению ‖color:gui.green‖небольших ожогов‖end‖ и ‖color:gui.green‖ран‖end‖. При этом забинтованные конечности временно стабилизируют ‖color:gui.green‖переломы‖end‖, предотвращая внутренние травмы. При неудачном применении действует менее эффективно.</entitydescription.antibleeding1>
 
-    <entitydescription.antibleeding2>Синтетическая кожа с кровоостанавливающими свойствами, способная быстро исцелить ‖color:gui.green‖кровотечения‖end‖, является хорошим медикаментом против ‖color:gui.green‖небольших ожогов‖end‖, спобоствует заживлению ‖color:gui.green‖ран‖end‖. При применении на ‖color:gui.blue‖растянутой кожи‖end‖, полностью вылечивает ‖color:gui.green‖ожоги‖end‖ любой степени. При этом забинтованные конечности временно стабилизируют ‖color:gui.green‖переломы‖end‖, предотвращая внутренние травмы. При неудачном применении, он менее эффективен.</entitydescription.antibleeding2>
+    <entitydescription.antibleeding2>Синтетическая кожа с кровоостанавливающими свойствами, способная быстро исцелить ‖color:gui.green‖кровотечения‖end‖, является хорошим медикаментом против ‖color:gui.green‖небольших ожогов‖end‖, спобоствует заживлению ‖color:gui.green‖ран‖end‖. При применении на ‖color:gui.blue‖растянутой кожи‖end‖, полностью вылечивает ‖color:gui.green‖ожоги‖end‖ любой степени. При этом забинтованные конечности временно стабилизируют ‖color:gui.green‖переломы‖end‖, предотвращая внутренние травмы. При неудачном применении действует менее эффективно.</entitydescription.antibleeding2>
 
-    <entitydescription.opium>Относительно безопасный ‖color:gui.green‖анальгезирующий‖end‖ опиат, добываемый из водяного мака. Чаще всего используется в производстве морфина и фентанила. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.opium>
+    <entitydescription.opium>Относительно безопасный ‖color:gui.green‖анальгезирующий‖end‖ опиат, добываемый из водяного мака. Чаще всего используется в производстве морфина и фентанила. При неудачном применении действует менее эффективно и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.opium>
 
-    <entitydescription.antidama1>Сильный ‖color:gui.green‖анальгезирующий‖end‖ опиат, но при частом употреблении вызывает ‖color:gui.red‖зависимость‖end‖ и ‖color:gui.red‖передозировку‖end‖. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.antidama1>
+    <entitydescription.antidama1>Сильный ‖color:gui.green‖анальгезирующий‖end‖ опиат, но при частом употреблении вызывает ‖color:gui.red‖зависимость‖end‖ и ‖color:gui.red‖передозировку‖end‖. При неудачном применении действует менее эффективно и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.antidama1>
 
-    <entitydescription.antidama2>Очень сильный ‖color:gui.green‖анальгезирующий‖end‖ опиат, но при частом употреблении вызывает ‖color:gui.red‖зависимость‖end‖ и ‖color:gui.red‖передозировку‖end‖. Анальгезия не только подавляет ‖color:gui.green‖боль‖end‖, но и ‖color:gui.green‖поддерживает ткань‖end‖ против урона. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.antidama2>
+    <entitydescription.antidama2>Очень сильный ‖color:gui.green‖анальгезирующий‖end‖ опиат, но при частом употреблении вызывает ‖color:gui.red‖зависимость‖end‖ и ‖color:gui.red‖передозировку‖end‖. Анальгезия не только подавляет ‖color:gui.green‖боль‖end‖, но и ‖color:gui.green‖поддерживает ткань‖end‖ против урона. При неудачном применении действует менее эффективно и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖передозировки‖end‖.</entitydescription.antidama2>
 
-    <entitydescription.antinarc>Препарат, нейтрализующий опиатные ‖color:gui.green‖воздержание‖end‖ и ‖color:gui.green‖передозировку‖end‖. При этом снижает ‖color:gui.green‖анальгезирующий‖end‖ эффект от опиатов. При неудачном применении, он менее эффективен и есть риск короткой ‖color:gui.red‖комы‖end‖.</entitydescription.antinarc>
+    <entitydescription.antinarc>Препарат, нейтрализующий опиатные ‖color:gui.green‖воздержание‖end‖ и ‖color:gui.green‖передозировку‖end‖. При этом снижает ‖color:gui.green‖анальгезирующий‖end‖ эффект от опиатов. При неудачном применении действует менее эффективно и есть риск короткой ‖color:gui.red‖комы‖end‖.</entitydescription.antinarc>
 
-    <entitydescription.antibiotics>Антибиотик, уничтожающий большинство болезнетворных бактерий, делая его эффективным медикаментом от ‖color:gui.green‖сепсиса‖end‖ и в меньшей степени, ‖color:gui.green‖заражения паразитами‖end‖. Однако, он обладает пониженной специфичностью и вызывает ‖color:gui.red‖повреждение органов‖end‖. Используется в качестве компонента многих медикаментов. При неудачном применении, он менее эффективен.</entitydescription.antibiotics>
+    <entitydescription.antibiotics>Антибиотик, уничтожающий большинство болезнетворных бактерий, делая его эффективным медикаментом от ‖color:gui.green‖сепсиса‖end‖ и в меньшей степени, ‖color:gui.green‖заражения паразитами‖end‖. Однако, он обладает пониженной специфичностью и вызывает ‖color:gui.red‖повреждение органов‖end‖. Используется в качестве компонента многих медикаментов. При неудачном применении действует менее эффективно эффективен.</entitydescription.antibiotics>
 
     <entitydescription.adrenaline>Природный гормон, полезный в качестве стимулятора, вызывающий такие эффекты как увеличение ‖color:gui.green‖кровяного давления‖end‖, снижение ‖color:gui.green‖восприимчивости к оглушению‖end‖, укреплению ‖color:gui.green‖быстро сокращающихся мышц‖end‖ и улучшению ‖color:gui.green‖функций сердца‖end‖ в моменте стресса. При этом, он активизирует ‖color:gui.green‖остановленное сердце‖end‖ и предотвратит ‖color:gui.green‖боль‖end‖. Может использоваться для изготовления лекарств и боевых стимуляторов.</entitydescription.adrenaline>
 
@@ -45,15 +45,15 @@
 
     <entitydescription.liquidoxygenite>‖color:gui.red‖Токсичный‖end‖ шприц с кислородитом который можно ввести, принудительно ‖color:gui.green‖насыщая кислородом кровь‖end‖ на короткий промежуток времени. Однако, токсичность кислородита вызывает немного ‖color:gui.red‖повреждения органов‖end‖. При неудачном применении, насыщение ‖color:gui.red‖моментально‖end‖ и ‖color:gui.red‖органам наносится дополнительный вред‖end‖. Гипоксемия вызывает нейротравму и повреждения органов, являясь собой главным источником смертей от боевых ранений.</entitydescription.liquidoxygenite>
 
-    <entitydescription.deusizine>Стимулятор увеличивающий ‖color:gui.green‖выносливость мускулатуры‖end‖ и используется как медикамент для лечения ‖color:gui.green‖внутренних травм‖end‖, ‖color:gui.green‖кислородного голодания‖end‖ и ‖color:gui.green‖кровопотери‖end‖. При неудачном применении, он менее эффективен.</entitydescription.deusizine>
+    <entitydescription.deusizine>Стимулятор увеличивающий ‖color:gui.green‖выносливость мускулатуры‖end‖ и используется как медикамент для лечения ‖color:gui.green‖внутренних травм‖end‖, ‖color:gui.green‖кислородного голодания‖end‖ и ‖color:gui.green‖кровопотери‖end‖. При неудачном применении действует менее эффективно.</entitydescription.deusizine>
 
     <entitydescription.antibleeding3>Антибиотический клей с кровоостанавливающими свойствами. Почти мгновенно останавливает  ‖color:gui.green‖кровотечение‖end‖ и предотвращает ‖color:gui.green‖заражение раны‖end‖. Также эффективен против ‖color:gui.green‖ожогов‖end‖. Используйте с осторожностью, так как при неудаче оно может вызвать ‖color:gui.red‖подвижные тромбы‖end‖ в кровеносной системе.</entitydescription.antibleeding3>
 
-    <entitydescription.meth>Сильнодействующий стимулятор нервной системы, временно повышающий ‖color:gui.green‖скорость мускулатуры‖end‖. Однако, он вызывает ‖color:gui.red‖зависимость‖end‖, слегка повреждает ‖color:gui.red‖органы‖end‖ и вызывает немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении, он менее эффективен, вызывает более сильную ‖color:gui.red‖зависимость‖end‖ и нанесет больше ‖color:gui.red‖повреждений‖end‖.</entitydescription.meth>
+    <entitydescription.meth>Сильнодействующий стимулятор нервной системы, временно повышающий ‖color:gui.green‖скорость мускулатуры‖end‖. Однако, он вызывает ‖color:gui.red‖зависимость‖end‖, слегка повреждает ‖color:gui.red‖органы‖end‖ и вызывает немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении действует менее эффективно, вызывает более сильную ‖color:gui.red‖зависимость‖end‖ и нанесет больше ‖color:gui.red‖повреждений‖end‖.</entitydescription.meth>
 
-    <entitydescription.steroids>Временно повышает ‖color:gui.green‖силу мускулатуры‖end‖ и ‖color:gui.green‖выносливость‖end‖. Он вызывает зависимость. При неудачном применении, он менее эффективен и вызывает более сильную ‖color:gui.red‖зависимость‖end‖.</entitydescription.steroids>
+    <entitydescription.steroids>Временно повышает ‖color:gui.green‖силу мускулатуры‖end‖ и ‖color:gui.green‖выносливость‖end‖. Он вызывает зависимость. При неудачном применении действует менее эффективно и вызывает более сильную ‖color:gui.red‖зависимость‖end‖.</entitydescription.steroids>
 
-    <entitydescription.hyperzine>Крайне мощный мышечный стимулятор - то что нужно, чтобы совершить тот самый важный рывок. Повышает ‖color:gui.green‖силу мускулатуры‖end‖, ‖color:gui.green‖выносливость‖end‖ и ‖color:gui.green‖скорость‖end‖, понижает ‖color:gui.green‖восприимчивость к оглушению‖end‖. Он вызывает ‖color:gui.red‖зависимость‖end‖ и немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении, он менее эффективен и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖нейротравмы‖end‖.</entitydescription.hyperzine>
+    <entitydescription.hyperzine>Крайне мощный мышечный стимулятор - то что нужно, чтобы совершить тот самый важный рывок. Повышает ‖color:gui.green‖силу мускулатуры‖end‖, ‖color:gui.green‖выносливость‖end‖ и ‖color:gui.green‖скорость‖end‖, понижает ‖color:gui.green‖восприимчивость к оглушению‖end‖. Он вызывает ‖color:gui.red‖зависимость‖end‖ и немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении действует менее эффективно и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖нейротравмы‖end‖.</entitydescription.hyperzine>
 
     <entitydescription.antipsychosis>Сильный ‖color:gui.green‖антипсихотический‖end‖ препарат.</entitydescription.antipsychosis>
 
@@ -63,7 +63,7 @@
 
     <entitydescription.nitroglycerin>Крайне неустойчивая жидкость, которая может взорваться при нагревании или от удара. При приеме внутрь, он вызовет расширение сосудов и понизит ‖color:gui.green‖кровяное давление‖end‖.</entitydescription.nitroglycerin>
 
-    <entitydescription.pomegrenadeextract>Концентрированный сок взрывного граната. Обладает некоторыми ‖color:gui.green‖ранозаживляющими‖end‖ свойствами, в том числе ‖color:gui.green‖зашитые раны‖end‖.</entitydescription.pomegrenadeextract>
+    <entitydescription.pomegrenadeextract>Концентрированный сок взрывного граната. Обладает некоторыми ‖color:gui.green‖ранозаживляющими‖end‖ свойствами, в том числе ‖color:gui.green‖зашитые раны‖end‖. При неудачном применении действует менее эффективно.</entitydescription.pomegrenadeextract>
 
     <entitydescription.combatstimulantsyringe>Усовершенствованный стимулятор, быстро излечивает пользователя от ‖color:gui.green‖ран‖end‖, ‖color:gui.green‖ожогов‖end‖ и ‖color:gui.green‖кровопотери‖end‖. Также воздействие свертывающего реагента залечит ‖color:gui.green‖внешние‖end‖ и ‖color:gui.green‖внутренние кровотечения‖end‖. Он вызывает ‖color:gui.red‖зависимость‖end‖. При неудачном применении, он вызовет больше ‖color:gui.red‖зависимости‖end‖.</entitydescription.combatstimulantsyringe>
 
@@ -72,6 +72,8 @@
     <entitydescription.rum>Выпивка на основе сока бича раптора или взрывного граната. Пуристы считают, что настоящий ром можно сделать только из сахарного тростника – но попробуй найди его на Европе. Его высокое содержание алкоголя достаточно что бы истребить раннее ‖color:gui.green‖заражение паразитом‖end‖, но чрезмерное употребление вредно для печени.</entitydescription.rum>
 
     <entitydescription.divingknife>Режет, колет, рубит и рассекает. Также используется чтобы снять старые ‖color:gui.green‖бинты‖end‖. При неудачном применении, вызывает ‖color:gui.red‖рваные раны‖end‖ и ‖color:gui.red‖кровотечение‖end‖.</entitydescription.divingknife>
+
+    <entitydescription.raptorbaneextract>Концентрированный сок бича раптора. Умеренно токсичен для людей, катастрофически токсичен для грязевых рапторов. При применении вызывает рвоту у людей, что является достойным лечением ‖color:gui.green‖ацидоза‖end‖. При неудачном применении, он не вызывает рвоту.</entitydescription.raptorbaneextract>
 
     <!-- NT Tools -->
     <entityname.defibrillator>Ручной дефибриллятор</entityname.defibrillator>
@@ -87,7 +89,7 @@
     <entitydescription.autocpr>Механизм занимающий слот верхней одежды. После некоторого времени, лечит ‖color:gui.green‖остановку сердца‖end‖ и ‖color:gui.green‖фибрилляцию‖end‖. Предотвращает отрицательные эффекты от статуса ‖color:gui.green‖остановки дыхания‖end‖. Ношение АвтоПульса дополнительно увеличивает ‖color:gui.green‖кровяное давление‖end‖ во время использования, что может быть полезно в экстренной ситуации. Не забудьте снять его, если он больше не нужен!</entitydescription.autocpr>
 
     <entityname.bloodanalyzer>Гематологический анализатор</entityname.bloodanalyzer>
-    <entitydescription.bloodanalyzer>Инструмент который отображает иммунитет, группу и резус фактор крови. Также способен показать кровопотерю, сепсис, аномальную кислотность крови или действующие препараты в кровотоке. Если в слоте устройства находится ‖color:gui.blue‖пустая карта донора‖end‖, он распечатает группу и резус фактор крови в удостоверение личности пациента, если там есть пустой слот. Использование гематологического анализатора требует немного ‖color:gui.red‖крови‖end‖.</entitydescription.bloodanalyzer>
+    <entitydescription.bloodanalyzer>Инструмент который отображает иммунитет, группу и резус фактор крови. Также способен показать кровопотерю, сепсис, алкалоз, ацидоз, действующие препараты в кровотоке. Если в слоте устройства находится ‖color:gui.blue‖пустая карта донора‖end‖, он распечатает группу и резус фактор крови в удостоверение личности пациента, если там есть пустой слот. Использование гематологического анализатора требует немного ‖color:gui.red‖крови‖end‖.</entitydescription.bloodanalyzer>
 
     <entityname.bloodcollector>Пустая карта донора</entityname.bloodcollector>
     <entitydescription.bloodcollector>Пустая карта использующаяся в ‖color:gui.blue‖гематологическом анализаторе‖end‖, чтобы распечатать карту донора для пациента.</entitydescription.bloodcollector>
@@ -105,8 +107,8 @@
     <entitydescription.bodybag>Мешок носимый в слоте верхней одежды. Позволяет тащить пациента или труп в ‖color:gui.green‖полной скорости‖end‖, но еще живой человек не сможет дышать через мешок, что вызывает ‖color:gui.red‖кислородное голодание‖end‖.</entitydescription.bodybag>
 
     <entityname.stasisbag>Стазис мешок</entityname.stasisbag>
-    <entitydescription.stasisbag>Мешок носимый в слоте верхней одежды. Позволяет тащить пациента или труп в ‖color:gui.green‖полной скорости‖end‖. При ношении живым человеком он вызывает ‖color:gui.red‖остановку сердца‖end‖, ‖color:gui.red‖остановку дыхания‖end‖, ‖color:gui.red‖бессознательность‖end‖ и ‖color:gui.red‖запрещает проводить хирургию‖end‖, но при этом ‖color:gui.green‖приостанавливает большинство ухудшающих здоровье эффектов‖end‖. Мешок портится на 1% каждые 4 секунды активного ношения.</entitydescription.stasisbag>
-    <stasisbagequipconfirmation>После надевания Вы ‖color:gui.red‖потеряете сознание‖end‖. Вы уверены что хотите надеть стазис мешок?</stasisbagequipconfirmation>
+    <entitydescription.stasisbag>Мешок носимый в слоте верхней одежды, защищает от давления до 10,000 метров. Позволяет тащить пациента или труп в ‖color:gui.green‖полной скорости‖end‖. При ношении живым человеком он вызывает ‖color:gui.red‖остановку сердца‖end‖, ‖color:gui.red‖остановку дыхания‖end‖, ‖color:gui.red‖бессознательность‖end‖ и ‖color:gui.red‖запрещает проводить хирургию‖end‖, но при этом ‖color:gui.green‖приостанавливает большинство ухудшающих здоровье эффектов‖end‖. Мешок портится на 1% каждые 4 секунды активного ношения.</entitydescription.stasisbag>
+    <stasisbagequipconfirmation>После надевания Вы потеряете сознание. Вы уверены что хотите надеть стазис мешок?</stasisbagequipconfirmation>
 
     <!-- NT Surgery -->
     <entityname.advscalpel>Скальпель</entityname.advscalpel>
@@ -185,7 +187,7 @@
 
     <!-- NT Blood -->
     <entityname.emptybloodpack>Пустой пакет для крови</entityname.emptybloodpack>
-    <entitydescription.emptybloodpack>Пустой пакет для переливания крови. При наполнении пакета, учитывается ‖color:gui.red‖кислотность крови‖end‖ и наличие ‖color:gui.red‖сепсиса‖end‖ у донора. Брать один пакет крови у донора безопасно, если донор здоров. При неудачном изъятии крови, донор потеряет ‖color:gui.red‖потенциально смертельное‖end‖ количество крови.</entitydescription.emptybloodpack>
+    <entitydescription.emptybloodpack>Пустой пакет для переливания крови. При наполнении пакета, учитывается наличие у донора ‖color:gui.red‖алкалоза‖end‖, ‖color:gui.red‖ацидоза‖end‖, ‖color:gui.red‖сепсиса‖end‖. Брать один пакет крови у донора безопасно, если донор здоров. При неудачном изъятии крови, донор потеряет ‖color:gui.red‖потенциально смертельное‖end‖ количество крови.</entitydescription.emptybloodpack>
 
     <entityname.bloodpackoplus>Пакет крови O+</entityname.bloodpackoplus>
     <entitydescription.bloodpackoplus>Можно переливать реципиентам с: O+, A+, B+, AB+</entitydescription.bloodpackoplus>
@@ -320,7 +322,7 @@
 
     <!-- NT Treatments -->
     <entityname.mannitol>Маннитол</entityname.mannitol>
-    <entitydescription.mannitol>Сахарный спирт применяемый для лечения ‖color:gui.green‖нейротравмы‖end‖. Важно помнить, что это лекарство имеет наилучшую эффективность при ‖color:gui.red‖кровяном давлении‖end‖ выше 70% и при ‖color:gui.red‖гипоксемии‖end‖ ниже 30%. Вызывает повреждение ‖color:gui.red‖сердца‖end‖ и ‖color:gui.red‖почек‖end‖. При неудачном применении, лекарство будет менее эффективно и вызовет больше повреждений ‖color:gui.red‖сердца‖end‖ и ‖color:gui.red‖почек‖end‖.</entitydescription.mannitol>
+    <entitydescription.mannitol>Сахарный спирт применяемый для лечения ‖color:gui.green‖нейротравмы‖end‖. Важно помнить, что это лекарство имеет наилучшую эффективность при ‖color:gui.red‖кровяном давлении‖end‖ выше 70% и при ‖color:gui.red‖гипоксемии‖end‖ ниже 30%. Вызывает повреждение ‖color:gui.red‖сердца‖end‖ и ‖color:gui.red‖почек‖end‖. При неудачном применении действует менее эффективно и вызовет больше повреждений ‖color:gui.red‖сердца‖end‖ и ‖color:gui.red‖почек‖end‖.</entitydescription.mannitol>
 
     <entityname.streptokinase>Стрептокиназа</entityname.streptokinase>
     <entitydescription.streptokinase>Фермент, разрушающий кровяные сгустки. Лечит ‖color:gui.green‖инфаркт‖end‖ и ‖color:gui.green‖гемотрансфузионный шок‖end‖. По неясной причине усугубляет течение ‖color:gui.red‖инсульта‖end‖.</entitydescription.streptokinase>

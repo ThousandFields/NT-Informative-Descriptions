@@ -27,13 +27,13 @@
         <afflictiondescription.ntc_cyberleg>Эта неорганическая нога невосприимчива к биологическим повреждениям, но требует ремонта чтобы быть эффективной. Она может быть грубо удалена ломом.</afflictiondescription.ntc_cyberleg>
 
         <afflictionname.ntc_loosescrews>Расшатанные винты</afflictionname.ntc_loosescrews>
-        <afflictiondescription.ntc_loosescrews>Винты расшатались в результате физической травмы или от остальных раскрученных винтов. Если винты не будут затяниты отверткой, движение может ослабить больше винтов.</afflictiondescription.ntc_loosescrews>
+        <afflictiondescription.ntc_loosescrews>Винты расшатались в результате физической травмы или от остальных расшатанных винтов. Если винты не будут затянуты отверткой, движение может ослабить больше винтов.</afflictiondescription.ntc_loosescrews>
 
         <afflictionname.ntc_damagedelectronics>Поврежденная электроника</afflictionname.ntc_damagedelectronics>
         <afflictiondescription.ntc_damagedelectronics>Хрупкие электрические схемы были повреждены водой или физической травмой. Если поврежденная электроника не заменена используя схемы на базе ППВМ, то конечность может иногда давать сбои.</afflictiondescription.ntc_damagedelectronics>
 
         <afflictionname.ntc_bentmetal>Погнутый металл</afflictionname.ntc_bentmetal>
-        <afflictiondescription.ntc_bentmetal>Конечость была погнута в результате физической травмы, затрудняя ее пользование. Её можно выровненять используя сварочный аппарат.</afflictiondescription.ntc_bentmetal>
+        <afflictiondescription.ntc_bentmetal>Конечость была погнута в результате физической травмы, затрудняя ее пользование. Её можно выровнять используя сварочный аппарат.</afflictiondescription.ntc_bentmetal>
 
         <afflictionname.ntc_materialloss>Потеря материала</afflictionname.ntc_materialloss>
         <afflictiondescription.ntc_materialloss>Конечность потеряла материал в результате физической травмы. Она может быть восстановлена используя сталь. Если сила потери материала слишком большая, то конечность будет уничтожена. Расшатанные винты увеличивают потерю материала.</afflictiondescription.ntc_materialloss>

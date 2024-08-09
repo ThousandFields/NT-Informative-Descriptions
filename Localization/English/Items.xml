@@ -16,7 +16,7 @@
 		
 		<!-- Vanilla Items -->
 		<entitydescription.idcard>Allows limited access to areas of the sub. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</entitydescription.idcard>
-
+		<NTID.idcard_suffix>A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</NTID.idcard_suffix>
 		<!--idcardnamejob>This belongs to [name], the [job]. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</idcardnamejob-->
 
 		<entitydescription.alienblood>Blood extracted from a Europan lifeform. It is ‖color:gui.red‖incompatible‖end‖ with human blood.</entitydescription.alienblood>

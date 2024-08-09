@@ -15,7 +15,7 @@
     
     <!-- 原版物品 -->
     <entitydescription.idcard>允许有限进入潜艇的区域。可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。</entitydescription.idcard>
-    
+    <NTID.idcard_suffix>可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。</NTID.idcard_suffix>
     <!--idcardnamejob>这属于[name]，他的职业是[job]。可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。</idcardnamejob-->
     
     <entitydescription.alienblood>从欧罗巴生物体中提取的血液。与人类血液‖color:gui.red‖不兼容‖end‖。</entitydescription.alienblood>

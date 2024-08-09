@@ -209,7 +209,7 @@
     <afflictiondescription.pain_extremity>Сильная боль в конечности. Обычно вызывается вывихом или переломом.</afflictiondescription.pain_extremity>
 
     <afflictionname.sym_nausea>Тошнота</afflictionname.sym_nausea>
-    <afflictiondescription.sym_nausea>Состояние тошноты. Обычно вызывается повреждением почек, сотрясением, воздержанием от веществ или гемотрансфузионным шоком. Рвота вызывает алкалоз.</afflictiondescription.sym_nausea>
+    <afflictiondescription.sym_nausea>Состояние тошноты. Обычно вызывается повреждением почек, сотрясением, воздержанием от веществ или гемотрансфузионным шоком. Тошнота вызывает алкалоз.</afflictiondescription.sym_nausea>
 
     <!-- NT Surgery -->
     <!-- Ones that appear on the right side of BHUI have title casing, similar to buffs -->

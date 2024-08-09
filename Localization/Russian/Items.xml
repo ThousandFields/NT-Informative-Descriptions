@@ -16,7 +16,7 @@
 
     <!-- Vanilla Items -->
     <entitydescription.idcard>Обеспечивает ограниченный доступ в различные части подлодки. Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</entitydescription.idcard>
-
+	<NTID.idcard_suffix>Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</NTID.idcard_suffix>
     <!--idcardnamejob>This belongs to [name], the [job]. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</idcardnamejob-->
 
     <entitydescription.alienblood>Кровь одного из обитателей Европы. Она ‖color:gui.red‖несовместима‖end‖ с кровью человека.</entitydescription.alienblood>

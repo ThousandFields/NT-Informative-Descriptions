@@ -1,12 +1,12 @@
 if SERVER then return end
 local modconfig = require("modconfig")
+local idcardsuffixes = require("idcardsuffixes")
 local TextFile = LuaUserData.CreateStatic("Barotrauma.TextFile", true)
 local pkg
 local FileList = {}
 
 LuaUserData.MakeFieldAccessible(Descriptors["Barotrauma.GameSettings"], "currentConfig")
 local ClientLanguage = tostring(GameSettings.currentConfig.Language)
-local localizationTrimmed = string.sub(ClientLanguage, 2) .. ".xml"
 
 
 for package in ContentPackageManager.EnabledPackages.All do
@@ -16,7 +16,6 @@ for package in ContentPackageManager.EnabledPackages.All do
         break
     end
 end
-
 
 function EnableTextFile(file, workshopId)
     local targetPackage
@@ -58,10 +57,11 @@ function EnableTextFile(file, workshopId)
     return true
 end
 
-function EnableTextFiles(files)
+function EnableTextFiles(files, language)
+    if not language then language = ClientLanguage end
     for file in files do
         file = StripModDir(file)
-        file = string.gsub(file, "%%Language%%", ClientLanguage)
+        file = string.gsub(file, "%%Language%%", language)
         if not EnableTextFile(file) then
             return false
         end
@@ -69,8 +69,9 @@ function EnableTextFiles(files)
     return true
 end
 
-function DisableTextPackage(workshopId)
+function DisableTextPackage(workshopId, language)
     local targetPackage
+    local languageTrimmed = string.sub(language, 2) .. ".xml"
     for package in ContentPackageManager.EnabledPackages.All do
         if tostring(package.UgcId) == workshopId then
             targetPackage = package
@@ -84,7 +85,7 @@ function DisableTextPackage(workshopId)
     end
 
     for file in targetPackage.Files do
-        if LuaUserData.IsTargetType(file, "Barotrauma.TextFile") and string.endsWith(file.Path.Value, localizationTrimmed) then
+        if LuaUserData.IsTargetType(file, "Barotrauma.TextFile") and string.endsWith(file.Path.Value, languageTrimmed) then
             file.UnloadFile()
             --print("Disabled " .. file.Path.Value .. " in package ", workshopId)
             break
@@ -146,19 +147,17 @@ end
 function LoadPatches()
     table.sort(modconfig, IsFirstHigherPriority)
 
-    for _, value in pairs(modconfig) do
+    for _, patch in pairs(modconfig) do
         local files = {}
         local modname = ""
 
-        if ClientHasSupportedLanguage(value.supportedlanguages) then
-            if value.IgnoreTargetModState or IsModEnabled(value.workshopId) then
-                if value.workshopId ~= nil and value.workshopId ~= "" then
-                    DisableTextPackage(value.workshopId)
-                    modname = GetPackageById(value.workshopId).name
-                end
+        if patch.IgnoreTargetModState or IsModEnabled(patch.workshopId) then
+            for language in patch.supportedlanguages do
+                DisableTextPackage(patch.workshopId, language)
+                modname = GetPackageById(patch.workshopId).name
 
-                if EnableTextFiles(value.files) and modname ~= nil and modname ~= "" then
-                    print("Enabled NTID patch for " .. modname)
+                if not EnableTextFiles(patch.files, language) then
+                    print("Errors enabling NTID files")
                 end
             end
         end
@@ -186,23 +185,76 @@ end
 
 function ReloadModsLocalization()
     for package in ContentPackageManager.EnabledPackages.All do
-        for file in package.Files do
-            if LuaUserData.IsTargetType(file, "Barotrauma.TextFile") and string.endsWith(file.Path.Value, "nglish.xml") then
-                file.LoadFile()
-                --print("Reenabled " .. file.Path.Value .. " in package ", workshopId)
+        for _, patch in pairs(modconfig) do
+            if tostring(package.UgcId) == patch.workshopId then
+                for file in package.Files do
+                    if LuaUserData.IsTargetType(file, "Barotrauma.TextFile") then
+                        file.LoadFile()
+                        --print("Reenabled " .. file.Path.Value .. " in package ", workshopId)
+                    end
+                end
+                break
             end
         end
     end
 end
 
-Hook.Add("stop", "NTIDCleanUp", function ()
-    UnloadPatches()
-    ReloadModsLocalization()
-end)
+
+function AppendIdcard(instance, spawnPoint, character)
+    if spawnPoint ~= nil then
+        if string.find(spawnPoint.IdCardDesc, "%S") then
+            obj = instance.item
+            obj.Description = obj.Description .. " " .. idcardsuffixes[ClientLanguage]
+        end
+    end
+end
 
 
-Game.AddCommand("reloadNTID", "Reloads  NT Informative Descriptions.", function()
+function UpdateIdCards()
+    -- retuns empty string if unsupported localization
+    local idcard_suffix = idcardsuffixes[ClientLanguage]
+    if idcard_suffix == nil or idcard_suffix == "" then
+        return
+    end
 
+    -- characterInfos = Game.GameSession.CrewManager.characterInfos
+
+    -- for info in characterInfos do 
+    --     print(info.Name)
+    -- end
+
+    -- mainSubSpawnPoints = WayPoint.SelectCrewSpawnPoints(characterInfos, Submarine.MainSub)
+
+    for item in Item.ItemList do
+        if item.Prefab.Identifier.Value == "idcard" then
+            OriginalDescription = TextManager.Get("EntityDescription." .. item.Prefab.Identifier.Value)
+            if item.Description ~= OriginalDescription then
+                item.Description = tostring(item.Description) .. " " .. idcard_suffix
+            end
+        end
+    end
+end
+
+
+function CleanUpIdCards()
+    local description
+    for item in Item.ItemList do
+        if item.Prefab.Identifier.Value == "idcard" then
+            OriginalDescription = TextManager.Get("EntityDescription." .. item.Prefab.Identifier.Value)
+            if item.Description ~= OriginalDescription then
+                description = tostring(item.Description)
+                for suffix in idcardsuffixes do
+                    description = string.gsub(description, " " .. suffix, "")
+                end
+                item.Description = description
+            end
+        end
+    end
+
+end
+
+
+function ReloadNTID()
     if pkg == nil then
         print("Package not found.")
         return
@@ -214,19 +266,45 @@ Game.AddCommand("reloadNTID", "Reloads  NT Informative Descriptions.", function(
     modconfig = {}
     modconfig = dofile(NTID.Path .. "/Lua/modconfig.lua")
     LoadPatches()
+    CleanUpIdCards()
+    UpdateIdCards()
+end
 
-    ContentPackageManager.EnabledPackages.EnableRegular(pkg)
-    local result = ContentPackageManager.ReloadContentPackage(pkg)
-    if result.IsFailure then
-        print(result.Error)
-        return
-    end
+function ReloadIdCards()
+    ClientLanguage = tostring(GameSettings.currentConfig.Language)
+    CleanUpIdCards()
+    UpdateIdCards()
+end
 
+
+Hook.Add("stop", "NTIDCleanUp", function ()
+    UnloadPatches()
+    ReloadModsLocalization()
+end)
+
+
+Hook.Patch("Barotrauma.GameSettings", "SaveCurrentConfig", function(instance, ptable)
+    ReloadIdCards()
+end, Hook.HookMethodType.After)
+
+
+Hook.Patch("Barotrauma.Items.Components.IdCard", "Initialize", function(instance, ptable)
+    AppendIdcard(instance, ptable["spawnPoint"], ptable["character"])
+end, Hook.HookMethodType.After)
+
+-- Hook.Patch("Barotrauma.Items.Components.IdCard", "OnItemLoaded", function(instance, ptable)
+--     print("id card testing 2")
+--     AppendIdcard(instance)
+-- end, Hook.HookMethodType.After)
+
+
+Game.AddCommand("reloadNTID", "Reloads  NT Informative Descriptions.", function()
+    ReloadNTID()
     print("NTID reloaded.")
 end, GetValidArguments)
 
 
-
-
 LoadPatches()
---ContentPackageManager.ReloadContentPackage(pkg) This somehow causes mod to unload on leaving server?
+CleanUpIdCards()
+UpdateIdCards()
+--ContentPackageManager.ReloadContentPackage(pkg)

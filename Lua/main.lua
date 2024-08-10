@@ -7,7 +7,7 @@ local FileList = {}
 
 LuaUserData.MakeFieldAccessible(Descriptors["Barotrauma.GameSettings"], "currentConfig")
 local ClientLanguage = tostring(GameSettings.currentConfig.Language)
-
+local prev_language = ClientLanguage
 
 for package in ContentPackageManager.EnabledPackages.All do
     local path = string.gsub(tostring(package.Dir),"\\","/")
@@ -118,7 +118,7 @@ function IsModEnabled(workshopId)
     return value
 end
 
-function IsFirstHigherPriority(a, b)
+local function IsFirstHigherPriority(a, b)
     if a.loadpriority > b.loadpriority then
         return true
     else
@@ -175,7 +175,7 @@ function StripModDir(filepath)
     return filepath
 end
 
-function UnloadPatches()
+local function UnloadPatches()
     for file in FileList  do
         --print("Unloading ", file.Path.Value)
         file.UnloadFile()
@@ -253,6 +253,14 @@ function CleanUpIdCards()
 
 end
 
+function LanguageChanged()
+    ClientLanguage = tostring(GameSettings.currentConfig.Language)
+    if ClientLanguage ~= prev_language then
+        prev_language = ClientLanguage
+        return true
+    end
+    return false
+end
 
 function ReloadNTID()
     if pkg == nil then
@@ -271,7 +279,6 @@ function ReloadNTID()
 end
 
 function ReloadIdCards()
-    ClientLanguage = tostring(GameSettings.currentConfig.Language)
     CleanUpIdCards()
     UpdateIdCards()
 end
@@ -284,7 +291,9 @@ end)
 
 
 Hook.Patch("Barotrauma.GameSettings", "SaveCurrentConfig", function(instance, ptable)
-    ReloadIdCards()
+    if LanguageChanged() then
+        ReloadIdCards()
+    end
 end, Hook.HookMethodType.After)
 
 
@@ -298,10 +307,13 @@ end, Hook.HookMethodType.After)
 -- end, Hook.HookMethodType.After)
 
 
+
+
 Game.AddCommand("reloadNTID", "Reloads  NT Informative Descriptions.", function()
     ReloadNTID()
     print("NTID reloaded.")
 end, GetValidArguments)
+
 
 
 LoadPatches()

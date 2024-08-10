@@ -118,7 +118,7 @@ function IsModEnabled(workshopId)
     return value
 end
 
-local function IsFirstHigherPriority(a, b)
+function IsFirstHigherPriority(a, b)
     if a.loadpriority > b.loadpriority then
         return true
     else
@@ -175,7 +175,7 @@ function StripModDir(filepath)
     return filepath
 end
 
-local function UnloadPatches()
+function UnloadPatches()
     for file in FileList  do
         --print("Unloading ", file.Path.Value)
         file.UnloadFile()

@@ -360,5 +360,7 @@
 		<entityname.gypsum>Gypsum</entityname.gypsum>
 		<entitydescription.gypsum>A powder that can be formed into a cast. It is used to encase ‖color:gui.green‖long bone fractures‖end‖, allowing them to heal. Used after ‖color:gui.blue‖bandaging‖end‖ the limb. On failure, it is consumed without forming a cast.</entitydescription.gypsum>
 	
+		<entityname.gelipack>Gel Ice Pack</entityname.gelipack>
+		<entitydescription.gelipack>Placeholder. On failure,.</entitydescription.gelipack>
 	</Override>
 </infotexts>

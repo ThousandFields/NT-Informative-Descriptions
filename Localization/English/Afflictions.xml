@@ -302,6 +302,9 @@
 		<afflictionname.suturedw>Stitched wound</afflictionname.suturedw>
 		<afflictiondescription.suturedw>Wounds have been sutured shut. Sutured wounds will heal much faster than open wounds, and are impervious to infection.</afflictiondescription.suturedw>
 
+		<afflictionname.gelipack>Chilled</afflictionname.gelipack>
+		<afflictiondescription.gelipack>Placeholder.</afflictiondescription.gelipack>
+
 		<!-- NT Meta -->
 		<afflictionname.luabotomy>Lualess</afflictionname.luabotomy>
 		<afflictiondescription.luabotomy>Lua isn't running. That means neurotrauma and any other mods that use it won't work. Please read the workshop pages of mods you plan to use.</afflictiondescription.luabotomy>

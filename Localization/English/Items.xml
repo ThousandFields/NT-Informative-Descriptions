@@ -55,9 +55,9 @@
 		
 		<entitydescription.hyperzine>An extremely potent muscle stimulant for those moments when you gotta go fast. Boosts ‖color:gui.green‖muscular strength‖end‖, ‖color:gui.green‖endurance‖end‖, and ‖color:gui.green‖speed‖end‖, and reduces ‖color:gui.green‖stun susceptibility‖end‖. It is ‖color:gui.red‖addictive‖end‖ and causes a small amount of ‖color:gui.red‖brain damage‖end‖. On failure, it is more ‖color:gui.red‖addictive‖end‖ and causes more ‖color:gui.red‖brain damage‖end‖.</entitydescription.hyperzine>
 		
-		<entitydescription.antipsychosis>A strong ‖color:gui.green‖antipsychotic‖end‖ drug.</entitydescription.antipsychosis>
+		<entitydescription.antipsychosis>A strong ‖color:gui.green‖antipsychotic‖end‖ drug, effective against treatment of ‖color:gui.green‖alcohol withdrawal‖end‖. On failure, it is less effective.</entitydescription.antipsychosis>
 		
-		<entitydescription.antiparalysis>A cure for ‖color:gui.green‖paralysis‖end‖ and prematurely ends ‖color:gui.green‖general anesthesia‖end‖. Excessive use may cause ‖color:gui.red‖psychosis‖end‖.</entitydescription.antiparalysis>
+		<entitydescription.antiparalysis>A cure for ‖color:gui.green‖paralysis‖end‖ and prematurely ends ‖color:gui.green‖general anesthesia‖end‖. Excessive use may cause ‖color:gui.red‖psychosis‖end‖. On failure, it is less effective and causes more ‖color:gui.red‖psychosis‖end‖.</entitydescription.antiparalysis>
 		
 		<entitydescription.tonicliquid>A medical solution that's mildly effective as a treatment for ‖color:gui.green‖internal damage‖end‖, but is more commonly used to ‖color:gui.green‖increase the duration‖end‖ of bloodstream and performance-enhancing drugs.</entitydescription.tonicliquid>
 		

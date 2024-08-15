@@ -361,6 +361,6 @@
 		<entitydescription.gypsum>A powder that can be formed into a cast. It is used to encase ‖color:gui.green‖long bone fractures‖end‖, allowing them to heal. Used after ‖color:gui.blue‖bandaging‖end‖ the limb. On failure, it is consumed without forming a cast.</entitydescription.gypsum>
 	
 		<entityname.gelipack>Gel Ice Pack</entityname.gelipack>
-		<entitydescription.gelipack>Placeholder. On failure,.</entitydescription.gelipack>
+		<entitydescription.gelipack>A package of cold gel that will greatly promote the healing of ‖color:gui.green‖blunt force trauma‖end‖. It is ineffective against ‖color:gui.red‖other types of injuries‖end‖ and will worsen ‖color:gui.red‖infections‖end‖. Can be used up to thrice, and will lose effectiveness if not refrigerated. On failure, it is used without forming a pack.</entitydescription.gelipack>
 	</Override>
 </infotexts>

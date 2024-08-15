@@ -223,7 +223,7 @@
 		<afflictiondescription.clampedbleeders>Surgical bleeders have been staunched. This doesn't prevent pain from the incision.</afflictiondescription.clampedbleeders>
 
 		<afflictionname.retractedskin>Retracted Skin</afflictionname.retractedskin>
-		<afflictiondescription.retractedskin>The skin is being held open by a set of retractors. It is indescribably uncomfortable, and can only be safely done near a bed or when unconscious.</afflictiondescription.retractedskin>
+		<afflictiondescription.retractedskin>The skin is being held open by a set of retractors. It is indescribably uncomfortable, and can only be safely done near a surgery table or hospital bed, when laying down on any bed, or when unconscious.</afflictiondescription.retractedskin>
 
 		<afflictionname.suturedi>Stitched Incision</afflictionname.suturedi>
 		<afflictiondescription.suturedi>An incision has been closed via sutures.</afflictiondescription.suturedi>

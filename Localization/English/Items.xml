@@ -346,7 +346,7 @@
 		<entitydescription.needle>A specialized needle used to depressurize air in the pleural cavity, as a first aid option for ‖color:gui.green‖pneumothorax‖end‖. If the patient does not already have pneumothorax, it will ‖color:gui.red‖cause it instead‖end‖. On failure, causes ‖color:gui.red‖organ damage‖end‖ and ‖color:gui.red‖bleeding‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.needle>
 
 		<entityname.ringerssolution>Ringer's Solution</entityname.ringerssolution>
-		<entitydescription.ringerssolution>An isotonic solution used to increase ‖color:gui.green‖blood pressure‖end‖.</entitydescription.ringerssolution>
+		<entitydescription.ringerssolution>An isotonic solution used to increase ‖color:gui.green‖blood pressure‖end‖. On failure, it is less effective.</entitydescription.ringerssolution>
 
 		<entityname.antiseptic>Antiseptic</entityname.antiseptic>
 		<entitydescription.antiseptic>Used by the ‖color:gui.blue‖antiseptic spray‖end‖, it is effective against treating ‖color:gui.green‖infected wounds‖end‖.</entitydescription.antiseptic>

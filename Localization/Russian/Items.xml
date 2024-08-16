@@ -55,9 +55,9 @@
 
     <entitydescription.hyperzine>Крайне мощный мышечный стимулятор - то что нужно, чтобы совершить тот самый важный рывок. Повышает ‖color:gui.green‖силу мускулатуры‖end‖, ‖color:gui.green‖выносливость‖end‖ и ‖color:gui.green‖скорость‖end‖, понижает ‖color:gui.green‖восприимчивость к оглушению‖end‖. Он вызывает ‖color:gui.red‖зависимость‖end‖ и немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении действует менее эффективно и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖нейротравмы‖end‖.</entitydescription.hyperzine>
 
-    <entitydescription.antipsychosis>Сильный ‖color:gui.green‖антипсихотический‖end‖ препарат.</entitydescription.antipsychosis>
+    <entitydescription.antipsychosis>Сильный ‖color:gui.green‖антипсихотический‖end‖ препара, также эффективнен для лечения ‖color:gui.green‖алкогольной ломки‖end‖. При неудачном применении действует менее эффективно.</entitydescription.antipsychosis>
 
-    <entitydescription.antiparalysis>Лекарство от ‖color:gui.green‖паралича‖end‖, преждевременно прекращает ‖color:gui.green‖общую анестезию‖end‖. Чрезмерное использование может привести к ‖color:gui.red‖психозу‖end‖.</entitydescription.antiparalysis>
+    <entitydescription.antiparalysis>Лекарство от ‖color:gui.green‖паралича‖end‖, преждевременно прекращает ‖color:gui.green‖общую анестезию‖end‖. Чрезмерное использование может привести к ‖color:gui.red‖психозу‖end‖. При неудачном применении действует менее эффективно и вызывает больший ‖color:gui.red‖психоз‖end‖</entitydescription.antiparalysis>
 
     <entitydescription.tonicliquid>Медицинский раствор, который иногда применяется для лечения ‖color:gui.green‖внутренних травм‖end‖, но обычно используется, чтобы ‖color:gui.green‖продлить действие‖end‖ препаратов действующих на кровеносную систему или стимуляторов.</entitydescription.tonicliquid>
 

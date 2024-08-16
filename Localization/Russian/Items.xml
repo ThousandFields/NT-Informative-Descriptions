@@ -360,5 +360,7 @@
     <entityname.gypsum>Гипс</entityname.gypsum>
     <entitydescription.gypsum>Используется для стабилизации ‖color:gui.green‖переломов‖end‖, позволяя им заживать. Используется после перевязки конечности ‖color:gui.blue‖бинтом‖end‖. При неудачном применении расходуется без пользы.</entitydescription.gypsum>
 
+	<entityname.gelipack>Холодный гелевый пакет</entityname.gelipack>
+	<entitydescription.gelipack>Пакет холодного геля, который значительно способствует заживлению ‖color:gui.green‖ушибов‖end‖. Неэффективен против ‖color:gui.red‖других видов травм‖end‖ и ‖color:gui.red‖ухудшает инфекции‖end‖. Может использоваться до трех раз. Теряет эффективность, если его не хранить в холодильнике.</entitydescription.gelipack>
   </Override>
 </infotexts>

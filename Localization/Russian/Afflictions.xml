@@ -223,7 +223,7 @@
     <afflictiondescription.clampedbleeders>Хирургическое кровотечение сдержано. Разрез все также болезненный.</afflictiondescription.clampedbleeders>
 
     <afflictionname.retractedskin>Кожа растянута</afflictionname.retractedskin>
-    <afflictiondescription.retractedskin>Кожа удерживается открытой при помощи расширителя. Это очень болезненно, но безопасно рядом с больничной кроватью или если пациент без сознания.</afflictiondescription.retractedskin>
+    <afflictiondescription.retractedskin>Кожа удерживается открытой при помощи расширителя. Это очень болезненно, но безопасно рядом с больничной кроватью, если пациент лежит в любой кровати или если пациент без сознания.</afflictiondescription.retractedskin>
 
     <afflictionname.suturedi>Зашитый надрез</afflictionname.suturedi>
     <afflictiondescription.suturedi>Надрез закрыт швами.</afflictiondescription.suturedi>

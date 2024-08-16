@@ -201,7 +201,7 @@ end
 
 
 function AppendIdcard(instance, spawnPoint, character)
-    if spawnPoint ~= nil then
+    if spawnPoint ~= nil and spawnPoint.IdCardDesc ~= nil then
         if string.find(spawnPoint.IdCardDesc, "%S") then
             obj = instance.item
             obj.Description = obj.Description .. " " .. idcardsuffixes[ClientLanguage]

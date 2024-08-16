@@ -302,6 +302,9 @@
     <afflictionname.suturedw>Зашитая рана</afflictionname.suturedw>
     <afflictiondescription.suturedw>Рана была закрыта швами. Зашитые раны заживают намного быстрее чем открытые, и они невосприимчивы к заражению.</afflictiondescription.suturedw>
 
+	<afflictionname.iced>Охлаждено</afflictionname.iced>
+	<afflictiondescription.iced>Холодный гелевый пакет способствует заживлению ушибов. Он слегка ограничивает движения и ухудшает инфекции.</afflictiondescription.iced>
+	  
     <!-- NT Meta -->
     <afflictionname.luabotomy>Без Lua</afflictionname.luabotomy>
     <afflictiondescription.luabotomy>Lua не работает. Это значит, что Нейротравма и прочие модификации, использующие Lua не будут функционировать. Пожалуйста, прочитайте страницы мастерской модов которые вы планируете использовать.</afflictiondescription.luabotomy>

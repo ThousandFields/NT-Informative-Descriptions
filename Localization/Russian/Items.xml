@@ -346,7 +346,7 @@
     <entitydescription.needle>Специальная игла, предназначенная для оказания первой помощи при ‖color:gui.green‖пневмотораксе‖end‖. Применение вызывает ‖color:gui.red‖пневмоторакс‖end‖, но не позволяет ему стать выше 15%. При неудачном применении наносит ‖color:gui.red‖повреждение органам‖end‖ и ‖color:gui.red‖кровотечение‖end‖. При высоких значениях пневмоторакса, гипоксемия не будет проходить естественным путём.</entitydescription.needle>
 
     <entityname.ringerssolution>Раствор Рингера</entityname.ringerssolution>
-    <entitydescription.ringerssolution>Изотонический раствор, применяемый для повышения ‖color:gui.green‖кровяного давления‖end‖.</entitydescription.ringerssolution>
+    <entitydescription.ringerssolution>Изотонический раствор, применяемый для повышения ‖color:gui.green‖кровяного давления‖end‖. При неудачном применении действует менее эффективно.</entitydescription.ringerssolution>
 
     <entityname.antiseptic>Антисептик</entityname.antiseptic>
     <entitydescription.antiseptic>Используется в ‖color:gui.blue‖антисептическом спрее‖end‖, который применяется для устранения ‖color:gui.green‖зараженных ран‖end‖.</entitydescription.antiseptic>

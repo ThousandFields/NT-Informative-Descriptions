@@ -55,9 +55,9 @@
 
     <entitydescription.hyperzine>Крайне мощный мышечный стимулятор - то что нужно, чтобы совершить тот самый важный рывок. Повышает ‖color:gui.green‖силу мускулатуры‖end‖, ‖color:gui.green‖выносливость‖end‖ и ‖color:gui.green‖скорость‖end‖, понижает ‖color:gui.green‖восприимчивость к оглушению‖end‖. Он вызывает ‖color:gui.red‖зависимость‖end‖ и немного ‖color:gui.red‖нейротравмы‖end‖. При неудачном применении действует менее эффективно и вызывает больше ‖color:gui.red‖зависимости‖end‖ и ‖color:gui.red‖нейротравмы‖end‖.</entitydescription.hyperzine>
 
-    <entitydescription.antipsychosis>Сильный ‖color:gui.green‖антипсихотический‖end‖ препарат.</entitydescription.antipsychosis>
+    <entitydescription.antipsychosis>Сильный ‖color:gui.green‖антипсихотический‖end‖ препара, также эффективнен для лечения ‖color:gui.green‖алкогольной ломки‖end‖. При неудачном применении действует менее эффективно.</entitydescription.antipsychosis>
 
-    <entitydescription.antiparalysis>Лекарство от ‖color:gui.green‖паралича‖end‖, преждевременно прекращает ‖color:gui.green‖общую анестезию‖end‖. Чрезмерное использование может привести к ‖color:gui.red‖психозу‖end‖.</entitydescription.antiparalysis>
+    <entitydescription.antiparalysis>Лекарство от ‖color:gui.green‖паралича‖end‖, преждевременно прекращает ‖color:gui.green‖общую анестезию‖end‖. Чрезмерное использование может привести к ‖color:gui.red‖психозу‖end‖. При неудачном применении действует менее эффективно и вызывает больший ‖color:gui.red‖психоз‖end‖</entitydescription.antiparalysis>
 
     <entitydescription.tonicliquid>Медицинский раствор, который иногда применяется для лечения ‖color:gui.green‖внутренних травм‖end‖, но обычно используется, чтобы ‖color:gui.green‖продлить действие‖end‖ препаратов действующих на кровеносную систему или стимуляторов.</entitydescription.tonicliquid>
 
@@ -346,7 +346,7 @@
     <entitydescription.needle>Специальная игла, предназначенная для оказания первой помощи при ‖color:gui.green‖пневмотораксе‖end‖. Применение вызывает ‖color:gui.red‖пневмоторакс‖end‖, но не позволяет ему стать выше 15%. При неудачном применении наносит ‖color:gui.red‖повреждение органам‖end‖ и ‖color:gui.red‖кровотечение‖end‖. При высоких значениях пневмоторакса, гипоксемия не будет проходить естественным путём.</entitydescription.needle>
 
     <entityname.ringerssolution>Раствор Рингера</entityname.ringerssolution>
-    <entitydescription.ringerssolution>Изотонический раствор, применяемый для повышения ‖color:gui.green‖кровяного давления‖end‖.</entitydescription.ringerssolution>
+    <entitydescription.ringerssolution>Изотонический раствор, применяемый для повышения ‖color:gui.green‖кровяного давления‖end‖. При неудачном применении действует менее эффективно.</entitydescription.ringerssolution>
 
     <entityname.antiseptic>Антисептик</entityname.antiseptic>
     <entitydescription.antiseptic>Используется в ‖color:gui.blue‖антисептическом спрее‖end‖, который применяется для устранения ‖color:gui.green‖зараженных ран‖end‖.</entitydescription.antiseptic>
@@ -360,5 +360,7 @@
     <entityname.gypsum>Гипс</entityname.gypsum>
     <entitydescription.gypsum>Используется для стабилизации ‖color:gui.green‖переломов‖end‖, позволяя им заживать. Используется после перевязки конечности ‖color:gui.blue‖бинтом‖end‖. При неудачном применении расходуется без пользы.</entitydescription.gypsum>
 
+	<entityname.gelipack>Холодный гелевый пакет</entityname.gelipack>
+	<entitydescription.gelipack>Пакет холодного геля, который значительно способствует заживлению ‖color:gui.green‖ушибов‖end‖. Неэффективен против ‖color:gui.red‖других видов травм‖end‖ и ‖color:gui.red‖ухудшает инфекции‖end‖. Может использоваться до трех раз. Теряет эффективность, если его не хранить в холодильнике.</entitydescription.gelipack>
   </Override>
 </infotexts>

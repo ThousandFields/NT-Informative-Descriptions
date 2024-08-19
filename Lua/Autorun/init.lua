@@ -15,7 +15,7 @@ NTworkshopIds = {
 function IsNTEnabled()
     for package in ContentPackageManager.EnabledPackages.All do
         for NTworkshopId in NTworkshopIds do
-            if tostring(package.UgcId) == workshopId then
+            if tostring(package.UgcId) == NTworkshopId then
                 return true
             end
         end
@@ -24,23 +24,31 @@ function IsNTEnabled()
 end
 
 
-if CLIENT or not Game.IsMultiplayer then
-    Timer.Wait(function()
-        if NTC ~= nil or NT ~= nil or IsNTEnabled() then
-            dofile(NTID.Path .. '/Lua/main.lua')
-            return
+
+function EnableNTID()
+    if NTC ~= nil or NT ~= nil or IsNTEnabled() then
+        dofile(NTID.Path .. '/Lua/main.lua')
+        if Game.IsSubEditor then
+            LuaUserData.MakeMethodAccessible(Descriptors["Barotrauma.SubEditorScreen"], "UpdateEntityList")
+            Game.SubEditorScreen.UpdateEntityList()
         end
-        print("Error loading NT Informative Descriptions: it appears that Neurotrauma isn't enabled!")
-  end,1)
+        return true
+    end
+    return false
 end
 
 
-if CLIENT and Game.IsSubEditor then
-  Timer.Wait(function()
-	if NTC ~= nil or NT ~= nil or IsNTEnabled() then
-        LuaUserData.MakeMethodAccessible(Descriptors["Barotrauma.SubEditorScreen"], "UpdateEntityList")
-        Game.SubEditorScreen.UpdateEntityList()
+
+if CLIENT or Game.IsSingleplayer then
+    -- Calling UpdateEntityList in short timer crashes subeditor with too many mods
+    -- longer timer fallback in case NT isnt registered yet on first lua pass
+    if EnableNTID() then
         return
-	end
-  end,5)
+    end
+    Timer.Wait(function()
+        if EnableNTID() then
+            return
+        end
+        print("Error loading NT Informative Descriptions: it appears Neurotrauma isn't loaded!")
+    end,1000)
 end

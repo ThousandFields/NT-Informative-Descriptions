@@ -12,7 +12,7 @@
 		<entityname.healthscanner>Health Scanner</entityname.healthscanner>
 		<entitydescription.healthscanner>A tool that uses battery power to display afflictions. It can be aimed at a person for a full-body scan, or administered in the Health UI to show afflictions on a specific body part. Using the scanner causes a minor amount of ‖color:gui.red‖radiation sickness‖end‖. Will not display blood type, sepsis, immunity, acidosis, alkalosis, or drugs, as a ‖color:gui.blue‖hematology analyzer‖end‖ is required.</entitydescription.healthscanner>
 
-		<entitydescription.wrench>Makes mechanical repairs possible. It is also used to fix ‖color:gui.green‖dislocations‖end‖, which is twice as easier to do if the patient does not feel pain. Failing to fix a dislocation will result in a ‖color:gui.red‖fracture‖end‖, however.</entitydescription.wrench>
+		<entitydescription.wrench>Makes mechanical repairs possible. It is also used to fix ‖color:gui.green‖dislocations‖end‖, which only requires half the skill to do if the patient does not feel pain. Failing to fix a dislocation will result in a ‖color:gui.red‖fracture‖end‖, however.</entitydescription.wrench>
 		
 		<!-- Vanilla Items -->
 		<entitydescription.idcard>Allows limited access to areas of the sub. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</entitydescription.idcard>

@@ -17,7 +17,6 @@
 		<!-- Vanilla Items -->
 		<entitydescription.idcard>Allows limited access to areas of the sub. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</entitydescription.idcard>
 		<NTID.idcard_suffix>A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</NTID.idcard_suffix>
-		<!--idcardnamejob>This belongs to [name], the [job]. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</idcardnamejob-->
 
 		<entitydescription.alienblood>Blood extracted from a Europan lifeform. It is ‖color:gui.red‖incompatible‖end‖ with human blood.</entitydescription.alienblood>
 
@@ -37,7 +36,7 @@
 
 		<entitydescription.antibiotics>An antibiotic that acts against a wide range of disease-causing bacteria, making it an effective treatment for ‖color:gui.green‖sepsis‖end‖ and to a lesser extent, ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
 		
-		<entitydescription.adrenaline>A naturally occurring hormone. It causes a variety of stimulating effects for a short amount of time, including raising the patient's ‖color:gui.green‖blood pressure‖end‖, reducing ‖color:gui.green‖stun susceptibility‖end‖, strengthening ‖color:gui.green‖fast-twitch muscles‖end‖, and improving ‖color:gui.green‖heart function‖end‖ under stress. Additionally, it will jumpstart a ‖color:gui.green‖stopped heart‖end‖ and prevent ‖color:gui.green‖pain‖end‖. Used as an ingredient in multiple medical compounds.</entitydescription.adrenaline>
+		<entitydescription.adrenaline>A naturally occurring hormone. For a short amount of time, it will raise the patient's ‖color:gui.green‖blood pressure‖end‖, increase ‖color:gui.green‖melee damage‖end‖, halve ‖color:gui.green‖fibrillation rate‖end‖, and prevent ‖color:gui.green‖pain‖end‖. Upon use, it will also cure ‖color:gui.green‖cardiac arrest‖end‖, remove ‖color:gui.green‖stun‖end‖, and briefly reduce ‖color:gui.green‖incoming stuns‖end‖.</entitydescription.adrenaline>
 		
 		<entitydescription.captainspipe>For calming the nerves when the sea is stormy. It is hard on the lungs, though.</entitydescription.captainspipe>
 		

@@ -27,6 +27,9 @@
 		<afflictiondescription.nausea.low>Feeling queasy, but nothing a rest wouldn't fix. Vomiting will cause alkalosis.</afflictiondescription.nausea.low>
 		<afflictiondescription.nausea.high>You are really sick. Should you worry about it or just rest? Vomiting will cause alkalosis.</afflictiondescription.nausea.high>
 
+		<afflictiondescription.adrenalinerush>The rush of adrenaline is making the patient less easily stunned.</afflictiondescription.adrenalinerush>
+		<afflictiondescription.adrenalinerush.self>The rush of adrenaline is making you less easily stunned.</afflictiondescription.adrenalinerush.self>
+
 		<!-- NT Visible Afflictions -->
 
 		<!-- NT Trauma -->

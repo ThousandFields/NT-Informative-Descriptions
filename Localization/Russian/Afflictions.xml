@@ -24,8 +24,11 @@
     <afflictiondescription.bleeding.high>Кровь струей хлещет из раны. Рана достаточно сильная и способна разорвать артерию.</afflictiondescription.bleeding.high>
 
     <afflictiondescription.nausea>Кожа пациента покрыта потом, и его периодически рвет. Рвота вызывает алкалоз.</afflictiondescription.nausea>
-		<afflictiondescription.nausea.low>Слегка подташнивает, просто надо немного отдохнуть. Рвота вызывает алкалоз.</afflictiondescription.nausea.low>
-		<afflictiondescription.nausea.high>Ты в плохом состоянии. Стоит беспокоиться об этом или лучше отдохнуть? Рвота вызывает алкалоз.</afflictiondescription.nausea.high>
+	<afflictiondescription.nausea.low>Слегка подташнивает, просто надо немного отдохнуть. Рвота вызывает алкалоз.</afflictiondescription.nausea.low>
+	<afflictiondescription.nausea.high>Ты в плохом состоянии. Стоит беспокоиться об этом или лучше отдохнуть? Рвота вызывает алкалоз.</afflictiondescription.nausea.high>
+
+	<afflictiondescription.adrenalinerush>Прилив адреналина делает пациента менее легко оглушаемым.</afflictiondescription.adrenalinerush>
+	<afflictiondescription.adrenalinerush.self>Из-за прилива адреналина вас не так легко оглушить.</afflictiondescription.adrenalinerush.self>
 
     <!-- NT Visible Afflictions -->
 

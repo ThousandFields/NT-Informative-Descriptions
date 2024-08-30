@@ -12,7 +12,7 @@
     <entityname.healthscanner>Сканер здоровья</entityname.healthscanner>
     <entitydescription.healthscanner>Питаемый аккумулятором прибор, отображающий статусы. Он может быть прицелен на человека для сканирования всего тела, либо лечением в интерфейсе здоровья отобразить статус выбранной конечности. Использование вызывает небольшую ‖color:gui.red‖радиационную болезнь‖end‖. Не показывает группу крови, сепсис, иммунитет, алкалоз, ацидоз, наркотики, ибо необходим ‖color:gui.blue‖гематологический анализатор‖end‖.</entitydescription.healthscanner>
 
-    <entitydescription.wrench>Позволяет чинить механические устройства. Еще используется для вправления ‖color:gui.green‖вывихов‖end‖, что в два раза легче если пациент не чувствителен к боли.</entitydescription.wrench>
+    <entitydescription.wrench>Позволяет чинить механические устройства. Еще используется для вправления ‖color:gui.green‖вывихов‖end‖, что требует в два раза меньше навыка если пациент не чувствителен к боли.</entitydescription.wrench>
 
     <!-- Vanilla Items -->
     <entitydescription.idcard>Обеспечивает ограниченный доступ в различные части подлодки. Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</entitydescription.idcard>

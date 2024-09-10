@@ -41,7 +41,7 @@ local config = {
 		supportedlanguages = {"English","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "2788543375",
-		loadpriority = 1,
+		loadpriority = 0,
 		files = {"%ModDir%/Localization/%Language%/Cybernetics.xml"}
 	},
 	
@@ -50,8 +50,17 @@ local config = {
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,
 		workshopId = "2963474291",
-		loadpriority = 1,
+		loadpriority = 0,
 		files = {"%ModDir%/Localization/%Language%/CyberneticsImproved.xml"}
+	},
+
+	{
+		-- Immersive Repairs NT Cybernetics
+		supportedlanguages = {"English"},
+		IgnoreTargetModState = false,
+		workshopId = "3153498101",
+		loadpriority = 0,
+		files = {"%ModDir%/Localization/%Language%/ImmersiveRepairs.xml"}
 	}
 	-- Example blank, you dont need to add localization for this
 	-- {

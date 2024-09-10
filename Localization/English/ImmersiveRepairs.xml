@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by ThousandFields -->
+<infotexts language="English" nowhitespace="false" translatedname="English">
+	<Override>
+        <!-- Immersive Repairs Items -->
+        <entityname.weldingtorch>Welding Torch</entityname.weldingtorch>
+        <entitydescription.weldingtorch>Welds twice as fast as the welding tool, but can't be used underwater. Also can be used to repair ‖color:gui.green‖bent metal‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.weldingtorch>
+
+        <entityname.multitool>Multitool</entityname.multitool>
+        <entitydescription.multitool>An incredibly fast and easy to use tool for repairs. No skills required! Just point directly at whatever you want to repair and pull the trigger. Breaks down rapidly from usage. Can be repaired by installing a new fpga circuit. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.multitool>
+    </Override>
+</infotexts>

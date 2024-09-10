@@ -12,12 +12,11 @@
     <entityname.healthscanner>Сканер здоровья</entityname.healthscanner>
     <entitydescription.healthscanner>Питаемый аккумулятором прибор, отображающий статусы. Он может быть прицелен на человека для сканирования всего тела, либо лечением в интерфейсе здоровья отобразить статус выбранной конечности. Использование вызывает небольшую ‖color:gui.red‖радиационную болезнь‖end‖. Не показывает группу крови, сепсис, иммунитет, алкалоз, ацидоз, наркотики, ибо необходим ‖color:gui.blue‖гематологический анализатор‖end‖.</entitydescription.healthscanner>
 
-    <entitydescription.wrench>Позволяет чинить механические устройства. Еще используется для вправления ‖color:gui.green‖вывихов‖end‖, что в два раза легче если пациент не чувствителен к боли.</entitydescription.wrench>
+    <entitydescription.wrench>Позволяет чинить механические устройства. Еще используется для вправления ‖color:gui.green‖вывихов‖end‖, что требует в два раза меньше навыка если пациент не чувствителен к боли.</entitydescription.wrench>
 
     <!-- Vanilla Items -->
     <entitydescription.idcard>Обеспечивает ограниченный доступ в различные части подлодки. Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</entitydescription.idcard>
 	<NTID.idcard_suffix>Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</NTID.idcard_suffix>
-    <!--idcardnamejob>This belongs to [name], the [job]. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</idcardnamejob-->
 
     <entitydescription.alienblood>Кровь одного из обитателей Европы. Она ‖color:gui.red‖несовместима‖end‖ с кровью человека.</entitydescription.alienblood>
 
@@ -37,7 +36,7 @@
 
     <entitydescription.antibiotics>Антибиотик, уничтожающий большинство болезнетворных бактерий, делая его эффективным медикаментом от ‖color:gui.green‖сепсиса‖end‖ и в меньшей степени, ‖color:gui.green‖заражения паразитами‖end‖. Однако, он обладает пониженной специфичностью и вызывает ‖color:gui.red‖повреждение органов‖end‖. Используется в качестве компонента многих медикаментов. При неудачном применении действует менее эффективно.</entitydescription.antibiotics>
 
-    <entitydescription.adrenaline>Природный гормон, полезный в качестве стимулятора, вызывающий такие эффекты как увеличение ‖color:gui.green‖кровяного давления‖end‖, снижение ‖color:gui.green‖восприимчивости к оглушению‖end‖, укреплению ‖color:gui.green‖быстро сокращающихся мышц‖end‖ и улучшению ‖color:gui.green‖функций сердца‖end‖ в моменте стресса. При этом, он активизирует ‖color:gui.green‖остановленное сердце‖end‖ и предотвратит ‖color:gui.green‖боль‖end‖. Может использоваться для изготовления лекарств и боевых стимуляторов.</entitydescription.adrenaline>
+	<entitydescription.adrenaline>Природный гормон. На короткое время повышает ‖color:gui.green‖кровяное давление‖end‖,  увеличивает ‖color:gui.green‖урон в ближнем бою‖end‖, сокращает вдвое ‖color:gui.green‖частоту фибрилляции‖end‖ и предотвращает ‖color:gui.green‖боль‖end‖. При применении  он также лечит ‖color:gui.green‖остановку сердца‖end‖, снимает ‖color:gui.green‖оглушение‖end‖ и ненадолго даёт ‖color:gui.green‖сопротивление к оглушению‖end‖.</entitydescription.adrenaline>
 
     <entitydescription.captainspipe>Для успокоения нервов, когда на море качка. Хотя, это будет вредно для легких.</entitydescription.captainspipe>
 
@@ -361,6 +360,6 @@
     <entitydescription.gypsum>Используется для стабилизации ‖color:gui.green‖переломов‖end‖, позволяя им заживать. Используется после перевязки конечности ‖color:gui.blue‖бинтом‖end‖. При неудачном применении расходуется без пользы.</entitydescription.gypsum>
 
 	<entityname.gelipack>Холодный гелевый пакет</entityname.gelipack>
-	<entitydescription.gelipack>Пакет холодного геля, который значительно способствует заживлению ‖color:gui.green‖ушибов‖end‖. Неэффективен против ‖color:gui.red‖других видов травм‖end‖ и ‖color:gui.red‖ухудшает инфекции‖end‖. Может использоваться до трех раз. Теряет эффективность, если его не хранить в холодильнике.</entitydescription.gelipack>
+	<entitydescription.gelipack>Пакет холодного геля, который значительно способствует заживлению ‖color:gui.green‖ушибов‖end‖. Неэффективен против ‖color:gui.red‖других видов травм‖end‖ и ‖color:gui.red‖ухудшает инфекции‖end‖. Может использоваться до трех раз. Теряет эффективность, если его не хранить в холодильнике. При хранении в холодильнике его состояние со временем восстанавливается.</entitydescription.gelipack>
   </Override>
 </infotexts>

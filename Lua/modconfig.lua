@@ -1,8 +1,8 @@
 -- Config to enable language files based on enabled mods.
 
 local config = {
+	--Neurotrauma guns fork
 	{
-		--Neurotrauma guns fork
 		supportedlanguages = {"English","Simplified Chinese","Russian"}, -- which languages patch supports for this specific mod {"English","German","Russian"} etc
 		IgnoreTargetModState = false, -- doesnt check for target mod being enabled. Still respects supported languages.
 		workshopId = "3190189044", -- id of the mod being patched and which language files we disable, "" means nothing gets disabled
@@ -13,8 +13,8 @@ local config = {
 			}
 	},
 
+	-- Neurotrauma Mannatu
 	{
-		-- Neurotrauma Mannatu
 		supportedlanguages = {"English","Simplified Chinese","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "2776270649",
@@ -25,8 +25,8 @@ local config = {
 			}
 	},
 	
+	-- Curly's Surgery Plus (not yet ready)
 	{
-		-- Curly's Surgery Plus (not yet ready)
 		supportedlanguages = {"English","Simplified Chinese","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "",
@@ -36,8 +36,8 @@ local config = {
 			}
 	},
 	
+	-- Cybernetics
 	{
-		-- Cybernetics
 		supportedlanguages = {"English","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "2788543375",
@@ -45,8 +45,8 @@ local config = {
 		files = {"%ModDir%/Localization/%Language%/Cybernetics.xml"}
 	}
 	
+	-- Cybernetics Improved
 	{
-		-- Cybernetics Improved
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,
 		workshopId = "2963474291",

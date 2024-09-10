@@ -3,7 +3,7 @@
 <!-- by ThousandFields -->
 <infotexts language="English" nowhitespace="false" translatedname="English">
 	<Override>
-        <!-- Vanilla Items-->
+        <!-- Vanilla Items -->
         <entitydescription.screwdriver>Makes electrical repairs and rewiring possible. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriver>
 
         <entitydescription.screwdriverhardened>A screwdriver that has gone through a process of hardening using depleted fuel. The strengthened material allows for more efficient repairs and heavier swings. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriverhardened>

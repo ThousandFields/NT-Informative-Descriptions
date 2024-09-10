@@ -3,7 +3,7 @@
 <!-- by ThousandFields -->
 <infotexts language="English" nowhitespace="false" translatedname="English">
 	<Override>
-        <!-- Vanilla Items-->
+        <!-- Vanilla Items -->
         <entitydescription.screwdriver>Makes electrical repairs and rewiring possible. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriver>
 
         <entitydescription.screwdriverhardened>A screwdriver that has gone through a process of hardening using depleted fuel. The strengthened material allows for more efficient repairs and heavier swings. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriverhardened>
@@ -16,7 +16,7 @@
 
         <entitydescription.steel>A strong metal alloy of iron and carbon. Used in fuel rod manufacturing, as well as many military applications. Also used to replace ‖color:gui.green‖lost material‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.steel>
 
-        <!-- Cybernetics Items -->
+        <!-- Cybernetics Improved Items -->
         <entityname.cyberarm>Cyberarm</entityname.cyberarm>
         <entitydescription.cyberarm>A powerful inorganic arm which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. Additionally, it will increase ‖color:gui.green‖swimming speed‖end‖ and ‖color:gui.green‖melee damage‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.</entitydescription.cyberarm>
 
@@ -29,7 +29,7 @@
         <entityname.waterproofcyberleg>Waterproof Cyberleg</entityname.waterproofcyberleg>
         <entitydescription.waterproofcyberleg>A powerful inorganic leg which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. Additionally, it will increase ‖color:gui.green‖running speed‖end‖. It requires ‖color:gui.red‖maintenance‖end‖, but is not susceptible to ‖color:gui.green‖water damage‖end‖. It can be installed after amputation.</entitydescription.waterproofcyberleg>
 
-		<!-- Cybernetics Afflictions -->
+		<!-- Cybernetics Improved Afflictions -->
         <afflictionname.ntc_cyberarm>Cyberarm</afflictionname.ntc_cyberarm>
         <afflictiondescription.ntc_cyberarm>This inorganic arm is impervious to biological faults, but it must be maintained to be effective. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberarm>
 

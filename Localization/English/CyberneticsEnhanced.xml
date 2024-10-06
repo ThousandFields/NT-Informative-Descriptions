@@ -4,11 +4,11 @@
 <infotexts language="English" nowhitespace="false" translatedname="English">
     <Override>
         <!-- Vanilla Items -->
-        <entitydescription.screwdriver>Makes electrical repairs and rewiring possible. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriver>
+        <entitydescription.screwdriver>Makes electrical repairs and rewiring possible. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖, and to surgically ‖color:gui.green‖repair‖end‖ ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.screwdriver>
 
-        <entitydescription.screwdriverhardened>A screwdriver that has gone through a process of hardening using depleted fuel. The strengthened material allows for more efficient repairs and heavier swings. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriverhardened>
+        <entitydescription.screwdriverhardened>A screwdriver that has gone through a process of hardening using depleted fuel. The strengthened material allows for more efficient repairs and heavier swings. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖, and to surgically ‖color:gui.green‖repair‖end‖ ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.screwdriverhardened>
 
-        <entitydescription.screwdriverdementonite>Fabricated from the poorly understood alien material dementonite. Holding it evokes a strange sense of unease. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriverdementonite>
+        <entitydescription.screwdriverdementonite>Fabricated from the poorly understood alien material dementonite. Holding it evokes a strange sense of unease. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖, and to surgically ‖color:gui.green‖repair‖end‖ ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.screwdriverdementonite>
 
         <entitydescription.fpgacircuit>Field-programmable gate array—a multipurpose circuit that can be reconfigured for use in a large variety of electrical devices. Also used to replace ‖color:gui.green‖broken circuitry‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.fpgacircuit>
 
@@ -53,38 +53,38 @@
 
         <!-- Cyberorgan Items -->
         <entityname.augmentedliver>Cyber-Augmented Liver</entityname.augmentedliver>
-        <entitydescription.augmentedliver>A partially synthetic human liver. Cyber-enhanced metabolism improves resistance against ‖color:gui.green‖poisons‖end‖ and ‖color:gui.green‖negative drug effects‖end‖. It is more ‖color:gui.green‖resistant to damage‖end‖ than a biological liver.</entitydescription.augmentedliver>
+        <entitydescription.augmentedliver>A partially synthetic human liver. Cyber-enhanced metabolism improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and dampens ‖color:gui.green‖nausea‖end‖. It is more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.augmentedliver>
         
         <entityname.augmentedkidney>Cyber-Augmented Kidney</entityname.augmentedkidney>
-        <entitydescription.augmentedkidney>A partially synthetic kidney. Improves blood production and clotting, altering blood type to C+ for compatibility with other cyber implants. Use after removal of the original kidney to install.</entitydescription.augmentedkidney>
+        <entitydescription.augmentedkidney>A pair of partially synthetic human kidneys. Cyber-enhanced metabolism improves ‖color:gui.green‖blood clotting‖end‖ and ‖color:gui.green‖synthesis‖end‖. Blood type changes to C+, preventing cyberorgan ‖color:gui.green‖rejection‖end‖, and allowing ‖color:gui.green‖acceptance‖end‖ from all other blood types. It is more resistant to ‖color:gui.green‖damage‖end‖ than biological kidneys, and takes the place of both kidneys.</entitydescription.augmentedkidney>
         
         <entityname.augmentedheart>Cyber-Augmented Heart</entityname.augmentedheart>
-        <entitydescription.augmentedheart>A partially synthetic heart. Improves muscle speed and blood pressure normalization. Use after removal of the original heart to install.</entitydescription.augmentedheart>
+        <entitydescription.augmentedheart>A partially synthetic human heart. Cyber-enhanced metabolism slightly increases ‖color:gui.green‖health‖end‖ and improves ‖color:gui.green‖blood pressure normalization‖end‖ rate. Increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of ‖color:gui.blue‖cyber-enhanced lungs‖end‖. It is more resistant to ‖color:gui.green‖damage‖end‖ than a biological heart, and takes the place of the heart.</entitydescription.augmentedheart>
         
         <entityname.augmentedlung>Cyber-Augmented Lungs</entityname.augmentedlung>
-        <entitydescription.augmentedlung>A partially synthetic set of lungs. Improves muscle speed, oxygen capacity, and brief pressure resistance. Use after removal of the original lungs to install.</entitydescription.augmentedlung>
+        <entitydescription.augmentedlung>A pair of partially synthetic human lungs. Cyber-enhanced metabolism improves oxygen capacity, increasing resistance against ‖color:gui.green‖hypoxemia‖end‖. Provides temporary pressure resistance. Increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of a ‖color:gui.blue‖cyber-enhanced heart‖end‖. It is more resistant to ‖color:gui.green‖damage‖end‖ and ‖color:gui.green‖pneumothorax‖end‖ than biological lungs, and takes the place of the lungs.</entitydescription.augmentedlung>
         
         <entityname.augmentedbrain>Cyber-Augmented Brain Implant</entityname.augmentedbrain>
-        <entitydescription.augmentedbrain>A neural augment chip for the brain. Improves skills, and removes the need for analgesia in surgery. Install into the patient's existing brain.</entitydescription.augmentedbrain>
+        <entitydescription.augmentedbrain>A neural augmentation chip. Cyber-enhanced neural processing improves ‖color:gui.green‖intelligence‖end‖, and ‖color:gui.green‖pain receptors‖end‖ are permanently inhibited. It increases resistance to ‖color:gui.green‖neurotrauma‖end‖, and is implanted into the brain.</entitydescription.augmentedbrain>
         
         <entityname.cyberliver>Cyberliver</entityname.cyberliver>
-        <entitydescription.cyberliver>A completely synthetic liver. A top of the line blood filtration system capable of removing toxins and improving the immune system, ready for transplant. </entitydescription.cyberliver>
+        <entitydescription.cyberliver>A synthetic human liver. Cyber-metabolism greatly improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and greatly dampens ‖color:gui.green‖nausea‖end‖. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.cyberliver>
         
         <entityname.cyberkidney>Cyberkidney</entityname.cyberkidney>
-        <entitydescription.cyberkidney>A completely synthetic kidney. A top of the line nano-blood production system which improves blood production and clotting, altering blood type to C+ for compatibility with other cyber implants. Use after removal of original kidney to install. </entitydescription.cyberkidney>
+        <entitydescription.cyberkidney>A pair of synthetic human kidneys. Cyber-metabolism greatly improves ‖color:gui.green‖blood clotting‖end‖ and ‖color:gui.green‖synthesis‖end‖. Blood type changes to C+, preventing cyberorgan ‖color:gui.green‖rejection‖end‖, and allowing ‖color:gui.green‖acceptance‖end‖ from all other blood types. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than biological kidneys, and takes the place of both kidneys.</entitydescription.cyberkidney>
         
         <entityname.cyberheart>Cyberheart</entityname.cyberheart>
-        <entitydescription.cyberheart>A completely synthetic heart. A top of the line circulatory system, improving muscle speed and blood pressure normalization. Use after removal of the original heart to install.</entitydescription.cyberheart>
+        <entitydescription.cyberheart>A synthetic human heart. Cyber-metabolism increases ‖color:gui.green‖health‖end‖ and greatly improves ‖color:gui.green‖blood pressure normalization‖end‖ rate. Greatly increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of ‖color:gui.blue‖cyber-enhanced lungs‖end‖. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than a biological heart, and takes the place of the heart.</entitydescription.cyberheart>
         
         <entityname.cyberlung>Cyberlungs</entityname.cyberlung>
-        <entitydescription.cyberlung>A completely synthetic set of lungs. A top of the line respiratory system, improving muscle speed, oxygen capacity, and partial pressure resistance. Use after removal of the original lungs to install.</entitydescription.cyberlung>
+        <entitydescription.cyberlung>A pair of synthetic human lungs. Cyber-metabolism greatly improves oxygen capacity, greatly increasing resistance against ‖color:gui.green‖hypoxemia‖end‖. Provides temporary pressure resistance. Greatly increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of a ‖color:gui.blue‖cyber-enhanced heart‖end‖. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ and ‖color:gui.green‖pneumothorax‖end‖ than biological lungs, and takes the place of the lungs.</entitydescription.cyberlung>
         
         <entityname.cyberbrain>Cyberbrain Positronic Implant</entityname.cyberbrain>
-        <entitydescription.cyberbrain>A positronic cyberbrain implant chipset. Top of the line, supercharges skills and removes the need for analgesia in surgery. Install into the patient's existing brain.</entitydescription.cyberbrain>
+        <entitydescription.cyberbrain>A positronic neural chipset. Cybernetic computational processors greatly improve ‖color:gui.green‖intelligence‖end‖, and ‖color:gui.green‖pain receptors‖end‖ are permanently inhibited. It greatly increases resistance to ‖color:gui.green‖neurotrauma‖end‖, and is implanted into the brain.</entitydescription.cyberbrain>
 
         <!-- Cyberorgan Afflictions -->
         <afflictionname.ntc_cyberlung_pressure_recovery>Pressurized Cyberlung</afflictionname.ntc_cyberlung_pressure_recovery>
-        <afflictiondescription.ntc_cyberlung_pressure_recovery>The Cyberlung is resisting severe pressure, briefly preventing implosion.</afflictiondescription.ntc_cyberlung_pressure_recovery>
+        <afflictiondescription.ntc_cyberlung_pressure_recovery>The Cyberlung has self-pressurized, briefly preventing implosion.</afflictiondescription.ntc_cyberlung_pressure_recovery>
         <afflictiondescription.ntc_cyberlung_pressure_recovery.low>The Cyberlung has resisted severe pressure, and is undertaking self-repair routines.</afflictiondescription.ntc_cyberlung_pressure_recovery.low>
 
         <!-- Cybernetics Enhanced Items -->
@@ -96,7 +96,7 @@
         Can give blood to: C+</entitydescription.abcpluscard>
         
         <entityname.immunosuppressantinhaler>Immunoblocker Inhaler</entityname.immunosuppressantinhaler>
-        <entitydescription.immunosuppressantinhaler>Depresses the immune system to reduce Cyberpsychosis caused by excessive cybernetic implants.</entitydescription.immunosuppressantinhaler>
+        <entitydescription.immunosuppressantinhaler>Partially inhibits the ‖color:gui.red‖immune system‖end‖, sufficient enough to prevent ‖color:gui.green‖cyberpsychosis‖end‖. Cyberpsychosis is caused by the use of fully synthetic ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.immunosuppressantinhaler>
 
         <!-- Cybernetics Enhanced Hidden Afflictions -->
         <afflictionname.ntc_cyberpsychosis>Cyberpsychosis</afflictionname.ntc_cyberpsychosis>
@@ -107,5 +107,21 @@
 
         <afflictionname.immunosuppressantinhaler>Inhaled Immunosuppressants</afflictionname.immunosuppressantinhaler>
         <afflictiondescription.immunosuppressantinhaler></afflictiondescription.immunosuppressantinhaler>
+
+        <afflictionname.ntc_cyberliver>Cyberliver</afflictionname.ntc_cyberliver>
+        <afflictiondescription.ntc_cyberliver>An installed cybernetic liver. Provides resistance against poisons, negative drug effects, nausea, and liver damage.</afflictiondescription.ntc_cyberliver>
+
+        <afflictionname.ntc_cyberkidney>Cyberkidneys</afflictionname.ntc_cyberkidney>
+        <afflictiondescription.ntc_cyberkidney>Installed cybernetic kidneys. Provides resistance against bleeding, bloodloss, kidney damage, and changes blood type to C+.</afflictiondescription.ntc_cyberkidney>
+
+        <afflictionname.ntc_cyberlung>Cyberlungs</afflictionname.ntc_cyberlung>
+        <afflictiondescription.ntc_cyberlung>Installed cybernetic lungs. Provides resistance against hypoxemia, temporary pressure, lung damage, pneumothorax, and increases muscle speed.</afflictiondescription.ntc_cyberlung>
+
+        <afflictionname.ntc_cyberheart>Cyberheart</afflictionname.ntc_cyberheart>
+        <afflictiondescription.ntc_cyberheart>An installed cybernetic heart. Provides resistance against heart damage, increases health, blood pressure normalization rate, and muscle speed.</afflictiondescription.ntc_cyberheart>
+
+        <afflictionname.ntc_cyberbrain>Cyberbrain Implant</afflictionname.ntc_cyberbrain>
+        <afflictiondescription.ntc_cyberbrain>An installed brain implant. Provides resistance against neurotrauma, increases intelligence, and inhibits pain.</afflictiondescription.ntc_cyberbrain>
+
     </Override>
 </infotexts>

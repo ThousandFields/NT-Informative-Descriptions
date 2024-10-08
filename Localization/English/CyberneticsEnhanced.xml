@@ -53,7 +53,7 @@
 
         <!-- Cyberorgan Items -->
         <entityname.augmentedliver>Cyber-Augmented Liver</entityname.augmentedliver>
-        <entitydescription.augmentedliver>A partially synthetic human liver. Cyber-enhanced metabolism improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and dampens ‖color:gui.green‖nausea‖end‖. It is more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.augmentedliver>
+        <entitydescription.augmentedliver>A partially synthetic human liver. Cyber-enhanced metabolism improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and dampens ‖color:gui.green‖nausea‖end‖. Negative drug effects include drunkenness, addiction, withdrawal, and overdose. It is more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.augmentedliver>
         
         <entityname.augmentedkidney>Cyber-Augmented Kidney</entityname.augmentedkidney>
         <entitydescription.augmentedkidney>A pair of partially synthetic human kidneys. Cyber-enhanced metabolism improves ‖color:gui.green‖blood clotting‖end‖ and ‖color:gui.green‖synthesis‖end‖. Blood type changes to C+, preventing cyberorgan ‖color:gui.green‖rejection‖end‖, and allowing ‖color:gui.green‖acceptance‖end‖ from all other blood types. It is more resistant to ‖color:gui.green‖damage‖end‖ than biological kidneys, and takes the place of both kidneys.</entitydescription.augmentedkidney>
@@ -68,7 +68,7 @@
         <entitydescription.augmentedbrain>A neural augmentation chip. Cyber-enhanced neural processing improves ‖color:gui.green‖intelligence‖end‖, and ‖color:gui.green‖pain receptors‖end‖ are permanently inhibited. It increases resistance to ‖color:gui.green‖neurotrauma‖end‖, and is implanted into the brain.</entitydescription.augmentedbrain>
         
         <entityname.cyberliver>Cyberliver</entityname.cyberliver>
-        <entitydescription.cyberliver>A synthetic human liver. Cyber-metabolism greatly improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and greatly dampens ‖color:gui.green‖nausea‖end‖. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.cyberliver>
+        <entitydescription.cyberliver>A synthetic human liver. Cyber-metabolism greatly improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and greatly dampens ‖color:gui.green‖nausea‖end‖. Negative drug effects include drunkenness, addiction, withdrawal, and overdose. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.cyberliver>
         
         <entityname.cyberkidney>Cyberkidney</entityname.cyberkidney>
         <entitydescription.cyberkidney>A pair of synthetic human kidneys. Cyber-metabolism greatly improves ‖color:gui.green‖blood clotting‖end‖ and ‖color:gui.green‖synthesis‖end‖. Blood type changes to C+, preventing cyberorgan ‖color:gui.green‖rejection‖end‖, and allowing ‖color:gui.green‖acceptance‖end‖ from all other blood types. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than biological kidneys, and takes the place of both kidneys.</entitydescription.cyberkidney>

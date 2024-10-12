@@ -55,6 +55,15 @@ local config = {
 	},
 
 	{
+		-- Cybernetics Enhanced
+		supportedlanguages = {"English"},
+		IgnoreTargetModState = false,
+		workshopId = "3324062208",
+		loadpriority = 0,
+		files = {"%ModDir%/Localization/%Language%/CyberneticsEnhanced.xml"}
+	},
+
+	{
 		-- Immersive Repairs NT Cybernetics
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,

@@ -30,6 +30,9 @@
 		<afflictiondescription.adrenalinerush>The rush of adrenaline is making the patient less easily stunned.</afflictiondescription.adrenalinerush>
 		<afflictiondescription.adrenalinerush.self>The rush of adrenaline is making you less easily stunned.</afflictiondescription.adrenalinerush.self>
 
+		<afflictionname.miracleworker>Miracle In Progress</afflictionname.miracleworker>
+		<afflictiondescription.miracleworker>Your lifeforces are fading, yet one Doctor shines bright like a beacon. While they're nearby, you won't give in, not even to neurotrauma.</afflictiondescription.miracleworker>
+
 		<!-- NT Visible Afflictions -->
 
 		<!-- NT Trauma -->

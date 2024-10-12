@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- By ThousandFields -->
+<infotexts language="English" nowhitespace="false" translatedname="English">
+    <Override>
+        <!-- Vanilla Items -->
+        <entitydescription.screwdriver>Makes electrical repairs and rewiring possible. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖, and to surgically ‖color:gui.green‖repair‖end‖ ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.screwdriver>
+
+        <entitydescription.screwdriverhardened>A screwdriver that has gone through a process of hardening using depleted fuel. The strengthened material allows for more efficient repairs and heavier swings. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖, and to surgically ‖color:gui.green‖repair‖end‖ ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.screwdriverhardened>
+
+        <entitydescription.screwdriverdementonite>Fabricated from the poorly understood alien material dementonite. Holding it evokes a strange sense of unease. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖, and to surgically ‖color:gui.green‖repair‖end‖ ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.screwdriverdementonite>
+
+        <entitydescription.fpgacircuit>Field-programmable gate array—a multipurpose circuit that can be reconfigured for use in a large variety of electrical devices. Also used to replace ‖color:gui.green‖broken circuitry‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.fpgacircuit>
+
+        <entitydescription.weldingtool>One of the most crucial tools on board the submarine. Also works underwater, and is used to repair ‖color:gui.green‖bent metal‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.weldingtool>
+
+        <entitydescription.steel>A strong metal alloy of iron and carbon. Used in fuel rod manufacturing, as well as many military applications. Also used to replace ‖color:gui.green‖lost material‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.steel>
+
+        <!-- Cybernetics Improved Items -->
+        <entityname.cyberarm>Cyberarm</entityname.cyberarm>
+        <entitydescription.cyberarm>A powerful inorganic arm which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. Additionally, it will increase ‖color:gui.green‖swimming speed‖end‖ and ‖color:gui.green‖melee damage‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.</entitydescription.cyberarm>
+
+        <entityname.cyberleg>Cyberleg</entityname.cyberleg>
+        <entitydescription.cyberleg>A powerful inorganic leg which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. Additionally, it will increase ‖color:gui.green‖running speed‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.</entitydescription.cyberleg>
+        
+        <entityname.waterproofcyberarm>Waterproof Cyberarm</entityname.waterproofcyberarm>
+        <entitydescription.waterproofcyberarm>A powerful inorganic arm which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. Additionally, it will increase ‖color:gui.green‖swimming speed‖end‖ and ‖color:gui.green‖melee damage‖end‖. It requires ‖color:gui.red‖maintenance‖end‖, but is not susceptible to ‖color:gui.green‖water damage‖end‖. It can be installed after amputation.</entitydescription.waterproofcyberarm>
+        
+        <entityname.waterproofcyberleg>Waterproof Cyberleg</entityname.waterproofcyberleg>
+        <entitydescription.waterproofcyberleg>A powerful inorganic leg which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. Additionally, it will increase ‖color:gui.green‖running speed‖end‖. It requires ‖color:gui.red‖maintenance‖end‖, but is not susceptible to ‖color:gui.green‖water damage‖end‖. It can be installed after amputation.</entitydescription.waterproofcyberleg>
+
+		<!-- Cybernetics Improved Afflictions -->
+        <afflictionname.ntc_cyberarm>Cyberarm</afflictionname.ntc_cyberarm>
+        <afflictiondescription.ntc_cyberarm>This inorganic arm is impervious to biological faults, but it must be maintained to be effective. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberarm>
+
+        <afflictionname.ntc_cyberleg>Cyberleg</afflictionname.ntc_cyberleg>
+        <afflictiondescription.ntc_cyberleg>This inorganic leg is impervious to biological faults, but it must be maintained to be effective. It can be brutally removed using a crowbar.</afflictiondescription.ntc_cyberleg>
+
+        <afflictionname.ntc_loosescrews>Loose screws</afflictionname.ntc_loosescrews>
+        <afflictiondescription.ntc_loosescrews>Screws have loosened as a result of physical trauma, or from other loose screws. If the screws are not tightened using a screwdriver, motion may loosen more screws.</afflictiondescription.ntc_loosescrews>
+
+        <afflictionname.ntc_damagedelectronics>Damaged electronics</afflictionname.ntc_damagedelectronics>
+        <afflictiondescription.ntc_damagedelectronics>Delicate circuitry has been damaged by water or physical trauma. If the circuits are not replaced by FPGAs, the limb may occasionally malfunction.</afflictiondescription.ntc_damagedelectronics>
+
+        <afflictionname.ntc_bentmetal>Bent metal</afflictionname.ntc_bentmetal>
+        <afflictiondescription.ntc_bentmetal>The limb has been bent by physical trauma, making it harder to use. It can be welded back in place.</afflictiondescription.ntc_bentmetal>
+
+        <afflictionname.ntc_materialloss>Material loss</afflictionname.ntc_materialloss>
+        <afflictiondescription.ntc_materialloss>The limb has lost parts due to physical trauma. It can be repaired using steel. If too many parts are lost, the limb may be destroyed. Loose screws make it easier to lose parts.</afflictiondescription.ntc_materialloss>
+
+        <afflictionname.ntc_waterproof>Waterproof</afflictionname.ntc_waterproof>
+        <afflictiondescription.ntc_waterproof>This cyberlimb does not take water damage.</afflictiondescription.ntc_waterproof>
+
+        <!-- Cyberorgan Items -->
+        <entityname.augmentedliver>Cyber-Augmented Liver</entityname.augmentedliver>
+        <entitydescription.augmentedliver>A partially synthetic human liver. Cyber-enhanced metabolism improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and dampens ‖color:gui.green‖nausea‖end‖. Negative drug effects include drunkenness, addiction, withdrawal, and overdose. It is more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.augmentedliver>
+        
+        <entityname.augmentedkidney>Cyber-Augmented Kidney</entityname.augmentedkidney>
+        <entitydescription.augmentedkidney>A pair of partially synthetic human kidneys. Cyber-enhanced metabolism improves ‖color:gui.green‖blood clotting‖end‖ and ‖color:gui.green‖synthesis‖end‖. Blood type changes to C+, preventing cyberorgan ‖color:gui.green‖rejection‖end‖, and allowing ‖color:gui.green‖acceptance‖end‖ from all other blood types. It is more resistant to ‖color:gui.green‖damage‖end‖ than biological kidneys, and takes the place of both kidneys.</entitydescription.augmentedkidney>
+        
+        <entityname.augmentedheart>Cyber-Augmented Heart</entityname.augmentedheart>
+        <entitydescription.augmentedheart>A partially synthetic human heart. Cyber-enhanced metabolism slightly increases ‖color:gui.green‖health‖end‖ and improves ‖color:gui.green‖blood pressure normalization‖end‖ rate. Increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of ‖color:gui.blue‖cyber-enhanced lungs‖end‖. It is more resistant to ‖color:gui.green‖damage‖end‖ than a biological heart, and takes the place of the heart.</entitydescription.augmentedheart>
+        
+        <entityname.augmentedlung>Cyber-Augmented Lungs</entityname.augmentedlung>
+        <entitydescription.augmentedlung>A pair of partially synthetic human lungs. Cyber-enhanced metabolism improves oxygen capacity, increasing resistance against ‖color:gui.green‖hypoxemia‖end‖. Provides temporary pressure resistance. Increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of a ‖color:gui.blue‖cyber-enhanced heart‖end‖. It is more resistant to ‖color:gui.green‖damage‖end‖ and ‖color:gui.green‖pneumothorax‖end‖ than biological lungs, and takes the place of the lungs.</entitydescription.augmentedlung>
+        
+        <entityname.augmentedbrain>Cyber-Augmented Brain Implant</entityname.augmentedbrain>
+        <entitydescription.augmentedbrain>A neural augmentation chip. Cyber-enhanced neural processing improves ‖color:gui.green‖intelligence‖end‖, and ‖color:gui.green‖pain receptors‖end‖ are permanently inhibited. It increases resistance to ‖color:gui.green‖neurotrauma‖end‖, and is implanted into the brain.</entitydescription.augmentedbrain>
+        
+        <entityname.cyberliver>Cyberliver</entityname.cyberliver>
+        <entitydescription.cyberliver>A synthetic human liver. Cyber-metabolism greatly improves resistance against ‖color:gui.green‖poisons‖end‖, ‖color:gui.green‖negative drug effects‖end‖, and greatly dampens ‖color:gui.green‖nausea‖end‖. Negative drug effects include drunkenness, addiction, withdrawal, and overdose. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than a biological liver, and takes the place of the liver.</entitydescription.cyberliver>
+        
+        <entityname.cyberkidney>Cyberkidney</entityname.cyberkidney>
+        <entitydescription.cyberkidney>A pair of synthetic human kidneys. Cyber-metabolism greatly improves ‖color:gui.green‖blood clotting‖end‖ and ‖color:gui.green‖synthesis‖end‖. Blood type changes to C+, preventing cyberorgan ‖color:gui.green‖rejection‖end‖, and allowing ‖color:gui.green‖acceptance‖end‖ from all other blood types. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than biological kidneys, and takes the place of both kidneys.</entitydescription.cyberkidney>
+        
+        <entityname.cyberheart>Cyberheart</entityname.cyberheart>
+        <entitydescription.cyberheart>A synthetic human heart. Cyber-metabolism increases ‖color:gui.green‖health‖end‖ and greatly improves ‖color:gui.green‖blood pressure normalization‖end‖ rate. Greatly increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of ‖color:gui.blue‖cyber-enhanced lungs‖end‖. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ than a biological heart, and takes the place of the heart.</entitydescription.cyberheart>
+        
+        <entityname.cyberlung>Cyberlungs</entityname.cyberlung>
+        <entitydescription.cyberlung>A pair of synthetic human lungs. Cyber-metabolism greatly improves oxygen capacity, greatly increasing resistance against ‖color:gui.green‖hypoxemia‖end‖. Provides temporary pressure resistance. Greatly increases ‖color:gui.green‖fast-twitch muscle speed‖end‖, which is further increased with the use of a ‖color:gui.blue‖cyber-enhanced heart‖end‖. It is significantly more resistant to ‖color:gui.green‖damage‖end‖ and ‖color:gui.green‖pneumothorax‖end‖ than biological lungs, and takes the place of the lungs.</entitydescription.cyberlung>
+        
+        <entityname.cyberbrain>Cyberbrain Positronic Implant</entityname.cyberbrain>
+        <entitydescription.cyberbrain>A positronic neural chipset. Cybernetic computational processors greatly improve ‖color:gui.green‖intelligence‖end‖, and ‖color:gui.green‖pain receptors‖end‖ are permanently inhibited. It greatly increases resistance to ‖color:gui.green‖neurotrauma‖end‖, and is implanted into the brain.</entitydescription.cyberbrain>
+
+        <!-- Cyberorgan Afflictions -->
+        <afflictionname.ntc_cyberlung_pressure_recovery>Pressurized Cyberlung</afflictionname.ntc_cyberlung_pressure_recovery>
+        <afflictiondescription.ntc_cyberlung_pressure_recovery>The Cyberlung has self-pressurized, briefly preventing implosion.</afflictiondescription.ntc_cyberlung_pressure_recovery>
+        <afflictiondescription.ntc_cyberlung_pressure_recovery.low>The Cyberlung has resisted severe pressure, and is undertaking self-repair routines.</afflictiondescription.ntc_cyberlung_pressure_recovery.low>
+
+        <!-- Cybernetics Enhanced Items -->
+        <entityname.bloodpackabcplus>Blood Pack C+</entityname.bloodpackabcplus>
+        <entitydescription.bloodpackabcplus>Administerable to: C+</entitydescription.bloodpackabcplus>
+        
+        <entityname.abcpluscard>Donor card C+</entityname.abcpluscard>
+        <entitydescription.abcpluscard>Can take blood from: all of them
+        Can give blood to: C+</entitydescription.abcpluscard>
+        
+        <entityname.immunosuppressantinhaler>Immunoblocker Inhaler</entityname.immunosuppressantinhaler>
+        <entitydescription.immunosuppressantinhaler>Partially inhibits the ‖color:gui.red‖immune system‖end‖, sufficient enough to prevent ‖color:gui.green‖cyberpsychosis‖end‖. Cyberpsychosis is caused by the use of fully synthetic ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.immunosuppressantinhaler>
+
+        <!-- Cybernetics Enhanced Hidden Afflictions -->
+        <afflictionname.ntc_cyberpsychosis>Cyberpsychosis</afflictionname.ntc_cyberpsychosis>
+        <afflictiondescription.ntc_cyberpsychosis>The patient is suffering from Cyberpsychosis, a mental disorder caused by excessive cybernetic implants.</afflictiondescription.ntc_cyberpsychosis>
+        
+        <afflictionname.ntc_cyberpsychosis_resistance>Cyberpsychosis Resistance</afflictionname.ntc_cyberpsychosis_resistance>
+        <afflictiondescription.ntc_cyberpsychosis_resistance>The patient has resistance to Cyberpsychosis.</afflictiondescription.ntc_cyberpsychosis_resistance>
+
+        <afflictionname.immunosuppressantinhaler>Inhaled Immunosuppressants</afflictionname.immunosuppressantinhaler>
+        <afflictiondescription.immunosuppressantinhaler></afflictiondescription.immunosuppressantinhaler>
+
+        <afflictionname.ntc_cyberliver>Cyberliver</afflictionname.ntc_cyberliver>
+        <afflictiondescription.ntc_cyberliver>An installed cybernetic liver. Provides resistance against poisons, negative drug effects, nausea, and liver damage.</afflictiondescription.ntc_cyberliver>
+
+        <afflictionname.ntc_cyberkidney>Cyberkidneys</afflictionname.ntc_cyberkidney>
+        <afflictiondescription.ntc_cyberkidney>Installed cybernetic kidneys. Provides resistance against bleeding, bloodloss, kidney damage, and changes blood type to C+.</afflictiondescription.ntc_cyberkidney>
+
+        <afflictionname.ntc_cyberlung>Cyberlungs</afflictionname.ntc_cyberlung>
+        <afflictiondescription.ntc_cyberlung>Installed cybernetic lungs. Provides resistance against hypoxemia, temporary pressure, lung damage, pneumothorax, and increases muscle speed.</afflictiondescription.ntc_cyberlung>
+
+        <afflictionname.ntc_cyberheart>Cyberheart</afflictionname.ntc_cyberheart>
+        <afflictiondescription.ntc_cyberheart>An installed cybernetic heart. Provides resistance against heart damage, increases health, blood pressure normalization rate, and muscle speed.</afflictiondescription.ntc_cyberheart>
+
+        <afflictionname.ntc_cyberbrain>Cyberbrain Implant</afflictionname.ntc_cyberbrain>
+        <afflictiondescription.ntc_cyberbrain>An installed brain implant. Provides resistance against neurotrauma, increases intelligence, and inhibits pain.</afflictiondescription.ntc_cyberbrain>
+
+    </Override>
+</infotexts>

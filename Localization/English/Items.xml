@@ -74,6 +74,22 @@
 
 		<entitydescription.raptorbaneextract>Concentrated raptorbane juice. Mildly toxic for humans, catastrophically toxic for mudraptors. It will induce vomiting in humans, making it a decent treatment for ‖color:gui.green‖acidosis‖end‖. On failure, it does not induce vomiting.</entitydescription.raptorbaneextract>
 
+		<entitydescription.proteinbar>May contain traces of galena. Treats some external ‖color:gui.green‖damage‖end‖ and ‖color:gui.green‖burns‖end‖.</entitydescription.proteinbar>
+
+		<entitydescription.stabilozine>Used as an ingredient in the manufacture of various medicines. On its own, can be used to slow down the effects of ‖color:gui.green‖poisons‖end‖ and ‖color:gui.green‖radiation sickness‖end‖. On failure, it is less effective.</entitydescription.stabilozine>
+
+		<entitydescription.hallucinogenicbufotoxin>Hallucinogenic toxin secreted by some Europan species. Serves as an ‖color:gui.green‖antiparalysant‖end‖ in a pinch.</entitydescription.hallucinogenicbufotoxin>
+
+		<entitydescription.cyanide>A highly toxic chemical that causes a rapid death once a sufficiently large dose has been administered. It is lethal against ‖color:gui.green‖husk infection‖end‖.</entitydescription.cyanide>
+
+		<entitydescription.europabrew>A reagent that moderately treats most ‖color:gui.green‖poisons‖end‖ and ‖color:gui.green‖radiation sickness‖end‖, but drastically increases the progression of ‖color:gui.red‖acid burns‖end‖ and ‖color:gui.green‖husk infection‖end‖.</entitydescription.europabrew>
+
+		<entitydescription.sufforin>A stealthy neurotoxin, undetectable in early stages. Causes a loss of vision and, ultimately, death. It is lethal against ‖color:gui.green‖husk infection‖end‖.</entitydescription.sufforin>
+
+		<entitydescription.antirad>Slows down cellular degradation caused by radiation. On failure, it is less effective.</entitydescription.antirad>
+
+		<entitydescription.calyxanide>An antiparasitic drug used in the treatment of ‖color:gui.green‖husk parasite infections‖end‖. On failure, it is less effective.</entitydescription.calyxanide>
+
 		<!-- NT Tools -->
 		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>
 		<entitydescription.defibrillator>A tool that uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ or reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 80. On failure, causes ‖color:gui.red‖cardiac arrest‖end‖.</entitydescription.defibrillator>

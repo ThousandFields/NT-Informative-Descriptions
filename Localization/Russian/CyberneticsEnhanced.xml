@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- By ThousandFields. translation done by pest045 -->
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+    <Override>
+        <!-- Vanilla Items -->
+        <entitydescription.screwdriver>Позволяет чинить электрику и работать с проводкой. Также используется для ‖color:gui.green‖Подтягивания Винтов‖end‖ на ‖color:gui.blue‖Кибернетической Конечности‖end‖.</entitydescription.screwdriver>
+
+        <entitydescription.screwdriverhardened>Отвёрка которая прошла процесс процесс закалки с помощью пустого топливного стрежня. закалённый материал позволяет совершать более эффективные удары и починки. Также нужна для ‖color:gui.green‖Подтягивания Винтов‖end‖ на ‖color:gui.blue‖Кибернетической Конечности‖end‖, и хирургически ‖color:gui.green‖Ремонтировать‖end‖ ‖color:gui.blue‖Кибернетичиские Органы‖end‖.</entitydescription.screwdriverhardened>
+
+        <entitydescription.screwdriverdementonite>Создана из слабо изученного материала Дементонит. Держа это вы получаете непонятные и странные чувства. Также нужна для ‖color:gui.green‖Подтягивания Винтов‖end‖ на ‖color:gui.blue‖Кибернетической Конечности‖end‖, и хирургически ‖color:gui.green‖Ремонтировать‖end‖ ‖color:gui.blue‖Кибернетичиские Органы‖end‖.</entitydescription.screwdriverdementonite>
+
+        <entitydescription.fpgacircuit>Программируемая пользователем вентильная матрица - универсальная схема, конфигурацию которой можно свободно менять для использования в ряде электрических устройств. Также используется для замены ‖color:gui.green‖Поврежденной Электроники‖end‖ на ‖color:gui.blue‖Кибернетической Конечности‖end‖.</entitydescription.fpgacircuit>
+
+        <entitydescription.weldingtool>Один из важнейших инструментов на борту подлодки. Работает даже под водой и используется для выравнивания ‖color:gui.green‖Погнутого Металла‖end‖ на ‖color:gui.blue‖Кибернетической Конечности‖end‖.</entitydescription.weldingtool>
+
+        <entitydescription.steel>Прочный металлический сплав железа и углерода. Используется в производстве топливных стержней, а также во многих военных целях. Также используется для восстановления ‖color:gui.green‖Потери Материала‖end‖ на ‖color:gui.blue‖Кибернетической Конечности‖end‖.</entitydescription.steel>
+
+        <!-- Cybernetics Improved Items -->
+        <entityname.cyberarm>Кибернетическая Рука</entityname.cyberarm>
+        <entitydescription.cyberarm>Мощная неорганическая рука которая не может ‖color:gui.green‖Получить Кровотечение‖end‖ или ‖color:gui.green‖Перелом‖end‖. Дополонительно, оно увеличет ‖color:gui.green‖Скорость Плавания‖end‖ и ‖color:gui.green‖melee damage‖end‖. Но, Оно требует ‖color:gui.red‖Обслуживания‖end‖ и может получить ‖color:gui.red‖Повреждения От Воды‖end‖. Можно Установить после ампутации.</entitydescription.cyberarm>
+
+        <entityname.cyberleg>Кибернетическая Нога</entityname.cyberleg>
+        <entitydescription.cyberleg>Мощная неорганическая нога которая не может ‖color:gui.green‖Получить Кровотечение‖end‖ или ‖color:gui.green‖Перелом‖end‖. Дополонительно, оно увеличет ‖color:gui.green‖Скорость Бега‖end‖. Но, Оно требует ‖color:gui.red‖Обслуживания‖end‖ и может получить ‖color:gui.red‖Повреждения От Воды‖end‖. Можно Установить после ампутации.</entitydescription.cyberleg>
+        
+        <entityname.waterproofcyberarm>Водонепроницаемая Кибернетическая Рука</entityname.waterproofcyberarm>
+        <entitydescription.waterproofcyberarm>Мощная неорганическая рука которая не может ‖color:gui.green‖Получить Кровотечение‖end‖ или ‖color:gui.green‖Перелом‖end‖. Дополонительно, оно увеличет ‖color:gui.green‖Скорость Плавания‖end‖ и ‖color:gui.green‖melee damage‖end‖. Но, Оно требует ‖color:gui.red‖Обслуживания‖end‖, И защищено от ‖color:gui.green‖Повреждения От Воды‖end‖. Можно Установить после ампутации.</entitydescription.waterproofcyberarm>
+        
+        <entityname.waterproofcyberleg>Водонепроницаемая Кибернетическая Нога</entityname.waterproofcyberleg>
+        <entitydescription.waterproofcyberleg>Мощная неорганическая нога которая не может ‖color:gui.green‖Получить Кровотечение‖end‖ или ‖color:gui.green‖Перелом‖end‖. Дополонительно, оно увеличет ‖color:gui.green‖Скорость Бега‖end‖. Но, Оно требует ‖color:gui.red‖Обслуживания‖end‖, И защищено от ‖color:gui.green‖Повреждения От Воды‖end‖. Можно Установить после ампутации.</entitydescription.waterproofcyberleg>
+
+		<!-- Cybernetics Improved Afflictions -->
+        <afflictionname.ntc_cyberarm>Кибернетическая Рука</afflictionname.ntc_cyberarm>
+        <afflictiondescription.ntc_cyberarm>Эта неорганическая рука невосприимчива к биологическим повреждениям, но требует ремонта чтобы быть эффективной. Она может быть грубо удалена ломом.</afflictiondescription.ntc_cyberarm>
+
+        <afflictionname.ntc_cyberleg>Кибернетическая Нога</afflictionname.ntc_cyberleg>
+        <afflictiondescription.ntc_cyberleg>Эта неорганическая нога невосприимчива к биологическим повреждениям, но требует ремонта чтобы быть эффективной. Она может быть грубо удалена ломом.</afflictiondescription.ntc_cyberleg>
+
+        <afflictionname.ntc_loosescrews>Расшатанные Винты</afflictionname.ntc_loosescrews>
+        <afflictiondescription.ntc_loosescrews>Винты расшатались в результате физической травмы или от остальных расшатанных винтов. Если винты не будут затянуты отверткой, движение может ослабить больше винтов.</afflictiondescription.ntc_loosescrews>
+
+        <afflictionname.ntc_damagedelectronics>Поврежденная Электроника</afflictionname.ntc_damagedelectronics>
+        <afflictiondescription.ntc_damagedelectronics>Хрупкие электрические схемы были повреждены водой или физической травмой. Если поврежденная электроника не заменена используя схемы на базе ППВМ, то конечность может иногда давать сбои.</afflictiondescription.ntc_damagedelectronics>
+
+        <afflictionname.ntc_bentmetal>Погнутый Металл</afflictionname.ntc_bentmetal>
+        <afflictiondescription.ntc_bentmetal>Конечость была погнута в результате физической травмы, затрудняя ее пользование. Её можно выровнять используя сварочный аппарат.</afflictiondescription.ntc_bentmetal>
+
+        <afflictionname.ntc_materialloss>Потеря Материала</afflictionname.ntc_materialloss>
+        <afflictiondescription.ntc_materialloss>Конечность потеряла материал в результате физической травмы. Она может быть восстановлена используя сталь. Если сила потери материала слишком большая, то конечность будет уничтожена. Расшатанные винты увеличивают потерю материала.</afflictiondescription.ntc_materialloss>
+
+        <afflictionname.ntc_waterproof>Водонепроницаемая Кибернетическая Конечность</afflictionname.ntc_waterproof>
+        <afflictiondescription.ntc_waterproof>Эта Кибернетическая конечность не получит урон от воды.</afflictiondescription.ntc_waterproof>
+
+        <!-- Cyberorgan Items -->
+        <entityname.augmentedliver>Кибердополненная Печень</entityname.augmentedliver>
+        <entitydescription.augmentedliver>Частично синтетическая печень. кибернетически улучшенный метоболизм помогает в борьбе против ‖color:gui.green‖Ядов‖end‖, ‖color:gui.green‖Негативными Эффектами Препаратов‖end‖, и смягчает ‖color:gui.green‖Тошноту‖end‖. негативные эффекты препаратов включают алкогольное опьянение, зависимость, ломку, и передоз. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ чем биологическая печень, и занимет место печени.</entitydescription.augmentedliver>
+        
+        <entityname.augmentedkidney>Кибердополненная Почка</entityname.augmentedkidney>
+        <entitydescription.augmentedkidney>Частично синтетические почки. кибернетически улучшенный метоболизм помогает в ‖color:gui.green‖Свертивание Крови‖end‖ и ‖color:gui.green‖Синтезе‖end‖. Тип крови меняется на C+, предотвращая ‖color:gui.green‖Отторжение‖end‖ кибер органов, и позволяет ‖color:gui.green‖Принимать‖end‖ ВСЕ типы крови. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ чем биологические почки, и занимает место обоих почек.</entitydescription.augmentedkidney>
+        
+        <entityname.augmentedheart>Кибердополненное Сердце</entityname.augmentedheart>
+        <entitydescription.augmentedheart>Частично синтетическое сердце. кибернетически улучшенный метоболизм слегка увеличивает ‖color:gui.green‖Здоровье‖end‖ и улучшает ‖color:gui.green‖Скорость Нормализации Кровяного Давления‖end‖. усиливает ‖color:gui.green‖Быстрое Сокрощение Мышц‖end‖, которая увеличится сильнее с использованием ‖color:gui.blue‖Кибердополненных Лёгких ИЛИ Кибернетические Лёгкие‖end‖. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ чем биологическое сердце, и занимает место седрца.</entitydescription.augmentedheart>
+        
+        <entityname.augmentedlung>Кибердополненные Лёгкие</entityname.augmentedlung>
+        <entitydescription.augmentedlung>Частично синтетические лёгкие. кибернетически улучшенный метоболизм увеличивает количество кислорода, усиливает сопротивление против ‖color:gui.green‖Гипоксемии‖end‖. даёт временное сопротивление против давления. усиливает ‖color:gui.green‖Быстрое Сокрощение Мышц‖end‖, которая увеличится сильнее с использованием ‖color:gui.blue‖Кибердополненного Сердца ИЛИ Кибернетического Сердца‖end‖. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ и ‖color:gui.green‖Пневмоторакса‖end‖ чем биологические лёгкие, и и занимает место лёгких.</entitydescription.augmentedlung>
+        
+        <entityname.augmentedbrain>Кибердополненный Мозговой Имплант</entityname.augmentedbrain>
+        <entitydescription.augmentedbrain>Чип для нейроной аугментации. кибернетически улучшенная нейронная обработка улучшает ‖color:gui.green‖Интеллект‖end‖, и ‖color:gui.green‖Болевые Рецепторы‖end‖ навсегда ослаблены. усиливает сопротивление против ‖color:gui.green‖нейротрамвы‖end‖, и вставляется поверх мозга.</entitydescription.augmentedbrain>
+        
+        <entityname.cyberliver>Кибернетическая Печень</entityname.cyberliver>
+        <entitydescription.cyberliver>Синтетическая печень. Кибернетический метоболизм сильно помогает в борьбе против ‖color:gui.green‖Ядов‖end‖, ‖color:gui.green‖Негативными Эффектами Препаратов‖end‖, и сильно смягчает ‖color:gui.green‖Тошноту‖end‖. негативные эффекты препаратов включают алкогольное опьянение, зависимость, ломку, и передоз. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ чем биологическая печень, и занимет место печени.</entitydescription.cyberliver>
+        
+        <entityname.cyberkidney>Кибернетическая Почка</entityname.cyberkidney>
+        <entitydescription.cyberkidney>Пара синтетических почек. Кибернетический метоболизм сильно помогает в ‖color:gui.green‖Свертивание Крови‖end‖ и ‖color:gui.green‖Синтезе‖end‖. Тип крови меняется на C+, предотвращая ‖color:gui.green‖Отторжение‖end‖ кибер органов, и позволяет ‖color:gui.green‖Принимать‖end‖ ВСЕ типы крови. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ чем биологические почки, и занимает место обоих почек.</entitydescription.cyberkidney>
+        
+        <entityname.cyberheart>Кибернетическое Сердце</entityname.cyberheart>
+        <entitydescription.cyberheart>Синтетическое сердце. Кибернетический метоболизм сильно увеличивает ‖color:gui.green‖Здоровье‖end‖ и улучшает ‖color:gui.green‖Скорость Нормализации Кровяного Давления‖end‖. Усиливает ‖color:gui.green‖Быстрое Сокрощение Мышц‖end‖, которая увеличится сильнее с использованием ‖color:gui.blue‖Кибердополненных Лёгких ИЛИ Кибернетические Лёгкие‖end‖. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ чем биологическое сердце, и занимает место седрца.</entitydescription.cyberheart>
+        
+        <entityname.cyberlung>Кибернетические Лёгкие</entityname.cyberlung>
+        <entitydescription.cyberlung>Пара синтетических лёгких. Кибернетически метоболизм сильно увеличивает количество кислорода, усиливает сопротивление против ‖color:gui.green‖Гипоксемии‖end‖. Даёт временное сопротивление против давления. усиливает ‖color:gui.green‖Быстрое Сокрощение Мышц‖end‖, которая увеличится сильнее с использованием ‖color:gui.blue‖Кибердополненного Сердца ИЛИ Кибернетического Сердца‖end‖. Имеет более лучшую защиту от ‖color:gui.green‖Повреждения‖end‖ и ‖color:gui.green‖Пневмоторакса‖end‖ чем биологические лёгкие, и и занимает место лёгких.</entitydescription.cyberlung>
+        
+        <entityname.cyberbrain>Позитронно-Кибер Мозговой имплант</entityname.cyberbrain>
+        <entitydescription.cyberbrain>Позитронный нейронный набор микросхем. Кибернетические компотационные процессоры сильно увеличивают ‖color:gui.green‖Интеллект‖end‖, и ‖color:gui.green‖Болевые Рецепторы‖end‖ навсегда ослаблены. усиливает сопротивление против ‖color:gui.green‖нейротрамвы‖end‖, и вставляется поверх мозга.</entitydescription.cyberbrain>
+
+        <!-- Cyberorgan Afflictions -->
+        <afflictionname.ntc_cyberlung_pressure_recovery>Сжатое Кибер Лёгкое</afflictionname.ntc_cyberlung_pressure_recovery>
+        <afflictiondescription.ntc_cyberlung_pressure_recovery>Кибер Лёгкое сжалось, быстро предотвращая разрыв из-за давления.</afflictiondescription.ntc_cyberlung_pressure_recovery>
+        <afflictiondescription.ntc_cyberlung_pressure_recovery.low>Кибер Лёгкое сопротивилось сильному давлению, и оно сейчас самовосстанавливается.</afflictiondescription.ntc_cyberlung_pressure_recovery.low>
+
+        <!-- Cybernetics Enhanced Items -->
+        <entityname.bloodpackabcplus>Пакет Крови C+</entityname.bloodpackabcplus>
+        <entitydescription.bloodpackabcplus>Можно переливать реципиентам с: C+</entitydescription.bloodpackabcplus>
+        
+        <entityname.abcpluscard>Карточка донора C+</entityname.abcpluscard>
+        <entitydescription.abcpluscard>Реципиент для: Всех Типов Крови
+        Донор для: C+</entitydescription.abcpluscard>
+        
+        <entityname.immunosuppressantinhaler>Иммуно Блокирующий Ингалятор</entityname.immunosuppressantinhaler>
+        <entitydescription.immunosuppressantinhaler>Уменьшает ‖color:gui.red‖Иммунную систему‖end‖, достаточен силён чтобы предотвратить ‖color:gui.green‖Киберпсихоз‖end‖. Киберпсихоз вызван использованием полностью искусственных ‖color:gui.blue‖Кибернетических Органов‖end‖.</entitydescription.immunosuppressantinhaler>
+
+        <!-- Cybernetics Enhanced Hidden Afflictions -->
+        <afflictionname.ntc_cyberpsychosis>Киберпсихоз</afflictionname.ntc_cyberpsychosis>
+        <afflictiondescription.ntc_cyberpsychosis>Пациент страдает от Киберпсихоза, психическое заболевание вызванное большим количеством кибернетических имплантов.</afflictiondescription.ntc_cyberpsychosis>
+        
+        <afflictionname.ntc_cyberpsychosis_resistance>Сопротивление Киберпсихозу</afflictionname.ntc_cyberpsychosis_resistance>
+        <afflictiondescription.ntc_cyberpsychosis_resistance>Пациент устойчив к киберпсихозу.</afflictiondescription.ntc_cyberpsychosis_resistance>
+
+        <afflictionname.immunosuppressantinhaler>Имунно Блокирующий Ингалятор</afflictionname.immunosuppressantinhaler>
+        <afflictiondescription.immunosuppressantinhaler></afflictiondescription.immunosuppressantinhaler>
+
+        <afflictionname.ntc_cyberliver>Кибернетическая Печень</afflictionname.ntc_cyberliver>
+        <afflictiondescription.ntc_cyberliver>установлена Кибернетическая печень. Помогает в борьбе с ядами, негативными эффектами препаратов, тошнотой, повреждению печени.</afflictiondescription.ntc_cyberliver>
+
+        <afflictionname.ntc_cyberkidney>Кибернетические Почки</afflictionname.ntc_cyberkidney>
+        <afflictiondescription.ntc_cyberkidney>установлены кибернетические почки. помогают в борьбе с кровотечениями, кровопотерей, повреждением почек, меняет тип крови на C+.</afflictiondescription.ntc_cyberkidney>
+    
+        <afflictionname.ntc_cyberlung>Кибернетические Лёгкие</afflictionname.ntc_cyberlung>
+        <afflictiondescription.ntc_cyberlung>установлены кибернетические лёгкие. помогают в борьбе с гипоксемией, временным сильным давлением, повреждением лёгких, пневмотораксом, и усиливают скорость мышц.</afflictiondescription.ntc_cyberlung>
+
+        <afflictionname.ntc_cyberheart>Кибернетическое Сердеце</afflictionname.ntc_cyberheart>
+        <afflictiondescription.ntc_cyberheart>установлено кибернетичское сердце. помогает в борьбе с повреждением седрца, увеличивает здоровье, ускоряет нормализацию кровяного давления, и скорость мышц.</afflictiondescription.ntc_cyberheart>
+
+        <afflictionname.ntc_cyberbrain>Кибер Мозговой Имплант</afflictionname.ntc_cyberbrain>
+        <afflictiondescription.ntc_cyberbrain>установлен Кибер Мозговой Имплант. помогает в борьбе с нейротравмой, увеличивает интеллект, и ослабляет боль.</afflictiondescription.ntc_cyberbrain>
+
+    </Override>
+</infotexts>

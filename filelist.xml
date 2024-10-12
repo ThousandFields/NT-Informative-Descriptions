@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="NT Informative Descriptions" modversion="1.10" corepackage="False" steamworkshopid="3294275235" gameversion="1.5.9.1">
+<contentpackage name="NT Informative Descriptions" modversion="1.11" corepackage="False" steamworkshopid="3294275235" gameversion="1.5.9.1">
   <Text file="%ModDir%/Localization/English/dummy.xml" />
   <!--   <Item file="%ModDir%/dummy.xml" /> --> <!-- makes the mod load for clients if server host has the mod --> 
 </contentpackage>

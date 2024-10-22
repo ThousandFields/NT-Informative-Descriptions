@@ -56,7 +56,7 @@ local config = {
 
 	{
 		-- Cybernetics Enhanced
-		supportedlanguages = {"English"},
+		supportedlanguages = {"English","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "3324062208",
 		loadpriority = 0,

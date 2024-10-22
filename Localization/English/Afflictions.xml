@@ -244,7 +244,7 @@
 		<afflictiondescription.heartremoved>The heart has been surgically removed. A heart is required to pump oxygenated blood. Heart damage is usually caused by hypoxemia, a heart attack, or gunshot wounds.</afflictiondescription.heartremoved>
 
 		<afflictionname.brainremoved>Brain removed</afflictionname.brainremoved>
-		<afflictiondescription.brainremoved>The brain has been surgically removed. A brain is required for consciousness. Neurotrauma is usually caused by hypoxemia or a stroke.</afflictiondescription.brainremoved>
+		<afflictiondescription.brainremoved>The brain has been surgically removed. A brain is required for consciousness. Neurotrauma is usually caused by hypoxemia, a stroke, or the lack of a brain. Additionally, they splatter when hitting the ground.</afflictiondescription.brainremoved>
 		
 		<afflictionname.lungremoved>Lungs removed</afflictionname.lungremoved>
 		<afflictiondescription.lungremoved>The lungs have been surgically removed. Lungs are required to oxygenate blood. Lung damage is usually caused by hypoxemia, gunshot wounds, or heavy smoking.</afflictiondescription.lungremoved>

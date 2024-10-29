@@ -90,6 +90,8 @@
 
 		<entitydescription.calyxanide>An antiparasitic drug used in the treatment of ‖color:gui.green‖husk parasite infections‖end‖. On failure, it is less effective.</entitydescription.calyxanide>
 
+		<entitydescription.extinguisher>A handheld carbon dioxide extinguisher. Also puts out flaming people.</entitydescription.extinguisher>
+
 		<!-- NT Tools -->
 		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>
 		<entitydescription.defibrillator>A tool that uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ or reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 80. On failure, causes ‖color:gui.red‖cardiac arrest‖end‖.</entitydescription.defibrillator>

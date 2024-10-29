@@ -151,7 +151,7 @@
 		<entitydescription.osteosynthesisimplants>Titanium implants used to repair fractures. They can be installed after ‖color:gui.blue‖drilling bones‖end‖. In the event of total bone death, osteosynthesis must be performed on all body parts. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖internal damage‖end‖.</entitydescription.osteosynthesisimplants>
 
 		<entityname.spinalimplant>Spinal Cord Implants</entityname.spinalimplant>
-		<entitydescription.spinalimplant>Titanium implants used to repair spinal cord injuries. They can be installed after ‖color:gui.blue‖skin retraction‖end‖. However, the spinal cord will be injured again if the neck fracture is not repaired with ‖color:gui.blue‖osteosynthesis‖end‖.</entitydescription.spinalimplant>
+		<entitydescription.spinalimplant>Titanium implants used to repair spinal cord injuries. They can be installed after ‖color:gui.blue‖skin retraction‖end‖. However, the spinal cord will be injured again if the neck fracture is not repaired with ‖color:gui.blue‖osteosynthesis‖end‖. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖internal damage‖end‖.</entitydescription.spinalimplant>
 
 		<entityname.endovascballoon>Endovascular Balloon</entityname.endovascballoon>
 		<entitydescription.endovascballoon>A balloon inserted into a ruptured aorta. This will prevent ‖color:gui.green‖bloodloss‖end‖ caused by the rupture, but the clog will cause ‖color:gui.red‖gangrene‖end‖ over time. It can be installed after a ‖color:gui.blue‖scalpel incision‖end‖.</entitydescription.endovascballoon>

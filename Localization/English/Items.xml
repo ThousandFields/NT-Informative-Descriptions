@@ -80,11 +80,11 @@
 
 		<entitydescription.hallucinogenicbufotoxin>Hallucinogenic toxin secreted by some Europan species. Serves as an ‖color:gui.green‖antiparalysant‖end‖ in a pinch.</entitydescription.hallucinogenicbufotoxin>
 
-		<entitydescription.cyanide>A highly toxic chemical that causes a rapid death once a sufficiently large dose has been administered. It is lethal against ‖color:gui.green‖husk infection‖end‖.</entitydescription.cyanide>
+		<entitydescription.cyanide>A highly toxic chemical that causes a rapid death once a sufficiently large dose has been administered. Can be used as a risky method for eliminating ‖color:gui.green‖husk infections‖end‖.</entitydescription.cyanide>
 
-		<entitydescription.europabrew>A reagent that moderately treats most ‖color:gui.green‖poisons‖end‖ and ‖color:gui.green‖radiation sickness‖end‖, but drastically increases the progression of ‖color:gui.red‖acid burns‖end‖ and ‖color:gui.green‖husk infection‖end‖.</entitydescription.europabrew>
+		<entitydescription.europabrew>A double-edged chemical brew. While it activates the immune system to moderately treat ‖color:gui.green‖poisons‖end‖, it also significantly weakens the target, making them more susceptible to all ‖color:gui.red‖damage‖end‖, ‖color:gui.red‖burns‖end‖, and ‖color:gui.red‖husk infection‖end‖.</entitydescription.europabrew>
 
-		<entitydescription.sufforin>A stealthy neurotoxin, undetectable in early stages. Causes a loss of vision and, ultimately, death. It is lethal against ‖color:gui.green‖husk infection‖end‖.</entitydescription.sufforin>
+		<entitydescription.sufforin>A stealthy neurotoxin, undetectable in early stages. Causes a loss of vision and, ultimately, death. Can be used as a risky method for eliminating ‖color:gui.green‖husk infections‖end‖.</entitydescription.sufforin>
 
 		<entitydescription.antirad>Slows down cellular degradation caused by radiation. On failure, it is less effective.</entitydescription.antirad>
 

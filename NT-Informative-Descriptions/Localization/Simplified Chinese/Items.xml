@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- by HDC -->
+<infotexts language="Simplified Chinese" nowhitespace="false" translatedname="中文(简体)">
+  <Override>
+    <!-- 颜色编码指南
+    蓝色：指的是另一个物品
+    绿色：由物品引起的有益疾病，或治愈的疾病
+    红色：由物品引起的不良疾病，或缺点 -->
+    
+    <!-- 原版工具 -->
+    <entityname.healthscanner>健康扫描仪</entityname.healthscanner>
+    <entitydescription.healthscanner>一种使用电池电力显示疾病的工具。它可以对准一个人进行全身扫描，或者在健康UI中显示特定身体部位的疾病。使用扫描仪会导致轻微的‖color:gui.red‖辐射病‖end‖。无法显示血型、败血症、免疫力、异常酸性或药物，因为需要‖color:gui.blue‖血液分析仪‖end‖。</entitydescription.healthscanner>
+    
+    <entitydescription.wrench>使机械维修成为可能。它也用于修复‖color:gui.green‖脱臼‖end‖，如果患者没有感觉到疼痛，修复脱臼的难度会减半。然而，修复脱臼失败将导致‖color:gui.red‖骨折‖end‖。</entitydescription.wrench>
+    
+    <!-- 原版物品 -->
+    <entitydescription.idcard>允许有限进入潜艇的区域。可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。</entitydescription.idcard>
+    <NTID.idcard_suffix>可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。</NTID.idcard_suffix>
+    <!--idcardnamejob>这属于[name]，他的职业是[job]。可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。</idcardnamejob-->
+    
+    <entitydescription.alienblood>从欧罗巴生物体中提取的血液。与人类血液‖color:gui.red‖不兼容‖end‖。</entitydescription.alienblood>
+    
+    <entitydescription.antibloodloss1>一种用于增加‖color:gui.green‖血压‖end‖的氯化钠输液，并且还增加‖color:gui.green‖血液酸度‖end‖。</entitydescription.antibloodloss1>
+    
+    <entitydescription.antibleeding1>用于治疗‖color:gui.green‖出血‖end‖的基本绷带，促进‖color:gui.green‖轻微烧伤‖end‖和‖color:gui.green‖伤口‖end‖的愈合。此外，绷带还能稳定‖color:gui.green‖骨折‖end‖，防止其造成内部损伤。</entitydescription.antibleeding1>
+    
+    <entitydescription.antibleeding2>具有止血特性的合成皮肤，能够有效封闭‖color:gui.green‖出血‖end‖，并且是治疗‖color:gui.green‖轻微烧伤‖end‖的好方法，同时促进‖color:gui.green‖伤口‖end‖的愈合。此外，合成皮肤还能稳定‖color:gui.green‖骨折‖end‖，防止其造成损伤。</entitydescription.antibleeding2>
+    
+    <entitydescription.opium>从水生罂粟中获得的相对温和的鸦片类‖color:gui.green‖镇痛药‖end‖。最常用于制造吗啡和芬太尼。失败时效果较差，且有更高的‖color:gui.red‖成瘾‖end‖和‖color:gui.red‖过量‖end‖风险。</entitydescription.opium>
+    
+    <entitydescription.antidama1>一种强效鸦片类‖color:gui.green‖镇痛药‖end‖，但过度使用会导致‖color:gui.red‖成瘾‖end‖和‖color:gui.red‖过量‖end‖。失败时效果较差，且有更高的‖color:gui.red‖成瘾‖end‖和‖color:gui.red‖过量‖end‖风险。</entitydescription.antidama1>
+    
+    <entitydescription.antidama2>一种非常强效的鸦片类‖color:gui.green‖镇痛药‖end‖，但过度使用会导致‖color:gui.red‖成瘾‖end‖和‖color:gui.red‖过量‖end‖。镇痛不仅能防止‖color:gui.green‖疼痛‖end‖，还会‖color:gui.green‖增强组织‖end‖抵抗损伤。失败时效果较差，且有更高的‖color:gui.red‖成瘾‖end‖和‖color:gui.red‖过量‖end‖风险。</entitydescription.antidama2>
+    
+    <entitydescription.antinarc>一种用于治疗鸦片类‖color:gui.green‖戒断症状‖end‖和‖color:gui.green‖过量‖end‖的拮抗剂。此外，它会减少鸦片类药物的‖color:gui.green‖镇痛‖end‖效果。失败时效果较差。</entitydescription.antinarc>
+    
+    <entitydescription.antibiotics>一种针对广泛致病细菌的抗生素，使其成为治疗‖color:gui.green‖败血症‖end‖和‖color:gui.green‖壳感染‖end‖的有效手段。然而，它的特异性较低，导致‖color:gui.red‖器官损伤‖end‖。用作多种医疗化合物的成分。失败时效果较差。</entitydescription.antibiotics>
+    
+    <entitydescription.adrenaline>一种天然存在的激素。它会在短时间内引起各种刺激性效果，包括提高患者的‖color:gui.green‖血压‖end‖，减少‖color:gui.green‖昏迷敏感性‖end‖，增强‖color:gui.green‖快肌纤维‖end‖，并在压力下改善‖color:gui.green‖心脏功能‖end‖。此外，它会启动‖color:gui.green‖停止的心脏‖end‖并防止‖color:gui.green‖疼痛‖end‖。用作多种医疗化合物的成分。</entitydescription.adrenaline>
+    
+    <entitydescription.captainspipe>在海浪汹涌时用来安抚神经。对肺部有害。</entitydescription.captainspipe>
+    
+    <entitydescription.cigar>潜艇生活对精神压力很大，但也许这支精心制作的雪茄可以帮助你舒缓神经。对肺部有害。</entitydescription.cigar>
+    
+    <entitydescription.liquidoxygenite>一支‖color:gui.red‖不稳定的‖end‖氧化剂注射器，可以注射，强制‖color:gui.green‖给血液供氧‖end‖一段时间。然而，它的毒性会导致轻微的‖color:gui.red‖器官损伤‖end‖。失败时，供氧‖color:gui.red‖瞬间‖end‖，‖color:gui.red‖器官受到进一步损伤‖end‖。低氧血症会损伤大脑和器官，是战斗伤害导致死亡的主要原因。</entitydescription.liquidoxygenite>
+    
+    <entitydescription.deusizine>一种刺激剂，可增加‖color:gui.green‖肌肉耐力‖end‖，并可用于治疗‖color:gui.green‖内部损伤‖end‖、‖color:gui.green‖缺氧‖end‖和‖color:gui.green‖失血‖end‖。失败时效果较差。</entitydescription.deusizine>
+    
+    <entitydescription.antibleeding3>具有止血特性的抗生素胶水。几乎立即封闭‖color:gui.green‖出血‖end‖伤口，并防止其‖color:gui.green‖感染‖end‖。对‖color:gui.green‖烧伤‖end‖也有效。谨慎使用，因为它可能会导致血流中形成‖color:gui.red‖移动血栓‖end‖。</entitydescription.antibleeding3>
+    
+    <entitydescription.meth>一种强效的神经系统兴奋剂，暂时增强用户的‖color:gui.green‖肌肉速度‖end‖。然而，它‖color:gui.red‖上瘾‖end‖，会轻微损伤‖color:gui.red‖器官‖end‖，并导致一些‖color:gui.red‖脑损伤‖end‖。失败时效果较差，更‖color:gui.red‖容易上瘾‖end‖，并会导致更多的‖color:gui.red‖损伤‖end‖。</entitydescription.meth>
+    
+    <entitydescription.steroids>暂时增强‖color:gui.green‖肌肉力量‖end‖和‖color:gui.green‖耐力‖end‖。具有成瘾性。失败时效果较差，更容易上瘾。</entitydescription.steroids>
+    
+    <entitydescription.hyperzine>一种极强效的肌肉兴奋剂，适用于需要快速行动的时刻。增强‖color:gui.green‖肌肉力量‖end‖、‖color:gui.green‖耐力‖end‖和‖color:gui.green‖速度‖end‖，减少‖color:gui.green‖昏迷敏感性‖end‖。具有‖color:gui.red‖成瘾性‖end‖并导致少量的‖color:gui.red‖脑损伤‖end‖。失败时成瘾性更高，导致更多的脑损伤。</entitydescription.hyperzine>
+    
+    <entitydescription.antipsychosis>一种强效的‖color:gui.green‖抗精神病药‖end‖。</entitydescription.antipsychosis>
+    
+    <entitydescription.antiparalysis>一种治疗‖color:gui.green‖麻痹‖end‖并提前结束‖color:gui.green‖全身麻醉‖end‖的药物。过度使用可能导致‖color:gui.red‖精神病‖end‖。</entitydescription.antiparalysis>
+    
+    <entitydescription.tonicliquid>一种医疗溶液，轻度有效治疗‖color:gui.green‖内部损伤‖end‖，但更常用于‖color:gui.green‖延长血液和增强性能的药物‖end‖的持续时间。</entitydescription.tonicliquid>
+    
+    <entitydescription.nitroglycerin>一种极不稳定的液体，受到热或物理冲击时可能爆炸。给患者使用时会引起血管扩张和降低‖color:gui.green‖血压‖end‖。</entitydescription.nitroglycerin>
+    
+    <entitydescription.pomegrenadeextract>浓缩的石榴汁。具有轻微的‖color:gui.green‖伤口愈合‖end‖特性，包括‖color:gui.green‖缝合伤口‖end‖。</entitydescription.pomegrenadeextract>
+    
+    <entitydescription.combatstimulantsyringe>一种高效刺激剂，使用户快速恢复‖color:gui.green‖损伤‖end‖、‖color:gui.green‖烧伤‖end‖和‖color:gui.green‖失血‖end‖。此外，用户会迅速凝结‖color:gui.green‖外部‖end‖和‖color:gui.green‖内部出血‖end‖。具有‖color:gui.red‖成瘾性‖end‖。失败时更容易上瘾。</entitydescription.combatstimulantsyringe>
+    
+    <entitydescription.ethanol>用于制造各种药物的医用酒精。值班时不建议饮酒，酗酒对肺部有害。</entitydescription.ethanol>
+    
+    <entitydescription.rum>由猛禽祸害或石榴汁制成的优质烈酒。一些纯粹主义者坚持认为真正的朗姆酒是用甘蔗制成的，但在欧罗巴找到甘蔗是不太可能的。其效力足以损伤早期的‖color:gui.green‖壳感染‖end‖，但酗酒对肺部有害。</entitydescription.rum>
+    
+    <entitydescription.divingknife>刺、戳、切和砍。也可以用来移除旧的‖color:gui.green‖绷带‖end‖。失败时会导致‖color:gui.red‖割伤‖end‖和‖color:gui.red‖出血‖end‖。</entitydescription.divingknife>
+    
+    <!-- NT 工具 -->
+    <entityname.defibrillator>手动除颤器</entityname.defibrillator>
+    <entitydescription.defibrillator>一种使用电池电力治疗‖color:gui.green‖心脏骤停‖end‖或重置‖color:gui.green‖心房颤动‖end‖的工具。如果医疗技能低于80，请改用‖color:gui.blue‖自动体外除颤器‖end‖。失败时会导致‖color:gui.red‖心脏骤停‖end‖。</entitydescription.defibrillator>
+    
+    <entityname.aed>自动体外除颤器</entityname.aed>
+    <entitydescription.aed>自动体外除颤器使用电池电力治疗‖color:gui.green‖心脏骤停‖end‖。如果医疗技能高于80，请改用‖color:gui.blue‖手动除颤器‖end‖。</entitydescription.aed>
+    
+    <entityname.bvm>人工呼吸器</entityname.bvm>
+    <entitydescription.bvm>提供氧气瓶时，人工呼吸器将治疗‖color:gui.green‖缺氧‖end‖，并在提供氧化剂瓶时治疗‖color:gui.green‖呼吸骤停‖end‖。</entitydescription.bvm>
+    
+    <entityname.autocpr>自动心肺复苏机</entityname.autocpr>
+    <entitydescription.autocpr>一台占据患者外衣槽的机器。随着时间的推移，治疗‖color:gui.green‖心脏骤停‖end‖和‖color:gui.green‖心房颤动‖end‖，并防止‖color:gui.green‖呼吸骤停‖end‖的负面影响。佩戴自动心肺复苏机会随着时间的推移增加‖color:gui.green‖血压‖end‖，在紧急情况下可能有用。记得在不再需要时将其摘下！</entitydescription.autocpr>
+    
+    <entityname.bloodanalyzer>血液分析仪</entityname.bloodanalyzer>
+    <entitydescription.bloodanalyzer>一种显示患者血型和免疫力的工具。此外，还显示患者是否有失血、败血症、异常酸性或血液中有药物。如果插入一张‖color:gui.blue‖空白捐赠卡‖end‖，它会将患者的血型打印到他们的身份证上。每次使用分析仪都需要少量的‖color:gui.red‖血液‖end‖。</entitydescription.bloodanalyzer>
+    
+    <entityname.bloodcollector>空白捐赠卡</entityname.bloodcollector>
+    <entitydescription.bloodcollector>一种由‖color:gui.blue‖血液分析仪‖end‖用于印刷患者血型的空白捐赠卡。</entitydescription.bloodcollector>
+    
+    <entityname.traumashears>创伤剪</entityname.traumashears>
+    <entitydescription.traumashears>一种用于移除‖color:gui.green‖绷带‖end‖或‖color:gui.green‖石膏的工具‖end‖。失败时会导致‖color:gui.red‖出血‖end‖和‖color:gui.red‖割伤‖end‖。</entitydescription.traumashears>
+    
+    <entityname.wheelchair>轮椅</entityname.wheelchair>
+    <entitydescription.wheelchair>一种占据患者外衣槽的工具。允许利用手臂移动，使受伤的腿更容易行走。</entitydescription.wheelchair>
+    
+    <entityname.blahaj>蓝鲨</entityname.blahaj>
+    <entitydescription.blahaj>一个可爱的玩偶，每次给患者使用时都会轻微减少‖color:gui.green‖精神病‖end‖。</entitydescription.blahaj>
+    
+    <entityname.bodybag>尸体袋</entityname.bodybag>
+    <entitydescription.bodybag>一个占据患者或尸体外衣槽的袋子。允许他们以‖color:gui.green‖全速拖动‖end‖，但活人无法通过袋子呼吸，导致‖color:gui.red‖缺氧‖end‖。</entitydescription.bodybag>
+    
+    <entityname.stasisbag>停滞袋</entityname.stasisbag>
+    <entitydescription.stasisbag>一个占据患者外衣槽的袋子。这将导致‖color:gui.red‖心脏骤停‖end‖、‖color:gui.red‖呼吸骤停‖end‖、‖color:gui.red‖昏迷‖end‖和‖color:gui.red‖防止手术操作‖end‖，但会在佩戴时‖color:gui.green‖暂停负面疾病的进展‖end‖。袋子每四秒钟磨损1%。</entitydescription.stasisbag>
+    <stasisbagequipconfirmation>你将会‖color:gui.green‖昏迷‖end‖。你确定要装备停滞袋吗？</stasisbagequipconfirmation>
+    
+    <!-- NT 手术 -->
+    <entityname.advscalpel>手术刀</entityname.advscalpel>
+    <entitydescription.advscalpel>一种在手术中用于‖color:gui.green‖切口‖end‖的工具。切口是所有手术操作的第一步，但除非使用‖color:gui.blue‖止血钳‖end‖，否则会导致‖color:gui.red‖失血‖end‖。此外，只有在患者没有感觉到疼痛时才能进行切口，手术期间意识到疼痛的患者会产生‖color:gui.red‖创伤性休克‖end‖。失败时会导致‖color:gui.red‖出血‖end‖和‖color:gui.red‖割伤‖end‖。</entitydescription.advscalpel>
+    
+    <entityname.advhemostat>止血钳</entityname.advhemostat>
+    <entitydescription.advhemostat>一种在手术中用于‖color:gui.green‖夹闭血管‖end‖的工具。大多数手术操作的第二步，在‖color:gui.blue‖手术刀切口‖end‖之后进行。</entitydescription.advhemostat>
+    
+    <entityname.advretractors>皮肤牵开器</entityname.advretractors>
+    <entitydescription.advretractors>一种在手术中用于‖color:gui.green‖牵开皮肤‖end‖的工具。皮肤牵开是大多数手术操作的第三步，但如果患者在意识清醒且不靠近床或‖color:gui.blue‖手术台‖end‖的情况下进行，将会导致‖color:gui.red‖创伤性休克‖end‖。在‖color:gui.blue‖止血钳夹闭‖end‖之后使用。失败时会导致‖color:gui.red‖内部损伤‖end‖。</entitydescription.advretractors>
+    
+    <entityname.tweezers>镊子</entityname.tweezers>
+    <entitydescription.tweezers>一种允许去除不需要组织的小工具。在‖color:gui.blue‖皮肤牵开‖end‖之后，镊子可以用来去除一些‖color:gui.green‖异物‖end‖或将‖color:gui.green‖钝力创伤‖end‖和‖color:gui.green‖内部损伤‖end‖转化为‖color:gui.blue‖可缝合‖end‖的‖color:gui.blue‖割伤‖end‖。‖color:gui.green‖异物‖end‖也可以通过开放性枪伤或深层组织伤口去除，但这会导致轻微的‖color:gui.red‖创伤性休克‖end‖。失败时会导致‖color:gui.red‖内部损伤‖end‖。</entitydescription.tweezers>
+    
+    <entityname.surgerysaw>手术锯</entityname.surgerysaw>
+    <entitydescription.surgerysaw>一种用于‖color:gui.green‖锯骨‖end‖的工具。在‖color:gui.blue‖皮肤牵开‖end‖之后，可以锯骨以移除现有的肢体或添加新的肢体。如果坏疽超过15％，需要更换肢体。失败时会导致‖color:gui.red‖出血‖end‖、‖color:gui.red‖内部损伤‖end‖和‖color:gui.red‖割伤‖end‖。</entitydescription.surgerysaw>
+    
+    <entityname.suture>缝合</entityname.suture>
+    <entitydescription.suture>用于完成手术的可生物降解缝线。使用时，在任何步骤结束手术操作。此外，它们还可以用来‖color:gui.red‖缝合‖end‖‖color:gui.green‖开放性伤口‖end‖，并减少大量的外部‖color:gui.green‖出血‖end‖。失败时会导致‖color:gui.red‖内部损伤‖end‖。</entitydescription.suture>
+    
+    <entityname.surgicaldrill>手术钻</entityname.surgicaldrill>
+    <entitydescription.surgicaldrill>一种在手术中用于‖color:gui.green‖钻骨‖end‖的工具。在‖color:gui.blue‖皮肤牵开‖end‖之后，可以钻骨进行‖color:gui.blue‖骨折固定术‖end‖和修复骨折。失败时会导致‖color:gui.red‖出血‖end‖和‖color:gui.red‖内部损伤‖end‖。</entitydescription.surgicaldrill>
+    
+    <entityname.osteosynthesisimplants>骨折固定植入物</entityname.osteosynthesisimplants>
+    <entitydescription.osteosynthesisimplants>用于修复骨折的钛植入物。可以在‖color:gui.blue‖钻骨‖end‖之后安装。如果发生骨死亡，必须在所有身体部位进行骨折固定术。失败时会导致‖color:gui.red‖出血‖end‖和‖color:gui.red‖内部损伤‖end‖。</entitydescription.osteosynthesisimplants>
+    
+    <entityname.spinalimplant>脊柱植入物</entityname.spinalimplant>
+    <entitydescription.spinalimplant>用于修复脊柱损伤的钛植入物。可以在‖color:gui.blue‖皮肤牵开‖end‖之后安装。然而，如果颈部骨折未用‖color:gui.blue‖骨折固定术‖end‖修复，脊柱将再次受伤。</entitydescription.spinalimplant>
+    
+    <entityname.endovascballoon>血管内球囊</entityname.endovascballoon>
+    <entitydescription.endovascballoon>插入破裂的主动脉中的球囊。这将防止破裂引起的‖color:gui.green‖失血‖end‖，但堵塞会随着时间的推移导致‖color:gui.red‖坏疽‖end‖。可以在‖color:gui.blue‖手术刀切口‖end‖之后安装。</entitydescription.endovascballoon>
+    
+    <entityname.medstent>医疗支架</entityname.medstent>
+    <entitydescription.medstent>可以插入主动脉以修复破裂的支架。必须在‖color:gui.blue‖血管内球囊‖end‖之后使用。</entitydescription.medstent>
+    
+    <entityname.drainage>引流</entityname.drainage>
+    <entitydescription.drainage>通过排出胸膜腔中的空气治疗‖color:gui.green‖气胸‖end‖。可以在‖color:gui.blue‖皮肤牵开‖end‖之后使用。气胸是一种潜在威胁的情况，因为它阻止低氧血症的减轻。</entitydescription.drainage>
+    
+    <entityname.operatingtable>手术台</entityname.operatingtable>
+    <entitydescription.operatingtable>一种便携式的医院病床，旨在安装在潜艇上。与医院病床一样，它配有‖color:gui.green‖人工通气‖end‖。此外，它还安装了可以输出人的生命体征的电极。</entitydescription.operatingtable>
+    
+    <entityname.organscalpel_liver>肝脏手术刀</entityname.organscalpel_liver>
+    <entitydescription.organscalpel_liver>用于移除肝脏的专业手术刀。可以在‖color:gui.blue‖皮肤牵开‖end‖之后在躯干上使用。</entitydescription.organscalpel_liver>
+    
+    <entityname.organscalpel_kidneys>肾脏手术刀</entityname.organscalpel_kidneys>
+    <entitydescription.organscalpel_kidneys>用于移除肾脏的专业手术刀。可以在‖color:gui.blue‖皮肤牵开‖end‖之后在躯干上使用。</entitydescription.organscalpel_kidneys>
+    
+    <entityname.organscalpel_lungs>肺脏手术刀</entityname.organscalpel_lungs>
+    <entitydescription.organscalpel_lungs>用于移除肺脏的专业手术刀。可以在‖color:gui.blue‖皮肤牵开‖end‖之后在躯干上使用。</entitydescription.organscalpel_lungs>
+    
+    <entityname.organscalpel_heart>心脏手术刀</entityname.organscalpel_heart>
+    <entitydescription.organscalpel_heart>用于移除心脏的专业手术刀。可以在‖color:gui.blue‖皮肤牵开‖end‖之后在躯干上使用。</entitydescription.organscalpel_heart>
+    
+    <entityname.organscalpel_brain>大脑手术刀</entityname.organscalpel_brain>
+    <entitydescription.organscalpel_brain>用于移除大脑的专业手术刀。可以在‖color:gui.blue‖皮肤牵开‖end‖之后在头部使用。</entitydescription.organscalpel_brain>
+    
+    <entityname.multiscalpel>多功能手术刀</entityname.multiscalpel>
+    <entitydescription.multiscalpel>一种可以用于切口、器官提取、移除绷带/石膏或不当处理的手术刀。装备在手中以更改模式。</entitydescription.multiscalpel>
+    
+    <multiscalpel.incision>模式：手术切口。装备在手中以更改模式。</multiscalpel.incision>
+    <multiscalpel.kidneys>模式：提取肾脏</multiscalpel.kidneys>
+    <multiscalpel.liver>模式：提取肝脏</multiscalpel.liver>
+    <multiscalpel.lungs>模式：提取肺脏</multiscalpel.lungs>
+    <multiscalpel.heart>模式：提取心脏</multiscalpel.heart>
+    <multiscalpel.brain>模式：提取大脑</multiscalpel.brain>
+    <multiscalpel.bandage>模式：移除绷带、石膏和不当处理。装备在手中以更改模式。</multiscalpel.bandage>
+    <multiscalpel.speedflex>模式：自适应器官提取。用于头部提取大脑，左臂提取肾脏，躯干提取肝脏，右臂提取心脏，左腿提取肺脏。装备在手中以更改模式。</multiscalpel.speedflex>
+    
+    <multiscalpel.btn.incision>切口</multiscalpel.btn.incision>
+    <multiscalpel.btn.kidneys>肾脏</multiscalpel.btn.kidneys>
+    <multiscalpel.btn.liver>肝脏</multiscalpel.btn.liver>
+    <multiscalpel.btn.lungs>肺脏</multiscalpel.btn.lungs>
+    <multiscalpel.btn.heart>心脏</multiscalpel.btn.heart>
+    <multiscalpel.btn.brain>大脑</multiscalpel.btn.brain>
+    <multiscalpel.btn.bandage>绷带、石膏、不当处理</multiscalpel.btn.bandage>
+    <multiscalpel.btn.speedflex>自适应器官提取</multiscalpel.btn.speedflex>
+    
+    <!-- NT 血液 -->
+    <entityname.emptybloodpack>空血包</entityname.emptybloodpack>
+    <entitydescription.emptybloodpack>用于抽血的空血包。抽取的血液会保留捐赠者的少量‖color:gui.red‖异常酸性‖end‖或‖color:gui.red‖败血症‖end‖，如果他们有的话。只要患者健康，从患者身上抽取一个血包是安全的。失败时，会抽取‖color:gui.red‖可能致命的‖end‖血量。</entitydescription.emptybloodpack>
+    
+    <entityname.bloodpackoplus>O+血包</entityname.bloodpackoplus>
+    <entitydescription.bloodpackoplus>可以输给：O+、A+、B+、AB+</entitydescription.bloodpackoplus>
+    
+    <entityname.bloodpackominus>O-血包</entityname.bloodpackominus>
+    <entitydescription.bloodpackominus>可以输给：任何血型</entitydescription.bloodpackominus>
+    
+    <entityname.bloodpackaplus>A+血包</entityname.bloodpackaplus>
+    <entitydescription.bloodpackaplus>可以输给：A+、AB+</entitydescription.bloodpackaplus>
+    
+    <entityname.bloodpackbplus>B+血包</entityname.bloodpackbplus>
+    <entitydescription.bloodpackbplus>可以输给：B+、AB+</entitydescription.bloodpackbplus>
+    
+    <entityname.bloodpackabplus>AB+血包</entityname.bloodpackabplus>
+    <entitydescription.bloodpackabplus>可以输给：AB+</entitydescription.bloodpackabplus>
+    
+    <entityname.bloodpackaminus>A-血包</entityname.bloodpackaminus>
+    <entitydescription.bloodpackaminus>可以输给：A-、A+、AB-、AB+</entitydescription.bloodpackaminus>
+    
+    <entityname.bloodpackbminus>B-血包</entityname.bloodpackbminus>
+    <entitydescription.bloodpackbminus>可以输给：B-、B+、AB-、AB+</entitydescription.bloodpackbminus>
+    
+    <entityname.bloodpackabminus>AB-血包</entityname.bloodpackabminus>
+    <entitydescription.bloodpackabminus>可以输给：AB-、AB+</entitydescription.bloodpackabminus>
+    
+    <Override>
+        <entityname.antibloodloss2>O-血包</entityname.antibloodloss2>
+        <entitydescription.antibloodloss2>可以输给：任何血型</entitydescription.antibloodloss2>
+    </Override>
+    
+    <entityname.ominuscard>O-捐赠卡</entityname.ominuscard>
+    <entitydescription.ominuscard>可以从：O-抽血
+        可以给：所有人输血</entitydescription.ominuscard>
+    
+    <entityname.opluscard>O+捐赠卡</entityname.opluscard>
+    <entitydescription.opluscard>可以从：O-、O+抽血
+        可以给：O+、A+、B+、AB+输血</entitydescription.opluscard>
+    
+    <entityname.aminuscard>A-捐赠卡</entityname.aminuscard>
+    <entitydescription.aminuscard>可以从：O-、A-抽血
+        可以给：A-、A+、AB-、AB+输血</entitydescription.aminuscard>
+    
+    <entityname.apluscard>A+捐赠卡</entityname.apluscard>
+    <entitydescription.apluscard>可以从：O-、O+、A-、A+抽血
+        可以给：A+、AB+输血</entitydescription.apluscard>
+    
+    <entityname.bminuscard>B-捐赠卡</entityname.bminuscard>
+    <entitydescription.bminuscard>可以从：O-、B-抽血
+        可以给：B-、B+、AB-、AB+输血</entitydescription.bminuscard>
+    
+    <entityname.bpluscard>B+捐赠卡</entityname.bpluscard>
+    <entitydescription.bpluscard>可以从：O-、O+、B-、B+抽血
+        可以给：B+、AB+输血</entitydescription.bpluscard>
+    
+    <entityname.abminuscard>AB-捐赠卡</entityname.abminuscard>
+    <entitydescription.abminuscard>可以从：O-、A-、B-、AB-抽血
+        可以给：AB-、AB+输血</entitydescription.abminuscard>
+    
+    <entityname.abpluscard>AB+捐赠卡</entityname.abpluscard>
+    <entitydescription.abpluscard>可以从：所有人抽血
+        可以给：AB+输血</entitydescription.abpluscard>
+    
+    <!-- NT 容器 -->
+    <entityname.medtoolbox>医疗箱</entityname.medtoolbox>
+    <entitydescription.medtoolbox>可以存储药物和医疗器械。</entitydescription.medtoolbox>
+    
+    <entityname.surgerytoolbox>手术工具箱</entityname.surgerytoolbox>
+    <entitydescription.surgerytoolbox>可以存储许多手术过程中使用的小物品。</entitydescription.surgerytoolbox>
+    
+    <entityname.organtoolbox>冷藏容器</entityname.organtoolbox>
+    <entitydescription.organtoolbox>用于存储宝贵的移植准备好的器官和肢体的容器。器官在外面会快速腐烂，而肢体腐烂速度较慢。器官和肢体在冷藏时会再生，但仅当器官的状况超过90％或肢体的状况超过95％时才会再生。</entitydescription.organtoolbox>
+    
+    <entityname.organcrate>冷藏板条箱</entityname.organcrate>
+    <entitydescription.organcrate>用于存储宝贵的移植准备好的器官和肢体的板条箱。器官在外面会快速腐烂，而肢体腐烂速度较慢。器官和肢体在冷藏时会再生，但仅当器官的状况超过90％或肢体的状况超过95％时才会再生。</entitydescription.organcrate>
+    
+    <entityname.medstartercrate>医疗启动板条箱</entityname.medstartercrate>
+    <entitydescription.medstartercrate>一旦获得，该板条箱将生成急救和手术必需品。</entitydescription.medstartercrate>
+    
+    <!-- 人力资源 -->
+    <entityname.rarm>右臂</entityname.rarm>
+    <entitydescription.rarm>一只断裂的右臂。可以在‖color:gui.blue‖锯骨‖end‖之后外科重新接上。如果放在外面，肢体会慢慢腐烂直到毁坏，但肢体的状况对移植没有影响。骨头富含‖color:gui.green‖钙‖end‖。</entitydescription.rarm>
+    
+    <entityname.larm>左臂</entityname.larm>
+    <entitydescription.larm>一只断裂的左臂。可以在‖color:gui.blue‖锯骨‖end‖之后外科重新接上。如果放在外面，肢体会慢慢腐烂直到毁坏，但肢体的状况对移植没有影响。骨头富含‖color:gui.green‖钙‖end‖。</entitydescription.larm>
+    
+    <entityname.rleg>右腿</entityname.rleg>
+    <entitydescription.rleg>一只断裂的右腿。可以在‖color:gui.blue‖锯骨‖end‖之后外科重新接上。如果放在外面，肢体会慢慢腐烂直到毁坏，但肢体的状况对移植没有影响。骨头富含‖color:gui.green‖钙‖end‖。</entitydescription.rleg>
+    
+    <entityname.lleg>左腿</entityname.lleg>
+    <entitydescription.lleg>一只断裂的左腿。可以在‖color:gui.blue‖锯骨‖end‖之后外科重新接上。如果放在外面，肢体会慢慢腐烂直到毁坏，但肢体的状况对移植没有影响。骨头富含‖color:gui.green‖钙‖end‖。</entitydescription.lleg>
+    
+    <entityname.rarmp>右臂仿生</entityname.rarmp>
+    <entitydescription.rarmp>一个仿生右臂。可以用于治疗截肢，转化为生物右臂。可以在‖color:gui.blue‖锯骨‖end‖之后接上。</entitydescription.rarmp>
+    
+    <entityname.larmp>左臂仿生</entityname.larmp>
+    <entitydescription.larmp>一个仿生左臂。可以用于治疗截肢，转化为生物左臂。可以在‖color:gui.blue‖锯骨‖end‖之后接上。</entitydescription.larmp>
+    
+    <entityname.rlegp>右腿仿生</entityname.rlegp>
+    <entitydescription.rlegp>一个仿生右腿。可以用于治疗截肢，转化为生物右腿。可以在‖color:gui.blue‖锯骨‖end‖之后接上。</entitydescription.rlegp>
+    
+    <entityname.llegp>左腿仿生</entityname.llegp>
+    <entitydescription.llegp>一个仿生左腿。可以用于治疗截肢，转化为生物左腿。可以在‖color:gui.blue‖锯骨‖end‖之后接上。</entitydescription.llegp>
+    
+    <entityname.livertransplant>肝脏</entityname.livertransplant>
+    <entitydescription.livertransplant>一个人类肝脏。肝脏损伤会削弱身体自然愈合‖color:gui.red‖出血‖end‖的能力，还会导致一些‖color:gui.red‖神经创伤‖end‖，增加‖color:gui.red‖血压‖end‖，并在完全衰竭时引起持续的‖color:gui.red‖内部出血‖end‖。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官在外面会快速腐烂。</entitydescription.livertransplant>
+    <entityname.livertransplant_q1>肝脏移植</entityname.livertransplant_q1>
+    <entitydescription.livertransplant_q1>一个人类肝脏。肝脏损伤会削弱身体自然愈合‖color:gui.red‖出血‖end‖的能力，还会导致一些‖color:gui.red‖神经创伤‖end‖，增加‖color:gui.red‖血压‖end‖，并在完全衰竭时引起持续的‖color:gui.red‖内部出血‖end‖。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官在外面会快速腐烂。</entitydescription.livertransplant_q1>
+    
+    <entityname.lungtransplant>肺脏</entityname.lungtransplant>
+    <entitydescription.lungtransplant>一对人类肺脏。完全肺衰竭会引起‖color:gui.red‖呼吸骤停‖end‖。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官如果不冷藏或不在人体内，会快速腐烂。</entitydescription.lungtransplant>
+    <entityname.lungtransplant_q1>肺脏移植</entityname.lungtransplant_q1>
+    <entitydescription.lungtransplant_q1>一对人类肺脏。完全肺衰竭会引起‖color:gui.red‖呼吸骤停‖end‖。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官如果不冷藏或不在人体内，会快速腐烂。</entitydescription.lungtransplant_q1>
+    
+    <entityname.kidneytransplant>肾脏</entityname.kidneytransplant>
+    <entitydescription.kidneytransplant>一个人类肾脏。严重的肾脏损伤会导致‖color:gui.red‖酸中毒‖end‖、一些‖color:gui.red‖神经创伤‖end‖、‖color:gui.red‖骨损伤‖end‖，并增加‖color:gui.red‖血压‖end‖。肾脏一个接一个地衰竭，一个超过50％损伤时衰竭。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官如果不冷藏或不在人体内，会快速腐烂。</entitydescription.kidneytransplant>
+    <entityname.kidneytransplant_q1>肾脏移植</entityname.kidneytransplant_q1>
+    <entitydescription.kidneytransplant_q1>一个人类肾脏。严重的肾脏损伤会导致‖color:gui.red‖酸中毒‖end‖、‖color:gui.red‖神经创伤‖end‖、‖color:gui.red‖骨损伤‖end‖，并增加‖color:gui.red‖血压‖end‖。肾脏一个接一个地衰竭，一个超过50％损伤时衰竭。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官如果不冷藏或不在人体内，会快速腐烂。</entitydescription.kidneytransplant_q1>
+    
+    <entityname.hearttransplant>心脏</entityname.hearttransplant>
+    <entitydescription.hearttransplant>一个人类心脏。完全心脏衰竭会引起‖color:gui.red‖心脏骤停‖end‖。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官如果不冷藏或不在人体内，会快速腐烂。</entitydescription.hearttransplant>
+    <entityname.hearttransplant_q1>心脏移植</entityname.hearttransplant_q1>
+    <entitydescription.hearttransplant_q1>一个人类心脏。完全心脏衰竭会引起‖color:gui.red‖心脏骤停‖end‖。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。器官如果不冷藏或不在人体内，会快速腐烂。</entitydescription.hearttransplant_q1>
+    
+    <entityname.braintransplant>大脑</entityname.braintransplant>
+    <entitydescription.braintransplant>一个人类大脑。移除大脑会迅速增加‖color:gui.red‖神经创伤‖end‖。然而，可以将一个人的大脑移植到另一个人身上，让那个人控制他们。要移植器官，必须用适当的‖color:gui.blue‖器官手术刀‖end‖移除旧器官，并放入新器官。大脑在不在人类体内时会迅速腐烂，并且非常脆弱。</entitydescription.braintransplant>
+    
+    <entityname.armlock1>非功能性右手</entityname.armlock1>
+    <entitydescription.armlock1>这只手由于右臂‖color:gui.red‖脱臼‖end‖、‖color:gui.red‖骨折‖end‖或‖color:gui.red‖完全缺失‖end‖而无法工作。</entitydescription.armlock1>
+    
+    <entityname.armlock2>非功能性左手</entityname.armlock2>
+    <entitydescription.armlock2>这只手由于左臂‖color:gui.red‖脱臼‖end‖、‖color:gui.red‖骨折‖end‖或‖color:gui.red‖完全缺失‖end‖而无法工作。</entitydescription.armlock2>
+    
+    <!-- NT 治疗 -->
+    <entityname.mannitol>甘露醇</entityname.mannitol>
+    <entitydescription.mannitol>一种用于治疗大量‖color:gui.green‖神经创伤‖end‖的糖醇。然而，除非患者的血压超过70％并且血液氧合，否则无效。此外，它会导致‖color:gui.red‖心脏‖end‖和‖color:gui.red‖肾脏损伤‖end‖。失败时效果较差，并会导致更多的‖color:gui.red‖心脏‖end‖和‖color:gui.red‖肾脏损伤‖end‖。</entitydescription.mannitol>
+    
+    <entityname.streptokinase>链激酶</entityname.streptokinase>
+    <entitydescription.streptokinase>一种分解血栓的酶，适用于治疗‖color:gui.green‖心脏病发作‖end‖。然而，它会使‖color:gui.red‖中风‖end‖恶化。此外，它还用于治疗‖color:gui.green‖输血休克‖end‖。</entitydescription.streptokinase>
+    
+    <entityname.immunosuppressant>硫唑嘌呤</entityname.immunosuppressant>
+    <entitydescription.immunosuppressant>一种免疫抑制剂，可降低患者的‖color:gui.green‖免疫力‖end‖。这有助于防止‖color:gui.green‖器官排斥‖end‖或‖color:gui.green‖输入不相容的血型‖end‖而不会触发免疫反应。然而，较低的免疫力会使患者更容易患上‖color:gui.red‖败血症‖end‖。如果患者接受了器官移植，但立即失败，则说明被免疫系统排斥了。失败时会导致‖color:gui.red‖败血症‖end‖。</entitydescription.immunosuppressant>
+    
+    <entityname.thiamine>硫胺素</entityname.thiamine>
+    <entitydescription.thiamine>维生素B1会稍微增强‖color:gui.green‖器官再生‖end‖。失败时效果较差。</entitydescription.thiamine>
+    
+    <entityname.pressuremeds>硝普钠</entityname.pressuremeds>
+    <entitydescription.pressuremeds>一种用于降低‖color:gui.green‖血压‖end‖的药物。失败时效果较差。</entitydescription.pressuremeds>
+    
+    <entityname.ointment>抗生素软膏</entityname.ointment>
+    <entitydescription.ointment>一种抗菌凝胶，有助于对抗‖color:gui.green‖感染伤口‖end‖并缓解轻微‖color:gui.green‖烧伤‖end‖。失败时效果较差。</entitydescription.ointment>
+    
+    <entityname.tourniquet>止血带</entityname.tourniquet>
+    <entitydescription.tourniquet>一种防止‖color:gui.green‖大动脉出血‖end‖的急救物品。然而，重要的是要让血液‖color:gui.red‖到达头部‖end‖。堵塞出血会随着时间的推移导致‖color:gui.red‖坏疽‖end‖。手术过程中将其移除。失败时会导致‖color:gui.red‖钝力创伤‖end‖</entitydescription.tourniquet>
+    
+    <entityname.needle>针头</entityname.needle>
+    <entitydescription.needle>一种专用针头，用于作为急救选项减压胸膜腔中的空气，以治疗‖color:gui.green‖气胸‖end‖。气胸是一种潜在威胁的情况，因为它阻止低氧血症的减轻。失败时会导致‖color:gui.red‖器官损伤‖end‖和‖color:gui.red‖出血‖end‖。</entitydescription.needle>
+    
+    <entityname.ringerssolution>林格氏溶液</entityname.ringerssolution>
+    <entitydescription.ringerssolution>一种用于增加‖color:gui.green‖血压‖end‖的等渗溶液。</entitydescription.ringerssolution>
+    
+    <entityname.antiseptic>防腐剂</entityname.antiseptic>
+    <entitydescription.antiseptic>由‖color:gui.blue‖防腐喷雾器‖end‖使用，有效治疗‖color:gui.green‖感染伤口‖end‖。</entitydescription.antiseptic>
+    
+    <entityname.antisepticspray>防腐喷雾器</entityname.antisepticspray>
+    <entitydescription.antisepticspray>使用‖color:gui.blue‖防腐剂‖end‖对抗‖color:gui.green‖感染伤口‖end‖。</entitydescription.antisepticspray>
+    
+    <entityname.propofol>丙泊酚</entityname.propofol>
+    <entitydescription.propofol>一种全身‖color:gui.green‖麻醉药‖end‖。其效果需要一段时间才能生效，并且不会持续很长时间。麻醉的患者在手术操作中不会获得‖color:gui.green‖创伤性休克‖end‖。使用可能会伴随各种非致命的‖color:gui.red‖副作用‖end‖。</entitydescription.propofol>
+    
+    <entityname.gypsum>石膏</entityname.gypsum>
+    <entitydescription.gypsum>一种可以形成石膏的粉末。用于包裹‖color:gui.green‖长骨骨折‖end‖，使其愈合。在‖color:gui.blue‖包扎‖end‖肢体后使用。失败时将消耗而不形成石膏。</entitydescription.gypsum>
+  </Override>
+</infotexts>

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="NT Informative Descriptions" modversion="1.12" corepackage="False" steamworkshopid="3294275235" gameversion="1.6.18.1">
-  <Text file="%ModDir%/Localization/English/dummy.xml" />
-  <!-- <Item file="%ModDir%/dummy.xml" /> --> <!-- uncommenting the file to the left makes the mod enforced by server; users will automatically install and enable the mod --> 
-</contentpackage>

@@ -5,8 +5,8 @@ local TextFile = LuaUserData.CreateStatic("Barotrauma.TextFile", true)
 local pkg
 local FileList = {}
 
-LuaUserData.MakeFieldAccessible(Descriptors["Barotrauma.GameSettings"], "currentConfig")
-local ClientLanguage = tostring(GameSettings.currentConfig.Language)
+
+local ClientLanguage = tostring(Game.Settings.CurrentConfig.Language)
 local prev_language = ClientLanguage
 
 for package in ContentPackageManager.EnabledPackages.All do
@@ -276,6 +276,7 @@ function ReloadNTID()
     LoadPatches()
     CleanUpIdCards()
     UpdateIdCards()
+    ReloadModsLocalization()
 end
 
 function ReloadIdCards()
@@ -286,7 +287,7 @@ end
 
 Hook.Add("stop", "NTIDCleanUp", function ()
     UnloadPatches()
-    ReloadModsLocalization()
+    --ReloadModsLocalization()
 end)
 
 
@@ -319,4 +320,5 @@ end, GetValidArguments)
 LoadPatches()
 CleanUpIdCards()
 UpdateIdCards()
+ReloadModsLocalization()
 --ContentPackageManager.ReloadContentPackage(pkg)

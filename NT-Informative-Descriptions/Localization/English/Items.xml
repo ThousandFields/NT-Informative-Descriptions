@@ -95,6 +95,7 @@
 		<!-- NT Tools -->
 		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>
 		<entitydescription.defibrillator>A tool that uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ or reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 80. On failure, causes ‖color:gui.red‖cardiac arrest‖end‖.</entitydescription.defibrillator>
+		<postfix.entitydescription.defibrillator>AAAAAAAAAAAAAABBBBBBBBBBBBBB</postfix.entitydescription.defibrillator>
 
 		<entityname.aed>Automated External Defibrillator</entityname.aed>
 		<entitydescription.aed>The AED uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ and is guaranteed to reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖manual defibrillator‖end‖ instead if medical skill is above 80. It will never cause cardiac arrest.</entitydescription.aed>

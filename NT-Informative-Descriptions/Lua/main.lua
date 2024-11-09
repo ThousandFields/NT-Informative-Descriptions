@@ -2,9 +2,11 @@ if SERVER then return end
 local modconfig = require("modconfig")
 local idcardsuffixes = require("idcardsuffixes")
 local TextFile = LuaUserData.CreateStatic("Barotrauma.TextFile", true)
+LuaUserData.RegisterType("Barotrauma.TextPack+Text")
+
 local pkg
 local FileList = {}
-
+local TextPacks = {}
 
 local ClientLanguage = tostring(Game.Settings.CurrentConfig.Language)
 local prev_language = ClientLanguage
@@ -162,6 +164,141 @@ function LoadPatches()
             end
         end
     end
+
+    AddPostFixes()
+end
+
+
+LuaUserData.RegisterType("System.Collections.Immutable.ImmutableList`1[[Barotrauma.TextPack,Barotrauma]]")
+LuaUserData.RegisterType("System.Collections.Immutable.ImmutableList`1+Builder[[Barotrauma.TextPack,Barotrauma]]")
+TextPack = LuaUserData.CreateStatic('Barotrauma.TextPack')
+
+LuaUserData.RegisterType("System.Collections.Concurrent.ConcurrentDictionary`2")
+
+function AddPostFixes()
+    -- for _, patch in pairs(modconfig) do
+    -- local files = {}
+    -- local modname = ""
+    TextPacks = {}
+    DescriptionStrings = {}
+    PostFixes = {}
+    file = nil
+    local blankXElement = XElement.Parse("<name></name>")
+    local PostFixElement = XElement.Parse([[
+        <infotexts language="English" nowhitespace="false" translatedname="English">
+            <Override>
+            </Override>
+        </infotexts>
+        ]])
+    PostFixElementLanguage = PostFixElement.Attribute(XName.Get("language"))
+    PostFixElementtranslatedname = PostFixElement.Attribute(XName.Get("translatedname"))
+    
+    --print(PostFixElement)
+
+
+    -- test = XElement(XName.Get("testname"))
+    -- test.Value = "XXXXXXXXXXX"
+    -- PostFixElement.FirstNode.Add(test)
+    -- --PostFixElement.FirstNode.AddString("blankXElement")
+    -- PostFixElement.FirstNode.Add(blankXElement)
+
+    print(PostFixElement)
+
+
+    for language in TextManager.AvailableLanguages do
+        print(language)
+        DescriptionStrings = {}
+        PostFixes = {}
+        for textPack in TextManager.TextPacks[language] do
+            print(textPack.ContentFile.ContentPackage.Name)
+            if textPack.ContentFile.ContentPackage == pkg then
+                print("TEST1 ")
+                for identifier, text in pairs(textPack.Texts) do
+                    id = identifier.ToString()
+                    _, index = string.find(id, "^postfix.")
+                    if index then
+                        print("WHAT ", index)
+                        PostFixes[string.sub(id, index+1)] = text[1].String
+                    end
+                end
+
+            end
+        end
+
+
+        for id, postfix in pairs(PostFixes) do
+            print("POSTFIX ", id)
+            if DescriptionStrings[id] == nil then
+                for textPack in TextManager.TextPacks[language] do
+                    local text = textPack.Texts[Identifier(id)]
+                    if text ~= nil then
+                        DescriptionStrings[id] = text[1].String
+                        file = textPack.ContentFile
+                        print("FILE ", file)
+                        break
+                    end
+                end
+            end
+
+            DescriptionStrings[id] = DescriptionStrings[id] .. "\n\n" .. postfix
+        end
+
+            for id, description in pairs(DescriptionStrings) do
+                PostFixElement.FirstNode.Add(XElement(XName.Get(id), description))
+            end
+            if file ~= nil then
+
+            PostFixElement = ContentXElement(file.ContentPackage, PostFixElement)
+            --table.insert(TextPacks, TextPack(file, PostFixElement, language))
+
+            --print(TextPackList)
+            
+                TextPackList = TextManager.TextPacks[language].ToBuilder()
+
+                TextPackList.Add(TPack)
+                TextPackList.Reverse()
+                TextManager.TextPacks[language] = TextPackList.ToImmutable()
+            end
+
+
+    end
+    TextManager.ClearCache()
+    print(TextManager.Get("entitydescription.defibrillator"))
+
+
+
+
+
+    -- for id, postfix in pairs(PostFixes) do
+    --     description = TextManager.Get(id)
+    --     --print(LuaUserData.TypeOf(description))
+    --     description = LocalizedString.Replace(" ### ", description, postfix)
+    --     --print(StringComparison.Ordinal)
+    --     description.RetrieveValue()
+    --     print(description)
+    --     print(TextManager.Get(id))
+    --     --print(id, " = ", postfix)
+    -- end
+
+    --TextManager.ClearCache()
+
+    -- FileList = {}
+
+
+    --     if patch.IgnoreTargetModState or IsModEnabled(patch.workshopId) then
+    --         for language in patch.supportedlanguages do
+                
+
+
+    --             modname = GetPackageById(patch.workshopId).name
+
+    --             if not EnableTextFiles(patch.files, language) then
+    --                 print("Errors enabling NTID files")
+    --             end
+    --         end
+    --     end
+    -- end
+    
 end
 
 function StripModDir(filepath)

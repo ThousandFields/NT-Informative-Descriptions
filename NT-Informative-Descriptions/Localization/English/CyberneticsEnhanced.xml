@@ -96,11 +96,11 @@
         Can give blood to: C+</entitydescription.abcpluscard>
         
         <entityname.immunosuppressantinhaler>Immunoblocker Inhaler</entityname.immunosuppressantinhaler>
-        <entitydescription.immunosuppressantinhaler>Partially inhibits the ‖color:gui.red‖immune system‖end‖, sufficient enough to prevent ‖color:gui.green‖cyberpsychosis‖end‖. Cyberpsychosis is caused by the use of fully synthetic ‖color:gui.blue‖cyberorgans‖end‖.</entitydescription.immunosuppressantinhaler>
+        <entitydescription.immunosuppressantinhaler>Partially inhibits the ‖color:gui.red‖immune system‖end‖, sufficient enough to prevent ‖color:gui.green‖cyberpsychosis‖end‖. Cyberpsychosis is caused by the use of fully synthetic ‖color:gui.blue‖cyberorgans‖end‖ and ‖color:gui.blue‖cyberimplants‖end‖.</entitydescription.immunosuppressantinhaler>
 
         <!-- Cybernetics Enhanced Hidden Afflictions -->
         <afflictionname.ntc_cyberpsychosis>Cyberpsychosis</afflictionname.ntc_cyberpsychosis>
-        <afflictiondescription.ntc_cyberpsychosis>The patient is suffering from Cyberpsychosis, a mental disorder caused by excessive cybernetic implants.</afflictiondescription.ntc_cyberpsychosis>
+        <afflictiondescription.ntc_cyberpsychosis>The patient is suffering from Cyberpsychosis, a mental disorder caused by excessive cybernetic implants and fully synthetic organs.</afflictiondescription.ntc_cyberpsychosis>
         
         <afflictionname.ntc_cyberpsychosis_resistance>Cyberpsychosis Resistance</afflictionname.ntc_cyberpsychosis_resistance>
         <afflictiondescription.ntc_cyberpsychosis_resistance>The patient has resistance to Cyberpsychosis.</afflictiondescription.ntc_cyberpsychosis_resistance>
@@ -115,13 +115,12 @@
         <afflictiondescription.ntc_cyberkidney>Installed cybernetic kidneys. Provides resistance against bleeding, bloodloss, kidney damage, and changes blood type to C+.</afflictiondescription.ntc_cyberkidney>
 
         <afflictionname.ntc_cyberlung>Cyberlungs</afflictionname.ntc_cyberlung>
-        <afflictiondescription.ntc_cyberlung>Installed cybernetic lungs. Provides resistance against hypoxemia, temporary pressure, lung damage, pneumothorax, and increases muscle speed.</afflictiondescription.ntc_cyberlung>
+        <afflictiondescription.ntc_cyberlung>Installed cybernetic lungs. Provides resistance against hypoxemia, temporary pressure, lung damage, pneumothorax, and causes hyperactivity.</afflictiondescription.ntc_cyberlung>
 
         <afflictionname.ntc_cyberheart>Cyberheart</afflictionname.ntc_cyberheart>
-        <afflictiondescription.ntc_cyberheart>An installed cybernetic heart. Provides resistance against heart damage, increases health, blood pressure normalization rate, and muscle speed.</afflictiondescription.ntc_cyberheart>
-
+        <afflictiondescription.ntc_cyberheart>An installed cybernetic heart. Provides resistance against heart damage, increases health, blood pressure normalization rate, and causes hyperactivity.</afflictiondescription.ntc_cyberheart>
         <afflictionname.ntc_cyberbrain>Cyberbrain Implant</afflictionname.ntc_cyberbrain>
-        <afflictiondescription.ntc_cyberbrain>An installed brain implant. Provides resistance against neurotrauma, increases intelligence, and inhibits pain.</afflictiondescription.ntc_cyberbrain>
+        <afflictiondescription.ntc_cyberbrain>An installed brain implant. Provides resistance against neurotrauma, increases intelligence, and inhibits pain receptors.</afflictiondescription.ntc_cyberbrain>
 
     </Override>
 </infotexts>

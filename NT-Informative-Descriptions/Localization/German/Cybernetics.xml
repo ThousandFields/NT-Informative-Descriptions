@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- by profole -->
-<infotexts language="German" nowhitespace="false" translatedname="Deutsch">
+<!-- by ThousandFields -->
+<infotexts language="English" nowhitespace="false" translatedname="English">
 	<Override>
         <!-- Vanilla Items -->
         <entitydescription.screwdriver>Makes electrical repairs and rewiring possible. Also used to ‖color:gui.green‖tighten screws‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.screwdriver>

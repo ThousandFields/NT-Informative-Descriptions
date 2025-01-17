@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- by Profole -->
-<infotexts language="German" nowhitespace="false" translatedname="Deutsch">
+<!-- by ThousandFields -->
+<infotexts language="English" nowhitespace="false" translatedname="English">
 	<Override>
 		<!-- Vanilla Visible Afflictions -->
 		<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood. An infection will likely occur, and there is probably still bullets inside.</afflictiondescription.gunshotwound>

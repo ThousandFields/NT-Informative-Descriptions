@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by Profole -->
+<infotexts language="German" nowhitespace="false" translatedname="Deutsch">
+	<Override>
+		<!-- Vanilla Visible Afflictions -->
+		<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood. An infection will likely occur, and there is probably still bullets inside.</afflictiondescription.gunshotwound>
+		<afflictiondescription.gunshotwound.low>The bullet missed all the important bits, but the pain is real and so is the risk of infection. There may still be bullets inside.</afflictiondescription.gunshotwound.low>
+
+		<afflictiondescription.blunttrauma>The area is an ugly shade of purple, and apparently very painful to touch. You suspect a bone might be broken. This wound can't be stitched.</afflictiondescription.blunttrauma>
+		<afflictiondescription.blunttrauma.low>A light bruise shows where something hit, but it doesn’t look like anything is broken. This wound can't be stitched, however.</afflictiondescription.blunttrauma.low>
+
+		<afflictiondescription.lacerations>The skin is pierced and there are deep, bleeding wounds. This will probably cause an infection.</afflictiondescription.lacerations>
+		<afflictiondescription.lacerations.low>The cuts look worse than they really are, but a possible infection should not be ruled out.</afflictiondescription.lacerations.low>
+		
+		<afflictiondescription.bitewounds>There is extensive damage to soft tissue in the area and there are asymmetrical, bleeding wounds. This will probably cause an infection.</afflictiondescription.bitewounds>
+		<afflictiondescription.bitewounds.low>Something tried to take a big chomp but luckily only caught a nibble. It might cause an infection, though.</afflictiondescription.bitewounds.low>
+		
+		<afflictiondescription.explosiondamage>The area is colored purple. The tissue underneath feels different than the surrounding skin. An infection is likely, and so is shrapnel.</afflictiondescription.explosiondamage>
+		<afflictiondescription.explosiondamage.low>The area of skin appears slightly bruised. There might be an infection or remaining shrapnel.</afflictiondescription.explosiondamage.low>
+
+		<afflictiondescription.bleeding>Blood pours freely from this ragged and particularly nasty open wound. If it gets any worse, it may induce an arterial rupture.</afflictiondescription.bleeding>
+		<afflictiondescription.bleeding.low>Blood is slowly dripping out from the wound.</afflictiondescription.bleeding.low>
+		<afflictiondescription.bleeding.high>Blood is gushing out at an alarming rate. It might induce an arterial rupture.</afflictiondescription.bleeding.high>
+
+		<afflictiondescription.nausea>The skin is clammy and the patient is vomiting periodically. Vomiting will cause alkalosis.</afflictiondescription.nausea>
+		<afflictiondescription.nausea.low>Feeling queasy, but nothing a rest wouldn't fix. Vomiting will cause alkalosis.</afflictiondescription.nausea.low>
+		<afflictiondescription.nausea.high>You are really sick. Should you worry about it or just rest? Vomiting will cause alkalosis.</afflictiondescription.nausea.high>
+
+		<afflictiondescription.adrenalinerush>The rush of adrenaline is making the patient less easily stunned.</afflictiondescription.adrenalinerush>
+		<afflictiondescription.adrenalinerush.self>The rush of adrenaline is making you less easily stunned.</afflictiondescription.adrenalinerush.self>
+
+		<afflictionname.miracleworker>Miracle In Progress</afflictionname.miracleworker>
+		<afflictiondescription.miracleworker>Your lifeforces are fading, yet one Doctor shines bright like a beacon. While they're nearby, you won't give in, not even to neurotrauma.</afflictiondescription.miracleworker>
+
+		<!-- NT Visible Afflictions -->
+
+		<!-- NT Trauma -->
+		<afflictionname.ra_fracture>Fractured right humerus</afflictionname.ra_fracture>
+		<afflictiondescription.ra_fracture>The right arm has been broken, likely due to physical trauma. It will prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ra_fracture>
+		
+		<afflictionname.la_fracture>Fractured left humerus</afflictionname.la_fracture>
+		<afflictiondescription.la_fracture>The left arm has been broken, likely due to physical trauma. It will prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.la_fracture>
+		
+		<afflictionname.rl_fracture>Fractured right femur</afflictionname.rl_fracture>
+		<afflictiondescription.rl_fracture>The right leg has been broken, likely due to physical trauma. Movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.rl_fracture>
+		
+		<afflictionname.ll_fracture>Fractured left femur</afflictionname.ll_fracture>
+		<afflictiondescription.ll_fracture>The right leg has been broken, likely due to physical trauma. Movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ll_fracture>
+		
+		<afflictionname.t_fracture>Fractured ribs</afflictionname.t_fracture>
+		<afflictiondescription.t_fracture>One or more ribs have been broken, likely due to physical trauma. The structural instability may cause pneumothorax. It must be repaired in an osteosynthesis surgery.</afflictiondescription.t_fracture>
+		
+		<afflictionname.h_fracture>Fractured skull</afflictionname.h_fracture>
+		<afflictiondescription.h_fracture>The skull has been broken, likely due to physical trauma. Bone fragments and structural instability will cause a small amount of neurotrauma. It must be repaired in an osteosynthesis surgery.</afflictiondescription.h_fracture>
+		
+		<afflictionname.n_fracture>Fractured neck</afflictionname.n_fracture>
+		<afflictiondescription.n_fracture>The neck has been broken due to trauma. Structural instability exposes the spinal cord, causing injury to it with ease. It must be repaired in an osteosynthesis surgery.</afflictiondescription.n_fracture>
+		
+		<afflictionname.tra_amputation>Traumatic amputation</afflictionname.tra_amputation>
+		<afflictiondescription.tra_amputation>Most of the right arm was torn off by physical trauma, causing an artery to rupture. This limb must be replaced after sawing bones.</afflictiondescription.tra_amputation>
+		
+		<afflictionname.tla_amputation>Traumatic amputation</afflictionname.tla_amputation>
+		<afflictiondescription.tla_amputation>Most of the left arm was torn off by physical trauma, causing an artery to rupture. This limb must be replaced after sawing bones.</afflictiondescription.tla_amputation>
+		
+		<afflictionname.trl_amputation>Traumatic amputation</afflictionname.trl_amputation>
+		<afflictiondescription.trl_amputation>Most of the right leg was torn off by physical trauma, causing an artery to rupture. This limb must be replaced after sawing bones.</afflictiondescription.trl_amputation>
+		
+		<afflictionname.tll_amputation>Traumatic amputation</afflictionname.tll_amputation>
+		<afflictiondescription.tll_amputation>Most of the left leg was torn off by physical trauma, causing an artery to rupture. This limb must be replaced after sawing bones.</afflictiondescription.tll_amputation>
+		
+		<afflictionname.th_amputation>Traumatic amputation</afflictionname.th_amputation>
+		<afflictiondescription.th_amputation>The head has been torn off by an explosion, causing immediate death.</afflictiondescription.th_amputation>
+
+		<afflictionname.t_paralysis>Spinal cord injury</afflictionname.t_paralysis>
+		<afflictiondescription.t_paralysis>The spine has been injured due to exposure from a neck fracture, causing full-body paralysis and analgesia. They are still conscious. It must be surgically repaired using spinal cord implants.</afflictiondescription.t_paralysis>
+
+		<afflictionname.dislocation1>Dislocation</afflictionname.dislocation1>
+		<afflictiondescription.dislocation1>A bone in the right leg has been displaced by physical trauma, causing pain and making movement difficult. A wrench may be used to relocate the bone.</afflictiondescription.dislocation1>
+		
+		<afflictionname.dislocation2>Dislocation</afflictionname.dislocation2>
+		<afflictiondescription.dislocation2>A bone in the left leg has been displaced by physical trauma, causing pain and making movement difficult. A wrench may be used to relocate the bone.</afflictiondescription.dislocation2>
+		
+		<afflictionname.dislocation3>Dislocation</afflictionname.dislocation3>
+		<afflictiondescription.dislocation3>A bone in the right arm has been displaced by physical trauma, causing pain and inability to use this limb. A wrench may be used to relocate the bone.</afflictiondescription.dislocation3>
+		
+		<afflictionname.dislocation4>Dislocation</afflictionname.dislocation4>
+		<afflictiondescription.dislocation4>A bone in the left arm has been displaced by physical trauma, causing pain and inability to use this limb. A wrench may be used to relocate the bone.</afflictiondescription.dislocation4>
+
+		<afflictionname.ll_arterialcut>Femoral artery bleeding</afflictionname.ll_arterialcut>
+		<afflictiondescription.ll_arterialcut>The left femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.ll_arterialcut>
+		
+		<afflictionname.rl_arterialcut>Femoral artery bleeding</afflictionname.rl_arterialcut>
+		<afflictiondescription.rl_arterialcut>The right femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.rl_arterialcut>
+		
+		<afflictionname.la_arterialcut>Brachial artery bleeding</afflictionname.la_arterialcut>
+		<afflictiondescription.la_arterialcut>The left brachial artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.la_arterialcut>
+		
+		<afflictionname.ra_arterialcut>Brachial artery bleeding</afflictionname.ra_arterialcut>
+		<afflictiondescription.ra_arterialcut>The right brachial artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.ra_arterialcut>
+		
+		<afflictionname.h_arterialcut>Carotid artery bleeding</afflictionname.h_arterialcut>
+		<afflictiondescription.h_arterialcut>The carotid artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It is dangerous to stop it using a tourniquet, and must be surgically sutured.</afflictiondescription.h_arterialcut>
+
+		<afflictionname.gangrene>Gangrene</afflictionname.gangrene>
+		<afflictiondescription.gangrene>The extremity has shrunk and turned black, due to sepsis or suppressed bloodflow. The limb must be amputated beyond 15%, as it will no longer heal.</afflictiondescription.gangrene>
+
+		<afflictionname.burn_deg1>First-degree burn</afflictionname.burn_deg1>
+		<afflictiondescription.burn_deg1>The area is red and painful to the touch, but it will not cause an infection unless it is severe. Bandages or antibiotic gels are sufficient treatment, if necessary.</afflictiondescription.burn_deg1>
+		
+		<afflictionname.burn_deg2>Second-degree burn</afflictionname.burn_deg2>
+		<afflictiondescription.burn_deg2>There are very painful blisters littering the affected area. There is a high rate of infection, which will lead to self-destructive sepsis. Bandages or antibiotic gels are sufficient treatment.</afflictiondescription.burn_deg2>
+		
+		<afflictionname.burn_deg3>Third-degree burn</afflictionname.burn_deg3>
+		<afflictiondescription.burn_deg3>It is painless in this leathery, stiff area. Infection is almost immediate, and the onset of sepsis is rapid. Antibiotic glue is the most rapid treatment.</afflictiondescription.burn_deg3>
+
+		<!-- NT Symptoms -->
+		<afflictionname.tachycardia>Increased heartrate</afflictionname.tachycardia>
+		<afflictiondescription.tachycardia>Heartrate is abnormally high. If increasing in strength, potentially-lethal fibrillation is occurring, usually due to hypotension or hypoxemia.</afflictiondescription.tachycardia>
+
+		<afflictionname.fibrillation>Irregular heartbeat</afflictionname.fibrillation>
+		<afflictiondescription.fibrillation>Heartbeat has an abnormal pattern. Fibrillation is potentially lethal, usually caused by hypotension or hypoxemia.</afflictiondescription.fibrillation>
+
+		<afflictionname.cardiacarrest>Cardiac arrest</afflictionname.cardiacarrest>
+		<afflictiondescription.cardiacarrest>No heartbeat. A lethal status that will prevent blood pressure from normalizing, along with causing a coma if untreated. The ultimate result of fibrillation, as well being caused by hypoxemia. The heart must be restarted using a defibrillator, adrenaline, or CPR.</afflictiondescription.cardiacarrest>
+
+		<afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
+		<afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia or opiate overdose.</afflictiondescription.respiratoryarrest>
+		
+		<afflictionname.hyperventilation>Hyperventilation</afflictionname.hyperventilation>
+		<afflictiondescription.hyperventilation>Breathing rate is abnormally high. Gradually increases non-lethal alkalosis, and is usually caused by hypotension, hypoxemia, or pneumothorax.</afflictiondescription.hyperventilation>
+		
+		<afflictionname.hypoventilation>Hypoventilation</afflictionname.hypoventilation>
+		<afflictiondescription.hypoventilation>Breathing rate is abnormally low. Gradually increases potentially-lethal acidosis. It is usually caused by analgesia. Severe acidosis will cause fibrillation.</afflictiondescription.hypoventilation>
+		
+		<afflictionname.dyspnea>Shortness of breath</afflictionname.dyspnea>
+		<afflictiondescription.dyspnea>Breathing is difficult. Usually caused by cardiac tamponade, pneumothorax, or hypoxemia.</afflictiondescription.dyspnea>
+
+		<afflictionname.sym_cough>Cough</afflictionname.sym_cough>
+		<afflictiondescription.sym_cough>Periodic coughing. Caused by cardiac tamponade, lung, or heart damage.</afflictiondescription.sym_cough>
+		
+		<afflictionname.sym_paleskin>Pale skin</afflictionname.sym_paleskin>
+		<afflictiondescription.sym_paleskin>The skin is pale. Caused by hypoxemia or blood loss.</afflictiondescription.sym_paleskin>
+		
+		<afflictionname.sym_lightheadedness>Lightheadedness</afflictionname.sym_lightheadedness>
+		<afflictiondescription.sym_lightheadedness>Dizzy sensation. Caused by hypotension.</afflictiondescription.sym_lightheadedness>
+		
+		<afflictionname.sym_blurredvision>Blurred vision</afflictionname.sym_blurredvision>
+		<afflictiondescription.sym_blurredvision>Difficulty in ocular focus. Usually caused by hypotension or a concussion.</afflictiondescription.sym_blurredvision>
+		
+		<afflictionname.sym_confusion>Confusion</afflictionname.sym_confusion>
+		<afflictiondescription.sym_confusion>Difficulty in forming thoughts. Usually caused by hypoxemia, acidosis, or a concussion.</afflictiondescription.sym_confusion>
+		
+		<afflictionname.sym_headache>Headache</afflictionname.sym_headache>
+		<afflictiondescription.sym_headache>Pain in the head. Usually caused by hypoxemia, a skull fracture, acidosis, a concussion, or a stroke.</afflictiondescription.sym_headache>
+		
+		<afflictionname.sym_legswelling>Leg swelling</afflictionname.sym_legswelling>
+		<afflictiondescription.sym_legswelling>A buildup of fluid in the legs. Caused by liver, kidney, or severe heart damage.</afflictiondescription.sym_legswelling>
+		
+		<afflictionname.sym_weakness>Weakness</afflictionname.sym_weakness>
+		<afflictiondescription.sym_weakness>Reduced muscular ability in the extremities. Caused by cardiac tamponade, bloodloss, or acidosis.</afflictiondescription.sym_weakness>
+		
+		<afflictionname.sym_wheezing>Wheezing</afflictionname.sym_wheezing>
+		<afflictiondescription.sym_wheezing>Breathing produces high-pitched noises. Caused by hemotransfusion shock.</afflictiondescription.sym_wheezing>
+		
+		<afflictionname.sym_vomiting>Vomiting</afflictionname.sym_vomiting>
+		<afflictiondescription.sym_vomiting>Periodic vomiting. Usually caused by kidney damage, alcohol, or hemotransfusion shock. Vomiting will cause alkalosis.</afflictiondescription.sym_vomiting>
+		
+		<afflictionname.sym_hematemesis>Vomiting blood</afflictionname.sym_hematemesis>
+		<afflictiondescription.sym_hematemesis>Periodic vomiting of blood. Usually caused by severe internal bleeding or liver failure.</afflictiondescription.sym_hematemesis>
+		
+		<afflictionname.fever>Fever</afflictionname.fever>
+		<afflictiondescription.fever>Abnormally high body temperature. Usually caused by sepsis.</afflictiondescription.fever>
+		
+		<afflictionname.sym_abdomdiscomfort>Abdominal discomfort</afflictionname.sym_abdomdiscomfort>
+		<afflictiondescription.sym_abdomdiscomfort>Discomfort in the abdomen. Caused by liver damage.</afflictiondescription.sym_abdomdiscomfort>
+		
+		<afflictionname.sym_bloating>Bloating</afflictionname.sym_bloating>
+		<afflictiondescription.sym_bloating>Bloating abdomen. Caused by liver damage.</afflictiondescription.sym_bloating>
+		
+		<afflictionname.sym_jaundice>Jaundice</afflictionname.sym_jaundice>
+		<afflictiondescription.sym_jaundice>The skin is yellow. Caused by severe liver damage.</afflictiondescription.sym_jaundice>
+		
+		<afflictionname.sym_sweating>Sweating</afflictionname.sym_sweating>
+		<afflictiondescription.sym_sweating>Abnormally excessive sweating. Caused by a heart attack or drug withdrawal.</afflictiondescription.sym_sweating>
+		
+		<afflictionname.sym_palpitations>Palpitations</afflictionname.sym_palpitations>
+		<afflictiondescription.sym_palpitations>Sensation of a pounding heartbeat. Caused by alkalosis.</afflictiondescription.sym_palpitations>
+		
+		<afflictionname.sym_unconsciousness>Unconsciousness</afflictionname.sym_unconsciousness>
+		<afflictiondescription.sym_unconsciousness>They are unconscious. Usually caused by severe physical trauma, hypoxemia, neurotrauma, an aortic rupture, or opiate overdose.</afflictiondescription.sym_unconsciousness>
+		
+		<afflictionname.inflammation>Inflammation</afflictionname.inflammation>
+		<afflictiondescription.inflammation>Tissue appears swollen. Caused by an infection or foreign bodies.</afflictiondescription.inflammation>
+		
+		<afflictionname.spasm>Spasm</afflictionname.spasm>
+		<afflictiondescription.spasm>Involuntary muscle contractions caused by a seizure. Usually caused by severe acidosis or alkalosis, a stroke, opiate overdose, or radiation sickness.</afflictiondescription.spasm>
+
+		<afflictionname.seizure>Seizure</afflictionname.seizure>
+		<afflictiondescription.seizure>They are having a full-body seizure. Usually caused by severe acidosis or alkalosis, a stroke, opiate overdose, or radiation sickness.</afflictiondescription.seizure>
+
+		<afflictionname.sym_craving>Craving</afflictionname.sym_craving>
+		<afflictiondescription.sym_craving>A craving for drugs, caused by withdrawal.</afflictiondescription.sym_craving>
+		
+		<afflictionname.onfire>On fire!</afflictionname.onfire>
+		<afflictiondescription.onfire>Burn those who dare to care for me...</afflictiondescription.onfire>
+		
+		<afflictionname.pain_chest>Chest pain</afflictionname.pain_chest>
+		<afflictiondescription.pain_chest>Piercing pain in the chest. Caused by rib fractures or hemotransfusion shock.</afflictiondescription.pain_chest>
+		
+		<afflictionname.pain_abdominal>Abdominal pain</afflictionname.pain_abdominal>
+		<afflictiondescription.pain_abdominal>Pain in the abdomen. Caused by hemotransfusion shock.</afflictiondescription.pain_abdominal>
+		
+		<afflictionname.pain_extremity>Intense pain</afflictionname.pain_extremity>
+		<afflictiondescription.pain_extremity>Very strong pain. Usually caused by dislocations or fractures.</afflictiondescription.pain_extremity>
+		
+		<afflictionname.sym_nausea>Nausea</afflictionname.sym_nausea>
+		<afflictiondescription.sym_nausea>A nauseous sensation. Usually caused by kidney damage, a concussion, drug withdrawal, or hemotransfusion shock. Vomiting will cause alkalosis.</afflictiondescription.sym_nausea>
+
+		<!-- NT Surgery -->
+		<!-- Ones that appear on the right side of BHUI have title casing, similar to buffs -->
+		<afflictionname.traumaticshock>Traumatic shock</afflictionname.traumaticshock>
+		<afflictiondescription.traumaticshock>Usually occurring during unsafe surgery conditions, causing potentially-lethal hypotension. For safe surgery, a patient must be analgesized and near any bed, or be unconscious.</afflictiondescription.traumaticshock>
+
+		<afflictionname.surgeryincision>Surgery Incision</afflictionname.surgeryincision>
+		<afflictiondescription.surgeryincision>An incision has been made by a scalpel. It is painful. It also causes bloodloss, which is prevented by a hemostat.</afflictiondescription.surgeryincision>
+		
+		<afflictionname.clampedbleeders>Clamped Bleeding</afflictionname.clampedbleeders>
+		<afflictiondescription.clampedbleeders>Surgical bleeders have been staunched. This doesn't prevent pain from the incision.</afflictiondescription.clampedbleeders>
+
+		<afflictionname.retractedskin>Retracted Skin</afflictionname.retractedskin>
+		<afflictiondescription.retractedskin>The skin is being held open by a set of retractors. It is indescribably uncomfortable, and can only be safely done near a surgery table or hospital bed, when laying down on any bed, or when unconscious.</afflictiondescription.retractedskin>
+
+		<afflictionname.suturedi>Stitched Incision</afflictionname.suturedi>
+		<afflictiondescription.suturedi>An incision has been closed via sutures.</afflictiondescription.suturedi>
+
+		<afflictionname.drilledbones>Drilled Bones</afflictionname.drilledbones>
+		<afflictiondescription.drilledbones>The bones have been drilled, allowing the installation of osteosynthesis implants. </afflictiondescription.drilledbones>
+		
+		<afflictionname.bonecut>Sawed Bones</afflictionname.bonecut>
+		<afflictiondescription.bonecut>The bone has been surgically sawed off to remove a limb, or to prepare for the installation of another.</afflictiondescription.bonecut>
+
+		<afflictionname.heartremoved>Heart removed</afflictionname.heartremoved>
+		<afflictiondescription.heartremoved>The heart has been surgically removed. A heart is required to pump oxygenated blood. Heart damage is usually caused by hypoxemia, a heart attack, or gunshot wounds.</afflictiondescription.heartremoved>
+
+		<afflictionname.brainremoved>Brain removed</afflictionname.brainremoved>
+		<afflictiondescription.brainremoved>The brain has been surgically removed. A brain is required for consciousness. Neurotrauma is usually caused by hypoxemia, a stroke, or the lack of a brain. Additionally, they splatter when hitting the ground.</afflictiondescription.brainremoved>
+		
+		<afflictionname.lungremoved>Lungs removed</afflictionname.lungremoved>
+		<afflictiondescription.lungremoved>The lungs have been surgically removed. Lungs are required to oxygenate blood. Lung damage is usually caused by hypoxemia, gunshot wounds, or heavy smoking.</afflictiondescription.lungremoved>
+
+		<afflictionname.kidneyremoved>Kidneys removed</afflictionname.kidneyremoved>
+		<afflictiondescription.kidneyremoved>The kidneys have been surgically removed. Kidneys are required to regulate acidosis, strong bones, and blood pressure, but a person can live with only one. Kidney damage is usually caused by hypoxemia or gunshot wounds.</afflictiondescription.kidneyremoved>
+
+		<afflictionname.liverremoved>Liver removed</afflictionname.liverremoved>
+		<afflictiondescription.liverremoved>The liver has been surgically removed. A liver is required to clot bleeding and regulate blood pressure. Liver damage is usually caused by hypoxemia, gunshot wounds, or heavy drinking.</afflictiondescription.liverremoved>
+
+		<afflictionname.arteriesclamp>Clamped arteries</afflictionname.arteriesclamp>
+		<afflictiondescription.arteriesclamp>Bleeding from artery has been stopped, but blood flow to the extremity is severely reduced, causing gangrene if left on for too long.</afflictiondescription.arteriesclamp>
+		
+		<afflictionname.balloonedaorta>Ballooned aorta</afflictionname.balloonedaorta>
+		<afflictiondescription.balloonedaorta>The aorta has stopped bleeding, but bloodflow to the extremities is gone, causing gangrene if left on for too long.</afflictiondescription.balloonedaorta>
+		
+		<afflictionname.sra_amputation>Amputation</afflictionname.sra_amputation>
+		<afflictiondescription.sra_amputation>The right arm has been surgically amputated. This procedure does not rupture arteries.</afflictiondescription.sra_amputation>
+		
+		<afflictionname.sla_amputation>Amputation</afflictionname.sla_amputation>
+		<afflictiondescription.sla_amputation>The left arm has been surgically amputated. This procedure does not rupture arteries.</afflictiondescription.sla_amputation>
+		
+		<afflictionname.srl_amputation>Amputation</afflictionname.srl_amputation>
+		<afflictiondescription.srl_amputation>The right leg has been surgically amputated. This procedure does not rupture arteries.</afflictiondescription.srl_amputation>
+		
+		<afflictionname.sll_amputation>Amputation</afflictionname.sll_amputation>
+		<afflictiondescription.sll_amputation>The left leg has been surgically amputated. This procedure does not rupture arteries.</afflictiondescription.sll_amputation>
+		
+		<afflictionname.sh_amputation>Amputation</afflictionname.sh_amputation>
+		<afflictiondescription.sh_amputation>The head has been surgically amputated. This procedure does not rupture arteries... but causes immediate death.</afflictiondescription.sh_amputation>
+
+		<!-- NT Treatments -->
+		<!-- Ones that appear on the right side of BHUI have title casing, similar to buffs -->
+		<afflictionname.boneclamp>Splint</afflictionname.boneclamp>
+		<afflictiondescription.boneclamp>Fracture has been splinted.</afflictiondescription.boneclamp>
+		
+		<afflictionname.bandaged>Bandaged</afflictionname.bandaged>
+		<afflictiondescription.bandaged>Protects from infection, stabilizes dislocations and fractures, and promotes wound healing. It restricts movement slightly.</afflictiondescription.bandaged>
+		
+		<afflictionname.dirtybandage>Dirty bandage</afflictionname.dirtybandage>
+		<afflictiondescription.dirtybandage>A bandage that has been overused and should be removed or replaced, as it promotes infections.</afflictiondescription.dirtybandage>
+		
+		<afflictionname.gypsumcast>Plaster Cast</afflictionname.gypsumcast>
+		<afflictiondescription.gypsumcast>Fully stabilizes fractures, allowing them to heal. It restricts movement notably.</afflictiondescription.gypsumcast>
+		
+		<afflictionname.ointmented>Ointment</afflictionname.ointmented>
+		<afflictiondescription.ointmented>A layer of antibiotic gel protects and cleans the wound from any germs.</afflictiondescription.ointmented>
+		
+		<afflictionname.needlec>Needle</afflictionname.needlec>
+		<afflictiondescription.needlec>A needle with an air valve in the chest is preventing pneumothorax from worsening.</afflictiondescription.needlec>
+
+		<afflictionname.bonegrowth>Stimulated Bone Growth</afflictionname.bonegrowth>
+		<afflictiondescription.bonegrowth>Bone regrowth has been stimulated. To cure bone death, this affliction needs to be on every bodypart.</afflictiondescription.bonegrowth>
+
+		<afflictionname.analgesia>Analgesia</afflictionname.analgesia>
+		<afflictiondescription.analgesia>Painlessness suppresses certain symptoms, makes surgery possible, and allows one to endure more damage.</afflictiondescription.analgesia>
+		
+		<afflictionname.anesthesia>Anesthesia</afflictionname.anesthesia>
+		<afflictiondescription.anesthesia>A drug has induced controlled unconsciousness. It is safe to perform surgery on this person.</afflictiondescription.anesthesia>
+
+		<afflictionname.suturedw>Stitched wound</afflictionname.suturedw>
+		<afflictiondescription.suturedw>Wounds have been sutured shut. Sutured wounds will heal much faster than open wounds, and are impervious to infection.</afflictiondescription.suturedw>
+
+		<afflictionname.iced>Chilled</afflictionname.iced>
+		<afflictiondescription.iced>A cold gel pack is improving the healing of blunt force trauma. It restricts movement slightly and worsens infections.</afflictiondescription.iced>
+
+		<!-- NT Meta -->
+		<afflictionname.luabotomy>Lualess</afflictionname.luabotomy>
+		<afflictiondescription.luabotomy>Lua isn't running. That means neurotrauma and any other mods that use it won't work. Please read the workshop pages of mods you plan to use.</afflictiondescription.luabotomy>
+		
+		<afflictionname.modconflict>Mod conflict</afflictionname.modconflict>
+		<afflictiondescription.modconflict>There is a mod conflict. A different mod is overriding some of the same items Neurotrauma does. Some things may not function correctly. Please adjust your load order, or if this is intended, disable the mod conflict check in the Neurotrauma config.</afflictiondescription.modconflict>
+
+		<!-- Unused and Hidden Afflictions -->
+		<!-- These must be here or else they will have no ingame name -->
+		<afflictioncauseofdeath.t_paralysis>Died of paralysis</afflictioncauseofdeath.t_paralysis>
+		<afflictioncauseofdeathself.t_paralysis>You have died of paralysis.</afflictioncauseofdeathself.t_paralysis>
+
+		<afflictionname.necrosis>Necrosis</afflictionname.necrosis>
+		<afflictiondescription.necrosis></afflictiondescription.necrosis>
+		<afflictioncauseofdeath.necrosis>Died from a necrotic wound.</afflictioncauseofdeath.necrosis>
+		<afflictioncauseofdeathself.necrosis>You have died from necrosis.</afflictioncauseofdeathself.necrosis>
+
+		<afflictionname.t_arterialcut>Aortic rupture</afflictionname.t_arterialcut>
+
+		<afflictionname.immunity>Immunity</afflictionname.immunity>
+		<afflictiondescription.immunity></afflictiondescription.immunity>
+
+		<afflictionname.infectedwound>Infected wound</afflictionname.infectedwound>
+		<afflictiondescription.infectedwound></afflictiondescription.infectedwound>
+
+		<afflictionname.sepsis>Sepsis</afflictionname.sepsis>
+		<afflictiondescription.sepsis></afflictiondescription.sepsis>
+
+		<afflictionname.afadrenaline>Adrenaline</afflictionname.afadrenaline>
+		<afflictiondescription.afadrenaline></afflictiondescription.afadrenaline>
+
+		<afflictionname.afstreptokinase>Anti-clot</afflictionname.afstreptokinase>
+		<afflictiondescription.afstreptokinase></afflictiondescription.afstreptokinase>
+
+		<afflictionname.afthiamine>Thiamine</afflictionname.afthiamine>
+		<afflictiondescription.afthiamine></afflictiondescription.afthiamine>
+
+		<afflictionname.afpressuredrug>Blood pressure reducers</afflictionname.afpressuredrug>
+		<afflictiondescription.afpressuredrug></afflictiondescription.afpressuredrug>
+
+		<afflictionname.afsaline>Saline</afflictionname.afsaline>
+		<afflictiondescription.afsaline></afflictiondescription.afsaline>
+
+		<afflictionname.afringerssolution>Ringer's solution</afflictionname.afringerssolution>
+		<afflictiondescription.afringerssolution></afflictiondescription.afringerssolution>
+
+		<afflictionname.afmannitol>Mannitol</afflictionname.afmannitol>
+		<afflictiondescription.afmannitol></afflictiondescription.afmannitol>
+
+		<afflictionname.afantibiotics>Antibiotics</afflictionname.afantibiotics>
+		<afflictiondescription.afantibiotics></afflictiondescription.afantibiotics>
+
+		<afflictionname.afimmunosuppressant>Immunosuppressants</afflictionname.afimmunosuppressant>
+		<afflictiondescription.afimmunosuppressant></afflictiondescription.afimmunosuppressant>
+
+		<afflictionname.hemotransfusionshock>Hemotransfusion shock</afflictionname.hemotransfusionshock>
+		<afflictiondescription.hemotransfusionshock></afflictiondescription.hemotransfusionshock>
+
+		<afflictionname.foreignbody>Foreign body</afflictionname.foreignbody>
+		<afflictiondescription.foreignbody></afflictiondescription.foreignbody>
+
+		<afflictionname.tamponade>Cardiac tamponade</afflictionname.tamponade>
+		<afflictiondescription.tamponade></afflictiondescription.tamponade>
+
+		<afflictionname.internalbleeding>Internal bleeding</afflictionname.internalbleeding>
+		<afflictiondescription.internalbleeding></afflictiondescription.internalbleeding>
+
+		<afflictionname.heartattack>Heart attack</afflictionname.heartattack>
+		<afflictiondescription.heartattack></afflictiondescription.heartattack>
+
+		<afflictionname.heartdamage>Heart damage</afflictionname.heartdamage>
+		<afflictiondescription.heartdamage></afflictiondescription.heartdamage>
+
+		<afflictionname.heartfailure>Heart failure</afflictionname.heartfailure>
+		<afflictiondescription.heartfailure></afflictiondescription.heartfailure>
+
+		<afflictionname.cerebralhypoxia>Neurotrauma</afflictionname.cerebralhypoxia>
+		<afflictiondescription.cerebralhypoxia></afflictiondescription.cerebralhypoxia>
+		<afflictioncauseofdeath.cerebralhypoxia>Death by neurotrauma</afflictioncauseofdeath.cerebralhypoxia>
+		<afflictioncauseofdeathself.cerebralhypoxia>You have died of neurotrauma.</afflictioncauseofdeathself.cerebralhypoxia>
+
+		<afflictionname.stroke>Stroke</afflictionname.stroke>
+		<afflictiondescription.stroke></afflictiondescription.stroke>
+
+		<afflictionname.seizure>Seizure</afflictionname.seizure>
+		<afflictiondescription.seizure></afflictiondescription.seizure>
+
+		<afflictionname.coma>Coma</afflictionname.coma>
+		<afflictiondescription.coma></afflictiondescription.coma>
+
+		<afflictionname.bloodpressure>Blood pressure</afflictionname.bloodpressure>
+		<afflictiondescription.bloodpressure></afflictiondescription.bloodpressure>
+
+		<afflictionname.hypoxemia>Hypoxemia</afflictionname.hypoxemia>
+		<afflictiondescription.hypoxemia></afflictiondescription.hypoxemia>
+
+		<afflictionname.alkalosis>Alkalosis</afflictionname.alkalosis>
+		<afflictiondescription.alkalosis></afflictiondescription.alkalosis>
+
+		<afflictionname.acidosis>Acidosis</afflictionname.acidosis>
+		<afflictiondescription.acidosis></afflictiondescription.acidosis>
+
+		<afflictionname.rili>Radiation induced lung injury</afflictionname.rili>
+		<afflictiondescription.rili></afflictiondescription.rili>
+
+		<afflictionname.pneumothorax>Pneumothorax</afflictionname.pneumothorax>
+		<afflictiondescription.pneumothorax></afflictiondescription.pneumothorax>
+
+		<afflictionname.lungdamage>Lung damage</afflictionname.lungdamage>
+		<afflictiondescription.lungdamage></afflictiondescription.lungdamage>
+
+		<afflictionname.lungfailure>Lung failure</afflictionname.lungfailure>
+		<afflictiondescription.lungfailure></afflictiondescription.lungfailure>
+
+		<afflictionname.kidneydamage>Kidney damage</afflictionname.kidneydamage>
+		<afflictiondescription.kidneydamage></afflictiondescription.kidneydamage>
+
+		<afflictionname.kidneyfailure>Kidney failure</afflictionname.kidneyfailure>
+		<afflictiondescription.kidneyfailure></afflictiondescription.kidneyfailure>
+
+		<afflictionname.bonedamage>Bone damage</afflictionname.bonedamage>
+		<afflictiondescription.bone></afflictiondescription.bone>
+
+		<afflictionname.bonedeath>Bone death</afflictionname.bonedeath>
+		<afflictiondescription.bonedeath></afflictiondescription.bonedeath>
+
+		<afflictionname.liverdamage>Liver damage</afflictionname.liverdamage>
+		<afflictiondescription.liverdamage></afflictiondescription.liverdamage>
+
+		<afflictionname.liverfailure>Liver failure</afflictionname.liverfailure>
+		<afflictiondescription.liverfailure></afflictiondescription.liverfailure>
+
+		<connection.aliveout>Alive</connection.aliveout>
+
+		<connection.consciousout>Conscious</connection.consciousout>
+
+		<connection.nameout>Patient_name</connection.nameout>
+
+		<connection.vitalityout>Vitality</connection.vitalityout>
+		
+		<connection.heartrateout>Heartrate</connection.heartrateout>
+		
+		<connection.breathingrateout>Breathingrate</connection.breathingrateout>
+		
+		<connection.bloodpressureout>Bloodpressure</connection.bloodpressureout>
+		
+		<connection.bloodoxygenout>Bloodoxygen</connection.bloodoxygenout>
+		
+		<connection.neurotraumaout>Neurotrauma</connection.neurotraumaout>
+		
+		<connection.organdamageout>Organdamage</connection.organdamageout>
+		
+		<connection.insurgeryout>In_surgery</connection.insurgeryout>
+		
+		<connection.causeofdeathout>Cause_of_death</connection.causeofdeathout>
+		
+		<connection.bloodphout>Blood_pH</connection.bloodphout>
+		
+		<roomname.surgical>Surgical</roomname.surgical>
+	</Override>
+</infotexts>

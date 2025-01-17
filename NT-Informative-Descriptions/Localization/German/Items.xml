@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- By profole -->
+<infotexts language="German" nowhitespace="false" translatedname="Deutsch">
+	<Override>
+	<!-- Color Code Guide
+	Blue: refers to another item
+	Green: a beneficial affliction caused by the item, or a cured affliction
+	Red: a detrimental affliction caused by the item, or downside -->
+	
+		<!-- Vanilla Tools -->
+		<entityname.healthscanner>Health Scanner</entityname.healthscanner>
+		<entitydescription.healthscanner>A tool that uses battery power to display afflictions. It can be aimed at a person for a full-body scan, or administered in the Health UI to show afflictions on a specific body part. Using the scanner causes a minor amount of ‖color:gui.red‖radiation sickness‖end‖. Will not display blood type, sepsis, immunity, acidosis, alkalosis, or drugs, as a ‖color:gui.blue‖hematology analyzer‖end‖ is required.</entitydescription.healthscanner>
+
+		<entitydescription.wrench>Makes mechanical repairs possible. It is also used to fix ‖color:gui.green‖dislocations‖end‖, which only requires half the skill to do if the patient does not feel pain. Failing to fix a dislocation will result in a ‖color:gui.red‖fracture‖end‖, however.</entitydescription.wrench>
+		
+		<!-- Vanilla Items -->
+		<entitydescription.idcard>Allows limited access to areas of the sub. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</entitydescription.idcard>
+		<NTID.idcard_suffix>A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</NTID.idcard_suffix>
+
+		<entitydescription.alienblood>Blood extracted from a Europan lifeform. It is ‖color:gui.red‖incompatible‖end‖ with human blood.</entitydescription.alienblood>
+
+		<entitydescription.antibloodloss1>A sodium chloride infusion used to increase ‖color:gui.green‖blood pressure‖end‖, and additionally causes ‖color:gui.green‖acidosis‖end‖. On failure, it is less effective.</entitydescription.antibloodloss1>
+
+		<entitydescription.antibleeding1>Basic bandages, useful in the treatment of ‖color:gui.green‖bleeding‖end‖, and promotes the healing of ‖color:gui.green‖minor burns‖end‖ and ‖color:gui.green‖wounds‖end‖. Additionally, bandages stabilize ‖color:gui.green‖fractures‖end‖, preventing them from causing internal damage. On failure, it is less effective.</entitydescription.antibleeding1>
+
+		<entitydescription.antibleeding2>A synthetic skin with hemostatic properties, able to effectively seal ‖color:gui.green‖bleeds‖end‖, and is a good treatment against ‖color:gui.green‖minor burns‖end‖ while promoting the healing of ‖color:gui.green‖wounds‖end‖. Additionally, plastiseal stabilizes ‖color:gui.green‖fractures‖end‖, preventing them from causing internal damage. Finally, they can be used to treat ‖color:gui.green‖third-degree burns‖end‖ after ‖color:gui.blue‖skin retraction‖end‖. On failure, it is less effective.</entitydescription.antibleeding2>
+
+		<entitydescription.opium>A relatively mild opioid ‖color:gui.green‖analgesic‖end‖ obtained from aquatic poppy. Most commonly used to manufacture morphine and fentanyl. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.opium>
+
+		<entitydescription.antidama1>A powerful opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama1>
+		
+		<entitydescription.antidama2>A very potent opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. Analgesia will not only prevent ‖color:gui.green‖pain‖end‖, but will also ‖color:gui.green‖strengthen tissue‖end‖ against damage. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama2>
+
+		<entitydescription.antinarc>An opioid antagonist for the treatment of opiate ‖color:gui.green‖withdrawal‖end‖ and ‖color:gui.green‖overdose‖end‖. Additionally, it will reduce the ‖color:gui.green‖analgesic‖end‖ effect of opiates. On failure, it is less effective and may cause a short ‖color:gui.red‖coma‖end‖.</entitydescription.antinarc>
+
+		<entitydescription.antibiotics>An antibiotic that acts against a wide range of disease-causing bacteria, making it an effective treatment for ‖color:gui.green‖sepsis‖end‖ and to a lesser extent, ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
+		
+		<entitydescription.adrenaline>A naturally occurring hormone. For a short amount of time, it will raise the patient's ‖color:gui.green‖blood pressure‖end‖, increase ‖color:gui.green‖melee damage‖end‖, halve ‖color:gui.green‖fibrillation rate‖end‖, and prevent ‖color:gui.green‖pain‖end‖. Upon use, it will also cure ‖color:gui.green‖cardiac arrest‖end‖, remove ‖color:gui.green‖stun‖end‖, and briefly reduce ‖color:gui.green‖incoming stuns‖end‖.</entitydescription.adrenaline>
+		
+		<entitydescription.captainspipe>For calming the nerves when the sea is stormy. It is hard on the lungs, though.</entitydescription.captainspipe>
+		
+		<entitydescription.cigar>A submariner's life is mentally taxing, but perhaps this exquisitely crafted cigar can help you soothe your nerves a bit. It is hard on the lungs, though.</entitydescription.cigar>
+		
+		<entitydescription.liquidoxygenite>A ‖color:gui.red‖volatile‖end‖ syringe of oxygenite that can be injected, forcefully ‖color:gui.green‖oxygenating the blood‖end‖ for a short period of time. However, its toxicity causes slight ‖color:gui.red‖organ damage‖end‖. On failure, oxygenation is ‖color:gui.red‖momentary‖end‖ and ‖color:gui.red‖organs are further harmed‖end‖. Hypoxemia damages the brain and organs, and is the main cause of death resulting from combat injuries.</entitydescription.liquidoxygenite>
+		
+		<entitydescription.deusizine>A stimulant that increases ‖color:gui.green‖muscular endurance‖end‖ and can be used in the treatment of ‖color:gui.green‖internal damage‖end‖, ‖color:gui.green‖oxygen deprivation‖end‖, and ‖color:gui.green‖blood loss‖end‖. On failure, it is less effective.</entitydescription.deusizine>
+		
+		<entitydescription.antibleeding3>An antibiotic glue with hemostatic properties. Seals ‖color:gui.green‖bleeding‖end‖ wounds almost immediately and prevents them from getting ‖color:gui.green‖infected‖end‖. Also effective against ‖color:gui.green‖burns‖end‖. On failure, it may cause ‖color:gui.red‖mobile clots‖end‖ in the bloodstream.</entitydescription.antibleeding3>
+		
+		<entitydescription.meth>A potent nervous system stimulant, temporarily boosting the user's ‖color:gui.green‖muscular speed‖end‖. However, it is ‖color:gui.red‖addictive‖end‖, slightly damages ‖color:gui.red‖organs‖end‖, and will cause some ‖color:gui.red‖brain damage‖end‖. On failure, it is less effective, more ‖color:gui.red‖addicting‖end‖, and will cause increased ‖color:gui.red‖damage‖end‖.</entitydescription.meth>
+
+		<entitydescription.steroids>Temporarily boosts ‖color:gui.green‖muscular strength‖end‖ and ‖color:gui.green‖endurance‖end‖. It is addictive. On failure, it is less effective and more ‖color:gui.red‖addicting‖end‖.</entitydescription.steroids>
+		
+		<entitydescription.hyperzine>An extremely potent muscle stimulant for those moments when you gotta go fast. Boosts ‖color:gui.green‖muscular strength‖end‖, ‖color:gui.green‖endurance‖end‖, and ‖color:gui.green‖speed‖end‖, and reduces ‖color:gui.green‖stun susceptibility‖end‖. It is ‖color:gui.red‖addictive‖end‖ and causes a small amount of ‖color:gui.red‖brain damage‖end‖. On failure, it is more ‖color:gui.red‖addictive‖end‖ and causes more ‖color:gui.red‖brain damage‖end‖.</entitydescription.hyperzine>
+		
+		<entitydescription.antipsychosis>A strong ‖color:gui.green‖antipsychotic‖end‖ drug, effective against treatment of ‖color:gui.green‖alcohol withdrawal‖end‖. On failure, it is less effective.</entitydescription.antipsychosis>
+		
+		<entitydescription.antiparalysis>A cure for ‖color:gui.green‖paralysis‖end‖ and prematurely ends ‖color:gui.green‖general anesthesia‖end‖. Excessive use may cause ‖color:gui.red‖psychosis‖end‖. On failure, it is less effective and causes more ‖color:gui.red‖psychosis‖end‖.</entitydescription.antiparalysis>
+		
+		<entitydescription.tonicliquid>A medical solution that's mildly effective as a treatment for ‖color:gui.green‖internal damage‖end‖, but is more commonly used to ‖color:gui.green‖increase the duration‖end‖ of bloodstream and performance-enhancing drugs.</entitydescription.tonicliquid>
+		
+		<entitydescription.nitroglycerin>A highly unstable liquid that may explode when subjected to heat or physical shock. When administered to a patient, it will cause vasodilation and decrease ‖color:gui.green‖blood pressure‖end‖.</entitydescription.nitroglycerin>
+		
+		<entitydescription.pomegrenadeextract>Concentrated pomegrenade juice. It offers minor ‖color:gui.green‖wound-healing‖end‖ properties, including that of ‖color:gui.green‖stitched wounds‖end‖. On failure, it is less effective.</entitydescription.pomegrenadeextract>
+		
+		<entitydescription.combatstimulantsyringe>A highly advanced stimulant that makes the user rapidly recover from ‖color:gui.green‖damage‖end‖, ‖color:gui.green‖burns‖end‖, and ‖color:gui.green‖bloodloss‖end‖. In addition, the user will rapidly coagulate ‖color:gui.green‖external‖end‖ and ‖color:gui.green‖internal bleeding‖end‖. It is ‖color:gui.red‖addictive‖end‖. On failure, it is more ‖color:gui.red‖addicting‖end‖.</entitydescription.combatstimulantsyringe>
+
+		<entitydescription.ethanol>Medical alcohol used as an ingredient in the manufacture of various medicines. Drinking while on duty is not advised, and binge-drinking is hard on the liver.</entitydescription.ethanol>
+
+		<entitydescription.rum>A fine liquor made from raptor bane or pomegrenade juice. Some purists insist real rum is made from sugarcane, but good luck finding any of that on Europa. Its potency is sufficient to damage early ‖color:gui.green‖husk infections‖end‖, but binge-drinking is hard on the liver.</entitydescription.rum>
+
+		<entitydescription.divingknife>Stabs, pokes, cuts and slashes. Also can be used to remove old ‖color:gui.green‖bandages‖end‖. On failure, causes ‖color:gui.red‖lacerations‖end‖ and ‖color:gui.red‖bleeding‖end‖.</entitydescription.divingknife>
+
+		<entitydescription.raptorbaneextract>Concentrated raptorbane juice. Mildly toxic for humans, catastrophically toxic for mudraptors. It will induce vomiting in humans, making it a decent treatment for ‖color:gui.green‖acidosis‖end‖. On failure, it does not induce vomiting.</entitydescription.raptorbaneextract>
+
+		<entitydescription.proteinbar>May contain traces of galena. Treats some external ‖color:gui.green‖damage‖end‖ and ‖color:gui.green‖burns‖end‖.</entitydescription.proteinbar>
+
+		<entitydescription.stabilozine>Used as an ingredient in the manufacture of various medicines. On its own, can be used to slow down the effects of ‖color:gui.green‖poisons‖end‖ and ‖color:gui.green‖radiation sickness‖end‖. On failure, it is less effective.</entitydescription.stabilozine>
+
+		<entitydescription.hallucinogenicbufotoxin>Hallucinogenic toxin secreted by some Europan species. Serves as an ‖color:gui.green‖antiparalysant‖end‖ in a pinch.</entitydescription.hallucinogenicbufotoxin>
+
+		<entitydescription.cyanide>A highly toxic chemical that causes a rapid death once a sufficiently large dose has been administered. Can be used as a risky method for eliminating ‖color:gui.green‖husk infections‖end‖.</entitydescription.cyanide>
+
+		<entitydescription.europabrew>A double-edged chemical brew. While it activates the immune system to moderately treat ‖color:gui.green‖poisons‖end‖, it also significantly weakens the target, making them more susceptible to all ‖color:gui.red‖damage‖end‖, ‖color:gui.red‖burns‖end‖, and ‖color:gui.red‖husk infection‖end‖.</entitydescription.europabrew>
+
+		<entitydescription.sufforin>A stealthy neurotoxin, undetectable in early stages. Causes a loss of vision and, ultimately, death. Can be used as a risky method for eliminating ‖color:gui.green‖husk infections‖end‖.</entitydescription.sufforin>
+
+		<entitydescription.antirad>Slows down cellular degradation caused by radiation. On failure, it is less effective.</entitydescription.antirad>
+
+		<entitydescription.calyxanide>An antiparasitic drug used in the treatment of ‖color:gui.green‖husk parasite infections‖end‖. On failure, it is less effective.</entitydescription.calyxanide>
+
+		<entitydescription.extinguisher>A handheld carbon dioxide extinguisher. Also puts out flaming people.</entitydescription.extinguisher>
+
+		<!-- NT Tools -->
+		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>
+		<entitydescription.defibrillator>A tool that uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ or reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 80. On failure, causes ‖color:gui.red‖cardiac arrest‖end‖.</entitydescription.defibrillator>
+
+		<entityname.aed>Automated External Defibrillator</entityname.aed>
+		<entitydescription.aed>The AED uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ and is guaranteed to reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖manual defibrillator‖end‖ instead if medical skill is above 80. It will never cause cardiac arrest.</entitydescription.aed>
+
+		<entityname.bvm>Ambu Bag</entityname.bvm>
+		<entitydescription.bvm>The BVM will treat ‖color:gui.green‖oxygen low‖end‖ when provided an with oxygen tank, and additionally treats ‖color:gui.green‖respiratory arrest‖end‖ when provided with an oxygenite tank.</entitydescription.bvm>
+
+		<entityname.autocpr>AutoPulse</entityname.autocpr>
+		<entitydescription.autocpr>A machine that occupies a patient's Outerwear slot. Over time, cures ‖color:gui.green‖cardiac arrest‖end‖ and ‖color:gui.green‖fibrillation‖end‖, and prevents the negative effects of ‖color:gui.green‖respiratory arrest‖end‖. Wearing the AutoPulse will additionally increase ‖color:gui.green‖blood pressure‖end‖ over time, which may useful in an emergency. Remember to take it off when no longer needed!</entitydescription.autocpr>
+
+		<entityname.bloodanalyzer>Hematology Analyzer</entityname.bloodanalyzer>
+		<entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, acidosis, alkalosis, or drugs in the bloodstream. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
+
+		<entityname.bloodcollector>Blank Donor Card</entityname.bloodcollector>
+		<entitydescription.bloodcollector>An empty donor card used by the ‖color:gui.blue‖hematology analyzer‖end‖ to imprint a patient's blood type.</entitydescription.bloodcollector>
+
+		<entityname.traumashears>Trauma Shears</entityname.traumashears>
+		<entitydescription.traumashears>A tool used to remove ‖color:gui.green‖bandages‖end‖ or ‖color:gui.green‖plaster casts‖end‖. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖lacerations‖end‖.</entitydescription.traumashears>
+
+		<entityname.wheelchair>Wheelchair</entityname.wheelchair>
+		<entitydescription.wheelchair>A tool that occupies a patient's Outerwear slot. Allows utilizing arms for movement, making it easier to walk with damaged legs.</entitydescription.wheelchair>
+
+		<entityname.blahaj>Blue Shark</entityname.blahaj>
+		<entitydescription.blahaj>A cute plushie that will slightly reduce ‖color:gui.green‖psychosis‖end‖ each time it is administered to a patient.</entitydescription.blahaj>
+
+		<entityname.bodybag>Body Bag</entityname.bodybag>
+		<entitydescription.bodybag>A bag that occupies a patient or corpse's Outerwear slot. Allows them to be ‖color:gui.green‖dragged at full speed‖end‖, but a living person cannot breathe through the bag, causing ‖color:gui.red‖oxygen low‖end‖.</entitydescription.bodybag>
+		
+		<entityname.stasisbag>Stasis Bag</entityname.stasisbag>
+		<entitydescription.stasisbag>A bag that occupies a patient's Outerwear slot, protecting against pressure down to 10,000 meters. This will cause ‖color:gui.red‖cardiac arrest‖end‖, ‖color:gui.red‖respiratory arrest‖end‖, ‖color:gui.red‖unconsciousness‖end‖, and ‖color:gui.red‖prevent surgical operations‖end‖, but will ‖color:gui.green‖pause the progression of negative afflictions‖end‖ while worn. When worn, the bag deteriorates by 1% every four seconds.</entitydescription.stasisbag>
+		<stasisbagequipconfirmation>You will go unconscious. Are you sure you want to equip the stasis bag?</stasisbagequipconfirmation>
+
+		<!-- NT Surgery -->
+		<entityname.advscalpel>Scalpel</entityname.advscalpel>
+		<entitydescription.advscalpel>A tool used to make ‖color:gui.green‖incisions‖end‖ during surgery. Incisions are the first step in all surgical operations, but will cause ‖color:gui.red‖bloodloss‖end‖ unless the ‖color:gui.blue‖hemostat‖end‖ is used afterwards. Additionally, incisions can only be performed if the patient does not feel pain, and patients who become pain-aware during surgery will gain ‖color:gui.red‖traumatic shock‖end‖. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖lacerations‖end‖.</entitydescription.advscalpel>
+
+		<entityname.advhemostat>Hemostat</entityname.advhemostat>
+		<entitydescription.advhemostat>A tool used to ‖color:gui.green‖clamp blood vessels‖end‖ during surgery. The second step in most surgical operations, done after ‖color:gui.blue‖scalpel incisions‖end‖.</entitydescription.advhemostat>
+
+		<entityname.advretractors>Skin Retractors</entityname.advretractors>
+		<entitydescription.advretractors>A tool used to ‖color:gui.green‖retract skin‖end‖ during surgery. Retracting the skin is the third step in most surgical operations, but will cause ‖color:gui.red‖traumatic shock‖end‖ if the patient is conscious and not laying on a bed, or close to a ‖color:gui.blue‖surgery table‖end‖ or hospital bed. Used after ‖color:gui.blue‖hemostat clamping‖end‖. On failure, causes ‖color:gui.red‖internal damage‖end‖.</entitydescription.advretractors>
+
+		<entityname.tweezers>Tweezers</entityname.tweezers>
+		<entitydescription.tweezers>A small tool that allows for removing unwanted tissue. After ‖color:gui.blue‖skin retraction‖end‖, tweezers can be used to remove some ‖color:gui.green‖foreign bodies‖end‖ or convert ‖color:gui.green‖blunt force trauma‖end‖ and ‖color:gui.green‖internal damage‖end‖ into ‖color:gui.blue‖suturable‖end‖ ‖color:gui.red‖lacerations‖end‖. ‖color:gui.green‖Foreign bodies‖end‖ can also be removed through open gunshot or deep tissue wounds, but this will cause minor ‖color:gui.red‖traumatic shock‖end‖. On failure, causes ‖color:gui.red‖internal damage‖end‖.</entitydescription.tweezers>
+
+		<entityname.surgerysaw>Surgical Saw</entityname.surgerysaw>
+		<entitydescription.surgerysaw>A tool used to ‖color:gui.green‖saw bones‖end‖. After ‖color:gui.blue‖skin retraction‖end‖, bones can be sawed to remove existing limbs or add new ones. Replacing limbs is required if gangrene exceeds 15%. On failure, causes ‖color:gui.red‖bleeding‖end‖, ‖color:gui.red‖internal damage‖end‖, and ‖color:gui.red‖lacerations‖end‖.</entitydescription.surgerysaw>		
+
+		<entityname.suture>Suture</entityname.suture>
+		<entitydescription.suture>Biodegradeable sutures used to complete surgery. On use, ends surgical operations at any step. Additionally, they can be used to ‖color:gui.red‖stitch‖end‖ ‖color:gui.green‖open wounds‖end‖ closed, and reduce a significant amount of external ‖color:gui.green‖bleeding‖end‖. On failure, causes ‖color:gui.red‖internal damage‖end‖.</entitydescription.suture>
+
+		<entityname.surgicaldrill>Surgical Drill</entityname.surgicaldrill>
+		<entitydescription.surgicaldrill>A tool used to ‖color:gui.green‖drill bones‖end‖ during surgery. After ‖color:gui.blue‖skin retraction‖end‖, bones can be drilled to perform ‖color:gui.blue‖osteosynthesis‖end‖ and fix fractures. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖internal damage‖end‖.</entitydescription.surgicaldrill>
+
+		<entityname.osteosynthesisimplants>Osteosynthesis Implants</entityname.osteosynthesisimplants>
+		<entitydescription.osteosynthesisimplants>Titanium implants used to repair fractures. They can be installed after ‖color:gui.blue‖drilling bones‖end‖. In the event of total bone death, osteosynthesis must be performed on all body parts. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖internal damage‖end‖.</entitydescription.osteosynthesisimplants>
+
+		<entityname.spinalimplant>Spinal Cord Implants</entityname.spinalimplant>
+		<entitydescription.spinalimplant>Titanium implants used to repair spinal cord injuries. They can be installed after ‖color:gui.blue‖skin retraction‖end‖. However, the spinal cord will be injured again if the neck fracture is not repaired with ‖color:gui.blue‖osteosynthesis‖end‖. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖internal damage‖end‖.</entitydescription.spinalimplant>
+
+		<entityname.endovascballoon>Endovascular Balloon</entityname.endovascballoon>
+		<entitydescription.endovascballoon>A balloon inserted into a ruptured aorta. This will prevent ‖color:gui.green‖bloodloss‖end‖ caused by the rupture, but the clog will cause ‖color:gui.red‖gangrene‖end‖ over time. It can be installed after a ‖color:gui.blue‖scalpel incision‖end‖.</entitydescription.endovascballoon>
+
+		<entityname.medstent>Medical Stent</entityname.medstent>
+		<entitydescription.medstent>A stent that can be inserted into the aorta to repair a rupture. It must be used after the ‖color:gui.blue‖endovascular balloon‖end‖.</entitydescription.medstent>
+
+		<entityname.drainage>Drainage</entityname.drainage>
+		<entitydescription.drainage>Treats ‖color:gui.green‖pneumothorax‖end‖ by draining air out of the pleural cavity. Can be used after ‖color:gui.blue‖skin retraction‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.drainage>
+
+		<entityname.operatingtable>Surgery Table</entityname.operatingtable>
+		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals.</entitydescription.operatingtable>
+
+		<entityname.organscalpel_liver>Liver Organ Scalpel</entityname.organscalpel_liver>
+		<entitydescription.organscalpel_liver>A specialized scalpel for the removal of livers. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_liver>
+
+		<entityname.organscalpel_kidneys>Kidney Organ Scalpel</entityname.organscalpel_kidneys>
+		<entitydescription.organscalpel_kidneys>A specialized scalpel for the removal of kidneys. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_kidneys>
+
+		<entityname.organscalpel_lungs>Lung Organ Scalpel</entityname.organscalpel_lungs>
+		<entitydescription.organscalpel_lungs>A specialized scalpel for the removal of the lungs. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_lungs>
+
+		<entityname.organscalpel_heart>Heart Organ Scalpel</entityname.organscalpel_heart>
+		<entitydescription.organscalpel_heart>A specialized scalpel for the removal of the heart. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_heart>
+
+		<entityname.organscalpel_brain>Brain Organ Scalpel</entityname.organscalpel_brain>
+		<entitydescription.organscalpel_brain>A specialized scalpel for the removal of the brain. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the head.</entitydescription.organscalpel_brain>
+
+		<entityname.multiscalpel>Multipurpose Scalpel</entityname.multiscalpel>
+		<entitydescription.multiscalpel>A scalpel that can be used for incisions, organ extraction, removing bandages/casts, or malpractice. Equip in hand to change mode.</entitydescription.multiscalpel>
+		<multiscalpel.incision>Mode: Surgery incision. Equip in hand to change mode.</multiscalpel.incision>
+		<multiscalpel.kidneys>Mode: Extract kidneys</multiscalpel.kidneys>
+		<multiscalpel.liver>Mode: Extract liver</multiscalpel.liver>
+		<multiscalpel.lungs>Mode: Extract lungs</multiscalpel.lungs>
+		<multiscalpel.heart>Mode: Extract heart</multiscalpel.heart>
+		<multiscalpel.brain>Mode: Extract brain</multiscalpel.brain>
+		<multiscalpel.bandage>Mode: Remove bandages, casts, and malpractice. Equip in hand to change mode.</multiscalpel.bandage>
+		<multiscalpel.speedflex>Mode: Adaptive organ extraction. Use on head for brain, left arm for kidneys, torso for liver, right arm for heart, left leg for lungs. Equip in hand to change mode.</multiscalpel.speedflex>
+
+		<multiscalpel.btn.incision>Incision</multiscalpel.btn.incision>
+		<multiscalpel.btn.kidneys>Kidneys</multiscalpel.btn.kidneys>
+		<multiscalpel.btn.liver>Liver</multiscalpel.btn.liver>
+		<multiscalpel.btn.lungs>Lungs</multiscalpel.btn.lungs>
+		<multiscalpel.btn.heart>Heart</multiscalpel.btn.heart>
+		<multiscalpel.btn.brain>Brain</multiscalpel.btn.brain>
+		<multiscalpel.btn.bandage>Bandages, casts, malpractice</multiscalpel.btn.bandage>
+		<multiscalpel.btn.speedflex>Adaptive organ extraction</multiscalpel.btn.speedflex>
+		
+		<!-- NT Blood -->
+		<entityname.emptybloodpack>Empty Blood Pack</entityname.emptybloodpack>
+		<entitydescription.emptybloodpack>An empty blood pack for the drawing of blood. The drawn blood will retain a small amount of the donor's ‖color:gui.red‖acidosis‖end‖, ‖color:gui.red‖alkalosis‖end‖, or ‖color:gui.red‖sepsis‖end‖, if they had any. It is safe to draw a single pack of blood from a patient, provided that they are healthy. On failure, it will draw a ‖color:gui.red‖potentially-lethal‖end‖ amount of blood.</entitydescription.emptybloodpack>
+
+		<entityname.bloodpackoplus>Blood Pack O+</entityname.bloodpackoplus>
+		<entitydescription.bloodpackoplus>Can be administered to: O+, A+, B+, and AB+</entitydescription.bloodpackoplus>
+
+		<entityname.bloodpackominus>Blood Pack O-</entityname.bloodpackominus>
+		<entitydescription.bloodpackominus>Can be administered to: Any</entitydescription.bloodpackominus>
+
+		<entityname.bloodpackaplus>Blood Pack A+</entityname.bloodpackaplus>
+		<entitydescription.bloodpackaplus>Can be administered to: A+, AB+</entitydescription.bloodpackaplus>
+
+		<entityname.bloodpackbplus>Blood Pack B+</entityname.bloodpackbplus>
+		<entitydescription.bloodpackbplus>Can be administered to: B+, AB+</entitydescription.bloodpackbplus>
+
+		<entityname.bloodpackabplus>Blood Pack AB+</entityname.bloodpackabplus>
+		<entitydescription.bloodpackabplus>Can be administered to: AB+</entitydescription.bloodpackabplus>
+
+		<entityname.bloodpackaminus>Blood Pack A-</entityname.bloodpackaminus>
+		<entitydescription.bloodpackaminus>Can be administered to: A-, A+, AB-, AB+</entitydescription.bloodpackaminus>
+
+		<entityname.bloodpackbminus>Blood Pack B-</entityname.bloodpackbminus>
+		<entitydescription.bloodpackbminus>Can be administered to: B-, B+, AB-, AB+</entitydescription.bloodpackbminus>
+
+		<entityname.bloodpackabminus>Blood Pack AB-</entityname.bloodpackabminus>
+		<entitydescription.bloodpackabminus>Can be administered to: AB-, AB+</entitydescription.bloodpackabminus>
+
+		<Override>
+			<entityname.antibloodloss2>Blood Pack O-</entityname.antibloodloss2>
+			<entitydescription.antibloodloss2>Can be administered to: Any</entitydescription.antibloodloss2>
+		</Override>
+
+		<entityname.ominuscard>Donor Card O-</entityname.ominuscard>
+		<entitydescription.ominuscard>Can take blood from: O-
+		Can give blood to: all of them</entitydescription.ominuscard>
+
+		<entityname.opluscard>Donor Card O+</entityname.opluscard>
+		<entitydescription.opluscard>Can take blood from: O-, O+
+		Can give blood to: O+, A+, B+, AB+</entitydescription.opluscard>
+
+		<entityname.aminuscard>Donor Card A-</entityname.aminuscard>
+		<entitydescription.aminuscard>Can take blood from: O-, A-
+		Can give blood to: A-, A+, AB-, AB+</entitydescription.aminuscard>
+
+		<entityname.apluscard>Donor Card A+</entityname.apluscard>
+		<entitydescription.apluscard>Can take blood from: O-, O+, A-, A+
+		Can give blood to: A+, AB+</entitydescription.apluscard>
+
+		<entityname.bminuscard>Donor Card B-</entityname.bminuscard>
+		<entitydescription.bminuscard>Can take blood from: O-, B-
+		Can give blood to: B-, B+, AB-, AB+</entitydescription.bminuscard>
+
+		<entityname.bpluscard>Donor Card B+</entityname.bpluscard>
+		<entitydescription.bpluscard>Can take blood from: O-, O+, B-, B+
+		Can give blood to: B+, AB+</entitydescription.bpluscard>
+
+		<entityname.abminuscard>Donor Card AB-</entityname.abminuscard>
+		<entitydescription.abminuscard>Can take blood from: O-, A-, B-, AB-
+		Can give blood to: AB-, AB+</entitydescription.abminuscard>
+
+		<entityname.abpluscard>Donor Card AB+</entityname.abpluscard>
+		<entitydescription.abpluscard>Can take blood from: all of them
+		Can give blood to: AB+</entitydescription.abpluscard>
+		
+		<!-- NT Containers -->
+		<entityname.medtoolbox>Medical Container</entityname.medtoolbox>
+		<entitydescription.medtoolbox>Can store medicine and medical instruments.</entitydescription.medtoolbox>
+		
+		<entityname.surgerytoolbox>Surgery Toolbox</entityname.surgerytoolbox>
+		<entitydescription.surgerytoolbox>Can store many small items that are used during surgery.</entitydescription.surgerytoolbox>
+		
+		<entityname.organtoolbox>Refrigerated Container</entityname.organtoolbox>
+		<entitydescription.organtoolbox>A container to store precious transplant-ready organs and limbs. Organs will decay quickly when left outside, while limbs will decay slower. Organs and limbs will regenerate when refrigerated, but only if the organ is above 90% condition, or the limb is above 95% condition.</entitydescription.organtoolbox>
+		
+		<entityname.organcrate>Refrigerated Crate</entityname.organcrate>
+		<entitydescription.organcrate>A crate to store precious transplant-ready organs and limbs. Organs will decay quickly when left outside, while limbs will decay slower. Organs and limbs will regenerate when refrigerated, but only if the organ is above 90% condition, or the limb is above 95% condition.</entitydescription.organcrate>
+		
+		<entityname.medstartercrate>Medical Starter Crate</entityname.medstartercrate>
+		<entitydescription.medstartercrate>Once obtained, this crate will spawn first-aid and surgical necessities.</entitydescription.medstartercrate>
+		
+		<!-- Human Resources -->
+		<entityname.rarm>Right Arm</entityname.rarm>
+		<entitydescription.rarm>A severed right arm. Can be surgically reattached after ‖color:gui.blue‖sawing bones‖end‖. If left outside, limbs will slowly decay until destroyed, but the condition of a limb does not matter for transplanting purposes. The bones are rich in ‖color:gui.green‖calcium‖end‖.</entitydescription.rarm>
+		
+		<entityname.larm>Left Arm</entityname.larm>
+		<entitydescription.larm>A severed left arm. Can be surgically reattached after ‖color:gui.blue‖sawing bones‖end‖. If left outside, limbs will slowly decay until destroyed, but the condition of a limb does not matter for transplanting purposes. The bones are rich in ‖color:gui.green‖calcium‖end‖.</entitydescription.larm>
+		
+		<entityname.rleg>Right Leg</entityname.rleg>
+		<entitydescription.rleg>A severed right leg. Can be surgically reattached after ‖color:gui.blue‖sawing bones‖end‖. If left outside, limbs will slowly decay until destroyed, but the condition of a limb does not matter for transplanting purposes. The bones are rich in ‖color:gui.green‖calcium‖end‖.</entitydescription.rleg>
+		
+		<entityname.lleg>Left Leg</entityname.lleg>
+		<entitydescription.lleg>A severed left leg. Can be surgically reattached after ‖color:gui.blue‖sawing bones‖end‖. If left outside, limbs will slowly decay until destroyed, but the condition of a limb does not matter for transplanting purposes. The bones are rich in ‖color:gui.green‖calcium‖end‖.</entitydescription.lleg>
+		
+		<entityname.rarmp>Right Arm Bionic</entityname.rarmp>
+		<entitydescription.rarmp>A bionic right arm. Can be used to treat amputation, transforming into a biological arm. Can be attached after ‖color:gui.blue‖sawing bones‖end‖.</entitydescription.rarmp>
+		
+		<entityname.larmp>Left Arm Bionic</entityname.larmp>
+		<entitydescription.larmp>A bionic left arm. Can be used to treat amputation, transforming into a biological arm. Can be attached after ‖color:gui.blue‖sawing bones‖end‖.</entitydescription.larmp>
+		
+		<entityname.rlegp>Right Leg Bionic</entityname.rlegp>
+		<entitydescription.rlegp>A bionic right leg. Can be used to treat amputation, transforming into a biological leg. Can be attached after ‖color:gui.blue‖sawing bones‖end‖.</entitydescription.rlegp>
+		
+		<entityname.llegp>Left Leg Bionic</entityname.llegp>
+		<entitydescription.llegp>A bionic left leg. Can be used to treat amputation, transforming into a biological leg. Can be attached after ‖color:gui.blue‖sawing bones‖end‖.</entitydescription.llegp>
+		
+		<entityname.livertransplant>Liver</entityname.livertransplant>
+		<entitydescription.livertransplant>A human liver. Liver damage compromises the body's natural ability to heal ‖color:gui.red‖bleeding‖end‖, along with causing some ‖color:gui.red‖neurotrauma‖end‖, increasing ‖color:gui.red‖blood pressure‖end‖, and causing continuous ‖color:gui.red‖internal bleeding‖end‖ upon total failure. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if left outside.</entitydescription.livertransplant>
+		<entityname.livertransplant_q1>Liver</entityname.livertransplant_q1>
+		<entitydescription.livertransplant_q1>A human liver. Liver damage compromises the body's natural ability to heal ‖color:gui.red‖bleeding‖end‖, along with causing some ‖color:gui.red‖neurotrauma‖end‖, increasing ‖color:gui.red‖blood pressure‖end‖, and causing continuous ‖color:gui.red‖internal bleeding‖end‖ upon total failure. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if left outside.</entitydescription.livertransplant_q1>
+		
+		<entityname.lungtransplant>Lungs</entityname.lungtransplant>
+		<entitydescription.lungtransplant>A pair of human lungs. Total lung failure causes ‖color:gui.red‖respiratory arrest‖end‖. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the one new placed in. Organs decay quickly if not refrigerated or in a human.</entitydescription.lungtransplant>
+		<entityname.lungtransplant_q1>Lungs</entityname.lungtransplant_q1>
+		<entitydescription.lungtransplant_q1>A pair of human lungs. Total lung failure causes ‖color:gui.red‖respiratory arrest‖end‖. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if not refrigerated or in a human.</entitydescription.lungtransplant_q1>
+		
+		<entityname.kidneytransplant>Kidney</entityname.kidneytransplant>
+		<entitydescription.kidneytransplant>A human kidney. Heavy kidney damage will cause ‖color:gui.red‖acidosis‖end‖, some ‖color:gui.red‖neurotrauma‖end‖, ‖color:gui.red‖bone damage‖end‖, and increases ‖color:gui.red‖blood pressure‖end‖. Kidneys fail one at a time, with one failing past 50% damage. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if not refrigerated or in a human.</entitydescription.kidneytransplant>
+		<entityname.kidneytransplant_q1>Kidney</entityname.kidneytransplant_q1>
+		<entitydescription.kidneytransplant_q1>A human kidney. Heavy kidney damage will cause ‖color:gui.red‖acidosis‖end‖, ‖color:gui.red‖neurotrauma‖end‖, ‖color:gui.red‖bone damage‖end‖, and increases ‖color:gui.red‖blood pressure‖end‖. Kidneys fail one at a time, with one failing past 50% damage. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if not refrigerated or in a human.</entitydescription.kidneytransplant_q1>
+		
+		<entityname.hearttransplant>Heart</entityname.hearttransplant>
+		<entitydescription.hearttransplant>A human heart. Total heart failure causes ‖color:gui.red‖cardiac arrest‖end‖. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if not refrigerated or in a human.</entitydescription.hearttransplant>
+		<entityname.hearttransplant_q1>Heart</entityname.hearttransplant_q1>
+		<entitydescription.hearttransplant_q1>A human heart. Total heart failure causes ‖color:gui.red‖cardiac arrest‖end‖. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Organs decay quickly if not refrigerated or in a human.</entitydescription.hearttransplant_q1>
+		
+		<entityname.braintransplant>Brain</entityname.braintransplant>
+		<entitydescription.braintransplant>A human brain. Removal of the brain causes rapidly increasing ‖color:gui.red‖neurotrauma‖end‖. However, a person's brain can be transplanted into another individual for that person to take control of them. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Brains decay extremely quickly when not in a human, and are exceedingly fragile.</entitydescription.braintransplant>
+		
+		<entityname.armlock1>Non-functional Right Hand</entityname.armlock1>
+		<entitydescription.armlock1>This hand is not working, due to the right arm being ‖color:gui.red‖dislocated‖end‖, ‖color:gui.red‖fractured‖end‖, or ‖color:gui.red‖missing entirely‖end‖.</entitydescription.armlock1>
+		
+		<entityname.armlock2>Non-functional Left Hand</entityname.armlock2>
+		<entitydescription.armlock2>This hand is not working, due to the left arm being ‖color:gui.red‖dislocated‖end‖, ‖color:gui.red‖fractured‖end‖, or ‖color:gui.red‖missing entirely‖end‖.</entitydescription.armlock2>
+		
+		<!-- NT Treatments -->
+		<entityname.mannitol>Mannitol</entityname.mannitol>
+		<entitydescription.mannitol>A sugar alcohol used to treat a significant amount of ‖color:gui.green‖neurotrauma‖end‖. However, it will not work unless the patient has over 70% blood pressure and oxygenated blood. Additionally, it will cause ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖. On failure, it is less effective and will cause more ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖.</entitydescription.mannitol>
+
+		<entityname.streptokinase>Streptokinase</entityname.streptokinase>
+		<entitydescription.streptokinase>An enzyme that breaks down blood clots, useful in the treatment of ‖color:gui.green‖heart attacks‖end‖. However, it will make ‖color:gui.red‖strokes‖end‖ worse. Additionally, it is used to treat ‖color:gui.green‖hemotransfusion shock‖end‖.</entitydescription.streptokinase>
+
+		<entityname.immunosuppressant>Azathioprine</entityname.immunosuppressant>
+		<entitydescription.immunosuppressant>An immunosuppressant that will reduce a patient's ‖color:gui.green‖immunity‖end‖. This is useful to prevent ‖color:gui.green‖organ rejection‖end‖ or to ‖color:gui.green‖administer incompatible blood types‖end‖ without triggering an immune response. However, a lower immunity will make the patient more susceptible to ‖color:gui.red‖sepsis‖end‖. If a patient is given an organ transplant but it immediately fails, it has been rejected by the immune system. On failure, causes ‖color:gui.red‖sepsis‖end‖.</entitydescription.immunosuppressant>
+
+		<entityname.thiamine>Thiamine</entityname.thiamine>
+		<entitydescription.thiamine>Vitamin B1 will provide a slight boost to ‖color:gui.green‖organ regeneration‖end‖. On failure, it is less effective.</entitydescription.thiamine>
+
+		<entityname.pressuremeds>Sodium Nitroprusside</entityname.pressuremeds>
+		<entitydescription.pressuremeds>A medication used to lower ‖color:gui.green‖blood pressure‖end‖. On failure, it is less effective.</entitydescription.pressuremeds>
+
+		<entityname.ointment>Antibiotic Ointment</entityname.ointment>
+		<entitydescription.ointment>An antiseptic gel that will aid against fighting ‖color:gui.green‖infected wounds‖end‖ and relieve minor ‖color:gui.green‖burns‖end‖. On failure, it is less effective.</entitydescription.ointment>
+
+		<entityname.tourniquet>Tourniquet</entityname.tourniquet>
+		<entitydescription.tourniquet>An item that prevents ‖color:gui.green‖major arteries from bleeding‖end‖. It cannot be used for the ‖color:gui.red‖carotid artery‖end‖. Clamping arteries will cause ‖color:gui.red‖gangrene‖end‖ over time, and it is removed during surgery. On failure, causes ‖color:gui.red‖blunt force trauma‖end‖.</entitydescription.tourniquet>
+
+		<entityname.needle>Needle</entityname.needle>
+		<entitydescription.needle>A specialized needle used to depressurize air in the pleural cavity, as a first aid option for ‖color:gui.green‖pneumothorax‖end‖. If the patient does not already have pneumothorax, it will ‖color:gui.red‖cause it instead‖end‖. On failure, causes ‖color:gui.red‖organ damage‖end‖ and ‖color:gui.red‖bleeding‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.needle>
+
+		<entityname.ringerssolution>Ringer's Solution</entityname.ringerssolution>
+		<entitydescription.ringerssolution>An isotonic solution used to increase ‖color:gui.green‖blood pressure‖end‖. On failure, it is less effective.</entitydescription.ringerssolution>
+
+		<entityname.antiseptic>Antiseptic</entityname.antiseptic>
+		<entitydescription.antiseptic>Used by the ‖color:gui.blue‖antiseptic spray‖end‖, it is effective against treating ‖color:gui.green‖infected wounds‖end‖.</entitydescription.antiseptic>
+
+		<entityname.antisepticspray>Antiseptic Spray</entityname.antisepticspray>
+		<entitydescription.antisepticspray>Applies ‖color:gui.blue‖antiseptic‖end‖ to combat ‖color:gui.green‖infected wounds‖end‖.</entitydescription.antisepticspray>
+
+		<entityname.propofol>Propofol</entityname.propofol>
+		<entitydescription.propofol>A general ‖color:gui.green‖anesthetic‖end‖. Its effects take place after some time, and will not last very long. Anesthesized patients are ‖color:gui.red‖unconscious‖end‖ and do not gain ‖color:gui.green‖traumatic shock‖end‖ from surgical operations. Usage may come with a variety of non-lethal ‖color:gui.red‖side effects‖end‖.</entitydescription.propofol>
+
+		<entityname.gypsum>Gypsum</entityname.gypsum>
+		<entitydescription.gypsum>A powder that can be formed into a cast. It is used to encase ‖color:gui.green‖long bone fractures‖end‖, allowing them to heal. Used after ‖color:gui.blue‖bandaging‖end‖ the limb. On failure, it is consumed without forming a cast.</entitydescription.gypsum>
+	
+		<entityname.gelipack>Gel Ice Pack</entityname.gelipack>
+		<entitydescription.gelipack>A package of cold gel that will greatly promote the healing of ‖color:gui.green‖blunt force trauma‖end‖. It is ineffective against ‖color:gui.red‖other types of injuries‖end‖ and will worsen ‖color:gui.red‖infections‖end‖. Can be used up to thrice, and will lose effectiveness if not refrigerated. When refrigerated, its condition will regenerate over time.</entitydescription.gelipack>
+	</Override>
+</infotexts>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- By profole -->
+<infotexts language="German" nowhitespace="false" translatedname="Deutsch">
+	<Override>
+        <!-- Vanilla Items -->
+        <entitydescription.screwdriver>Für elektrische Reparaturen und Neuverkabelungen. Wird auch benutzt um ‖color:gui.green‖lockere Schrauben‖end‖ von ‖color:gui.blue‖Cybergliedmaßen‖end‖ festzuziehen.</entitydescription.screwdriver>
+
+        <entitydescription.screwdriverhardened>Ein Schraubenschlüssel, der mit Hilfe von abgereichertem Brennstoff gehärtet wurde. Das so verstärkte Material ermöglicht effizientere Reparaturen und kraftvollere Schläge. Wird auch benutzt um ‖color:gui.green‖lockere Schrauben‖end‖ von ‖color:gui.blue‖Cybergliedmaßen‖end‖ festzuziehen.</entitydescription.screwdriverhardened>
+
+        <entitydescription.screwdriverdementonite>Aus dem kaum erforschten außerirdischen Material Dementonit hergestellt. Wenn man den Gegenstand in der Hand hält, überkommt einen ein eigenartiges Gefühl der Unruhe. Wird auch benutzt um ‖color:gui.green‖lockere Schrauben‖end‖ von ‖color:gui.blue‖Cybergliedmaßen‖end‖ festzuziehen.</entitydescription.screwdriverdementonite>
+
+        <entitydescription.fpgacircuit>Eine feldprogrammierbare Gatter-Anordnung – ein Mehrzweckschaltkreis, der für viele elektrische Geräte verwendet werden kann. Wird auch benutzt um ‖color:gui.green‖kaputte Schaltkreise‖end‖ von ‖color:gui.blue‖Cybergliedmaßen‖end‖ zu reparieren.</entitydescription.fpgacircuit>
+
+        <entitydescription.weldingtool>Eines der wichtigsten Werkzeuge an Bord eines U-Boots. Funktioniert auch unter Wasser und wird benutzt um ‖color:gui.green‖verbogenes Metall‖end‖ von ‖color:gui.blue‖Cybergliedmaßen‖end‖ zu reparieren.</entitydescription.weldingtool>
+
+        <entitydescription.steel>Eine starke Legierung aus Eisen und Kohlenstoff. Wird für die Herstellung von Brennstäben sowie für zahlreiche militärische Zwecke verwendet. Wird auch benutzt um ‖color:gui.green‖verlorenes Material‖end‖ von ‖color:gui.blue‖Cybergliedmaßen‖end‖ zu ersetzen.</entitydescription.steel>
+
+        <!-- Cybernetics Improved Items -->
+        <entityname.cyberarm>Cyberarm</entityname.cyberarm>
+        <entitydescription.cyberarm>Ein starker, unorganischer Arm welcher nicht ‖color:gui.green‖bluten‖end‖ oder ‖color:gui.green‖brechen‖end‖ kann. Zusätzlich erhöht er die ‖color:gui.green‖Schwimmgeschwindigkeit‖end‖ und den ‖color:gui.green|Nahkampfschaden‖end‖. Jedoch benötigt er ‖color:gui.red‖Wartung‖end‖ und ist ‖color:gui.red‖wasserempfindlich‖end‖. Er kann nach einer Amputation installiert werden.</entitydescription.cyberarm>
+
+        <entityname.cyberleg>Cyberbein</entityname.cyberleg>
+        <entitydescription.cyberleg>Ein starkes, unorganisches Bein welches nicht ‖color:gui.green‖bluten‖end‖ oder ‖color:gui.green‖brechen‖end‖ kann. Zusätzlich erhöht es die ‖color:gui.green‖Laufgeschwindigkeit‖end‖. Jedoch benötigt es ‖color:gui.red‖Wartung‖end‖ und ist ‖color:gui.red‖wasserempfindlich‖end‖. Es kann nach einer Amputation installiert werden.</entitydescription.cyberleg>
+        
+        <entityname.waterproofcyberarm>Wasserfester Cyberarm</entityname.waterproofcyberarm>
+        <entitydescription.waterproofcyberarm>Ein starker, unorganischer Arm welcher nicht ‖color:gui.green‖bluten‖end‖ oder ‖color:gui.green‖brechen‖end‖ kann. Zusätzlich erhöht er die ‖color:gui.green‖Schwimmgeschwindigkeit‖end‖ und den ‖color:gui.green|Nahkampfschaden‖end‖. Jedoch benötigt er ‖color:gui.red‖Wartung‖end‖, ist aber nicht ‖color:gui.red‖wasserempfindlich‖end‖. Er kann nach einer Amputation installiert werden.</entitydescription.waterproofcyberarm>
+        
+        <entityname.waterproofcyberleg>Wasserfestes Cyberbein</entityname.waterproofcyberleg>
+        <entitydescription.waterproofcyberleg>Ein starkes, unorganisches Bein welches nicht ‖color:gui.green‖bluten‖end‖ oder ‖color:gui.green‖brechen‖end‖ kann. Zusätzlich erhöht es die ‖color:gui.green‖Laufgeschwindigkeit‖end‖. Jedoch benötigt es ‖color:gui.red‖Wartung‖end‖, ist aber nicht ‖color:gui.red‖wasserempfindlich‖end‖. Es kann nach einer Amputation installiert werden.</entitydescription.waterproofcyberleg>
+
+		<!-- Cybernetics Improved Afflictions -->
+        <afflictionname.ntc_cyberarm>Cyberarm</afflictionname.ntc_cyberarm>
+        <afflictiondescription.ntc_cyberarm>Dieser unorganische Arm nimmt keine biologischen Schäden, muss aber gewartet werden um effektiv zu bleiben. Kann gewaltsam mit einer Brechstange entfernt werden.</afflictiondescription.ntc_cyberarm>
+
+        <afflictionname.ntc_cyberleg>Cyberbein</afflictionname.ntc_cyberleg>
+        <afflictiondescription.ntc_cyberleg>Dieses unorganische Bein nimmt keine biologischen Schäden, muss aber gewartet werden um effektiv zu bleiben. Kann gewaltsam mit einer Brechstange entfernt werden.</afflictiondescription.ntc_cyberleg>
+
+        <afflictionname.ntc_loosescrews>Lockere Schrauben</afflictionname.ntc_loosescrews>
+        <afflictiondescription.ntc_loosescrews>Schrauben haben sich durch physisches Trauma oder andere lose Schrauben gelockert. Wenn sie nicht mit einem Schraubenzieher wieder festgezogen werden, könnten sich durch Bewegung weitere lockern.</afflictiondescription.ntc_loosescrews>
+
+        <afflictionname.ntc_damagedelectronics>Beschädigte Elektronik</afflictionname.ntc_damagedelectronics>
+        <afflictiondescription.ntc_damagedelectronics>Empfindliche Schaltkreise wurden durch Wasser oder physiches Trauma beschädigt. Wenn sie nicht durch FPGAs ersetzt werden, könnte es zu Fehlfunktionen kommen.</afflictiondescription.ntc_damagedelectronics>
+
+        <afflictionname.ntc_bentmetal>Verbogenes Metall</afflictionname.ntc_bentmetal>
+        <afflictiondescription.ntc_bentmetal>Die Gliedmaße wurde durch physisches Trauma verbogen, welches es schwerer zu benutzen macht. Kann wieder in seine alte Form geschweißt werden.</afflictiondescription.ntc_bentmetal>
+
+        <afflictionname.ntc_materialloss>Materialverlust</afflictionname.ntc_materialloss>
+        <afflictiondescription.ntc_materialloss>Die Gliedmaße hat durch physiches Trauma Teil verloren. Es kann mit Stahl repariert werden. Wenn zu viele Teile verloren gehen, könnte die Gliedmaße zerstört werden. Lockere Schrauben machen es leichter, Teile zu verlieren.</afflictiondescription.ntc_materialloss>
+
+        <afflictionname.ntc_waterproof>Wasserfest</afflictionname.ntc_waterproof>
+        <afflictiondescription.ntc_waterproof>Diese Cybergliedmaße nimmt kein Schaden durch Wasser.</afflictiondescription.ntc_waterproof>
+    </Override>
+</infotexts>

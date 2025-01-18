@@ -12,7 +12,6 @@ local config = {
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
 			}
 	},
-
 	
 	{
 		-- Curly's Surgery Plus (not yet ready)

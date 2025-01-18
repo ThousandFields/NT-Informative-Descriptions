@@ -12,18 +12,6 @@ local config = {
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
 			}
 	},
-
-	{
-		-- Neurotrauma Mannatu
-		supportedlanguages = {"English","Simplified Chinese","Russian"},
-		IgnoreTargetModState = false,
-		workshopId = "2776270649",
-		loadpriority = 0,
-		files = {
-			"%ModDir%/Localization/%Language%/Items.xml",
-			"%ModDir%/Localization/%Language%/Afflictions.xml"
-			}
-	},
 	
 	{
 		-- Curly's Surgery Plus (not yet ready)

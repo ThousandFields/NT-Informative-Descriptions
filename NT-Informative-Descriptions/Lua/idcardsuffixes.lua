@@ -1,4 +1,4 @@
--- getting this from different text files from disabled languages is exorbitantly  complicated in lua due to billion different types i have to register.
+-- getting this from different text files from disabled languages is exorbitantly complicated in lua due to billion different types i have to register.
 -- so fuck it just manual table
 local suffixes = {
 	English = "A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.",

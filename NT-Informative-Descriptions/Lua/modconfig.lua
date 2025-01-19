@@ -12,18 +12,6 @@ local config = {
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
 			}
 	},
-
-	{
-		-- Neurotrauma Mannatu
-		supportedlanguages = {"English","Simplified Chinese","Russian"},
-		IgnoreTargetModState = false,
-		workshopId = "2776270649",
-		loadpriority = 0,
-		files = {
-			"%ModDir%/Localization/%Language%/Items.xml",
-			"%ModDir%/Localization/%Language%/Afflictions.xml"
-			}
-	},
 	
 	{
 		-- Curly's Surgery Plus (not yet ready)
@@ -51,7 +39,7 @@ local config = {
 		IgnoreTargetModState = false,
 		workshopId = "2963474291",
 		loadpriority = 0,
-		files = {"%ModDir%/Localization/%Language%/CyberneticsImproved.xml"}
+		files = {"%ModDir%/Localization/%Language%/Cybernetics.xml"}
 	},
 
 	{
@@ -60,7 +48,7 @@ local config = {
 		IgnoreTargetModState = false,
 		workshopId = "3324062208",
 		loadpriority = 0,
-		files = {"%ModDir%/Localization/%Language%/CyberneticsEnhanced.xml"}
+		files = {"%ModDir%/Localization/%Language%/Cybernetics.xml"}
 	},
 
 	{

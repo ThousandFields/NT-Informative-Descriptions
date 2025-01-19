@@ -39,7 +39,7 @@ local config = {
 		IgnoreTargetModState = false,
 		workshopId = "2963474291",
 		loadpriority = 0,
-		files = {"%ModDir%/Localization/%Language%/CyberneticsImproved.xml"}
+		files = {"%ModDir%/Localization/%Language%/Cybernetics.xml"}
 	},
 
 	{
@@ -48,7 +48,7 @@ local config = {
 		IgnoreTargetModState = false,
 		workshopId = "3324062208",
 		loadpriority = 0,
-		files = {"%ModDir%/Localization/%Language%/CyberneticsEnhanced.xml"}
+		files = {"%ModDir%/Localization/%Language%/Cybernetics.xml"}
 	},
 
 	{

@@ -2,12 +2,12 @@
 
 <!-- by profole -->
 <infotexts language="German" nowhitespace="false" translatedname="Deutsch">
-	<Override>
+<Override>
         <!-- Immersive Repairs Items -->
         <entityname.weldingtorch>Schweißbrenner</entityname.weldingtorch>
         <entitydescription.weldingtorch>Schweißt doppelt so schnell wie das Schweißgerät, kann aber nicht unter Wasser genutzt werden. Kann auch benutzt werden um ‖color:gui.green‖Verbogenes Metal‖end‖ an einer ‖color:gui.blue‖Cybergliedmaße.‖end‖.</entitydescription.weldingtorch>
 
         <entityname.multitool>Multifunktions Werkzeug</entityname.multitool>
         <entitydescription.multitool>Ein sehr schnelles und simples Wartungswerkzeug. Keine Erfahrung benötigt! Ziele einfach auf das zu reparierende Gerät und drück ab. Geht sehr schnell kaputt. Kann mit FPGA Komponenten repariert werden. Quasi das WD40 und Panzertape von Europa, kombiniert! Kann auch benutzt werden um bei einer ‖color:gui.blue‖Cybergliedmaße‖end‖ die ‖color:gui.green‖Schrauben festzuziehen‖end‖.</entitydescription.multitool>
-    </Override>
+</Override>
 </infotexts>

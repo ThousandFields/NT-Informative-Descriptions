@@ -2,7 +2,7 @@
 
 <!-- by ThousandFields -->
 <infotexts language="English" nowhitespace="false" translatedname="English">
-	<Override>
+<Override>
 		<!-- Vanilla Visible Afflictions -->
 		<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood. An infection will likely occur, and there is probably still bullets inside.</afflictiondescription.gunshotwound>
 		<afflictiondescription.gunshotwound.low>The bullet missed all the important bits, but the pain is real and so is the risk of infection. There may still be bullets inside.</afflictiondescription.gunshotwound.low>
@@ -470,5 +470,5 @@
 		<connection.bloodphout>Blood_pH</connection.bloodphout>
 		
 		<roomname.surgical>Surgical</roomname.surgical>
-	</Override>
+</Override>
 </infotexts>

@@ -297,7 +297,7 @@
     <afflictiondescription.bonegrowth>Простимулированное отрастание костей. Для лечения костной смерти, этот статус должен быть на каждой части тела.</afflictiondescription.bonegrowth>
 
     <afflictionname.analgesia>Анальгезия</afflictionname.analgesia>
-    <afflictiondescription.analgesia>Нечувствительность к боли подавляет некоторые симптомы, позволяет безопасную хирургию и дает больше времени для сражений.</afflictiondescription.analgesia>
+    <afflictiondescription.analgesia>Нечувствительность к боли подавляет некоторые симптомы, позволяет безопасную хирургию и дает больше времени для сражений. При достаточной силе, дополнительно дает приличное сопротивление к оглушению, снимает штрафы к движению и дрожание в руках, вызванные от полученного урона в конечностях.</afflictiondescription.analgesia>
 
     <afflictionname.anesthesia>Анестезия</afflictionname.anesthesia>
     <afflictiondescription.anesthesia>Влияние наркотика вызывающего бессознательном состояние. Проводить хирургию безопасно.</afflictiondescription.anesthesia>

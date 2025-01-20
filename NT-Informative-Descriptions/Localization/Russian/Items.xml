@@ -76,10 +76,10 @@
 
     <!-- NT Tools -->
     <entityname.defibrillator>Ручной дефибриллятор</entityname.defibrillator>
-    <entitydescription.defibrillator>Инструмент использующий заряд аккумулятора для лечения ‖color:gui.green‖остановки сердца‖end‖ или ‖color:gui.green‖фибрилляции‖end‖. Используйте ‖color:gui.blue‖автоматизированый внешний дефибрилятор‖end‖ если навык медицины ниже 80. При неудачном применении, вызывает ‖color:gui.red‖остановку сердца‖end‖.</entitydescription.defibrillator>
+    <entitydescription.defibrillator>Инструмент использующий заряд аккумулятора для лечения ‖color:gui.green‖остановки сердца‖end‖ или ‖color:gui.green‖фибрилляции‖end‖. Используйте ‖color:gui.blue‖автоматизированый внешний дефибрилятор‖end‖ если навык медицины ниже 80. Оденьте на пациента ‖color:gui.blue‖костюм для экстренной помощи‖end‖, чтобы избежать ‖color:gui.red‖электрического шока‖end‖ окружающих в воде. При неудачном применении, вызывает ‖color:gui.red‖остановку сердца‖end‖.</entitydescription.defibrillator>
 
     <entityname.aed>Автоматизированый внешний дефибрилятор</entityname.aed>
-    <entitydescription.aed>Автоматизированный вариант дефибриллятора использует заряд аккумулятора для лечения ‖color:gui.green‖остановки сердца‖end‖. Используйте ‖color:gui.blue‖ручной дефибриллятор‖end‖ если навык медицины выше 80.</entitydescription.aed>
+    <entitydescription.aed>Автоматизированный вариант дефибриллятора использует заряд аккумулятора для лечения ‖color:gui.green‖остановки сердца‖end‖. Используйте ‖color:gui.blue‖ручной дефибриллятор‖end‖ если навык медицины выше 80. Для работы устройства в воде оденьте на пациента ‖color:gui.blue‖костюм для экстренной помощи‖end‖.</entitydescription.aed>
 
     <entityname.bvm>Мешок амбу</entityname.bvm>
     <entitydescription.bvm>Инструмент лечит ‖color:gui.green‖нехватку кислорода‖end‖ при наличии кислородного баллона, и дополнительно лечит ‖color:gui.green‖остановку дыхания‖end‖ при наличии баллона с кислородитом.</entitydescription.bvm>
@@ -88,7 +88,7 @@
     <entitydescription.autocpr>Механизм занимающий слот верхней одежды. После некоторого времени, лечит ‖color:gui.green‖остановку сердца‖end‖ и ‖color:gui.green‖фибрилляцию‖end‖. Предотвращает отрицательные эффекты от статуса ‖color:gui.green‖остановки дыхания‖end‖. Ношение АвтоПульса дополнительно увеличивает ‖color:gui.green‖кровяное давление‖end‖ во время использования, что может быть полезно в экстренной ситуации. Не забудьте снять его, если он больше не нужен!</entitydescription.autocpr>
 
     <entityname.bloodanalyzer>Гематологический анализатор</entityname.bloodanalyzer>
-    <entitydescription.bloodanalyzer>Инструмент который отображает иммунитет, группу и резус фактор крови. Также способен показать кровопотерю, сепсис, алкалоз, ацидоз, действующие препараты в кровотоке. Если в слоте устройства находится ‖color:gui.blue‖пустая карта донора‖end‖, он распечатает группу и резус фактор крови в удостоверение личности пациента, если там есть пустой слот. Использование гематологического анализатора требует немного ‖color:gui.red‖крови‖end‖.</entitydescription.bloodanalyzer>
+    <entitydescription.bloodanalyzer>Инструмент отображающий иммунитет, группу и резус фактор крови. Также способен показать кровопотерю, сепсис, алкалоз, ацидоз, препараты в кровотоке. Если в слоте находится ‖color:gui.blue‖пустая карта донора‖end‖, то он распечатает группу и резус фактор крови в удостоверение личности пациента, если там есть пустой слот. Если в слот вставлен ‖color:gui.blue‖пакет крови‖end‖, он отобразит, есть ли там сепсис, алкалоз или ацидоз. Использование гематологического анализатора требует немного ‖color:gui.red‖крови‖end‖.</entitydescription.bloodanalyzer>
 
     <entityname.bloodcollector>Пустая карта донора</entityname.bloodcollector>
     <entitydescription.bloodcollector>Пустая карта использующаяся в ‖color:gui.blue‖гематологическом анализаторе‖end‖, чтобы распечатать карту донора для пациента.</entitydescription.bloodcollector>
@@ -108,6 +108,9 @@
     <entityname.stasisbag>Стазис мешок</entityname.stasisbag>
     <entitydescription.stasisbag>Мешок носимый в слоте верхней одежды, защищает от давления до 10,000 метров. Позволяет тащить пациента или труп в ‖color:gui.green‖полной скорости‖end‖. При ношении живым человеком он вызывает ‖color:gui.red‖остановку сердца‖end‖, ‖color:gui.red‖остановку дыхания‖end‖, ‖color:gui.red‖бессознательность‖end‖ и ‖color:gui.red‖запрещает проводить хирургию‖end‖, но при этом ‖color:gui.green‖приостанавливает большинство ухудшающих здоровье эффектов‖end‖. Мешок портится на 1% каждые 4 секунды активного ношения.</entitydescription.stasisbag>
     <stasisbagequipconfirmation>После надевания Вы потеряете сознание. Вы уверены что хотите надеть стазис мешок?</stasisbagequipconfirmation>
+
+    <entityname.emergencysuit>Костюм для экстренной помощи</entityname.emergencysuit>
+    <entitydescription.emergencysuit>Одеваемая версия больничной кровати, предназначенная для экстренной помощи пациенту под водой. Как и больничная кровать, костюм идет в комлекте с ‖color:gui.green‖искусственной вентиляцией‖end‖, питаемой от ‖color:gui.blue‖аккумулятора‖end‖. Позволяет свободное использование ‖color:gui.blue‖дефибриллятора‖end‖ в воде, на пациенте, а также тащить пациента или труп в ‖color:gui.green‖полной скорости‖end‖. При этом, сам носитель костюма будет ‖color:gui.red‖обездвижен‖end‖.</entitydescription.emergencysuit>
 
     <!-- NT Surgery -->
     <entityname.advscalpel>Скальпель</entityname.advscalpel>
@@ -147,7 +150,7 @@
     <entitydescription.drainage>Используется для лечения ‖color:gui.green‖пневмоторакса‖end‖, удаляя воздух из плевральной полости. Может быть использован после ‖color:gui.blue‖растянутой кожи‖end‖. Пневмоторакс это потенциально опасный статус, потому что он предотвращает снижение гипоксемии.</entitydescription.drainage>
 
     <entityname.operatingtable>Операционный стол</entityname.operatingtable>
-    <entitydescription.operatingtable>Транспортируемая версия больничной койки, предназначенная для установки на подлодках. Как и больничная койка, он идет в комлекте с ‖color:gui.green‖искусственной вентиляцией‖end‖. В дополнении, он имеет проводимые выводы для отображения данных о здоровье пациента.</entitydescription.operatingtable>
+    <entitydescription.operatingtable>Транспортируемая версия больничной кровати, предназначенная для установки на подлодках. Как и больничная кровать, он идет в комлекте с ‖color:gui.green‖искусственной вентиляцией‖end‖. В дополнении, он имеет проводимые выводы для отображения данных о здоровье пациента.</entitydescription.operatingtable>
 
     <entityname.organscalpel_liver>Скалпель для извлечения печени</entityname.organscalpel_liver>
     <entitydescription.organscalpel_liver>Спец скальпель для извлечения печени. Может использоваться после ‖color:gui.blue‖растянутой кожи‖end‖ на торсе.</entitydescription.organscalpel_liver>

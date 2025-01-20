@@ -106,7 +106,7 @@
 		<entitydescription.autocpr>A machine that occupies a patient's Outerwear slot. Over time, cures ‖color:gui.green‖cardiac arrest‖end‖ and ‖color:gui.green‖fibrillation‖end‖, and prevents the negative effects of ‖color:gui.green‖respiratory arrest‖end‖. Wearing the AutoPulse will additionally increase ‖color:gui.green‖blood pressure‖end‖ over time, which may useful in an emergency. Remember to take it off when no longer needed!</entitydescription.autocpr>
 
 		<entityname.bloodanalyzer>Hematology Analyzer</entityname.bloodanalyzer>
-		<entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, acidosis, alkalosis, or drugs in the bloodstream. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
+		<entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, acidosis, alkalosis, or drugs in the bloodstream. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. If a ‖color:gui.blue‖blood pack‖end‖ is inserted, any existing sepsis, alkalosis, or acidosis will be shown. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
 
 		<entityname.bloodcollector>Blank Donor Card</entityname.bloodcollector>
 		<entitydescription.bloodcollector>An empty donor card used by the ‖color:gui.blue‖hematology analyzer‖end‖ to imprint a patient's blood type.</entitydescription.bloodcollector>

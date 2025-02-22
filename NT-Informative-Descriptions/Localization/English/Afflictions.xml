@@ -282,7 +282,7 @@
 		<afflictiondescription.boneclamp>Fracture has been splinted.</afflictiondescription.boneclamp>
 		
 		<afflictionname.bandaged>Bandaged</afflictionname.bandaged>
-		<afflictiondescription.bandaged>Protects from infection, stabilizes dislocations and fractures, and promotes wound healing. It restricts movement slightly.</afflictiondescription.bandaged>
+		<afflictiondescription.bandaged>Protects from infection, stabilizes dislocations and fractures, and promotes wound healing. It restricts movement slightly. Does not improve the healing of open wounds if they are too severe.</afflictiondescription.bandaged>
 		
 		<afflictionname.dirtybandage>Dirty bandage</afflictionname.dirtybandage>
 		<afflictiondescription.dirtybandage>A bandage that has been overused and should be removed or replaced, as it promotes infections.</afflictiondescription.dirtybandage>

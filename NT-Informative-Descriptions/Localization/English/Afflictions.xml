@@ -4,7 +4,7 @@
 <infotexts language="English" nowhitespace="false" translatedname="English">
 	<Override>
 		<!-- Vanilla Visible Afflictions -->
-		<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood. An infection will likely occur, and there is probably still bullets inside.</afflictiondescription.gunshotwound>
+		<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood. An infection will likely occur, and there are probably still bullets inside. A wound like this does not naturally heal beyond 50 strength.</afflictiondescription.gunshotwound>
 		<afflictiondescription.gunshotwound.low>The bullet missed all the important bits, but the pain is real and so is the risk of infection. There may still be bullets inside.</afflictiondescription.gunshotwound.low>
 
 		<afflictiondescription.blunttrauma>The area is an ugly shade of purple, and apparently very painful to touch. You suspect a bone might be broken. This wound can't be stitched.</afflictiondescription.blunttrauma>
@@ -13,10 +13,10 @@
 		<afflictiondescription.lacerations>The skin is pierced and there are deep, bleeding wounds. This will probably cause an infection.</afflictiondescription.lacerations>
 		<afflictiondescription.lacerations.low>The cuts look worse than they really are, but a possible infection should not be ruled out.</afflictiondescription.lacerations.low>
 		
-		<afflictiondescription.bitewounds>There is extensive damage to soft tissue in the area and there are asymmetrical, bleeding wounds. This will probably cause an infection.</afflictiondescription.bitewounds>
+		<afflictiondescription.bitewounds>There is extensive damage to soft tissue in the area and there are asymmetrical, bleeding wounds. This will probably cause an infection. A wound like this does not naturally heal beyond 100 strength.</afflictiondescription.bitewounds>
 		<afflictiondescription.bitewounds.low>Something tried to take a big chomp but luckily only caught a nibble. It might cause an infection, though.</afflictiondescription.bitewounds.low>
 		
-		<afflictiondescription.explosiondamage>The area is colored purple. The tissue underneath feels different than the surrounding skin. An infection is likely, and so is shrapnel.</afflictiondescription.explosiondamage>
+		<afflictiondescription.explosiondamage>The area is colored purple. The tissue underneath feels different than the surrounding skin. An infection is likely, and so is shrapnel. A wound like this does not naturally heal beyond 50 strength.</afflictiondescription.explosiondamage>
 		<afflictiondescription.explosiondamage.low>The area of skin appears slightly bruised. There might be an infection or remaining shrapnel.</afflictiondescription.explosiondamage.low>
 
 		<afflictiondescription.bleeding>Blood pours freely from this ragged and particularly nasty open wound. If it gets any worse, it may induce an arterial rupture.</afflictiondescription.bleeding>

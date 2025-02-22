@@ -37,16 +37,16 @@
 
 		<!-- NT Trauma -->
 		<afflictionname.ra_fracture>Fractured right humerus</afflictionname.ra_fracture>
-		<afflictiondescription.ra_fracture>The right arm has been broken, likely due to physical trauma. It will prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ra_fracture>
+		<afflictiondescription.ra_fracture>The right arm is broken, likely due to physical trauma. It will be painful and prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ra_fracture>
 		
 		<afflictionname.la_fracture>Fractured left humerus</afflictionname.la_fracture>
-		<afflictiondescription.la_fracture>The left arm has been broken, likely due to physical trauma. It will prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.la_fracture>
+		<afflictiondescription.la_fracture>The left arm is broken, likely due to physical trauma. It will be painful and prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.la_fracture>
 		
 		<afflictionname.rl_fracture>Fractured right femur</afflictionname.rl_fracture>
-		<afflictiondescription.rl_fracture>The right leg has been broken, likely due to physical trauma. Movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.rl_fracture>
+		<afflictiondescription.rl_fracture>The right leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.rl_fracture>
 		
 		<afflictionname.ll_fracture>Fractured left femur</afflictionname.ll_fracture>
-		<afflictiondescription.ll_fracture>The right leg has been broken, likely due to physical trauma. Movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ll_fracture>
+		<afflictiondescription.ll_fracture>The right leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ll_fracture>
 		
 		<afflictionname.t_fracture>Fractured ribs</afflictionname.t_fracture>
 		<afflictiondescription.t_fracture>One or more ribs have been broken, likely due to physical trauma. The structural instability may cause pneumothorax. It must be repaired in an osteosynthesis surgery.</afflictiondescription.t_fracture>
@@ -76,31 +76,31 @@
 		<afflictiondescription.t_paralysis>The spine has been injured due to exposure from a neck fracture, causing full-body paralysis and analgesia. They are still conscious. It must be surgically repaired using spinal cord implants.</afflictiondescription.t_paralysis>
 
 		<afflictionname.dislocation1>Dislocation</afflictionname.dislocation1>
-		<afflictiondescription.dislocation1>A bone in the right leg has been displaced by physical trauma, causing pain and making movement difficult. A wrench may be used to relocate the bone.</afflictiondescription.dislocation1>
+		<afflictiondescription.dislocation1>A bone in the right leg has been displaced by physical trauma, causing pain and making movement difficult. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation1>
 		
 		<afflictionname.dislocation2>Dislocation</afflictionname.dislocation2>
-		<afflictiondescription.dislocation2>A bone in the left leg has been displaced by physical trauma, causing pain and making movement difficult. A wrench may be used to relocate the bone.</afflictiondescription.dislocation2>
+		<afflictiondescription.dislocation2>A bone in the left leg has been displaced by physical trauma, causing pain and making movement difficult. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation2>
 		
 		<afflictionname.dislocation3>Dislocation</afflictionname.dislocation3>
-		<afflictiondescription.dislocation3>A bone in the right arm has been displaced by physical trauma, causing pain and inability to use this limb. A wrench may be used to relocate the bone.</afflictiondescription.dislocation3>
+		<afflictiondescription.dislocation3>A bone in the right arm has been displaced by physical trauma, causing pain and inability to use this limb. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation3>
 		
 		<afflictionname.dislocation4>Dislocation</afflictionname.dislocation4>
-		<afflictiondescription.dislocation4>A bone in the left arm has been displaced by physical trauma, causing pain and inability to use this limb. A wrench may be used to relocate the bone.</afflictiondescription.dislocation4>
+		<afflictiondescription.dislocation4>A bone in the left arm has been displaced by physical trauma, causing pain and inability to use this limb. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation4>
 
 		<afflictionname.ll_arterialcut>Femoral artery bleeding</afflictionname.ll_arterialcut>
-		<afflictiondescription.ll_arterialcut>The left femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.ll_arterialcut>
+		<afflictiondescription.ll_arterialcut>The left femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically fixed.</afflictiondescription.ll_arterialcut>
 		
 		<afflictionname.rl_arterialcut>Femoral artery bleeding</afflictionname.rl_arterialcut>
-		<afflictiondescription.rl_arterialcut>The right femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.rl_arterialcut>
+		<afflictiondescription.rl_arterialcut>The right femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically fixed.</afflictiondescription.rl_arterialcut>
 		
 		<afflictionname.la_arterialcut>Brachial artery bleeding</afflictionname.la_arterialcut>
-		<afflictiondescription.la_arterialcut>The left brachial artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.la_arterialcut>
+		<afflictiondescription.la_arterialcut>The left brachial artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically fixed.</afflictiondescription.la_arterialcut>
 		
 		<afflictionname.ra_arterialcut>Brachial artery bleeding</afflictionname.ra_arterialcut>
-		<afflictiondescription.ra_arterialcut>The right brachial artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically sutured.</afflictiondescription.ra_arterialcut>
+		<afflictiondescription.ra_arterialcut>The right brachial artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically fixed.</afflictiondescription.ra_arterialcut>
 		
 		<afflictionname.h_arterialcut>Carotid artery bleeding</afflictionname.h_arterialcut>
-		<afflictiondescription.h_arterialcut>The carotid artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It is dangerous to stop it using a tourniquet, and must be surgically sutured.</afflictiondescription.h_arterialcut>
+		<afflictiondescription.h_arterialcut>The carotid artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It is dangerous to stop it using a tourniquet, and must be surgically fixed.</afflictiondescription.h_arterialcut>
 
 		<afflictionname.gangrene>Gangrene</afflictionname.gangrene>
 		<afflictiondescription.gangrene>The extremity has shrunk and turned black, due to sepsis or suppressed bloodflow. The limb must be amputated beyond 15%, as it will no longer heal.</afflictiondescription.gangrene>
@@ -122,7 +122,7 @@
 		<afflictiondescription.fibrillation>Heartbeat has an abnormal pattern. Fibrillation is potentially lethal, usually caused by hypotension or hypoxemia.</afflictiondescription.fibrillation>
 
 		<afflictionname.cardiacarrest>Cardiac arrest</afflictionname.cardiacarrest>
-		<afflictiondescription.cardiacarrest>No heartbeat. A lethal status that will prevent blood pressure from normalizing, along with causing a coma if untreated. The ultimate result of fibrillation, as well being caused by hypoxemia. The heart must be restarted using a defibrillator, adrenaline, or CPR.</afflictiondescription.cardiacarrest>
+		<afflictiondescription.cardiacarrest>No heartbeat. A lethal status that will prevent blood pressure from normalizing, along with causing a coma if untreated. The ultimate result of fibrillation, as well being caused by hypoxemia. The heart must be restarted using a defibrillator, adrenaline, or AutoPulse.</afflictiondescription.cardiacarrest>
 
 		<afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
 		<afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia or opiate overdose.</afflictiondescription.respiratoryarrest>

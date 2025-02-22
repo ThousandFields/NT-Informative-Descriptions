@@ -125,13 +125,13 @@
 		<afflictiondescription.cardiacarrest>No heartbeat. A lethal status that will prevent blood pressure from normalizing, along with causing a coma if untreated. The ultimate result of fibrillation, as well being caused by hypoxemia. The heart must be restarted using a defibrillator, adrenaline, or AutoPulse.</afflictiondescription.cardiacarrest>
 
 		<afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
-		<afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia or opiate overdose.</afflictiondescription.respiratoryarrest>
+		<afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia or opiate overdose. Artificial ventilation will bypass this affliction and the acidosis caused by it.</afflictiondescription.respiratoryarrest>
 		
 		<afflictionname.hyperventilation>Hyperventilation</afflictionname.hyperventilation>
 		<afflictiondescription.hyperventilation>Breathing rate is abnormally high. Gradually increases non-lethal alkalosis, and is usually caused by hypotension, hypoxemia, or pneumothorax.</afflictiondescription.hyperventilation>
 		
 		<afflictionname.hypoventilation>Hypoventilation</afflictionname.hypoventilation>
-		<afflictiondescription.hypoventilation>Breathing rate is abnormally low. Gradually increases potentially-lethal acidosis. It is usually caused by analgesia. Severe acidosis will cause fibrillation.</afflictiondescription.hypoventilation>
+		<afflictiondescription.hypoventilation>Breathing rate is abnormally low. Gradually increases potentially-lethal acidosis, which can be prevented by artificial ventilation. It is usually caused by analgesia. Severe acidosis will cause fibrillation.</afflictiondescription.hypoventilation>
 		
 		<afflictionname.dyspnea>Shortness of breath</afflictionname.dyspnea>
 		<afflictiondescription.dyspnea>Breathing is difficult. Usually caused by cardiac tamponade, pneumothorax, or hypoxemia.</afflictiondescription.dyspnea>

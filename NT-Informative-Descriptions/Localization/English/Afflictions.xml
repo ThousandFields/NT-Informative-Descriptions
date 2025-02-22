@@ -300,7 +300,7 @@
 		<afflictiondescription.bonegrowth>Bone regrowth has been stimulated. To cure bone death, this affliction needs to be on every bodypart.</afflictiondescription.bonegrowth>
 
 		<afflictionname.analgesia>Analgesia</afflictionname.analgesia>
-		<afflictiondescription.analgesia>Painlessness suppresses certain symptoms, makes surgery possible, and allows one to endure more damage.</afflictiondescription.analgesia>
+		<afflictiondescription.analgesia>Painlessness suppresses certain symptoms and makes surgery possible. At high levels, increases damage and stun resistance, and removes aiming and moving penalties caused by trauma.</afflictiondescription.analgesia>
 		
 		<afflictionname.anesthesia>Anesthesia</afflictionname.anesthesia>
 		<afflictiondescription.anesthesia>A drug has induced controlled unconsciousness. It is safe to perform surgery on this person.</afflictiondescription.anesthesia>

@@ -30,7 +30,7 @@
 
 		<entitydescription.antidama1>A powerful opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama1>
 		
-		<entitydescription.antidama2>A very potent opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. Analgesia will not only prevent ‖color:gui.green‖pain‖end‖, but will also ‖color:gui.green‖strengthen tissue‖end‖ against damage. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama2>
+		<entitydescription.antidama2>A very potent opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. Analgesia will not only prevent ‖color:gui.green‖pain‖end‖, but will also reduce ‖color:gui.green‖damage taken‖end‖ and increase ‖color:gui.green‖stun resistance‖end‖. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama2>
 
 		<entitydescription.antinarc>An opioid antagonist for the treatment of opiate ‖color:gui.green‖withdrawal‖end‖ and ‖color:gui.green‖overdose‖end‖. Additionally, it will reduce the ‖color:gui.green‖analgesic‖end‖ effect of opiates. On failure, it is less effective and may cause a short ‖color:gui.red‖coma‖end‖.</entitydescription.antinarc>
 

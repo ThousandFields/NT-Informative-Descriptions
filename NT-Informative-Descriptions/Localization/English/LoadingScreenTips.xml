@@ -1,1 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖Non-medical experts can treat ‖color:gui.red‖cardiac arrest‖end‖ with the use of ‖color:gui.blue‖adrenaline‖end‖ or an ‖color:gui.blue‖AutoPulse‖end‖.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖On ‖color:gui.red‖fire‖end‖? You may be closer to a ‖color:gui.blue‖diving suit‖end‖ than the ballast or fire extinguisher.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖If you cannot safely treat a ‖color:gui.red‖dislocation‖end‖, a ‖color:gui.blue‖bandage‖end‖ will restore the limb's function.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖Analgesia isn't limited to surgical use. Painlessness is a good friend to soldiers.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖The ‖color:gui.blue‖AED‖end‖ will always reset ‖color:gui.red‖fibrillation‖end‖ regardless of medical skill.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖Drugs can still be administered to a patient in a ‖color:gui.blue‖Stasis Bag‖end‖.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖Not enough time to treat yourself before passing out? ‖color:gui.blue‖Liquid oxygenite‖end‖ prevents unconsciousness caused by ‖color:gui.red‖hypoxemia‖end‖.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖Remember to pick up your limb after it is traumatically amputated.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖Is your patient stable, but not recovering from ‖color:gui.red‖neurotrauma‖end‖? ‖color:gui.red‖Kidney‖end‖ and ‖color:gui.red‖liver damage‖end‖ will cause ‖color:gui.red‖Neurotrauma‖end‖.</loadingscreentip>
+
+    <loadingscreentip>‖color:gui.pink‖Neurotrauma: ‖end‖For a full range of diagnosis, remember to check the Health UI, Health Scanner, and Hematology Analyzer.</loadingscreentip>
+
+</infotexts>

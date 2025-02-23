@@ -18,7 +18,7 @@
 
     <loadingscreentip>‖color:gui.orange‖Neurotrauma: ‖end‖Remember to pick up your limb after it is traumatically amputated.</loadingscreentip>
 
-    <loadingscreentip>‖color:gui.orange‖Neurotrauma: ‖end‖Is your patient stable, but not recovering from ‖color:gui.red‖neurotrauma‖end‖? ‖color:gui.red‖Kidney‖end‖ and ‖color:gui.red‖liver damage‖end‖ will cause ‖color:gui.red‖Neurotrauma‖end‖.</loadingscreentip>
+    <loadingscreentip>‖color:gui.orange‖Neurotrauma: ‖end‖Is your patient stable, but not recovering from ‖color:gui.red‖neurotrauma‖end‖? ‖color:gui.red‖Kidney‖end‖ and ‖color:gui.red‖liver damage‖end‖ will cause neurotrauma.</loadingscreentip>
 
     <loadingscreentip>‖color:gui.orange‖Neurotrauma: ‖end‖For a full range of diagnosis, remember to check the Health UI, Health Scanner, and Hematology Analyzer.</loadingscreentip>
 

@@ -341,7 +341,7 @@
 		
 		<!-- NT Treatments -->
 		<entityname.mannitol>Mannitol</entityname.mannitol>
-		<entitydescription.mannitol>A sugar alcohol used to treat a significant amount of ‖color:gui.green‖neurotrauma‖end‖. However, it will not work unless the patient has over 70% blood pressure and oxygenated blood. Additionally, it will cause ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖. On failure, it is less effective and will cause more ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖.</entitydescription.mannitol>
+		<entitydescription.mannitol>A sugar alcohol used to treat a significant amount of ‖color:gui.green‖neurotrauma‖end‖ and halve its rate of increase. However, it will not work unless the patient has over 70% blood pressure and oxygenated blood. Additionally, it will cause ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖. On failure, it is less effective and will cause more ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖.</entitydescription.mannitol>
 
 		<entityname.streptokinase>Streptokinase</entityname.streptokinase>
 		<entitydescription.streptokinase>An enzyme that breaks down blood clots, useful in the treatment of ‖color:gui.green‖heart attacks‖end‖. However, it will make ‖color:gui.red‖strokes‖end‖ worse. Additionally, it is used to treat ‖color:gui.green‖hemotransfusion shock‖end‖.</entitydescription.streptokinase>

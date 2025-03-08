@@ -52,6 +52,18 @@ local config = {
 	},
 
 	{
+		--Neurotrauma experimental dev version
+		supportedlanguages = {"English","Simplified Chinese","Russian"},
+		IgnoreTargetModState = false,
+		workshopId = "3439141713",
+		loadpriority = 0,
+		files = {
+			"%ModDir%/Localization/%Language%/Items.xml",
+			"%ModDir%/Localization/%Language%/Afflictions.xml"
+			}
+	},
+
+	{
 		-- Immersive Repairs NT Cybernetics
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,

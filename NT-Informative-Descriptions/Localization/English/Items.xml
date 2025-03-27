@@ -7,12 +7,6 @@
 	Blue: refers to another item
 	Green: a beneficial affliction caused by the item, or a cured affliction
 	Red: a detrimental affliction caused by the item, or downside -->
-	
-		<!-- Vanilla Tools -->
-		<entityname.healthscanner>Health Scanner</entityname.healthscanner>
-		<entitydescription.healthscanner>A tool that uses battery power to display afflictions. It can be aimed at a person for a full-body scan, or administered in the Health UI to show afflictions on a specific body part. Using the scanner causes a minor amount of ‖color:gui.red‖radiation sickness‖end‖. Will not display blood type, sepsis, immunity, acidosis, alkalosis, or drugs, as a ‖color:gui.blue‖hematology analyzer‖end‖ is required.</entitydescription.healthscanner>
-
-		<entitydescription.wrench>Makes mechanical repairs possible. It is also used to fix ‖color:gui.green‖dislocations‖end‖, which only requires half the skill to do if the patient does not feel pain. Failing to fix a dislocation will result in a ‖color:gui.red‖fracture‖end‖, however.</entitydescription.wrench>
 		
 		<!-- Vanilla Items -->
 		<entitydescription.idcard>Allows limited access to areas of the sub. A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.</entitydescription.idcard>
@@ -93,6 +87,13 @@
 		<entitydescription.extinguisher>A handheld carbon dioxide extinguisher. Also puts out flaming people.</entitydescription.extinguisher>
 
 		<entitydescription.divingsuit>An atmospheric diving suit capable of withstanding the immense pressure under Europa's crust. Only offers adequate protection up to the depth of 4,000 meters—beyond this point, an Abyss or Combat suit is required. Vacuum-sealed suits such as these will easily smother flames.</entitydescription.divingsuit>
+
+		<entitydescription.repairpack>A makeshift multi-tool, capable of quickly correcting both mechanical and electrical problems. Like the ‖color:gui.blue‖wrench‖end‖, they can be used to fix ‖color:gui.green‖dislocations‖end‖. On failure, results in a ‖color:gui.red‖fracture‖end‖.</entitydescription.repairpack>
+
+		<entityname.healthscanner>Health Scanner</entityname.healthscanner>
+		<entitydescription.healthscanner>A tool that uses battery power to display afflictions. It can be aimed at a person for a full-body scan, or administered in the Health UI to show afflictions on a specific body part. Using the scanner causes a minor amount of ‖color:gui.red‖radiation sickness‖end‖. Will not display blood type, sepsis, immunity, acidosis, alkalosis, or drugs, as a ‖color:gui.blue‖hematology analyzer‖end‖ is required.</entitydescription.healthscanner>
+
+		<entitydescription.wrench>Makes mechanical repairs possible. It is also used to fix ‖color:gui.green‖dislocations‖end‖, which only requires half the skill to do if the patient does not feel pain. Failing to fix a dislocation will result in a ‖color:gui.red‖fracture‖end‖, however.</entitydescription.wrench>
 
 		<!-- NT Tools -->
 		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>

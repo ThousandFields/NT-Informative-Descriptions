@@ -331,7 +331,7 @@ end
 
 
 config.SaveConfig = function()
-    if config.Entries.Enabled.value then
+    if config:Get("Enabled",true) then
         EnableNTID()
     else
         DisableNTID()
@@ -372,8 +372,9 @@ Game.AddCommand("reloadNTID", "Reloads  NT Informative Descriptions.", function(
 end, GetValidArguments)
 
 
-
-LoadPatches()
-CleanUpIdCards()
-UpdateIdCards()
+if config:Get("Enabled",true) then
+    EnableNTID()
+else
+    DisableNTID()
+end
 --ContentPackageManager.ReloadContentPackage(pkg)

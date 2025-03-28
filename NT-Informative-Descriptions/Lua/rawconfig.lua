@@ -116,23 +116,23 @@ end
 
 
 function rawconfig.util.LoadConfig(config)
-    if Game.IsSingleplayer then
-        if not File.Exists(config.FilePath) then
-            return
-        end
+    if not File.Exists(config.FilePath) then
+        return
+    end
 
-        local readConfig = json.parse(File.Read(config.FilePath))
+    local readConfig = json.parse(File.Read(config.FilePath))
 
-        for key, entry in pairs(readConfig) do
-            if config.Entries[key] then
-                config.Entries[key].value = entry.value
-                if entry.enforced ~= nil and config.Entries[key].enforcment == rawconfig.Enforcment.Optional then
-                    config.Entries[key].enforced = entry.enforced
-                end
+    for key, entry in pairs(readConfig) do
+        if config.Entries[key] then
+            config.Entries[key].value = entry.value
+            if entry.enforced ~= nil and config.Entries[key].enforcment == rawconfig.Enforcment.Optional then
+                config.Entries[key].enforced = entry.enforced
             end
         end
-    else
+    end
 
+    if Game.IsMultiplayer and CLIENT then
+        rawconfig.util.RequestConfig(config)
     end
 end
 

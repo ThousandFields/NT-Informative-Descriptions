@@ -1,3 +1,23 @@
+local rawconfig = require("rawconfig")
+
+config = {
+    Name = "infdescriptions", --Internal name, used for rawconfig.Configs.Name
+    Label = "infdescriptions.modname", --String displayed in menus, can be localization tag
+    Entries = {
+        Enabled = {
+            name = "infdescriptions.cfg.enabled", --String displayed in menus, can be localization tag
+            default = true,
+            type = "bool",
+            description = "infdescriptions.cfg.enableddescription", --String displayed in tooltip, can be localization tag
+            enforcment = rawconfig.Enforcment.Client,
+        },
+    },
+}
+
+
+config = rawconfig.addConfig(config)
+config:LoadConfig()
+
 if SERVER then return end
 local modconfig = require("modconfig")
 local idcardsuffixes = require("idcardsuffixes")
@@ -281,6 +301,43 @@ end
 function ReloadIdCards()
     CleanUpIdCards()
     UpdateIdCards()
+end
+
+
+function EnableNTID()
+    if pkg == nil then
+        print("Package not found.")
+        return
+    end
+
+    ClientLanguage = tostring(GameSettings.currentConfig.Language)
+    modconfig = {}
+    modconfig = dofile(NTID.Path .. "/Lua/modconfig.lua")
+    LoadPatches()
+    CleanUpIdCards()
+    UpdateIdCards()
+end
+
+function DisableNTID()
+    if pkg == nil then
+        print("Package not found.")
+        return
+    end
+
+    UnloadPatches()
+    ReloadModsLocalization()
+    CleanUpIdCards()
+end
+
+
+config.SaveConfig = function()
+    if config.Entries.Enabled.value then
+        EnableNTID()
+    else
+        DisableNTID()
+    end
+
+    rawconfig.util.SaveConfig(config)
 end
 
 

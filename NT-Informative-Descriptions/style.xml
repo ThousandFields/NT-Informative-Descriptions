@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<style>
+  <Override>
+    <GUILockToggle color="220,220,220,220" hovercolor="255,255,255,255" selectedcolor="220,220,220,220" disabledcolor="150,150,150,150" size="0.5,0.5">
+      <Sprite name="GUILockToggle.None" texture="Content/UI/UIAtlasGeneral.png" state="None" maintainaspectratio="true" sourcerect="774,100,34,43" tile="false" origin="0.5,0.5"/>
+      <Sprite name="GUILockToggle.Pressed" texture="Content/UI/UIAtlasGeneral.png" state="Pressed" maintainaspectratio="true" sourcerect="774,100,34,43" tile="false" origin="0.5,0.5"/>
+      <Sprite name="GUILockToggle.Hover" texture="Content/UI/UIAtlasGeneral.png" state="Hover" maintainaspectratio="true" sourcerect="774,100,34,43" tile="false" origin="0.5,0.5"/>
+      <Sprite name="GUILockToggle.Selected" texture="Content/UI/UIAtlasGeneral.png" state="Selected" maintainaspectratio="true" sourcerect="721,52,34,43" tile="false" origin="0.5,0.5"/>
+      <Sprite name="GUILockToggle.HoverSelected" texture="Content/UI/UIAtlasGeneral.png" state="HoverSelected" maintainaspectratio="true" sourcerect="721,52,34,43" tile="false" origin="0.5,0.5"/>
+      <GUITextBlock textcolor="228,217,167,255" hovertextcolor="255,255,255,255" disabledtextcolor="125,125,125,125" selectedcolor="255,153,0,76" padding="10.0, 0.0, 10.0, 0.0"/>
+      <Size maxresolution="1024,768" height="12"/>
+      <Size maxresolution="1280,800" height="15"/>
+      <Size maxresolution="1920,1080" height="19"/>
+      <Size maxresolution="2048,1440" height="20"/>
+      <Size maxresolution="2560,1600" height="27"/>
+      <Size height="1.7vh"/>
+    </GUILockToggle>
+  </Override>
+</style>

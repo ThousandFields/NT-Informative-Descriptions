@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<infotexts language="English" nowhitespace="false" translatedname="English">
+	<Override>
+		<rawconfig.enforcedtooltip>This setting is enforced by server</rawconfig.enforcedtooltip>
+		<rawconfig.notenforcedtooltip>This setting is not enforced by server</rawconfig.notenforcedtooltip>
+		<infdescriptions.modname>Informative Descriptions</infdescriptions.modname>
+		<infdescriptions.cfg.enabled>Informative Descriptions Enabled</infdescriptions.cfg.enabled>
+		<infdescriptions.cfg.enableddescription>When enabled mod replaces most descriptions with more informative ones.</infdescriptions.cfg.enableddescription>
+	</Override>
+</infotexts>

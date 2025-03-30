@@ -3,22 +3,22 @@
 
     <!-- Antibiotics -->
     <entityname.ampicillin>Ampicillin</entityname.ampicillin>
-    <entitydescription.ampicillin>An aminopenicillin class antibiotic used to treat various bacterial infections.</entitydescription.ampicillin>
+    <entitydescription.ampicillin>An aminopenicillin class antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖ and moderately effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Slightly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.ampicillin>
 
     <entityname.augmentin>Augmentin</entityname.augmentin>
-    <entitydescription.augmentin>An aminopenicillin class antibiotic combined with a beta-lactamase inhibitor.</entitydescription.augmentin>
+    <entitydescription.augmentin>An aminopenicillin class antibiotic with a beta-lactamase inhibitor. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and moderately effective against ‖color:gui.green‖provobacter infections‖end‖. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.augmentin>
 
     <entityname.vancomycin>Vancomycin</entityname.vancomycin>
-    <entitydescription.vancomycin>A glycopeptide antibiotic used to treat various gram-positive bacterial infections.</entitydescription.vancomycin>
+    <entitydescription.vancomycin>A glycopeptide antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and ‖color:gui.green‖MRSA‖end‖ infections. Strongly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.vancomycin>
 
     <entityname.gentamicin>Gentamicin</entityname.gentamicin>
-    <entitydescription.gentamicin>An aminoglycoside antibiotic used to treat various gram-negative bacterial infections.</entitydescription.gentamicin>
+    <entitydescription.gentamicin>An aminoglycoside antibiotic. It is effective against ‖color:gui.green‖pseudomonas‖end‖, ‖color:gui.green‖provobacter‖end‖, and slightly effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Strongly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.gentamicin>
 
     <entityname.cotrim>Co-trimoxazole</entityname.cotrim>
-    <entitydescription.cotrim>A combination antibiotic used to treat a wide variety of bacterial infections.</entitydescription.cotrim>
+    <entitydescription.cotrim>A combination antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and moderately effective against ‖color:gui.green‖MRSA‖end‖ infections. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.cotrim>
 
     <entityname.imipenem>Imipenem</entityname.imipenem>
-    <entitydescription.imipenem>A combination carbapenem antibiotic used against a wide variety of bacterial infections.</entitydescription.imipenem>
+    <entitydescription.imipenem>A combination carbapenem antibiotic. It is moderately effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, ‖color:gui.green‖pseudomonas‖end‖, and slightly effective against ‖color:gui.green‖provobacter‖end‖ infections. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.imipenem>
 
     <!-- Vaccines -->
     <afflictionname.afstrepvac>Streptococcus vaccine</afflictionname.afstrepvac>
@@ -216,5 +216,5 @@
 
     <afflictionname.viralantibodies>Viral Antibodies</afflictionname.viralantibodies>
     <afflictiondescription.viralantibodies></afflictiondescription.viralantibodies>
-    
+
 </Override></infotexts>

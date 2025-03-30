@@ -331,11 +331,11 @@ function rawconfig.gui.CreateSaveButton(config, parent)
     )
 
     button.OnClicked = function()
+        rawconfig.util.DumpBuffer(config)
+        rawconfig.util.ClearBuffer()
         if Game.IsMultiplayer and Game.Client.HasPermission(ClientPermissions.ManageSettings) then
             config:SendConfig()
         end
-        rawconfig.util.DumpBuffer(config)
-        rawconfig.util.ClearBuffer()
         config:SaveConfig()
         config:CloseMenu()
     end

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="NT Informative Descriptions" modversion="1.15" corepackage="False" steamworkshopid="3294275235" gameversion="1.7.7.0">
   <Text file="%ModDir%/Localization/English/LoadingScreenTips.xml" />
-  <Item file="%ModDir%/dummy.xml" />
+  <!-- <Item file="%ModDir%/dummy.xml" /> -->
   <UIStyle file="%ModDir%/style.xml" />
   <Text file="%ModDir%/Localization/Config/English.xml" />
 </contentpackage>

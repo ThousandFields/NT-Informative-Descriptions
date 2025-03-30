@@ -8,6 +8,6 @@
 		<infdescriptions.cfg.enabled>Informative Descriptions Enabled</infdescriptions.cfg.enabled>
 		<infdescriptions.cfg.enableddescription>When enabled mod replaces most descriptions with more informative ones.</infdescriptions.cfg.enableddescription>
 		<infdescriptions.cfg.shared>Share mod with clients</infdescriptions.cfg.shared>
-		<infdescriptions.cfg.shareddescription>When enabled mod would appear in server modlist and would be downloaded by clients when joining.</infdescriptions.cfg.shareddescription>
+		<infdescriptions.cfg.shareddescription>When enabled mod would appear in server modlist and would be downloaded by clients when joining. (Serverside/Host CSharp Scripting must be enabled for this to work)</infdescriptions.cfg.shareddescription>
 	</Override>
 </infotexts>

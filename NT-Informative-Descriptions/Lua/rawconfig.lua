@@ -166,7 +166,17 @@ function rawconfig.util.SaveConfig(config, preserveUnusedKeys)
     end
 
     File.CreateDirectory(config.DirectoryPath)
-    File.Write(config.FilePath, json.serialize(tableToSave))
+
+    --Apparently access error can still happen if player hosts dedicated and joins it on same pc.
+    --Haven't found how to check file being in use properly so just delay to avoid conflict
+    if CLIENT then
+        File.Write(config.FilePath, json.serialize(tableToSave))
+    else
+        Timer.Wait(function()
+            File.Write(config.FilePath, json.serialize(tableToSave))
+        end, 100)
+    end
+    
 end
 
 

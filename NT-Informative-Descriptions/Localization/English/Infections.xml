@@ -20,45 +20,46 @@
     <entityname.imipenem>Imipenem</entityname.imipenem>
     <entitydescription.imipenem>A combination carbapenem antibiotic. It is moderately effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, ‖color:gui.green‖pseudomonas‖end‖, and slightly effective against ‖color:gui.green‖provobacter‖end‖ infections. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.imipenem>
 
-    <!-- Vaccines -->
-    <afflictionname.afstrepvac>Streptococcus vaccine</afflictionname.afstrepvac>
-    <afflictiondescription.afstrepvac>The patient's immune system is primed and ready to fight against streptococcal infections.</afflictiondescription.afstrepvac>
+    <!-- Vaccine Items -->
+    <entityname.strepvac>Streptococcus Vaccine</entityname.strepvac>
+    <entitydescription.strepvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖streptococcus‖end‖ infections.</entitydescription.strepvac>
 
-    <entityname.strepvac>Streptococcus vaccine</entityname.strepvac>
-    <entitydescription.strepvac>A vaccine that prepares the immune system to fight against streptococcus strains.</entitydescription.strepvac>
-
-    <afflictionname.afstaphvac>Staphylococcus vaccine</afflictionname.afstaphvac>
-    <afflictiondescription.afstaphvac>The patient's immune system is primed and ready to fight against staphylococcal infections.</afflictiondescription.afstaphvac>
-
-    <entityname.staphvac>Staphylococcus vaccine</entityname.staphvac>
-    <entitydescription.staphvac>A vaccine that prepares the immune system to fight against staphylococcal strains.</entitydescription.staphvac>
+    <entityname.staphvac>Staphylococcus Vaccine</entityname.staphvac>
+    <entitydescription.staphvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖staphylococcal‖end‖ infections.</entitydescription.staphvac>
     
-    <afflictionname.afpseudovac>Pseudomonas vaccine</afflictionname.afpseudovac>
-    <afflictiondescription.afpseudovac>The patient's immune system is primed and ready to fight against pseudomonas infections.</afflictiondescription.afpseudovac>
+    <entityname.pseudovac>Pseudomonas Vaccine</entityname.pseudovac>
+    <entitydescription.pseudovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖pseudomonas‖end‖ infections.</entitydescription.pseudovac>
 
-    <entityname.pseudovac>Pseudomonas vaccine</entityname.pseudovac>
-    <entitydescription.pseudovac>A vaccine that prepares the immune system to fight against pseudomonas strains.</entitydescription.pseudovac>
+    <entityname.provovac>Provobacter Vaccine</entityname.provovac>
+    <entitydescription.provovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖provobacter‖end‖ infections.</entitydescription.provovac>
 
-    <afflictionname.afprovovac>Provobacter vaccine</afflictionname.afprovovac>
-    <afflictiondescription.afprovovac>The patient's immune system is primed and ready to fight against provobacter infections.</afflictiondescription.afprovovac>
+    <!-- Vaccine Afflictions -->
+    <afflictionname.afstrepvac>Streptococcus Vaccine</afflictionname.afstrepvac>
+    <afflictiondescription.afstrepvac>The immune system is ready to fight against streptococcal infections.</afflictiondescription.afstrepvac>
 
-    <entityname.provovac>Provobacter vaccine</entityname.provovac>
-    <entitydescription.provovac>A vaccine that prepares the immune system to fight against provobacter strains.</entitydescription.provovac>
+    <afflictionname.afstaphvac>Staphylococcus Vaccine</afflictionname.afstaphvac>
+    <afflictiondescription.afstaphvac>The immune system is ready to fight against staphylococcal infections.</afflictiondescription.afstaphvac>
+
+    <afflictionname.afpseudovac>Pseudomonas Vaccine</afflictionname.afpseudovac>
+    <afflictiondescription.afpseudovac>The immune system is ready to fight against pseudomonas infections.</afflictiondescription.afpseudovac>
+
+    <afflictionname.afprovovac>Provobacter Vaccine</afflictionname.afprovovac>
+    <afflictiondescription.afprovovac>The immune system is ready to fight against provobacter infections.</afflictiondescription.afprovovac>
 
     <!-- Bioweapons-->
     <entityname.weaponstrep>Weaponized streptococcus</entityname.weaponstrep>
     <entitydescription.weaponstrep>A syringe filled with a strain of streptococcus with the purpose of infecting a target.</entitydescription.weaponstrep>
 
-    <entityname.weaponstaph>Weaponized staphylococcus</entityname.weaponstaph>
+    <entityname.weaponstaph>Weaponized Staphylococcus</entityname.weaponstaph>
     <entitydescription.weaponstaph>A syringe filled with a strain of staphylococcus with the purpose of infecting a target.</entitydescription.weaponstaph>
 
     <entityname.weaponmrsa>Weaponized MRSA</entityname.weaponmrsa>
     <entitydescription.weaponmrsa>A syringe filled with a strain of MRSA with the purpose of infecting a target.</entitydescription.weaponmrsa>
 
-    <entityname.weaponpseudo>Weaponized pseudomonas</entityname.weaponpseudo>
+    <entityname.weaponpseudo>Weaponized Pseudomonas</entityname.weaponpseudo>
     <entitydescription.weaponpseudo>A syringe filled with a strain of pseudomonas with the purpose of infecting a target.</entitydescription.weaponpseudo>
 
-    <entityname.weaponprovo>Weaponized provobacter</entityname.weaponprovo>
+    <entityname.weaponprovo>Weaponized Provobacter</entityname.weaponprovo>
     <entitydescription.weaponprovo>A syringe filled with a strain of provobacter with the purpose of infecting a target.</entitydescription.weaponprovo>
 
     <!-- Trauma-->

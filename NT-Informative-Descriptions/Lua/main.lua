@@ -103,6 +103,25 @@ if SERVER and CSActive then
     end
 end
 
+config.SaveConfig = function()
+    if CLIENT then
+        if config:Get("Enabled",true) then
+            EnableNTID()
+        else
+            DisableNTID()
+        end
+    end
+
+    if SERVER then
+        if config:Get("Shared",false) and not pkg.HasMultiplayerSyncedContent then
+            InfDescriptions.AddToPublicModlist()
+        elseif config:Get("Shared",false) == false and pkg.HasMultiplayerSyncedContent then
+            InfDescriptions.RemoveFromPublicModlist()
+        end
+    end
+
+    rawconfig.util.SaveConfig(config)
+end
 
 if SERVER then return end
 local modconfig = require("modconfig")
@@ -406,27 +425,6 @@ function DisableNTID()
     UnloadPatches()
     ReloadModsLocalization()
     CleanUpIdCards()
-end
-
-
-config.SaveConfig = function()
-    if CLIENT then
-        if config:Get("Enabled",true) then
-            EnableNTID()
-        else
-            DisableNTID()
-        end
-    end
-
-    if SERVER then
-        if config:Get("Shared",true) and not pkg.HasMultiplayerSyncedContent then
-            InfDescriptions.AddToPublicModlist()
-        elseif pkg.HasMultiplayerSyncedContent then
-            InfDescriptions.RemoveFromPublicModlist()
-        end
-    end
-
-    rawconfig.util.SaveConfig(config)
 end
 
 

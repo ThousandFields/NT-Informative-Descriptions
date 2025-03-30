@@ -1,3 +1,5 @@
+InfDescriptions = {}
+
 local rawconfig = require("rawconfig")
 
 config = {
@@ -11,6 +13,13 @@ config = {
             description = "infdescriptions.cfg.enableddescription", --String displayed in tooltip, can be localization tag
             enforcment = rawconfig.Enforcment.Client,
         },
+        Shared = {
+            name = "infdescriptions.cfg.shared", --String displayed in menus, can be localization tag
+            default = true,
+            type = "bool",
+            description = "infdescriptions.cfg.shareddescription", --String displayed in tooltip, can be localization tag
+            enforcment = rawconfig.Enforcment.Server,
+        },
     },
 }
 
@@ -18,16 +27,7 @@ config = {
 config = rawconfig.addConfig(config)
 config:LoadConfig()
 
-if SERVER then return end
-local modconfig = require("modconfig")
-local idcardsuffixes = require("idcardsuffixes")
-local TextFile = LuaUserData.CreateStatic("Barotrauma.TextFile", true)
 local pkg
-local FileList = {}
-
-LuaUserData.MakeFieldAccessible(Descriptors["Barotrauma.GameSettings"], "currentConfig")
-local ClientLanguage = tostring(GameSettings.currentConfig.Language)
-local prev_language = ClientLanguage
 
 for package in ContentPackageManager.EnabledPackages.All do
     local path = string.gsub(tostring(package.Dir),"\\","/")
@@ -36,6 +36,85 @@ for package in ContentPackageManager.EnabledPackages.All do
         break
     end
 end
+
+
+if SERVER and CSActive then
+
+    LuaUserData.RegisterType("System.Collections.Immutable.ImmutableArray`1[[Barotrauma.ContentPackage,DedicatedServer]]")
+    LuaUserData.RegisterType("System.Collections.Immutable.ImmutableArray`1+Builder[[Barotrauma.ContentPackage,DedicatedServer]]")
+
+    BindingFlags = LuaUserData.CreateEnumTable("System.Reflection.BindingFlags")
+
+    LuaUserData.RegisterType("System.Type")
+    LuaUserData.RegisterType("System.Reflection.FieldInfo")
+
+    LuaUserData.RegisterType("Barotrauma.Networking.ModSender")
+    ModSender = LuaUserData.CreateStatic('Barotrauma.Networking.ModSender')
+    LuaUserData.RegisterType("Barotrauma.SaveUtil")
+    SaveUtil = LuaUserData.CreateStatic('Barotrauma.SaveUtil')
+    LuaUserData.RegisterType("Barotrauma.Steam.SteamManager")
+    SteamManager = LuaUserData.CreateStatic('Barotrauma.Steam.SteamManager')
+    LuaUserData.RegisterType("Steamworks.SteamServer")
+    SteamServer = LuaUserData.CreateStatic('Steamworks.SteamServer')
+
+    LuaUserData.RegisterType("Barotrauma.Networking.ServerPeer`1")
+    LuaUserData.RegisterType("Barotrauma.Networking.LidgrenServerPeer")
+
+
+    HasMultiplayerSyncedContent_fieldinfo = LuaUserData.GetType('Barotrauma.ContentPackage').GetField("<HasMultiplayerSyncedContent>k__BackingField", bit32.bor(BindingFlags.Instance, BindingFlags.NonPublic))
+
+    contentPackages_fieldinfo = LuaUserData.GetType('Barotrauma.Networking.LidgrenServerPeer').BaseType.GetField("contentPackages", bit32.bor(BindingFlags.Instance, BindingFlags.NonPublic))
+ 
+
+    function InfDescriptions.AddToPublicModlist()
+        HasMultiplayerSyncedContent_fieldinfo.SetValue(pkg, true)
+        
+        --Game.Server.ModSender.CompressMod(pkg)
+        SaveUtil.CompressDirectory(pkg.Dir, ModSender.GetCompressedModPath(pkg))
+
+        
+
+        contentpackagestmp = contentPackages_fieldinfo.GetValue(Game.Server.serverPeer).ToBuilder()
+
+        contentpackagestmp.Add(pkg)
+
+        contentPackages_fieldinfo.SetValue(Game.Server.serverPeer, contentpackagestmp.ToImmutable())
+
+        SteamServer.ClearKeys()
+
+        SteamManager.RefreshServerDetails(Game.Server)
+    end
+
+    function InfDescriptions.RemoveFromPublicModlist()
+
+        HasMultiplayerSyncedContent_fieldinfo.SetValue(pkg, false)
+
+        SaveUtil.DeleteIfExists(ModSender.GetCompressedModPath(pkg))
+
+        contentpackagestmp = contentPackages_fieldinfo.GetValue(Game.Server.serverPeer).ToBuilder()
+
+        contentpackagestmp.Remove(pkg)
+
+        contentPackages_fieldinfo.SetValue(Game.Server.serverPeer, contentpackagestmp.ToImmutable())
+
+        SteamServer.ClearKeys()
+
+        SteamManager.RefreshServerDetails(Game.Server)
+    end
+end
+
+
+if SERVER then return end
+local modconfig = require("modconfig")
+local idcardsuffixes = require("idcardsuffixes")
+local TextFile = LuaUserData.CreateStatic("Barotrauma.TextFile", true)
+
+local FileList = {}
+
+LuaUserData.MakeFieldAccessible(Descriptors["Barotrauma.GameSettings"], "currentConfig")
+local ClientLanguage = tostring(GameSettings.currentConfig.Language)
+local prev_language = ClientLanguage
+
 
 function EnableTextFile(file, workshopId)
     local targetPackage
@@ -331,10 +410,20 @@ end
 
 
 config.SaveConfig = function()
-    if config:Get("Enabled",true) then
-        EnableNTID()
-    else
-        DisableNTID()
+    if CLIENT then
+        if config:Get("Enabled",true) then
+            EnableNTID()
+        else
+            DisableNTID()
+        end
+    end
+
+    if SERVER then
+        if config:Get("Shared",true) and not pkg.HasMultiplayerSyncedContent then
+            InfDescriptions.AddToPublicModlist()
+        elseif pkg.HasMultiplayerSyncedContent then
+            InfDescriptions.RemoveFromPublicModlist()
+        end
     end
 
     rawconfig.util.SaveConfig(config)

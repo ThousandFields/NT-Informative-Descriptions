@@ -233,10 +233,8 @@
 		<entityname.bloodpackabminus>Blood Pack AB-</entityname.bloodpackabminus>
 		<entitydescription.bloodpackabminus>Can be administered to: AB-, AB+</entitydescription.bloodpackabminus>
 
-		<Override>
-			<entityname.antibloodloss2>Blood Pack O-</entityname.antibloodloss2>
-			<entitydescription.antibloodloss2>Can be administered to: Any</entitydescription.antibloodloss2>
-		</Override>
+		<entityname.antibloodloss2>Blood Pack O-</entityname.antibloodloss2>
+		<entitydescription.antibloodloss2>Can be administered to: Any</entitydescription.antibloodloss2>
 
 		<entityname.ominuscard>Donor Card O-</entityname.ominuscard>
 		<entitydescription.ominuscard>Can take blood from: O-

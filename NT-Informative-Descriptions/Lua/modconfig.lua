@@ -52,7 +52,7 @@ local config = {
 	},
 
 	{
-		--Neurotrauma experimental dev version
+		-- Neurotrauma experimental dev version
 		supportedlanguages = {"English","Simplified Chinese","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "3439141713",
@@ -60,6 +60,17 @@ local config = {
 		files = {
 			"%ModDir%/Localization/%Language%/Items.xml",
 			"%ModDir%/Localization/%Language%/Afflictions.xml"
+			}
+	},
+
+	{
+		-- Infections
+		supportedlanguages = {"English"},
+		IgnoreTargetModState = false,
+		workshopId = "3439141713",
+		loadpriority = 0,
+		files = {
+			"%ModDir%/Localization/%Language%/Infections.xml"
 			}
 	},
 

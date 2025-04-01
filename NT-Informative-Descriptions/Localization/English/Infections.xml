@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English"><Override>
 
+    <!-- Vanilla Items -->
+
+
+    <!-- NT Items -->
+
+
     <!-- Antibiotics -->
     <entityname.ampicillin>Ampicillin</entityname.ampicillin>
     <entitydescription.ampicillin>An aminopenicillin class antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖ and moderately effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Slightly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.ampicillin>
@@ -47,79 +53,79 @@
     <afflictiondescription.afprovovac>The immune system is ready to fight against provobacter infections.</afflictiondescription.afprovovac>
 
     <!-- Bioweapons-->
-    <entityname.weaponstrep>Weaponized streptococcus</entityname.weaponstrep>
-    <entitydescription.weaponstrep>A syringe filled with a strain of streptococcus with the purpose of infecting a target.</entitydescription.weaponstrep>
+    <entityname.weaponstrep>Weaponized Streptococcus</entityname.weaponstrep>
+    <entitydescription.weaponstrep>A syringe filled with a strain of ‖color:gui.red‖streptococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponstrep>
 
     <entityname.weaponstaph>Weaponized Staphylococcus</entityname.weaponstaph>
-    <entitydescription.weaponstaph>A syringe filled with a strain of staphylococcus with the purpose of infecting a target.</entitydescription.weaponstaph>
+    <entitydescription.weaponstaph>A syringe filled with a strain of ‖color:gui.red‖staphylococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponstaph>
 
     <entityname.weaponmrsa>Weaponized MRSA</entityname.weaponmrsa>
-    <entitydescription.weaponmrsa>A syringe filled with a strain of MRSA with the purpose of infecting a target.</entitydescription.weaponmrsa>
+    <entitydescription.weaponmrsa>A syringe filled with a strain of ‖color:gui.red‖MRSA‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponmrsa>
 
     <entityname.weaponpseudo>Weaponized Pseudomonas</entityname.weaponpseudo>
-    <entitydescription.weaponpseudo>A syringe filled with a strain of pseudomonas with the purpose of infecting a target.</entitydescription.weaponpseudo>
+    <entitydescription.weaponpseudo>A syringe filled with a strain of ‖color:gui.red‖pseudomonas‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponpseudo>
 
     <entityname.weaponprovo>Weaponized Provobacter</entityname.weaponprovo>
-    <entitydescription.weaponprovo>A syringe filled with a strain of provobacter with the purpose of infecting a target.</entitydescription.weaponprovo>
+    <entitydescription.weaponprovo>A syringe filled with a strain of ‖color:gui.red‖provobacter‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponprovo>
 
-    <!-- Trauma-->
+    <!-- Trauma -->
     <afflictionname.pusyellow>Purulent drainage</afflictionname.pusyellow>
-    <afflictiondescription.pusyellow>A yellowish-white pus oozes from the wound.</afflictiondescription.pusyellow>
+    <afflictiondescription.pusyellow>Yellowish-white pus, oozing from a wound. A clear sign of infection, and may be collected using a culture sampler. This type of pus is not caused by pseudomonas infections.</afflictiondescription.pusyellow>
 
     <afflictionname.pusgreen>Purulent drainage</afflictionname.pusgreen>
-    <afflictiondescription.pusgreen>A greenish, foul-smelling pus oozes from the wound.</afflictiondescription.pusgreen>
+    <afflictiondescription.pusgreen>Greenish, foul-smelling pus, oozing from a wound. A clear sign of infection, and may be collected using a culture sampler. This type of pus is always caused by pseudomonas infections.</afflictiondescription.pusgreen>
 
     <afflictionname.abscess>Abscess</afflictionname.abscess>
-    <afflictiondescription.abscess>A large pocket of pus accumulates under the skin.</afflictiondescription.abscess>
+    <afflictiondescription.abscess>Pus accumulation under the skin. There is no wound here, but it is a clear sign of infection, and may be collected using a culture sampler.</afflictiondescription.abscess>
 
     <afflictionname.necfasc>Necrotizing fasciitis</afflictionname.necfasc>
-    <afflictiondescription.necfasc>The skin shows deep discoloration and the soft tissue is dying.</afflictiondescription.necfasc>
+    <afflictiondescription.necfasc>The skin is dying and deeply discolored. Caused by an infection while immunocompromised, increasing chance for sepsis. The infection must be attended to, and the necrotized tissue must be removed thoroughly with a scalpel after retracting the skin, or the limb can be amputated.</afflictiondescription.necfasc>
 
     <afflictionname.cellulitis>Cellulitis</afflictionname.cellulitis>
-    <afflictiondescription.cellulitis>The area of skin is red and painful.</afflictiondescription.cellulitis>
+    <afflictiondescription.cellulitis>Red and painful skin. Caused by an infection, and will be resolved when the infection is treated.</afflictiondescription.cellulitis>
 
     <!-- Other Items -->
-    <entityname.cultureanalyzer>Culture sampler</entityname.cultureanalyzer>
-    <entitydescription.cultureanalyzer>Collects bacterial samples and stores it in a culture tube.</entitydescription.cultureanalyzer>
+    <entityname.cultureanalyzer>Culture Sampler</entityname.cultureanalyzer>
+    <entitydescription.cultureanalyzer>Collects bacterial samples into a ‖color:gui.blue‖culture tube‖end‖. If there is ‖color:gui.red‖pus‖end‖ or ‖color:gui.red‖abscess‖end‖, it will be collected first. If the skin is ‖color:gui.blue‖retracted‖end‖, it will collect a sample from tissue. Otherwise, it will take a blood sample, which may not be accurate if the infection has yet to enter the bloodstream.</entitydescription.cultureanalyzer>
 
-    <entityname.culturetube>Culture tube</entityname.culturetube>
-    <entitydescription.culturetube>A tube of rich growth medium that bacterial colonies will grow in.</entitydescription.culturetube>
+    <entityname.culturetube>Culture Tube</entityname.culturetube>
+    <entitydescription.culturetube>A tube of rich growth medium that bacterial colonies will grow in. Used by a ‖color:gui.blue‖culture sampler‖end‖.</entitydescription.culturetube>
 
-    <entityname.incubatorcrate>Incubator crate</entityname.incubatorcrate>
-    <entitydescription.incubatorcrate>A crate capable of growing cultures due to its ability to regulate optimal storage conditions.</entitydescription.incubatorcrate>
+    <entityname.incubatorcrate>Incubator Crate</entityname.incubatorcrate>
+    <entitydescription.incubatorcrate>A portable method of growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorcrate>
 
-    <entityname.streptubeunk>Culture sample (Unknown)</entityname.streptubeunk>
-    <entitydescription.streptubeunk>A culture tube with an unknown sample.</entitydescription.streptubeunk>
+    <entityname.streptubeunk>Unknown Culture Sample</entityname.streptubeunk>
+    <entitydescription.streptubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.streptubeunk>
 
     <entityname.streptube>Culture sample (Streptococcus)</entityname.streptube>
     <entitydescription.streptube>A culture tube with a streptococcus strain.</entitydescription.streptube>
 
-    <entityname.staphtubeunk>Culture sample (Unknown)</entityname.staphtubeunk>
-    <entitydescription.staphtubeunk>A culture tube with an unknown sample.</entitydescription.staphtubeunk>
+    <entityname.staphtubeunk>Unknown Culture Sample</entityname.staphtubeunk>
+    <entitydescription.staphtubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.staphtubeunk>
 
     <entityname.staphtube>Culture sample (Staphylococcus)</entityname.staphtube>
     <entitydescription.staphtube>A culture tube with a staphyloccocus strain.</entitydescription.staphtube>
 
-    <entityname.mrsatubeunk>Culture sample (Unknown)</entityname.mrsatubeunk>
-    <entitydescription.mrsatubeunk>A culture tube with an unknown sample.</entitydescription.mrsatubeunk>
+    <entityname.mrsatubeunk>Unknown Culture Sample</entityname.mrsatubeunk>
+    <entitydescription.mrsatubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.mrsatubeunk>
 
     <entityname.mrsatube>Culture sample (MRSA)</entityname.mrsatube>
     <entitydescription.mrsatube>A culture tube with a MRSA sample.</entitydescription.mrsatube>
 
-    <entityname.pseudotubeunk>Culture sample (Unknown)</entityname.pseudotubeunk>
-    <entitydescription.pseudotubeunk>A culture tube with an unknown sample.</entitydescription.pseudotubeunk>
+    <entityname.pseudotubeunk>Unknown Culture Sample</entityname.pseudotubeunk>
+    <entitydescription.pseudotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.pseudotubeunk>
 
     <entityname.pseudotube>Culture sample (Pseudomonas)</entityname.pseudotube>
     <entitydescription.pseudotube>A culture tube with a pseudomonas sample.</entitydescription.pseudotube>
 
-    <entityname.provotubeunk>Culture sample (Unknown)</entityname.provotubeunk>
-    <entitydescription.provotubeunk>A culture tube with an unknown sample.</entitydescription.provotubeunk>
+    <entityname.provotubeunk>Unknown Culture Sample</entityname.provotubeunk>
+    <entitydescription.provotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.provotubeunk>
 
     <entityname.provotube>Culture sample (Provobacter)</entityname.provotube>
     <entitydescription.provotube>A culture tube with a provobacter sample.</entitydescription.provotube>
 
-    <entityname.emptytubeunk>Culture sample (Unknown)</entityname.emptytubeunk>
-    <entitydescription.emptytubeunk>A culture tube with an unknown sample.</entitydescription.emptytubeunk>
+    <entityname.emptytubeunk>Unknown Culture Sample</entityname.emptytubeunk>
+    <entitydescription.emptytubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.emptytubeunk>
 
     <entityname.cultureanalyzingterminal>Culture Analyzer</entityname.cultureanalyzingterminal>
     <entitydescription.cultureanalyzingterminal>A machine that examines the biochemical signature of bacterial colonies to identify pathogens.</entitydescription.cultureanalyzingterminal>

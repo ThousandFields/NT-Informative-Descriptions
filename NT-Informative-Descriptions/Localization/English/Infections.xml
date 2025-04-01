@@ -7,6 +7,9 @@
     <!-- NT Items -->
 
 
+    <!-- NT Afflictions -->
+
+
     <!-- Antibiotics -->
     <entityname.ampicillin>Ampicillin</entityname.ampicillin>
     <entitydescription.ampicillin>An aminopenicillin class antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖ and moderately effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Slightly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.ampicillin>
@@ -54,19 +57,19 @@
 
     <!-- Bioweapons-->
     <entityname.weaponstrep>Weaponized Streptococcus</entityname.weaponstrep>
-    <entitydescription.weaponstrep>A syringe filled with a strain of ‖color:gui.red‖streptococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponstrep>
+    <entitydescription.weaponstrep>A syringe filled with a strain of ‖color:gui.red‖streptococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponstrep>
 
     <entityname.weaponstaph>Weaponized Staphylococcus</entityname.weaponstaph>
-    <entitydescription.weaponstaph>A syringe filled with a strain of ‖color:gui.red‖staphylococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponstaph>
+    <entitydescription.weaponstaph>A syringe filled with a strain of ‖color:gui.red‖staphylococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponstaph>
 
     <entityname.weaponmrsa>Weaponized MRSA</entityname.weaponmrsa>
-    <entitydescription.weaponmrsa>A syringe filled with a strain of ‖color:gui.red‖MRSA‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponmrsa>
+    <entitydescription.weaponmrsa>A syringe filled with a strain of ‖color:gui.red‖MRSA‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponmrsa>
 
     <entityname.weaponpseudo>Weaponized Pseudomonas</entityname.weaponpseudo>
-    <entitydescription.weaponpseudo>A syringe filled with a strain of ‖color:gui.red‖pseudomonas‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponpseudo>
+    <entitydescription.weaponpseudo>A syringe filled with a strain of ‖color:gui.red‖pseudomonas‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponpseudo>
 
     <entityname.weaponprovo>Weaponized Provobacter</entityname.weaponprovo>
-    <entitydescription.weaponprovo>A syringe filled with a strain of ‖color:gui.red‖provobacter‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in the Medical Fabricator.</entitydescription.weaponprovo>
+    <entitydescription.weaponprovo>A syringe filled with a strain of ‖color:gui.red‖provobacter‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponprovo>
 
     <!-- Trauma -->
     <afflictionname.pusyellow>Purulent drainage</afflictionname.pusyellow>
@@ -92,55 +95,55 @@
     <entitydescription.culturetube>A tube of rich growth medium that bacterial colonies will grow in. Used by a ‖color:gui.blue‖culture sampler‖end‖.</entitydescription.culturetube>
 
     <entityname.incubatorcrate>Incubator Crate</entityname.incubatorcrate>
-    <entitydescription.incubatorcrate>A portable method of growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorcrate>
+    <entitydescription.incubatorcrate>A fast and portable method of growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorcrate>
 
     <entityname.streptubeunk>Unknown Culture Sample</entityname.streptubeunk>
     <entitydescription.streptubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.streptubeunk>
 
-    <entityname.streptube>Culture sample (Streptococcus)</entityname.streptube>
-    <entitydescription.streptube>A culture tube with a streptococcus strain.</entitydescription.streptube>
+    <entityname.streptube>Streptococcus Culture Sample</entityname.streptube>
+    <entitydescription.streptube>A culture tube with a streptococcus strain. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.streptube>
 
     <entityname.staphtubeunk>Unknown Culture Sample</entityname.staphtubeunk>
     <entitydescription.staphtubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.staphtubeunk>
 
-    <entityname.staphtube>Culture sample (Staphylococcus)</entityname.staphtube>
-    <entitydescription.staphtube>A culture tube with a staphyloccocus strain.</entitydescription.staphtube>
+    <entityname.staphtube>Staphylcoccus Culture Sample</entityname.staphtube>
+    <entitydescription.staphtube>A culture tube with a staphyloccocus strain. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.staphtube>
 
     <entityname.mrsatubeunk>Unknown Culture Sample</entityname.mrsatubeunk>
     <entitydescription.mrsatubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.mrsatubeunk>
 
-    <entityname.mrsatube>Culture sample (MRSA)</entityname.mrsatube>
-    <entitydescription.mrsatube>A culture tube with a MRSA sample.</entitydescription.mrsatube>
+    <entityname.mrsatube>MRSA Culture Sample</entityname.mrsatube>
+    <entitydescription.mrsatube>A culture tube with a MRSA sample. ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator. There is no vaccine for MRSA, however.</entitydescription.mrsatube>
 
     <entityname.pseudotubeunk>Unknown Culture Sample</entityname.pseudotubeunk>
     <entitydescription.pseudotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.pseudotubeunk>
 
-    <entityname.pseudotube>Culture sample (Pseudomonas)</entityname.pseudotube>
-    <entitydescription.pseudotube>A culture tube with a pseudomonas sample.</entitydescription.pseudotube>
+    <entityname.pseudotube>Pseudomonas Culture Sample</entityname.pseudotube>
+    <entitydescription.pseudotube>A culture tube with a pseudomonas sample. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.pseudotube>
 
     <entityname.provotubeunk>Unknown Culture Sample</entityname.provotubeunk>
     <entitydescription.provotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.provotubeunk>
 
-    <entityname.provotube>Culture sample (Provobacter)</entityname.provotube>
-    <entitydescription.provotube>A culture tube with a provobacter sample.</entitydescription.provotube>
+    <entityname.provotube>Provobacter Culture Sample</entityname.provotube>
+    <entitydescription.provotube>A culture tube with a provobacter sample. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.provotube>
 
     <entityname.emptytubeunk>Unknown Culture Sample</entityname.emptytubeunk>
     <entitydescription.emptytubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.emptytubeunk>
 
     <entityname.cultureanalyzingterminal>Culture Analyzer</entityname.cultureanalyzingterminal>
-    <entitydescription.cultureanalyzingterminal>A machine that examines the biochemical signature of bacterial colonies to identify pathogens.</entitydescription.cultureanalyzingterminal>
+    <entitydescription.cultureanalyzingterminal>A machine used to identify ‖color:gui.blue‖culture samples‖end‖ using the biochemical signature of bacteria.</entitydescription.cultureanalyzingterminal>
 
     <cultureanalyzer.analyze>Analyze</cultureanalyzer.analyze>
-    <cultureanalyzer.info>Insert a full-grown culture sample to analyze the type.</cultureanalyzer.info>
+    <cultureanalyzer.info>Insert a fully-grown unknown culture sample.</cultureanalyzer.info>
 
     <entityname.incubatorterminal>Incubator</entityname.incubatorterminal>
-    <entitydescription.incubatorterminal>A machine capable of growing cultures by maintaining the optimal conditions for bacterial growth.</entitydescription.incubatorterminal>
+    <entitydescription.incubatorterminal>The fastest method for growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorterminal>
 
     <entityname.dextromethorphan>Dextromethorphan</entityname.dextromethorphan>
-    <entitydescription.dextromethorphan>An antitussive solution used to relieve a cough.</entitydescription.dextromethorphan>
+    <entitydescription.dextromethorphan>A drug used to relieve cough. Often used to suppress contagious ‖color:gui.green‖Europan cough‖end‖, which may be treated using ‖color:gui.blue‖Remdesivir‖end‖. On failure, it is less effective.</entitydescription.dextromethorphan>
 
     <entityname.remdesivir>Remdesivir</entityname.remdesivir>
-    <entitydescription.remdesivir>A broad-spectrum antiviral drug, commonly used to treat cases of Europan cough.</entitydescription.remdesivir>
+    <entitydescription.remdesivir>An antiviral drug used to treat ‖color:gui.green‖Europan cough‖end‖. It is harsh on the ‖color:gui.red‖liver‖end‖, and should not be overused. On failure, it will cause more ‖color:gui.red‖liver damage‖end‖.</entitydescription.remdesivir>
 
     <!-- Hidden Afflictions -->
     <afflictionname.immunodeficiency>Immunodeficiency</afflictionname.immunodeficiency>

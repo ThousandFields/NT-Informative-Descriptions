@@ -67,7 +67,7 @@ local config = {
 		-- Infections
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,
-		workshopId = "3439141713",
+		workshopId = "3286567141",
 		loadpriority = 1,
 		files = {
 			"%ModDir%/Localization/%Language%/Infections.xml"

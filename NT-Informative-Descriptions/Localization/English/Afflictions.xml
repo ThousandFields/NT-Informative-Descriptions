@@ -125,7 +125,7 @@
 		<afflictiondescription.cardiacarrest>No heartbeat. A lethal status that will prevent blood pressure from normalizing, along with causing a coma if untreated. The ultimate result of fibrillation, as well being caused by hypoxemia. The heart must be restarted using a defibrillator, adrenaline, or AutoPulse.</afflictiondescription.cardiacarrest>
 
 		<afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
-		<afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia or opiate overdose. Artificial ventilation will bypass this affliction and the acidosis caused by it.</afflictiondescription.respiratoryarrest>
+		<afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia, neurotrauma, or opiate overdose. Artificial ventilation will bypass this affliction and the acidosis caused by it.</afflictiondescription.respiratoryarrest>
 		
 		<afflictionname.hyperventilation>Hyperventilation</afflictionname.hyperventilation>
 		<afflictiondescription.hyperventilation>Breathing rate is abnormally high. Gradually increases non-lethal alkalosis, and is usually caused by hypotension, hypoxemia, or pneumothorax.</afflictiondescription.hyperventilation>

@@ -2,13 +2,50 @@
 <infotexts language="English" nowhitespace="false" translatedname="English"><Override>
 
     <!-- Vanilla Items -->
+    <entitydescription.antibiotics>An antibiotic that is slightly effective against ‖color:gui.green‖strepococcal‖end‖ and ‖color:gui.green‖staphylcoccal‖end‖ infections, and also against ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
 
+    <entitydescription.antirad>Slows down cellular degradation caused by radiation. Along with dissolving organs, severe radiation will compromise the ‖color:gui.red‖immune system‖end‖. On failure, it is less effective.</entitydescription.antirad>
 
     <!-- NT Items -->
-
+    <entityname.bloodanalyzer>Hematology Analyzer</entityname.bloodanalyzer>
+    <entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, acidosis, alkalosis, drugs in the bloodstream, or a blood infection. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. If a ‖color:gui.blue‖blood pack‖end‖ is inserted, any existing sepsis, alkalosis, or acidosis will be shown. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
 
     <!-- NT Afflictions -->
+    <afflictionname.fever>Fever</afflictionname.fever>
+    <afflictiondescription.fever>Abnormally high body temperature. Usually caused by sepsis or Europan cough.</afflictiondescription.fever>
 
+    <afflictionname.sym_jaundice>Jaundice</afflictionname.sym_jaundice>
+    <afflictiondescription.sym_jaundice>The skin is yellow. Caused by severe liver damage or Remdesivir.</afflictiondescription.sym_jaundice>
+
+    <afflictionname.sym_headache>Headache</afflictionname.sym_headache>
+    <afflictiondescription.sym_headache>Pain in the head. Usually caused by hypoxemia, a skull fracture, acidosis, a concussion, a stroke, or Europan cough.</afflictiondescription.sym_headache>
+
+    <afflictionname.sym_weakness>Weakness</afflictionname.sym_weakness>
+    <afflictiondescription.sym_weakness>Reduced muscular ability in the extremities. Caused by cardiac tamponade, bloodloss, acidosis, or Europan cough.</afflictiondescription.sym_weakness>
+
+    <afflictionname.sym_wheezing>Wheezing</afflictionname.sym_wheezing>
+    <afflictiondescription.sym_wheezing>Breathing produces high-pitched noises. Caused by hemotransfusion shock or Europan cough.</afflictiondescription.sym_wheezing>
+
+    <afflictionname.sym_nausea>Nausea</afflictionname.sym_nausea>
+    <afflictiondescription.sym_nausea>A nauseous sensation. Usually caused by kidney damage, a concussion, drug withdrawal, hemotransfusion shock, or Europan cough. Vomiting will cause alkalosis.</afflictiondescription.sym_nausea>
+
+    <afflictionname.pain_abdominal>Abdominal pain</afflictionname.pain_abdominal>
+    <afflictiondescription.pain_abdominal>Pain in the abdomen. Caused by hemotransfusion shock or sepsis.</afflictiondescription.pain_abdominal>
+
+    <afflictionname.pain_chest>Chest pain</afflictionname.pain_chest>
+    <afflictiondescription.pain_chest>Piercing pain in the chest. Caused by rib fractures, hemotransfusion shock, pneumonia, or Europan cough.</afflictiondescription.pain_chest>
+
+    <afflictionname.pain_extremity>Intense pain</afflictionname.pain_extremity>
+    <afflictiondescription.pain_extremity>Very strong pain. Usually caused by dislocations, fractures, sepsis, or necrotizing fasciitis.</afflictiondescription.pain_extremity>
+
+    <afflictionname.sym_cough>Cough</afflictionname.sym_cough>
+    <afflictiondescription.sym_cough>Periodic coughing. Caused by cardiac tamponade, lung, heart damage, pneumonia, or Europan cough.</afflictiondescription.sym_cough>
+
+    <afflictionname.dyspnea>Shortness of breath</afflictionname.dyspnea>
+    <afflictiondescription.dyspnea>Breathing is difficult. Usually caused by cardiac tamponade, pneumothorax, hypoxemia, pneumonia, or Europan cough.</afflictiondescription.dyspnea>
+
+    <afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
+    <afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia, neurotrauma, opiate overdose, or Europan cough. Artificial ventilation will bypass this affliction and the acidosis caused by it.</afflictiondescription.respiratoryarrest>
 
     <!-- Antibiotics -->
     <entityname.ampicillin>Ampicillin</entityname.ampicillin>
@@ -31,16 +68,16 @@
 
     <!-- Vaccine Items -->
     <entityname.strepvac>Streptococcus Vaccine</entityname.strepvac>
-    <entitydescription.strepvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖streptococcus‖end‖ infections.</entitydescription.strepvac>
+    <entitydescription.strepvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖streptococcus‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.strepvac>
 
     <entityname.staphvac>Staphylococcus Vaccine</entityname.staphvac>
-    <entitydescription.staphvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖staphylococcal‖end‖ infections.</entitydescription.staphvac>
+    <entitydescription.staphvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖staphylococcal‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.staphvac>
     
     <entityname.pseudovac>Pseudomonas Vaccine</entityname.pseudovac>
-    <entitydescription.pseudovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖pseudomonas‖end‖ infections.</entitydescription.pseudovac>
+    <entitydescription.pseudovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖pseudomonas‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.pseudovac>
 
     <entityname.provovac>Provobacter Vaccine</entityname.provovac>
-    <entitydescription.provovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖provobacter‖end‖ infections.</entitydescription.provovac>
+    <entitydescription.provovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖provobacter‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.provovac>
 
     <!-- Vaccine Afflictions -->
     <afflictionname.afstrepvac>Streptococcus Vaccine</afflictionname.afstrepvac>

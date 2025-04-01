@@ -1,6 +1,6 @@
 NTID = {}
 NTID.Name="Informative Descriptions"
-NTID.Version = "1.15"
+NTID.Version = "1.16"
 NTID.Path = table.pack(...)[1]
 Timer.Wait(function() if NTC ~= nil and NTC.RegisterExpansion ~= nil then NTC.RegisterExpansion(NTID) end end,1)
 

@@ -68,9 +68,22 @@ local config = {
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,
 		workshopId = "3286567141",
-		loadpriority = 1,
+		loadpriority = 2,
 		files = {
 			"%ModDir%/Localization/%Language%/Infections.xml"
+			}
+	},
+
+	{
+		-- Barometric Pressure
+		supportedlanguages = {"English"},
+		IgnoreTargetModState = false,
+		workshopId = "3442833414",
+		loadpriority = 3,
+		files = {
+			"%ModDir%/Localization/%Language%/BarometricPressureItems.xml",
+			"%ModDir%/Localization/%Language%/BarometricPressureAfflictions.xml",
+			"%ModDir%/Localization/%Language%/BarometricPressureAddons.xml"
 			}
 	},
 

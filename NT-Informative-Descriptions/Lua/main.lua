@@ -453,7 +453,7 @@ end, Hook.HookMethodType.After)
 
 
 
-Game.AddCommand("reloadNTID", "Reloads  NT Informative Descriptions.", function()
+Game.AddCommand("reloadNTID", "Reloads NT Informative Descriptions.", function()
     ReloadNTID()
     print("NTID reloaded.")
 end, GetValidArguments)

@@ -78,7 +78,7 @@ local config = {
 		-- Barometric Pressure
 		supportedlanguages = {"English"},
 		IgnoreTargetModState = false,
-		workshopId = "3442833414",
+		workshopId = "",
 		loadpriority = 3,
 		files = {
 			"%ModDir%/Localization/%Language%/BarometricPressureItems.xml",

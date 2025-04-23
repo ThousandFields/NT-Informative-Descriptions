@@ -282,7 +282,7 @@
 		<afflictiondescription.boneclamp>Fracture has been splinted.</afflictiondescription.boneclamp>
 		
 		<afflictionname.bandaged>Bandaged</afflictionname.bandaged>
-		<afflictiondescription.bandaged>Protects from infection, stabilizes dislocations and fractures, and promotes wound healing. It restricts movement slightly. Does not improve the healing of open wounds if they are too severe.</afflictiondescription.bandaged>
+		<afflictiondescription.bandaged>Protects from infection, stabilizes dislocations and fractures, and increases the natural speed of wound healing. It restricts movement slightly. Does not improve the healing of open wounds if they are too severe.</afflictiondescription.bandaged>
 		
 		<afflictionname.dirtybandage>Dirty bandage</afflictionname.dirtybandage>
 		<afflictiondescription.dirtybandage>A bandage that has been overused and should be removed or replaced, as it promotes infections.</afflictiondescription.dirtybandage>
@@ -309,7 +309,7 @@
 		<afflictiondescription.suturedw>Wounds have been sutured shut. Sutured wounds will heal much faster than open wounds, and are impervious to infection.</afflictiondescription.suturedw>
 
 		<afflictionname.iced>Chilled</afflictionname.iced>
-		<afflictiondescription.iced>A cold gel pack is improving the healing of blunt force trauma. It restricts movement slightly and worsens infections.</afflictiondescription.iced>
+		<afflictiondescription.iced>A cold gel pack is greatly increasing the natural healing speed of blunt force trauma. It restricts movement slightly and worsens infections.</afflictiondescription.iced>
 
 		<!-- NT Meta -->
 		<afflictionname.luabotomy>Lualess</afflictionname.luabotomy>

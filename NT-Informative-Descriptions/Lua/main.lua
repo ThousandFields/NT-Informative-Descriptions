@@ -134,6 +134,10 @@ LuaUserData.MakeFieldAccessible(Descriptors["Barotrauma.GameSettings"], "current
 local ClientLanguage = tostring(GameSettings.currentConfig.Language)
 local prev_language = ClientLanguage
 
+LuaUserData.MakeFieldAccessible(Descriptors['Barotrauma.ContentPackageManager+EnabledPackages'], 'regular')
+LuaUserData.MakeMethodAccessible(Descriptors['Barotrauma.ContentPackageManager+EnabledPackages'], 'SortContent')
+LuaUserData.RegisterType("System.Collections.Generic.List`1[[Barotrauma.RegularPackage,Barotrauma]]")
+
 
 function EnableTextFile(file, workshopId)
     local targetPackage
@@ -271,15 +275,23 @@ function LoadPatches()
 
         if patch.IgnoreTargetModState or IsModEnabled(patch.workshopId) then
             for language in patch.supportedlanguages do
-                DisableTextPackage(patch.workshopId, language)
+                --DisableTextPackage(patch.workshopId, language)
                 modname = GetPackageById(patch.workshopId).name
 
                 if not EnableTextFiles(patch.files, language) then
                     print("Errors enabling NTID files")
+                    break
                 end
             end
         end
     end
+
+    ContentPackageManager.EnabledPackages.regular.Remove(pkg)
+    ContentPackageManager.EnabledPackages.regular.Insert(0, pkg)
+
+    --For whatever reason content specific Sort isnt static method and i dont want to be sorting all the content in game
+    --ContentPackageManager.EnabledPackages.SortContent()
+    if FileList[1] then FileList[1].Sort() end
 end
 
 function StripModDir(filepath)
@@ -423,14 +435,14 @@ function DisableNTID()
     end
 
     UnloadPatches()
-    ReloadModsLocalization()
+    --ReloadModsLocalization()
     CleanUpIdCards()
 end
 
 
 Hook.Add("stop", "NTIDCleanUp", function ()
     UnloadPatches()
-    ReloadModsLocalization()
+    --ReloadModsLocalization()
 end)
 
 

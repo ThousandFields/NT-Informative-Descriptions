@@ -286,9 +286,6 @@ function LoadPatches()
         end
     end
 
-    ContentPackageManager.EnabledPackages.regular.Remove(pkg)
-    ContentPackageManager.EnabledPackages.regular.Insert(0, pkg)
-
     --For whatever reason content specific Sort isnt static method and i dont want to be sorting all the content in game
     --ContentPackageManager.EnabledPackages.SortContent()
     if FileList[1] then FileList[1].Sort() end
@@ -470,6 +467,8 @@ Game.AddCommand("reloadNTID", "Reloads NT Informative Descriptions.", function()
     print("NTID reloaded.")
 end, GetValidArguments)
 
+ContentPackageManager.EnabledPackages.regular.Remove(pkg)
+ContentPackageManager.EnabledPackages.regular.Insert(0, pkg)
 
 if config:Get("Enabled",true) then
     EnableNTID()

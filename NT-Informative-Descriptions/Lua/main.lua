@@ -59,12 +59,16 @@ if SERVER and CSActive then
 
     LuaUserData.RegisterType("Barotrauma.Networking.ServerPeer`1")
     LuaUserData.RegisterType("Barotrauma.Networking.LidgrenServerPeer")
+    LuaUserData.RegisterType("Barotrauma.Networking.P2PServerPeer")
 
 
     HasMultiplayerSyncedContent_fieldinfo = LuaUserData.GetType('Barotrauma.ContentPackage').GetField("<HasMultiplayerSyncedContent>k__BackingField", bit32.bor(BindingFlags.Instance, BindingFlags.NonPublic))
 
-    contentPackages_fieldinfo = LuaUserData.GetType('Barotrauma.Networking.LidgrenServerPeer').BaseType.GetField("contentPackages", bit32.bor(BindingFlags.Instance, BindingFlags.NonPublic))
- 
+    if Game.IsDedicated then
+        contentPackages_fieldinfo = LuaUserData.GetType('Barotrauma.Networking.LidgrenServerPeer').BaseType.GetField("contentPackages", bit32.bor(BindingFlags.Instance, BindingFlags.NonPublic))
+    else
+        contentPackages_fieldinfo = LuaUserData.GetType('Barotrauma.Networking.P2PServerPeer').BaseType.GetField("contentPackages", bit32.bor(BindingFlags.Instance, BindingFlags.NonPublic))
+    end
 
     function InfDescriptions.AddToPublicModlist()
         HasMultiplayerSyncedContent_fieldinfo.SetValue(pkg, true)

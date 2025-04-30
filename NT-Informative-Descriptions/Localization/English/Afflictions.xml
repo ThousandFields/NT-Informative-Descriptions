@@ -7,7 +7,7 @@
 		<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood. An infection will likely occur, and there are probably still bullets inside. This wound does not naturally heal beyond 50%.</afflictiondescription.gunshotwound>
 		<afflictiondescription.gunshotwound.low>The bullet missed all the important bits, but the pain is real and so is the risk of infection. There may still be bullets inside.</afflictiondescription.gunshotwound.low>
 
-		<afflictiondescription.blunttrauma>The area is an ugly shade of purple, and apparently very painful to touch. You suspect a bone might be broken. This wound can't be stitched.</afflictiondescription.blunttrauma>
+		<afflictiondescription.blunttrauma>The area is an ugly shade of purple, and apparently very painful to touch. You suspect a bone might be broken. This wound can't be stitched. This wound does not naturally heal beyond 100%.</afflictiondescription.blunttrauma>
 		<afflictiondescription.blunttrauma.low>A light bruise shows where something hit, but it doesn’t look like anything is broken. This wound can't be stitched, however.</afflictiondescription.blunttrauma.low>
 
 		<afflictiondescription.lacerations>The skin is pierced and there are deep, bleeding wounds. This will probably cause an infection. This wound does not naturally heal beyond 50%</afflictiondescription.lacerations>

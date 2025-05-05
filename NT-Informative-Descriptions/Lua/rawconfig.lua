@@ -255,7 +255,7 @@ end
 
 
 function rawconfig.util.Get(config, key, default)
-    if config.Entries[key] ~= nil then
+    if config.Entries[key] ~= nil and config.Entries[key].value ~= nil then
         return config.Entries[key].value
     end
     return default

@@ -1,269 +1,270 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- By ThousandFields -->
-<infotexts language="English" nowhitespace="false" translatedname="English"><Override>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+    <Override>
+        <!-- Vanilla Items -->
+        <entitydescription.antibiotics>An antibiotic that is slightly effective against ‖color:gui.green‖strepococcal‖end‖ and ‖color:gui.green‖staphylcoccal‖end‖ infections, and also against ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
 
-    <!-- Vanilla Items -->
-    <entitydescription.antibiotics>An antibiotic that is slightly effective against ‖color:gui.green‖strepococcal‖end‖ and ‖color:gui.green‖staphylcoccal‖end‖ infections, and also against ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
+        <entitydescription.antirad>Slows down cellular degradation caused by radiation. Along with dissolving organs, severe radiation will compromise the ‖color:gui.red‖immune system‖end‖. On failure, it is less effective.</entitydescription.antirad>
 
-    <entitydescription.antirad>Slows down cellular degradation caused by radiation. Along with dissolving organs, severe radiation will compromise the ‖color:gui.red‖immune system‖end‖. On failure, it is less effective.</entitydescription.antirad>
+        <!-- NT Items -->
+        <entityname.bloodanalyzer>Hematology Analyzer</entityname.bloodanalyzer>
+        <entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, acidosis, alkalosis, drugs in the bloodstream, or a blood infection. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. If a ‖color:gui.blue‖blood pack‖end‖ is inserted, any existing sepsis, alkalosis, or acidosis will be shown. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
 
-    <!-- NT Items -->
-    <entityname.bloodanalyzer>Hematology Analyzer</entityname.bloodanalyzer>
-    <entitydescription.bloodanalyzer>A tool that displays a patient's blood type and immunity. Additionally shows if a patient has bloodloss, sepsis, acidosis, alkalosis, drugs in the bloodstream, or a blood infection. If a ‖color:gui.blue‖blank donor card‖end‖ is inserted, it will print the patient's bloodtype onto their ID card. If a ‖color:gui.blue‖blood pack‖end‖ is inserted, any existing sepsis, alkalosis, or acidosis will be shown. Each use of the analyzer requires a bit of ‖color:gui.red‖blood‖end‖.</entitydescription.bloodanalyzer>
+        <!-- NT Afflictions -->
+        <afflictionname.fever>Fever</afflictionname.fever>
+        <afflictiondescription.fever>Abnormally high body temperature. Usually caused by sepsis or Europan cough.</afflictiondescription.fever>
 
-    <!-- NT Afflictions -->
-    <afflictionname.fever>Fever</afflictionname.fever>
-    <afflictiondescription.fever>Abnormally high body temperature. Usually caused by sepsis or Europan cough.</afflictiondescription.fever>
+        <afflictionname.sym_jaundice>Jaundice</afflictionname.sym_jaundice>
+        <afflictiondescription.sym_jaundice>The skin is yellow. Caused by severe liver damage or Remdesivir.</afflictiondescription.sym_jaundice>
 
-    <afflictionname.sym_jaundice>Jaundice</afflictionname.sym_jaundice>
-    <afflictiondescription.sym_jaundice>The skin is yellow. Caused by severe liver damage or Remdesivir.</afflictiondescription.sym_jaundice>
+        <afflictionname.sym_headache>Headache</afflictionname.sym_headache>
+        <afflictiondescription.sym_headache>Pain in the head. Usually caused by hypoxemia, a skull fracture, acidosis, a concussion, a stroke, or Europan cough.</afflictiondescription.sym_headache>
 
-    <afflictionname.sym_headache>Headache</afflictionname.sym_headache>
-    <afflictiondescription.sym_headache>Pain in the head. Usually caused by hypoxemia, a skull fracture, acidosis, a concussion, a stroke, or Europan cough.</afflictiondescription.sym_headache>
+        <afflictionname.sym_weakness>Weakness</afflictionname.sym_weakness>
+        <afflictiondescription.sym_weakness>Reduced muscular ability in the extremities. Caused by cardiac tamponade, bloodloss, acidosis, or Europan cough.</afflictiondescription.sym_weakness>
 
-    <afflictionname.sym_weakness>Weakness</afflictionname.sym_weakness>
-    <afflictiondescription.sym_weakness>Reduced muscular ability in the extremities. Caused by cardiac tamponade, bloodloss, acidosis, or Europan cough.</afflictiondescription.sym_weakness>
+        <afflictionname.sym_wheezing>Wheezing</afflictionname.sym_wheezing>
+        <afflictiondescription.sym_wheezing>Breathing produces high-pitched noises. Caused by hemotransfusion shock or Europan cough.</afflictiondescription.sym_wheezing>
 
-    <afflictionname.sym_wheezing>Wheezing</afflictionname.sym_wheezing>
-    <afflictiondescription.sym_wheezing>Breathing produces high-pitched noises. Caused by hemotransfusion shock or Europan cough.</afflictiondescription.sym_wheezing>
+        <afflictionname.sym_nausea>Nausea</afflictionname.sym_nausea>
+        <afflictiondescription.sym_nausea>A nauseous sensation. Usually caused by kidney damage, a concussion, drug withdrawal, hemotransfusion shock, or Europan cough. Vomiting will cause alkalosis.</afflictiondescription.sym_nausea>
 
-    <afflictionname.sym_nausea>Nausea</afflictionname.sym_nausea>
-    <afflictiondescription.sym_nausea>A nauseous sensation. Usually caused by kidney damage, a concussion, drug withdrawal, hemotransfusion shock, or Europan cough. Vomiting will cause alkalosis.</afflictiondescription.sym_nausea>
+        <afflictionname.pain_abdominal>Abdominal pain</afflictionname.pain_abdominal>
+        <afflictiondescription.pain_abdominal>Pain in the abdomen. Caused by hemotransfusion shock or sepsis.</afflictiondescription.pain_abdominal>
 
-    <afflictionname.pain_abdominal>Abdominal pain</afflictionname.pain_abdominal>
-    <afflictiondescription.pain_abdominal>Pain in the abdomen. Caused by hemotransfusion shock or sepsis.</afflictiondescription.pain_abdominal>
+        <afflictionname.pain_chest>Chest pain</afflictionname.pain_chest>
+        <afflictiondescription.pain_chest>Piercing pain in the chest. Caused by rib fractures, hemotransfusion shock, pneumonia, or Europan cough.</afflictiondescription.pain_chest>
 
-    <afflictionname.pain_chest>Chest pain</afflictionname.pain_chest>
-    <afflictiondescription.pain_chest>Piercing pain in the chest. Caused by rib fractures, hemotransfusion shock, pneumonia, or Europan cough.</afflictiondescription.pain_chest>
+        <afflictionname.pain_extremity>Intense pain</afflictionname.pain_extremity>
+        <afflictiondescription.pain_extremity>Very strong pain. Usually caused by dislocations, fractures, sepsis, or necrotizing fasciitis.</afflictiondescription.pain_extremity>
 
-    <afflictionname.pain_extremity>Intense pain</afflictionname.pain_extremity>
-    <afflictiondescription.pain_extremity>Very strong pain. Usually caused by dislocations, fractures, sepsis, or necrotizing fasciitis.</afflictiondescription.pain_extremity>
+        <afflictionname.sym_cough>Cough</afflictionname.sym_cough>
+        <afflictiondescription.sym_cough>Periodic coughing. Caused by cardiac tamponade, lung, heart damage, pneumonia, or Europan cough.</afflictiondescription.sym_cough>
 
-    <afflictionname.sym_cough>Cough</afflictionname.sym_cough>
-    <afflictiondescription.sym_cough>Periodic coughing. Caused by cardiac tamponade, lung, heart damage, pneumonia, or Europan cough.</afflictiondescription.sym_cough>
+        <afflictionname.dyspnea>Shortness of breath</afflictionname.dyspnea>
+        <afflictiondescription.dyspnea>Breathing is difficult. Usually caused by cardiac tamponade, pneumothorax, hypoxemia, pneumonia, or Europan cough.</afflictiondescription.dyspnea>
 
-    <afflictionname.dyspnea>Shortness of breath</afflictionname.dyspnea>
-    <afflictiondescription.dyspnea>Breathing is difficult. Usually caused by cardiac tamponade, pneumothorax, hypoxemia, pneumonia, or Europan cough.</afflictiondescription.dyspnea>
+        <afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
+        <afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia, neurotrauma, opiate overdose, or Europan cough. Artificial ventilation will bypass this affliction and the acidosis caused by it.</afflictiondescription.respiratoryarrest>
 
-    <afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
-    <afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia, neurotrauma, opiate overdose, or Europan cough. Artificial ventilation will bypass this affliction and the acidosis caused by it.</afflictiondescription.respiratoryarrest>
+        <!-- Antibiotics -->
+        <entityname.ampicillin>Ampicillin</entityname.ampicillin>
+        <entitydescription.ampicillin>An aminopenicillin class antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖ and moderately effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Slightly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.ampicillin>
 
-    <!-- Antibiotics -->
-    <entityname.ampicillin>Ampicillin</entityname.ampicillin>
-    <entitydescription.ampicillin>An aminopenicillin class antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖ and moderately effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Slightly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.ampicillin>
+        <entityname.augmentin>Augmentin</entityname.augmentin>
+        <entitydescription.augmentin>An aminopenicillin class antibiotic with a beta-lactamase inhibitor. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and moderately effective against ‖color:gui.green‖provobacter infections‖end‖. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.augmentin>
 
-    <entityname.augmentin>Augmentin</entityname.augmentin>
-    <entitydescription.augmentin>An aminopenicillin class antibiotic with a beta-lactamase inhibitor. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and moderately effective against ‖color:gui.green‖provobacter infections‖end‖. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.augmentin>
+        <entityname.vancomycin>Vancomycin</entityname.vancomycin>
+        <entitydescription.vancomycin>A glycopeptide antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and ‖color:gui.green‖MRSA‖end‖ infections. Strongly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.vancomycin>
 
-    <entityname.vancomycin>Vancomycin</entityname.vancomycin>
-    <entitydescription.vancomycin>A glycopeptide antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and ‖color:gui.green‖MRSA‖end‖ infections. Strongly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.vancomycin>
+        <entityname.gentamicin>Gentamicin</entityname.gentamicin>
+        <entitydescription.gentamicin>An aminoglycoside antibiotic. It is effective against ‖color:gui.green‖pseudomonas‖end‖, ‖color:gui.green‖provobacter‖end‖, and slightly effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Strongly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.gentamicin>
 
-    <entityname.gentamicin>Gentamicin</entityname.gentamicin>
-    <entitydescription.gentamicin>An aminoglycoside antibiotic. It is effective against ‖color:gui.green‖pseudomonas‖end‖, ‖color:gui.green‖provobacter‖end‖, and slightly effective against ‖color:gui.green‖staphylcoccal‖end‖ infections. Strongly ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.gentamicin>
+        <entityname.cotrim>Co-trimoxazole</entityname.cotrim>
+        <entitydescription.cotrim>A combination antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and moderately effective against ‖color:gui.green‖MRSA‖end‖ infections. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.cotrim>
 
-    <entityname.cotrim>Co-trimoxazole</entityname.cotrim>
-    <entitydescription.cotrim>A combination antibiotic. It is effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, and moderately effective against ‖color:gui.green‖MRSA‖end‖ infections. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.cotrim>
+        <entityname.imipenem>Imipenem</entityname.imipenem>
+        <entitydescription.imipenem>A combination carbapenem antibiotic. It is moderately effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, ‖color:gui.green‖pseudomonas‖end‖, and slightly effective against ‖color:gui.green‖provobacter‖end‖ infections. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.imipenem>
 
-    <entityname.imipenem>Imipenem</entityname.imipenem>
-    <entitydescription.imipenem>A combination carbapenem antibiotic. It is moderately effective against ‖color:gui.green‖streptococcal‖end‖, ‖color:gui.green‖staphylcoccal‖end‖, ‖color:gui.green‖pseudomonas‖end‖, and slightly effective against ‖color:gui.green‖provobacter‖end‖ infections. Moderately ‖color:gui.red‖toxic‖end‖ to the kidneys. On failure, it is more ‖color:gui.red‖toxic‖end‖.</entitydescription.imipenem>
+        <!-- Vaccine Items -->
+        <entityname.strepvac>Streptococcus Vaccine</entityname.strepvac>
+        <entitydescription.strepvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖streptococcus‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.strepvac>
 
-    <!-- Vaccine Items -->
-    <entityname.strepvac>Streptococcus Vaccine</entityname.strepvac>
-    <entitydescription.strepvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖streptococcus‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.strepvac>
+        <entityname.staphvac>Staphylococcus Vaccine</entityname.staphvac>
+        <entitydescription.staphvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖staphylococcal‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.staphvac>
+        
+        <entityname.pseudovac>Pseudomonas Vaccine</entityname.pseudovac>
+        <entitydescription.pseudovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖pseudomonas‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.pseudovac>
 
-    <entityname.staphvac>Staphylococcus Vaccine</entityname.staphvac>
-    <entitydescription.staphvac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖staphylococcal‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.staphvac>
-    
-    <entityname.pseudovac>Pseudomonas Vaccine</entityname.pseudovac>
-    <entitydescription.pseudovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖pseudomonas‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.pseudovac>
+        <entityname.provovac>Provobacter Vaccine</entityname.provovac>
+        <entitydescription.provovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖provobacter‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.provovac>
 
-    <entityname.provovac>Provobacter Vaccine</entityname.provovac>
-    <entitydescription.provovac>A vaccine that prepares the immune system to fight against ‖color:gui.green‖provobacter‖end‖ infections. Blood infections may cause pneumonia, which will naturally be cured when the infection is treated.</entitydescription.provovac>
+        <!-- Vaccine Afflictions -->
+        <afflictionname.afstrepvac>Streptococcus Vaccine</afflictionname.afstrepvac>
+        <afflictiondescription.afstrepvac>The immune system is ready to fight against streptococcal infections.</afflictiondescription.afstrepvac>
 
-    <!-- Vaccine Afflictions -->
-    <afflictionname.afstrepvac>Streptococcus Vaccine</afflictionname.afstrepvac>
-    <afflictiondescription.afstrepvac>The immune system is ready to fight against streptococcal infections.</afflictiondescription.afstrepvac>
+        <afflictionname.afstaphvac>Staphylococcus Vaccine</afflictionname.afstaphvac>
+        <afflictiondescription.afstaphvac>The immune system is ready to fight against staphylococcal infections.</afflictiondescription.afstaphvac>
 
-    <afflictionname.afstaphvac>Staphylococcus Vaccine</afflictionname.afstaphvac>
-    <afflictiondescription.afstaphvac>The immune system is ready to fight against staphylococcal infections.</afflictiondescription.afstaphvac>
+        <afflictionname.afpseudovac>Pseudomonas Vaccine</afflictionname.afpseudovac>
+        <afflictiondescription.afpseudovac>The immune system is ready to fight against pseudomonas infections.</afflictiondescription.afpseudovac>
 
-    <afflictionname.afpseudovac>Pseudomonas Vaccine</afflictionname.afpseudovac>
-    <afflictiondescription.afpseudovac>The immune system is ready to fight against pseudomonas infections.</afflictiondescription.afpseudovac>
+        <afflictionname.afprovovac>Provobacter Vaccine</afflictionname.afprovovac>
+        <afflictiondescription.afprovovac>The immune system is ready to fight against provobacter infections.</afflictiondescription.afprovovac>
 
-    <afflictionname.afprovovac>Provobacter Vaccine</afflictionname.afprovovac>
-    <afflictiondescription.afprovovac>The immune system is ready to fight against provobacter infections.</afflictiondescription.afprovovac>
+        <!-- Bioweapons-->
+        <entityname.weaponstrep>Weaponized Streptococcus</entityname.weaponstrep>
+        <entitydescription.weaponstrep>A syringe filled with a strain of ‖color:gui.red‖streptococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponstrep>
 
-    <!-- Bioweapons-->
-    <entityname.weaponstrep>Weaponized Streptococcus</entityname.weaponstrep>
-    <entitydescription.weaponstrep>A syringe filled with a strain of ‖color:gui.red‖streptococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponstrep>
+        <entityname.weaponstaph>Weaponized Staphylococcus</entityname.weaponstaph>
+        <entitydescription.weaponstaph>A syringe filled with a strain of ‖color:gui.red‖staphylococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponstaph>
 
-    <entityname.weaponstaph>Weaponized Staphylococcus</entityname.weaponstaph>
-    <entitydescription.weaponstaph>A syringe filled with a strain of ‖color:gui.red‖staphylococcus‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponstaph>
+        <entityname.weaponmrsa>Weaponized MRSA</entityname.weaponmrsa>
+        <entitydescription.weaponmrsa>A syringe filled with a strain of ‖color:gui.red‖MRSA‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponmrsa>
 
-    <entityname.weaponmrsa>Weaponized MRSA</entityname.weaponmrsa>
-    <entitydescription.weaponmrsa>A syringe filled with a strain of ‖color:gui.red‖MRSA‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponmrsa>
+        <entityname.weaponpseudo>Weaponized Pseudomonas</entityname.weaponpseudo>
+        <entitydescription.weaponpseudo>A syringe filled with a strain of ‖color:gui.red‖pseudomonas‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponpseudo>
 
-    <entityname.weaponpseudo>Weaponized Pseudomonas</entityname.weaponpseudo>
-    <entitydescription.weaponpseudo>A syringe filled with a strain of ‖color:gui.red‖pseudomonas‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponpseudo>
+        <entityname.weaponprovo>Weaponized Provobacter</entityname.weaponprovo>
+        <entitydescription.weaponprovo>A syringe filled with a strain of ‖color:gui.red‖provobacter‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponprovo>
 
-    <entityname.weaponprovo>Weaponized Provobacter</entityname.weaponprovo>
-    <entitydescription.weaponprovo>A syringe filled with a strain of ‖color:gui.red‖provobacter‖end‖, awaiting a host. Or, it can be returned to a ‖color:gui.blue‖culture tube‖end‖ in a Medical Fabricator.</entitydescription.weaponprovo>
+        <!-- Trauma -->
+        <afflictionname.pusyellow>Purulent drainage</afflictionname.pusyellow>
+        <afflictiondescription.pusyellow>Yellowish-white pus, oozing from a wound. A clear sign of infection, and may be collected using a culture sampler. This type of pus is not caused by pseudomonas infections.</afflictiondescription.pusyellow>
 
-    <!-- Trauma -->
-    <afflictionname.pusyellow>Purulent drainage</afflictionname.pusyellow>
-    <afflictiondescription.pusyellow>Yellowish-white pus, oozing from a wound. A clear sign of infection, and may be collected using a culture sampler. This type of pus is not caused by pseudomonas infections.</afflictiondescription.pusyellow>
+        <afflictionname.pusgreen>Purulent drainage</afflictionname.pusgreen>
+        <afflictiondescription.pusgreen>Greenish, foul-smelling pus, oozing from a wound. A clear sign of infection, and may be collected using a culture sampler. This type of pus is always caused by pseudomonas infections.</afflictiondescription.pusgreen>
 
-    <afflictionname.pusgreen>Purulent drainage</afflictionname.pusgreen>
-    <afflictiondescription.pusgreen>Greenish, foul-smelling pus, oozing from a wound. A clear sign of infection, and may be collected using a culture sampler. This type of pus is always caused by pseudomonas infections.</afflictiondescription.pusgreen>
+        <afflictionname.abscess>Abscess</afflictionname.abscess>
+        <afflictiondescription.abscess>Pus accumulation under the skin. There is no wound here, but it is a clear sign of infection, and may be collected using a culture sampler.</afflictiondescription.abscess>
 
-    <afflictionname.abscess>Abscess</afflictionname.abscess>
-    <afflictiondescription.abscess>Pus accumulation under the skin. There is no wound here, but it is a clear sign of infection, and may be collected using a culture sampler.</afflictiondescription.abscess>
+        <afflictionname.necfasc>Necrotizing fasciitis</afflictionname.necfasc>
+        <afflictiondescription.necfasc>The skin is dying and deeply discolored. Caused by an infection while immunocompromised, increasing chance for sepsis. The infection must be attended to, and the necrotized tissue must be removed thoroughly with a scalpel after retracting the skin, or the limb can be amputated.</afflictiondescription.necfasc>
 
-    <afflictionname.necfasc>Necrotizing fasciitis</afflictionname.necfasc>
-    <afflictiondescription.necfasc>The skin is dying and deeply discolored. Caused by an infection while immunocompromised, increasing chance for sepsis. The infection must be attended to, and the necrotized tissue must be removed thoroughly with a scalpel after retracting the skin, or the limb can be amputated.</afflictiondescription.necfasc>
+        <afflictionname.cellulitis>Cellulitis</afflictionname.cellulitis>
+        <afflictiondescription.cellulitis>Red and painful skin. Caused by an infection, and will be resolved when the infection is treated.</afflictiondescription.cellulitis>
 
-    <afflictionname.cellulitis>Cellulitis</afflictionname.cellulitis>
-    <afflictiondescription.cellulitis>Red and painful skin. Caused by an infection, and will be resolved when the infection is treated.</afflictiondescription.cellulitis>
+        <!-- Other Items -->
+        <entityname.cultureanalyzer>Culture Sampler</entityname.cultureanalyzer>
+        <entitydescription.cultureanalyzer>Collects bacterial samples into a ‖color:gui.blue‖culture tube‖end‖. If there is ‖color:gui.red‖pus‖end‖ or ‖color:gui.red‖abscess‖end‖, it will be collected first. If the skin is ‖color:gui.blue‖retracted‖end‖, it will collect a sample from tissue. Otherwise, it will take a blood sample, which may not be accurate if the infection has yet to enter the bloodstream.</entitydescription.cultureanalyzer>
 
-    <!-- Other Items -->
-    <entityname.cultureanalyzer>Culture Sampler</entityname.cultureanalyzer>
-    <entitydescription.cultureanalyzer>Collects bacterial samples into a ‖color:gui.blue‖culture tube‖end‖. If there is ‖color:gui.red‖pus‖end‖ or ‖color:gui.red‖abscess‖end‖, it will be collected first. If the skin is ‖color:gui.blue‖retracted‖end‖, it will collect a sample from tissue. Otherwise, it will take a blood sample, which may not be accurate if the infection has yet to enter the bloodstream.</entitydescription.cultureanalyzer>
+        <entityname.culturetube>Culture Tube</entityname.culturetube>
+        <entitydescription.culturetube>A tube of rich growth medium that bacterial colonies will grow in. Used by a ‖color:gui.blue‖culture sampler‖end‖.</entitydescription.culturetube>
 
-    <entityname.culturetube>Culture Tube</entityname.culturetube>
-    <entitydescription.culturetube>A tube of rich growth medium that bacterial colonies will grow in. Used by a ‖color:gui.blue‖culture sampler‖end‖.</entitydescription.culturetube>
+        <entityname.incubatorcrate>Incubator Crate</entityname.incubatorcrate>
+        <entitydescription.incubatorcrate>A fast and portable method of growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorcrate>
 
-    <entityname.incubatorcrate>Incubator Crate</entityname.incubatorcrate>
-    <entitydescription.incubatorcrate>A fast and portable method of growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorcrate>
+        <entityname.streptubeunk>Unknown Culture Sample</entityname.streptubeunk>
+        <entitydescription.streptubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.streptubeunk>
 
-    <entityname.streptubeunk>Unknown Culture Sample</entityname.streptubeunk>
-    <entitydescription.streptubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.streptubeunk>
+        <entityname.streptube>Streptococcus Culture Sample</entityname.streptube>
+        <entitydescription.streptube>A culture tube with a streptococcus strain. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.streptube>
 
-    <entityname.streptube>Streptococcus Culture Sample</entityname.streptube>
-    <entitydescription.streptube>A culture tube with a streptococcus strain. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.streptube>
+        <entityname.staphtubeunk>Unknown Culture Sample</entityname.staphtubeunk>
+        <entitydescription.staphtubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.staphtubeunk>
 
-    <entityname.staphtubeunk>Unknown Culture Sample</entityname.staphtubeunk>
-    <entitydescription.staphtubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.staphtubeunk>
+        <entityname.staphtube>Staphylcoccus Culture Sample</entityname.staphtube>
+        <entitydescription.staphtube>A culture tube with a staphyloccocus strain. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.staphtube>
 
-    <entityname.staphtube>Staphylcoccus Culture Sample</entityname.staphtube>
-    <entitydescription.staphtube>A culture tube with a staphyloccocus strain. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.staphtube>
+        <entityname.mrsatubeunk>Unknown Culture Sample</entityname.mrsatubeunk>
+        <entitydescription.mrsatubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.mrsatubeunk>
 
-    <entityname.mrsatubeunk>Unknown Culture Sample</entityname.mrsatubeunk>
-    <entitydescription.mrsatubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.mrsatubeunk>
+        <entityname.mrsatube>MRSA Culture Sample</entityname.mrsatube>
+        <entitydescription.mrsatube>A culture tube with a MRSA sample. ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator. There is no vaccine for MRSA, however.</entitydescription.mrsatube>
 
-    <entityname.mrsatube>MRSA Culture Sample</entityname.mrsatube>
-    <entitydescription.mrsatube>A culture tube with a MRSA sample. ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator. There is no vaccine for MRSA, however.</entitydescription.mrsatube>
+        <entityname.pseudotubeunk>Unknown Culture Sample</entityname.pseudotubeunk>
+        <entitydescription.pseudotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.pseudotubeunk>
 
-    <entityname.pseudotubeunk>Unknown Culture Sample</entityname.pseudotubeunk>
-    <entitydescription.pseudotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.pseudotubeunk>
+        <entityname.pseudotube>Pseudomonas Culture Sample</entityname.pseudotube>
+        <entitydescription.pseudotube>A culture tube with a pseudomonas sample. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.pseudotube>
 
-    <entityname.pseudotube>Pseudomonas Culture Sample</entityname.pseudotube>
-    <entitydescription.pseudotube>A culture tube with a pseudomonas sample. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.pseudotube>
+        <entityname.provotubeunk>Unknown Culture Sample</entityname.provotubeunk>
+        <entitydescription.provotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.provotubeunk>
 
-    <entityname.provotubeunk>Unknown Culture Sample</entityname.provotubeunk>
-    <entitydescription.provotubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.provotubeunk>
+        <entityname.provotube>Provobacter Culture Sample</entityname.provotube>
+        <entitydescription.provotube>A culture tube with a provobacter sample. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.provotube>
 
-    <entityname.provotube>Provobacter Culture Sample</entityname.provotube>
-    <entitydescription.provotube>A culture tube with a provobacter sample. Make a ‖color:gui.blue‖vaccine‖end‖ with it, ‖color:gui.blue‖weaponize‖end‖ it, or transfer some of the culture into another ‖color:gui.blue‖tube‖end‖ at a Medical Fabricator.</entitydescription.provotube>
+        <entityname.emptytubeunk>Unknown Culture Sample</entityname.emptytubeunk>
+        <entitydescription.emptytubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.emptytubeunk>
 
-    <entityname.emptytubeunk>Unknown Culture Sample</entityname.emptytubeunk>
-    <entitydescription.emptytubeunk>A culture tube with an unknown sample. After the culture is grown naturally or in an ‖color:gui.blue‖incubator‖end‖, it can be identified by a ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.emptytubeunk>
+        <entityname.cultureanalyzingterminal>Culture Analyzer</entityname.cultureanalyzingterminal>
+        <entitydescription.cultureanalyzingterminal>A machine used to identify ‖color:gui.blue‖culture samples‖end‖ using the biochemical signature of bacteria.</entitydescription.cultureanalyzingterminal>
 
-    <entityname.cultureanalyzingterminal>Culture Analyzer</entityname.cultureanalyzingterminal>
-    <entitydescription.cultureanalyzingterminal>A machine used to identify ‖color:gui.blue‖culture samples‖end‖ using the biochemical signature of bacteria.</entitydescription.cultureanalyzingterminal>
+        <cultureanalyzer.analyze>Analyze</cultureanalyzer.analyze>
+        <cultureanalyzer.info>Insert a fully-grown unknown culture sample.</cultureanalyzer.info>
 
-    <cultureanalyzer.analyze>Analyze</cultureanalyzer.analyze>
-    <cultureanalyzer.info>Insert a fully-grown unknown culture sample.</cultureanalyzer.info>
+        <entityname.incubatorterminal>Incubator</entityname.incubatorterminal>
+        <entitydescription.incubatorterminal>The fastest method for growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorterminal>
 
-    <entityname.incubatorterminal>Incubator</entityname.incubatorterminal>
-    <entitydescription.incubatorterminal>The fastest method for growing bacteria, containing slots for ‖color:gui.blue‖culture samples‖end‖.</entitydescription.incubatorterminal>
+        <entityname.dextromethorphan>Dextromethorphan</entityname.dextromethorphan>
+        <entitydescription.dextromethorphan>A drug used to relieve cough. Often used to suppress contagious ‖color:gui.green‖Europan cough‖end‖, which may be treated using ‖color:gui.blue‖Remdesivir‖end‖. On failure, it is less effective.</entitydescription.dextromethorphan>
 
-    <entityname.dextromethorphan>Dextromethorphan</entityname.dextromethorphan>
-    <entitydescription.dextromethorphan>A drug used to relieve cough. Often used to suppress contagious ‖color:gui.green‖Europan cough‖end‖, which may be treated using ‖color:gui.blue‖Remdesivir‖end‖. On failure, it is less effective.</entitydescription.dextromethorphan>
+        <entityname.remdesivir>Remdesivir</entityname.remdesivir>
+        <entitydescription.remdesivir>An antiviral drug used to treat ‖color:gui.green‖Europan cough‖end‖. It is harsh on the ‖color:gui.red‖liver‖end‖, and should not be overused. On failure, it will cause more ‖color:gui.red‖liver damage‖end‖.</entitydescription.remdesivir>
 
-    <entityname.remdesivir>Remdesivir</entityname.remdesivir>
-    <entitydescription.remdesivir>An antiviral drug used to treat ‖color:gui.green‖Europan cough‖end‖. It is harsh on the ‖color:gui.red‖liver‖end‖, and should not be overused. On failure, it will cause more ‖color:gui.red‖liver damage‖end‖.</entitydescription.remdesivir>
+        <!-- Hidden Afflictions -->
+        <afflictionname.immunodeficiency>Immunodeficiency</afflictionname.immunodeficiency>
+        <afflictiondescription.immunodeficiency></afflictiondescription.immunodeficiency>
 
-    <!-- Hidden Afflictions -->
-    <afflictionname.immunodeficiency>Immunodeficiency</afflictionname.immunodeficiency>
-    <afflictiondescription.immunodeficiency></afflictiondescription.immunodeficiency>
+        <afflictionname.immuneresponse>Immune Response</afflictionname.immuneresponse>
+        <afflictiondescription.immuneresponse></afflictiondescription.immuneresponse>
 
-    <afflictionname.immuneresponse>Immune Response</afflictionname.immuneresponse>
-    <afflictiondescription.immuneresponse></afflictiondescription.immuneresponse>
+        <afflictionname.infectionseverity>Infection Severity</afflictionname.infectionseverity>
+        <afflictiondescription.infectionseverity></afflictiondescription.infectionseverity>
 
-    <afflictionname.infectionseverity>Infection Severity</afflictionname.infectionseverity>
-    <afflictiondescription.infectionseverity></afflictiondescription.infectionseverity>
+        <afflictionname.infectionlevel>Infection Level</afflictionname.infectionlevel>
+        <afflictiondescription.infectionlevel></afflictiondescription.infectionlevel>
 
-    <afflictionname.infectionlevel>Infection Level</afflictionname.infectionlevel>
-    <afflictiondescription.infectionlevel></afflictiondescription.infectionlevel>
+        <afflictionname.limbstrep>Streptococcal Infection</afflictionname.limbstrep>
+        <afflictiondescription.limbstrep></afflictiondescription.limbstrep>
 
-    <afflictionname.limbstrep>Streptococcal Infection</afflictionname.limbstrep>
-    <afflictiondescription.limbstrep></afflictiondescription.limbstrep>
+        <afflictionname.bloodstrep>Streptococcal Infection</afflictionname.bloodstrep>
+        <afflictiondescription.bloodstrep></afflictiondescription.bloodstrep>
 
-    <afflictionname.bloodstrep>Streptococcal Infection</afflictionname.bloodstrep>
-    <afflictiondescription.bloodstrep></afflictiondescription.bloodstrep>
+        <afflictionname.limbstaph>Staphylococcal Infection</afflictionname.limbstaph>
+        <afflictiondescription.limbstaph></afflictiondescription.limbstaph>
 
-    <afflictionname.limbstaph>Staphylococcal Infection</afflictionname.limbstaph>
-    <afflictiondescription.limbstaph></afflictiondescription.limbstaph>
+        <afflictionname.bloodstaph>Staphylococcal Infection</afflictionname.bloodstaph>
+        <afflictiondescription.bloodstaph></afflictiondescription.bloodstaph>
 
-    <afflictionname.bloodstaph>Staphylococcal Infection</afflictionname.bloodstaph>
-    <afflictiondescription.bloodstaph></afflictiondescription.bloodstaph>
+        <afflictionname.limbmrsa>MRSA Infection</afflictionname.limbmrsa>
+        <afflictiondescription.limbmrsa></afflictiondescription.limbmrsa>
 
-    <afflictionname.limbmrsa>MRSA Infection</afflictionname.limbmrsa>
-    <afflictiondescription.limbmrsa></afflictiondescription.limbmrsa>
+        <afflictionname.bloodmrsa>MRSA Infection</afflictionname.bloodmrsa>
+        <afflictiondescription.bloodmrsa></afflictiondescription.bloodmrsa>
 
-    <afflictionname.bloodmrsa>MRSA Infection</afflictionname.bloodmrsa>
-    <afflictiondescription.bloodmrsa></afflictiondescription.bloodmrsa>
+        <afflictionname.limbpseudo>Pseudomonas Infection</afflictionname.limbpseudo>
+        <afflictiondescription.limbpseudo></afflictiondescription.limbpseudo>
 
-    <afflictionname.limbpseudo>Pseudomonas Infection</afflictionname.limbpseudo>
-    <afflictiondescription.limbpseudo></afflictiondescription.limbpseudo>
+        <afflictionname.bloodpseudo>Pseudomonas Infection</afflictionname.bloodpseudo>
+        <afflictiondescription.bloodpseudo></afflictiondescription.bloodpseudo>
 
-    <afflictionname.bloodpseudo>Pseudomonas Infection</afflictionname.bloodpseudo>
-    <afflictiondescription.bloodpseudo></afflictiondescription.bloodpseudo>
+        <afflictionname.limbprovo>Provobacter Infection</afflictionname.limbprovo>
+        <afflictiondescription.limbprovo></afflictiondescription.limbprovo>
 
-    <afflictionname.limbprovo>Provobacter Infection</afflictionname.limbprovo>
-    <afflictiondescription.limbprovo></afflictiondescription.limbprovo>
+        <afflictionname.bloodprovo>Provobacter Infection</afflictionname.bloodprovo>
+        <afflictiondescription.bloodprovo></afflictiondescription.bloodprovo>
 
-    <afflictionname.bloodprovo>Provobacter Infection</afflictionname.bloodprovo>
-    <afflictiondescription.bloodprovo></afflictiondescription.bloodprovo>
+        <afflictionname.afampicillin>Ampicillin</afflictionname.afampicillin>
+        <afflictiondescription.afampicillin></afflictiondescription.afampicillin>
 
-    <afflictionname.afampicillin>Ampicillin</afflictionname.afampicillin>
-    <afflictiondescription.afampicillin></afflictiondescription.afampicillin>
+        <afflictionname.afaugmentin>Augmentin</afflictionname.afaugmentin>
+        <afflictiondescription.afaugmentin></afflictiondescription.afaugmentin>
 
-    <afflictionname.afaugmentin>Augmentin</afflictionname.afaugmentin>
-    <afflictiondescription.afaugmentin></afflictiondescription.afaugmentin>
+        <afflictionname.afvancomycin>Vancomycin</afflictionname.afvancomycin>
+        <afflictiondescription.afvancomycin></afflictiondescription.afvancomycin>
 
-    <afflictionname.afvancomycin>Vancomycin</afflictionname.afvancomycin>
-    <afflictiondescription.afvancomycin></afflictiondescription.afvancomycin>
+        <afflictionname.afgentamicin>Gentamicin</afflictionname.afgentamicin>
+        <afflictiondescription.afgentamicin></afflictiondescription.afgentamicin>
 
-    <afflictionname.afgentamicin>Gentamicin</afflictionname.afgentamicin>
-    <afflictiondescription.afgentamicin></afflictiondescription.afgentamicin>
+        <afflictionname.afcotrim>Co-trimoxazole</afflictionname.afcotrim>
+        <afflictiondescription.afcotrim></afflictiondescription.afcotrim>
 
-    <afflictionname.afcotrim>Co-trimoxazole</afflictionname.afcotrim>
-    <afflictiondescription.afcotrim></afflictiondescription.afcotrim>
+        <afflictionname.afimipenem>Imipenem</afflictionname.afimipenem>
+        <afflictiondescription.afimipenem></afflictiondescription.afimipenem>
 
-    <afflictionname.afimipenem>Imipenem</afflictionname.afimipenem>
-    <afflictiondescription.afimipenem></afflictiondescription.afimipenem>
+        <afflictionname.pneumonia>Pneumonia</afflictionname.pneumonia>
+        <afflictiondescription.pneumonia></afflictiondescription.pneumonia>
 
-    <afflictionname.pneumonia>Pneumonia</afflictionname.pneumonia>
-    <afflictiondescription.pneumonia></afflictiondescription.pneumonia>
+        <afflictionname.systemicresponse>Systemic Response</afflictionname.systemicresponse>
+        <afflictiondescription.systemicresponse></afflictiondescription.systemicresponse>
 
-    <afflictionname.systemicresponse>Systemic Response</afflictionname.systemicresponse>
-    <afflictiondescription.systemicresponse></afflictiondescription.systemicresponse>
+        <afflictionname.europancough>Europan Cough</afflictionname.europancough>
+        <afflictiondescription.europancough></afflictiondescription.europancough>
 
-    <afflictionname.europancough>Europan Cough</afflictionname.europancough>
-    <afflictiondescription.europancough></afflictiondescription.europancough>
+        <afflictionname.viralseverity>Viral Severity</afflictionname.viralseverity>
+        <afflictiondescription.viralseverity></afflictiondescription.viralseverity>
 
-    <afflictionname.viralseverity>Viral Severity</afflictionname.viralseverity>
-    <afflictiondescription.viralseverity></afflictiondescription.viralseverity>
+        <afflictionname.afdextromethorphan>Dextromethorphan</afflictionname.afdextromethorphan>
+        <afflictiondescription.afdextromethorphan></afflictiondescription.afdextromethorphan>
 
-    <afflictionname.afdextromethorphan>Dextromethorphan</afflictionname.afdextromethorphan>
-    <afflictiondescription.afdextromethorphan></afflictiondescription.afdextromethorphan>
+        <afflictionname.afremdesivir>Remdesivir</afflictionname.afremdesivir>
+        <afflictiondescription.afremdesivir></afflictiondescription.afremdesivir>
 
-    <afflictionname.afremdesivir>Remdesivir</afflictionname.afremdesivir>
-    <afflictiondescription.afremdesivir></afflictiondescription.afremdesivir>
+        <afflictionname.viralantibodies>Viral Antibodies</afflictionname.viralantibodies>
+        <afflictiondescription.viralantibodies></afflictiondescription.viralantibodies>
 
-    <afflictionname.viralantibodies>Viral Antibodies</afflictionname.viralantibodies>
-    <afflictiondescription.viralantibodies></afflictiondescription.viralantibodies>
-
-</Override></infotexts>
+    </Override>
+</infotexts>

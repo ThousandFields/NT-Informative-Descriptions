@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file is vastly unchanged from the original. Do not translate it. -->
+
+<!-- By ThousandFields -->
+<infotexts language="English" nowhitespace="false" translatedname="English">
+    <Override>
+        <!-- NT Items -->
+        
+        <!-- SurgeryPlus Items -->
+        <entityname.mannitolplus>Mannitol Plus</entityname.mannitolplus>
+        <entitydescription.mannitolplus>An improved mannitol formula. It will treat some ‖color:gui.green‖neurotrauma‖end‖, regardless of patient stability, and does not damage organs.</entitydescription.mannitolplus>
+        
+        <entityname.artificialbrain>Artificial brain</entityname.artificialbrain>
+        <entitydescription.artificialbrain>An artificial brain transplant that keeps a body alive when the original brain is removed.</entitydescription.artificialbrain>
+        
+        <entityname.surgeonclothes>Surgeon outfit</entityname.surgeonclothes>
+        <entitydescription.surgeonclothes>A sterile surgical scrub for the prevention of infection during surgery.</entitydescription.surgeonclothes>
+        
+        <entityname.surgicalmask>Surgical mask</entityname.surgicalmask>
+        <entitydescription.surgicalmask>A mask that keeps airborne pathogens away from your patient during surgery.</entitydescription.surgicalmask>
+        
+        <entityname.brainjar>Brain jar</entityname.brainjar>
+        <entitydescription.brainjar>A container to hold brain transplants indefinitely.</entitydescription.brainjar>
+        
+        <entityname.surgicaldrapes>Surgical drapes</entityname.surgicaldrapes>
+        <entitydescription.surgicaldrapes>Sterile sheets to prevent infection during surgery.</entitydescription.surgicaldrapes>
+        
+        <entityname.skillbooksurgery>'Medical Misconduct'</entityname.skillbooksurgery>
+        <entitydescription.skillbooksurgery>A handbook containing numerous surgical procedures and steps to reproduce them.</entitydescription.skillbooksurgery>
+        
+        <entityname.triagetag>Triage tag (automatic)</entityname.triagetag>
+        <entitydescription.triagetag>A label that is used to efficiently determine the type and urgency of care required for a patient in the case of a mass casualty event.</entitydescription.triagetag>
+        
+        <entityname.manualtriagetag>Triage tag (manual)</entityname.manualtriagetag>
+        <entitydescription.manualtriagetag>A manual triage tag. Apply to the legs for green, arms for yellow, torso for red and head for black.</entitydescription.manualtriagetag>
+        
+        <entityname.experimentaltreatment>Experimental treatment</entityname.experimentaltreatment>
+        <entitydescription.experimentaltreatment>A highly experimental drug that can cause either a little (or a lot) of good (or bad).</entitydescription.experimentaltreatment>
+
+        <!-- NT Afflictions -->
+        <afflictiondescription.ointmented>A layer of antibiotic gel protects and cleans the wound from any germs. Prevents sepsis during surgery.</afflictiondescription.ointmented>
+
+        <!-- SurgeryPlus Afflictions -->
+        <afflictionname.preventativepermit>Preventative Permit</afflictionname.preventativepermit>
+        <afflictiondescription.preventativepermit>Serious injury is less likely.</afflictiondescription.preventativepermit>
+        
+        <afflictionname.artificialbrain>Artificial brain</afflictionname.artificialbrain>
+        <afflictiondescription.artificialbrain>The patient is permanently unconscious, but the body remains alive.</afflictiondescription.artificialbrain>
+        
+        <afflictionname.triagetag_green>Tagged: Minor</afflictionname.triagetag_green>
+        <afflictiondescription.triagetag_green>The patient has been gived the "minor" triage tag. They don't require treatment.</afflictiondescription.triagetag_green>
+        
+        <afflictionname.triagetag_yellow>Tagged: Delayed</afflictionname.triagetag_yellow>
+        <afflictiondescription.triagetag_yellow>The patient has been gived the "delayed" triage tag. Their injuries are not life-threatening.</afflictiondescription.triagetag_yellow>
+        
+        <afflictionname.triagetag_red>Tagged: Immediate</afflictionname.triagetag_red>
+        <afflictiondescription.triagetag_red>The patient has been gived the "immediate" triage tag. They require immediate treatment.</afflictiondescription.triagetag_red>
+        
+        <afflictionname.triagetag_black>Tagged: Deceased</afflictionname.triagetag_black>
+        <afflictiondescription.triagetag_black>The patient has been gived the "deceased" triage tag. Medical attention is better spent elsewhere. They are as good as gone.</afflictiondescription.triagetag_black>
+
+
+        <!-- SurgeryPlus Other -->
+        <jobname.surgeon>Surgeon</jobname.surgeon>
+        <jobdescription.surgeon>While the medical doctor is better suited for first aid and quick response, the surgeon specializes in the optimization of surgical procedures. Lower risk of infection, faster execution, if it's related to surgery, the surgeon has it.</jobdescription.surgeon>
+        <skillname.surgery>Surgical</skillname.surgery>
+
+        <talenttree.ethicalmedicine>Ethical Medicine</talenttree.ethicalmedicine>
+        
+        <talenttree.dabblingpharmacist>Dabbling Pharmacist</talenttree.dabblingpharmacist>
+        
+        <talenttree.fieldsurgeon>Field Surgeon</talenttree.fieldsurgeon>
+        
+        <talentname.ntsp_adrenalinepump>Adrenaline Pump</talentname.ntsp_adrenalinepump>
+        <talentdescription.ntsp_rapiddeoploymentdrag>Drag bodies at full speed.</talentdescription.ntsp_rapiddeoploymentdrag>
+        <talentdescription.ntsp_rapiddeoployment>Gain additional movement speed equal to [skillpercentage]% of your surgery skill.</talentdescription.ntsp_rapiddeoployment>
+        
+        <talentname.ntsp_autodidact>Autodidact</talentname.ntsp_autodidact>
+        <talentdescription.ntsp_autodidact>Gain [amount]% bonus XP on completing a mission where you perform medical services on a crew member.</talentdescription.ntsp_autodidact>
+        
+        <talentname.ntsp_surgeonsintuition>Surgeon's Intuition</talentname.ntsp_surgeonsintuition>
+        <talentdescription.ntsp_surgeonsintuition>Whenever you open a medical (or alien) container for the first time, you have a [probability]% chance of finding additional items.</talentdescription.ntsp_surgeonsintuition>
+        
+        <talentname.ntsp_fellowtoaster>How do you do, fellow engineers?</talentname.ntsp_fellowtoaster>
+        
+        <talentname.ntsp_homecarepackage>Preperation Package</talentname.ntsp_homecarepackage>
+        <talentdescription.ntsp_homecarepackage>At the start of every round, gain:</talentdescription.ntsp_homecarepackage>
+        
+        <talentname.ntsp_injectorgeneral>Injector General</talentname.ntsp_injectorgeneral>
+        <talentdescription.ntsp_injectorgeneral>Medical items you apply gain [amount]% effectiveness.</talentdescription.ntsp_injectorgeneral>
+        
+        <talentname.ntsp_underpressure>Under Pressure</talentname.ntsp_underpressure>
+        <talentdescription.ntsp_underpressure>Unconscious patients next to you gain [amount]% bloodloss, organ damage and neurotrauma resistance.</talentdescription.ntsp_underpressure>
+        
+        <talentname.ntsp_fisharespecimens>Fish are specimens, not food!</talentname.ntsp_fisharespecimens>
+        <talentdescription.ntsp_fisharespecimens>When you or another crewmember kills a monster while outside your submarine, you have a [amount]% chance of finding a random genetic material on it.</talentdescription.ntsp_fisharespecimens>
+        
+        <talentname.ntsp_bedsidemanner>Fine Bedside Manner</talentname.ntsp_bedsidemanner>
+        <talentdescription.ntsp_bedsidemanner>Patients near you passively heal at an accelerated rate. The effect is doubled if they are laying in bed.</talentdescription.ntsp_bedsidemanner>
+        
+        <talentname.ntsp_brucereitzperk>My name's Bruce... Reitz</talentname.ntsp_brucereitzperk>
+        <talentdescription.ntsp_brucereitzperk>Organs you extract sell for full price and organs you transplant never get rejected.</talentdescription.ntsp_brucereitzperk>
+        
+        <talentname.ntsp_ultrasoniccleaner>Ultrasonic Cleaner</talentname.ntsp_ultrasoniccleaner>
+        
+        <talentdescription.ntsp_rnr>Drainages, endovascular balloons and needles no longer get consumed when you use them.</talentdescription.ntsp_rnr>
+        
+        <talentdescription.ntsp_sterlise>Gain [amount] bonus to sterility checks, less sepsis - horray!</talentdescription.ntsp_sterlise>
+        
+        <talentname.ntsp_therapisttintraining>Therapist-in-Training</talentname.ntsp_therapisttintraining>
+        <talentdescription.ntsp_therapisttintraining>Gain [amount]% extra health.</talentdescription.ntsp_therapisttintraining>
+        
+        <talentname.ntsp_experimental>Unethical Sourcing</talentname.ntsp_experimental>
+        
+        <talentname.ntsp_mannitol>Mannitol Maniac</talentname.ntsp_mannitol>
+        
+        <talentname.ntsp_selfcare>Self Care</talentname.ntsp_selfcare>
+        <talentdescription.ntsp_selfcarepsychosis>Gain [amount]% [affliction] resistance.</talentdescription.ntsp_selfcarepsychosis>
+        
+        <talentname.ntsp_rapiddeoployment>Rapid Deployment</talentname.ntsp_rapiddeoployment>
+        
+        <talentname.ntsp_captainresist>Please stop shooting me for fun captain</talentname.ntsp_captainresist>
+        
+        <talentname.ntsp_fallenandcantgetup>I've fallen and I can't get up!</talentname.ntsp_fallenandcantgetup>
+        
+        <talentname.ntsp_preventativepermit>Preventative Permit</talentname.ntsp_preventativepermit>
+        <talentdescription.ntsp_preventativepermit>The last person you ordered gains [physicalresistance]% damage resistance and is less likely to suffer serious injuries.</talentdescription.ntsp_preventativepermit>
+        
+        <talentname.ntsp_imasurgeonnota>I'm a surgeon, not a...</talentname.ntsp_imasurgeonnota>
+        <talentdescription.ntsp_imasurgeonnota1>Using your superior "Surgeon Intellect™" you can gain [amount] bonus skill, just like that!</talentdescription.ntsp_imasurgeonnota1>
+        <talentdescription.ntsp_imasurgeonnota2>Or, you can select [jobname], which will instead give you [amount] bonus skills to everything.</talentdescription.ntsp_imasurgeonnota2>
+        
+        <talentname.ntsp_properfol>Don't you die on me, Soldier!</talentname.ntsp_properfol>
+        <talentdescription.ntsp_properfol>[itemname] that you administer instantly takes effect.</talentdescription.ntsp_properfol>
+    </Override>
+</infotexts>

@@ -4,7 +4,7 @@
 <infotexts language="English" nowhitespace="false" translatedname="English">
     <Override>
         <!-- Vanilla Items -->
-        <entitydescription.antibiotics>An antibiotic that is slightly effective against ‖color:gui.green‖strepococcal‖end‖ and ‖color:gui.green‖staphylcoccal‖end‖ infections, and also against ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
+        <entitydescription.antibiotics>An antibiotic that is slightly effective against ‖color:gui.green‖streptococcal‖end‖ and ‖color:gui.green‖staphylcoccal‖end‖ infections, and also against ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
 
         <entitydescription.antirad>Slows down cellular degradation caused by radiation. Along with dissolving organs, severe radiation will compromise the ‖color:gui.red‖immune system‖end‖. On failure, it is less effective.</entitydescription.antirad>
 

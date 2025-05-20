@@ -139,8 +139,13 @@ local ClientLanguage = tostring(GameSettings.currentConfig.Language)
 local prev_language = ClientLanguage
 
 LuaUserData.MakeFieldAccessible(Descriptors['Barotrauma.ContentPackageManager+EnabledPackages'], 'regular')
-LuaUserData.MakeMethodAccessible(Descriptors['Barotrauma.ContentPackageManager+EnabledPackages'], 'SortContent')
+-- LuaUserData.MakeMethodAccessible(Descriptors['Barotrauma.ContentPackageManager+EnabledPackages'], 'SortContent')
 LuaUserData.RegisterType("System.Collections.Generic.List`1[[Barotrauma.RegularPackage,Barotrauma]]")
+
+LuaUserData.RegisterType("System.Collections.Immutable.ImmutableList`1[[Barotrauma.TextPack,Barotrauma]]")
+LuaUserData.RegisterType("System.Collections.Immutable.ImmutableList`1+Builder[[Barotrauma.TextPack,Barotrauma]]")
+
+LuaUserData.RegisterType("System.Collections.Concurrent.ConcurrentDictionary`2[[Barotrauma.LanguageIdentifier,Barotrauma],[System.Collections.Immutable.ImmutableList`1[[Barotrauma.TextPack,Barotrauma]],System.Collections.Immutable]]")
 
 
 function EnableTextFile(file, workshopId)
@@ -292,7 +297,42 @@ function LoadPatches()
 
     --For whatever reason content specific Sort isnt static method and i dont want to be sorting all the content in game
     --ContentPackageManager.EnabledPackages.SortContent()
-    if FileList[1] then FileList[1].Sort() end
+    --if FileList[1] then FileList[1].Sort() end
+
+    if FileList[1] then
+        local textpacks = TextManager.TextPacks[GameSettings.CurrentConfig.Language].ToBuilder()
+        local firstindex = 0
+        local selfindex = 0
+
+        --for pack in textpacks do print(pack.ContentFile.Path) end
+
+        for i = 0, textpacks.Count-1, 1 do
+            if textpacks[i].ContentFile.ContentPackage == pkg then
+                selfindex = i
+                break
+            end
+        end
+
+        --print(textpacks[selfindex].ContentFile.Path)
+
+        for i = textpacks.Count-1, 0, -1 do
+            if textpacks[i].ContentFile.ContentPackage ~= pkg then
+                firstindex = i+1
+                break
+            end
+        end
+
+        local range = textpacks.GetRange(firstindex, textpacks.Count-firstindex)
+
+        for i=textpacks.Count-1, firstindex, -1 do
+            textpacks.RemoveAt(i)
+        end
+        
+        textpacks.InsertRange(selfindex, range)
+        textpacks = textpacks.ToImmutable()
+
+        TextManager.TextPacks.TryUpdate(GameSettings.CurrentConfig.Language, textpacks,  TextManager.TextPacks[GameSettings.CurrentConfig.Language])
+    end
 end
 
 function StripModDir(filepath)
@@ -480,3 +520,20 @@ else
     DisableNTID()
 end
 --ContentPackageManager.ReloadContentPackage(pkg)
+
+Game.AddCommand("ntid_debug", "Shows various debug info", function()
+    print("###TEST1###")
+    for pack in TextManager.TextPacks[GameSettings.CurrentConfig.Language] do print(pack.ContentFile.Path) end
+    print("\n###TEST2###")
+    for k, v in pairs(modconfig) do 
+        print(k, " > ", v) 
+        for k1, v1 in pairs(v) do 
+            print(k1, " >> ", v1)
+            if type(v1) == "table" then
+                for k2, v2 in pairs(v1) do
+                    print(k2, " >>> ", v2)
+                end
+            end
+       end 
+    end
+end, GetValidArguments)

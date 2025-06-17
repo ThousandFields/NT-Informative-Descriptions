@@ -52,7 +52,7 @@
 		<afflictiondescription.t_fracture>One or more ribs have been broken, likely due to physical trauma. The structural instability may cause pneumothorax. It must be repaired in an osteosynthesis surgery.</afflictiondescription.t_fracture>
 		
 		<afflictionname.h_fracture>Fractured skull</afflictionname.h_fracture>
-		<afflictiondescription.h_fracture>The skull has been broken, likely due to physical trauma. Bone fragments and structural instability will cause a small amount of neurotrauma. It must be repaired in an osteosynthesis surgery.</afflictiondescription.h_fracture>
+		<afflictiondescription.h_fracture>The skull has been broken, likely due to physical trauma. Compromised structural integrity will prevent neurotrauma from naturally decreasing. It must be repaired in an osteosynthesis surgery.</afflictiondescription.h_fracture>
 		
 		<afflictionname.n_fracture>Fractured neck</afflictionname.n_fracture>
 		<afflictiondescription.n_fracture>The neck has been broken due to trauma. Structural instability exposes the spinal cord, causing injury to it with ease. It must be repaired in an osteosynthesis surgery.</afflictiondescription.n_fracture>

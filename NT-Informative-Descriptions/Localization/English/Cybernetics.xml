@@ -16,6 +16,13 @@
 
         <entitydescription.steel>A strong metal alloy of iron and carbon. Used in fuel rod manufacturing, as well as many military applications. Also used to replace ‖color:gui.green‖lost material‖end‖ on a ‖color:gui.blue‖cyberlimb‖end‖.</entitydescription.steel>
 
+        <!-- NT Afflictions -->
+        <entityname.armlock1>Non-functional Right Hand</entityname.armlock1>
+		<entitydescription.armlock1>This hand is not working, due to the right arm being ‖color:gui.red‖dislocated‖end‖, ‖color:gui.red‖fractured‖end‖, or ‖color:gui.red‖missing entirely‖end‖. If there is a cybernetic attached, it is unusable due to severe damage or an electrical malfunction.</entitydescription.armlock1>
+		
+		<entityname.armlock2>Non-functional Left Hand</entityname.armlock2>
+		<entitydescription.armlock2>This hand is not working, due to the left arm being ‖color:gui.red‖dislocated‖end‖, ‖color:gui.red‖fractured‖end‖, or ‖color:gui.red‖missing entirely‖end‖. If there is a cybernetic attached, it is unusable due to severe damage or an electrical malfunction.</entitydescription.armlock2>
+
         <!-- Cybernetics Improved Items -->
         <entityname.cyberarm>Cyberarm</entityname.cyberarm>
         <entitydescription.cyberarm>A powerful inorganic arm which cannot ‖color:gui.green‖bleed‖end‖ or ‖color:gui.green‖fracture‖end‖. Additionally, it will increase ‖color:gui.green‖swimming speed‖end‖ and ‖color:gui.green‖melee damage‖end‖. However, it requires ‖color:gui.red‖maintenance‖end‖ and is susceptible to ‖color:gui.red‖water damage‖end‖. It can be installed after amputation.</entitydescription.cyberarm>

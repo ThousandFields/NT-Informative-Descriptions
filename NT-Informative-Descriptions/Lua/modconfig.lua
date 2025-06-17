@@ -47,7 +47,7 @@ local config = {
 		supportedlanguages = {"English","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "3324062208",
-		loadpriority = 0,
+		loadpriority = 1,
 		files = {"%ModDir%/Localization/%Language%/Cybernetics.xml"}
 	},
 

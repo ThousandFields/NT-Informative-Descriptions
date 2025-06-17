@@ -274,6 +274,9 @@
 		
 		<entityname.surgerytoolbox>Surgery Toolbox</entityname.surgerytoolbox>
 		<entitydescription.surgerytoolbox>Can store many small items that are used during surgery.</entitydescription.surgerytoolbox>
+
+		<entityname.surgerytoolboxset>Surgery Toolbox</entityname.surgerytoolboxset>
+		<entitydescription.surgerytoolboxset>Can store many small items that are used during surgery.</entitydescription.surgerytoolboxset>
 		
 		<entityname.organtoolbox>Refrigerated Container</entityname.organtoolbox>
 		<entitydescription.organtoolbox>A container to store precious transplant-ready organs and limbs. Organs will decay quickly when left outside, while limbs will decay slower. Organs and limbs will regenerate when refrigerated, but only if the organ is above 90% condition, or the limb is above 95% condition.</entitydescription.organtoolbox>

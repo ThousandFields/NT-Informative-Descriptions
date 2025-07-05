@@ -194,7 +194,7 @@
 		<multiscalpel.heart>Mode: Extract heart</multiscalpel.heart>
 		<multiscalpel.brain>Mode: Extract brain</multiscalpel.brain>
 		<multiscalpel.bandage>Mode: Remove bandages, casts, and malpractice. Equip in hand to change mode.</multiscalpel.bandage>
-		<multiscalpel.speedflex>Mode: Adaptive organ extraction. After skin retraction, use on the respective limb to obtain the following organs. Equip in hand to change mode.
+		<multiscalpel.speedflex>Mode: Adaptive organ extraction. After ‖color:gui.blue‖skin retraction‖end‖, use on the respective limb to obtain the following ‖color:gui.blue‖organs‖end‖. Equip in hand to change mode.
 Head: ‖color:gui.blue‖Brain‖end‖
 Left Arm: ‖color:gui.blue‖Kidneys‖end‖
 Torso: ‖color:gui.blue‖Liver‖end‖

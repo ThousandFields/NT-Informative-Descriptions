@@ -194,7 +194,12 @@
 		<multiscalpel.heart>Mode: Extract heart</multiscalpel.heart>
 		<multiscalpel.brain>Mode: Extract brain</multiscalpel.brain>
 		<multiscalpel.bandage>Mode: Remove bandages, casts, and malpractice. Equip in hand to change mode.</multiscalpel.bandage>
-		<multiscalpel.speedflex>Mode: Adaptive organ extraction. Use on head for brain, left arm for kidneys, torso for liver, right arm for heart, left leg for lungs. Equip in hand to change mode.</multiscalpel.speedflex>
+		<multiscalpel.speedflex>Mode: Adaptive organ extraction. After skin retraction, use on the respective limb to obtain the following organs. Equip in hand to change mode.
+Head: ‖color:gui.blue‖Brain‖end‖
+Left Arm: ‖color:gui.blue‖Kidneys‖end‖
+Torso: ‖color:gui.blue‖Liver‖end‖
+Right Arm: ‖color:gui.blue‖Heart‖end‖
+Left Leg: ‖color:gui.blue‖Lungs‖end‖</multiscalpel.speedflex>
 
 		<multiscalpel.btn.incision>Incision</multiscalpel.btn.incision>
 		<multiscalpel.btn.kidneys>Kidneys</multiscalpel.btn.kidneys>

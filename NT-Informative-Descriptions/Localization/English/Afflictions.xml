@@ -19,13 +19,13 @@
 		<afflictiondescription.explosiondamage>The area is colored purple. The tissue underneath feels different than the surrounding skin. An infection is likely, and so is shrapnel. This wound does not naturally heal beyond 50%.</afflictiondescription.explosiondamage>
 		<afflictiondescription.explosiondamage.low>The area of skin appears slightly bruised. There might be an infection or remaining shrapnel.</afflictiondescription.explosiondamage.low>
 
-		<afflictiondescription.bleeding>Blood pours freely from this ragged and particularly nasty open wound. If it gets any worse, it may induce an arterial rupture. As these are small-vessel ruptures, it cannot increase bloodloss past 60% alone.</afflictiondescription.bleeding>
-		<afflictiondescription.bleeding.low>Blood is slowly dripping out from the wound. As these are small-vessel ruptures, it cannot increase bloodloss past 60% alone.</afflictiondescription.bleeding.low>
-		<afflictiondescription.bleeding.high>Blood is gushing out at an alarming rate. It might induce an arterial rupture. As these are small-vessel ruptures, it cannot increase bloodloss past 60% alone.</afflictiondescription.bleeding.high>
+		<afflictiondescription.bleeding>Blood pours freely from this ragged and particularly nasty open wound. If it gets any worse, it may induce an arterial rupture.</afflictiondescription.bleeding>
+		<afflictiondescription.bleeding.low>Blood is slowly dripping out from the wound.</afflictiondescription.bleeding.low>
+		<afflictiondescription.bleeding.high>Blood is gushing out at an alarming rate. It might induce an arterial rupture.</afflictiondescription.bleeding.high>
 
-		<afflictiondescription.bleedingnonstop>Blood pours freely from this ragged and particularly nasty open wound. If it gets any worse, it may induce an arterial rupture. As these are small-vessel ruptures, it cannot increase bloodloss past 60% alone.</afflictiondescription.bleedingnonstop>
-		<afflictiondescription.bleedingnonstop.low>Blood is slowly dripping out from the wound. As these are small-vessel ruptures, it cannot increase bloodloss past 60% alone.</afflictiondescription.bleedingnonstop.low>
-		<afflictiondescription.bleedingnonstop.high>Blood is gushing out at an alarming rate. It might induce an arterial rupture. As these are small-vessel ruptures, it cannot increase bloodloss past 60% alone.</afflictiondescription.bleedingnonstop.high>
+		<afflictiondescription.bleedingnonstop>Blood pours freely from this ragged and particularly nasty open wound. If it gets any worse, it may induce an arterial rupture.</afflictiondescription.bleedingnonstop>
+		<afflictiondescription.bleedingnonstop.low>Blood is slowly dripping out from the wound.</afflictiondescription.bleedingnonstop.low>
+		<afflictiondescription.bleedingnonstop.high>Blood is gushing out at an alarming rate. It might induce an arterial rupture.</afflictiondescription.bleedingnonstop.high>
 
 		<afflictiondescription.nausea>The skin is clammy and the patient is vomiting periodically. Vomiting will cause alkalosis.</afflictiondescription.nausea>
 		<afflictiondescription.nausea.low>Feeling queasy, but nothing a rest wouldn't fix. Vomiting will cause alkalosis.</afflictiondescription.nausea.low>

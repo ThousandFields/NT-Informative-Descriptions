@@ -302,18 +302,14 @@ function LoadPatches()
     if FileList[1] then
         local textpacks = TextManager.TextPacks[GameSettings.CurrentConfig.Language].ToBuilder()
         local firstindex = 0
-        local selfindex = 0
-
-        --for pack in textpacks do print(pack.ContentFile.Path) end
+        local targetindex = 0
 
         for i = 0, textpacks.Count-1, 1 do
-            if textpacks[i].ContentFile.ContentPackage == pkg then
-                selfindex = i
+            if textpacks[i].ContentFile.ContentPackage.Name ~= "Vanilla" then
+                targetindex = i
                 break
             end
         end
-
-        --print(textpacks[selfindex].ContentFile.Path)
 
         for i = textpacks.Count-1, 0, -1 do
             if textpacks[i].ContentFile.ContentPackage ~= pkg then
@@ -324,11 +320,15 @@ function LoadPatches()
 
         local range = textpacks.GetRange(firstindex, textpacks.Count-firstindex)
 
+        -- for pack in range do
+        --     print(pack.ContentFile.Path)
+        -- end
+
         for i=textpacks.Count-1, firstindex, -1 do
             textpacks.RemoveAt(i)
         end
         
-        textpacks.InsertRange(selfindex, range)
+        textpacks.InsertRange(targetindex, range)
         textpacks = textpacks.ToImmutable()
 
         TextManager.TextPacks.TryUpdate(GameSettings.CurrentConfig.Language, textpacks,  TextManager.TextPacks[GameSettings.CurrentConfig.Language])

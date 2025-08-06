@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- NT Infections Russian Translation by FireHoundzz -->
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+    <Override>
+        <!-- Vanilla Items -->
+        <entitydescription.antibiotics>Антибиотики, которые немного эффективны против ‖color:gui.green‖стрептококковых‖end‖ и ‖color:gui.green‖стафилококковых‖end‖ инфекций, а также против ‖color:gui.green‖заражения паразитами‖end‖. Однако, имеют малую направленность и вызывают ‖color:gui.red‖повреждения органов‖end‖. Используются как ингредиент в нескольких медицинских соединениях. При неудаче менее эффективны.</entitydescription.antibiotics>
+
+        <entitydescription.antirad>Замедляет клеточную деградация, вызванную радиацией. Помимо растворения органов, тяжёлые случаи лучевой болезни ослабляют ‖color:gui.red‖имунную систему‖end‖. При неудаче менее эффективен.</entitydescription.antirad>
+
+        <!-- NT Items -->
+        <entityname.bloodanalyzer>Гематологический анализатор</entityname.bloodanalyzer>
+        <entitydescription.bloodanalyzer>Прибор для отображения группы крови и иммунитета пациента. Дополнительно показывает наличие у пациента кровопотери, сепсиса, ацидоза, алкалоза, медицинских препаратов в кровотоке, или заражения крови. Если вставлена ‖color:gui.blue‖пустая карта донора‖end‖, прибор напечатает группу крови пациента на их удостоверение личности. Если вставлен ‖color:gui.blue‖пакет крови‖end‖, будут отображены содержащиеся в ней сепсис, алкалоз или ацидоз. Каждое использование анализатора требует немного ‖color:gui.red‖крови‖end‖.</entitydescription.bloodanalyzer>
+
+        <!-- NT Afflictions -->
+        <afflictionname.fever>Лихорадка</afflictionname.fever>
+        <afflictiondescription.fever>Высокая температура тела. Обычно это вызывается сепсисом или Европианским Кашлем.</afflictiondescription.fever>
+
+        <afflictionname.sym_jaundice>Желтуха</afflictionname.sym_jaundice>
+        <afflictiondescription.sym_jaundice>Кожа окрасилась в жёлтый цвет. Вызывается повреждением печени или Ремдесивиром.</afflictiondescription.sym_jaundice>
+
+        <afflictionname.sym_headache>Головная боль</afflictionname.sym_headache>
+        <afflictiondescription.sym_headache>Боль в голове. Обычно вызывается гипоксемией, переломом черепа, ацидозом, контузией, сердечным приступом, или Европианским Кашлем.</afflictiondescription.sym_headache>
+
+        <afflictionname.sym_weakness>Слабость</afflictionname.sym_weakness>
+        <afflictiondescription.sym_weakness>Сниженная активность мускулатуры в конечностях. Вызывается сердечной тампонадой, кровопотерей, ацидозом или Европианским Кашлем.</afflictiondescription.sym_weakness>
+
+        <afflictionname.sym_wheezing>Свистящие хрипы</afflictionname.sym_wheezing>
+        <afflictiondescription.sym_wheezing>При дыхании издаются посторонние звуки. Вызывается гемотрансфузионном шоком или Европианским кашлем.</afflictiondescription.sym_wheezing>
+
+        <afflictionname.sym_nausea>Тошнота</afflictionname.sym_nausea>
+        <afflictiondescription.sym_nausea>Состояние тошноты. Обычно вызывается повреждением почек, контузией, наркотической ломкой, гемотрансфузионным шоком или Европианским кашлем. Рвота вызывает алкалоз.</afflictiondescription.sym_nausea>
+
+        <afflictionname.pain_abdominal>Боль в животе</afflictionname.pain_abdominal>
+        <afflictiondescription.pain_abdominal>Болезненное ощущение в животе. Вызывается гемотрансфузионным шоком или сепсисом.</afflictiondescription.pain_abdominal>
+
+        <afflictionname.pain_chest>Боль в груди</afflictionname.pain_chest>
+        <afflictiondescription.pain_chest>Острая боль в груди. Вызвано переломом ребёр, гемотрансфузионном шоком, пневмонией или Европианским кашлем.</afflictiondescription.pain_chest>
+
+        <afflictionname.pain_extremity>Сильная боль</afflictionname.pain_extremity>
+        <afflictiondescription.pain_extremity>Невыносимая боль. Обычно вызвано вывихами, переломами, сепсисом или некротизирующим фасциитом.</afflictiondescription.pain_extremity>
+
+        <afflictionname.sym_cough>Кашель</afflictionname.sym_cough>
+        <afflictiondescription.sym_cough>Периодический кашель. Вызвано сердечной тампонадой, повреждением лёгких, сердца, пневмонией или Европианским кашлем.</afflictiondescription.sym_cough>
+
+        <afflictionname.dyspnea>Сбивчивое дыхание</afflictionname.dyspnea>
+        <afflictiondescription.dyspnea>Дыхание затруднено. Обычно вызвано сердечной тампонадой, пневмотораксом, гипоксемией, пневмонией или Европианским кашлем.</afflictiondescription.dyspnea>
+
+        <afflictionname.respiratoryarrest>Остановка дыхания</afflictionname.respiratoryarrest>
+        <afflictiondescription.respiratoryarrest>Нет дыхания. Смертельное состояние, которое предотвращает насыщение крови кислородом. Обычно вызывается гипоксемией, нейротравмой, передозировкой опиатов или Европианским кашлем. Искусственная вентиляция лёгких предотвращает это состояние и вызываемый им ацидоз.</afflictiondescription.respiratoryarrest>
+
+        <!-- Antibiotics -->
+        <entityname.ampicillin>Ампициллин</entityname.ampicillin>
+        <entitydescription.ampicillin>Антибиотик класса аминопенициллинов, эффективный в лечении ‖color:gui.green‖стрептококков‖end‖ и умеренно эффективен против ‖color:gui.green‖стафилококков‖end‖. Немного ‖color:gui.red‖токсичен‖end‖ для почек. При неудаче становится более ‖color:gui.red‖токсичным‖end‖.</entitydescription.ampicillin>
+
+        <entityname.augmentin>Аугментин</entityname.augmentin>
+        <entitydescription.augmentin>Антибиотик класса аминопенициллинов в сочетании с ингибитором бета-лактамаз. Эффективен против ‖color:gui.green‖стрептококков‖end‖, ‖color:gui.green‖стафилококов‖end‖, и в меру эффективен против ‖color:gui.green‖провобактериальных инфекций‖end‖. Умеренно ‖color:gui.red‖токсичен‖end‖ для почек. При неудаче становится более ‖color:gui.red‖токсичным‖end‖.</entitydescription.augmentin>
+
+        <entityname.vancomycin>Ванкомицин</entityname.vancomycin>
+        <entitydescription.vancomycin>Гликопептидный антибиотик. Эффективен против ‖color:gui.green‖стрептококков‖end‖, ‖color:gui.green‖стафилококков‖end‖ и ‖color:gui.green‖МРЗС‖end‖. Сильно ‖color:gui.red‖токсичен‖end‖ для почек. При неудаче становится более ‖color:gui.red‖токсичным‖end‖.</entitydescription.vancomycin>
+
+        <entityname.gentamicin>Гентамицин</entityname.gentamicin>
+        <entitydescription.gentamicin>Аминогликозидный антибиотик. Эффективен против ‖color:gui.green‖псевдомонад‖end‖, ‖color:gui.green‖провобактерий‖end‖ и немного эффективен против ‖color:gui.green‖стафилококковых‖end‖ инфекций. Сильно ‖color:gui.red‖токсичен‖end‖ для почек. При неудаче становится более ‖color:gui.red‖токсичным‖end‖.</entitydescription.gentamicin>
+
+        <entityname.cotrim>Ко-тримоксазол</entityname.cotrim>
+        <entitydescription.cotrim>Комбинированный антибиотик. Эффективен против ‖color:gui.green‖стрептококков‖end‖, ‖color:gui.green‖стафилококков‖end‖, и в меру эффективен против ‖color:gui.green‖МРЗС‖end‖. Умеренно ‖color:gui.red‖токсичен‖end‖ для почек. При неудаче становится более ‖color:gui.red‖токсичным‖end‖.</entitydescription.cotrim>
+
+        <entityname.imipenem>Имипенем</entityname.imipenem>
+        <entitydescription.imipenem>Комбинированный карбапенемный антибиотик. Умеренно эффективен против ‖color:gui.green‖стрептококков‖end‖, ‖color:gui.green‖стафилококков‖end‖, ‖color:gui.green‖псевдомонад‖end‖, и немного эффективен против ‖color:gui.green‖провобактериальных‖end‖ инфекций. Умеренно ‖color:gui.red‖токсичен‖end‖ для почек. При неудаче становится более ‖color:gui.red‖токсичным‖end‖.</entitydescription.imipenem>
+
+        <!-- Vaccine Items -->
+        <entityname.strepvac>Вакцина против стрептококков</entityname.strepvac>
+        <entitydescription.strepvac>Вакцина, которая подготавливает иммунную систему к борьбе со штаммами ‖color:gui.green‖стрептококков‖end‖. Инфекции крови могут вызвать пневмонию, которая пройдёт естественным образом при излечении от инфекции.</entitydescription.strepvac>
+
+        <entityname.staphvac>Вакцина против стафилококков</entityname.staphvac>
+        <entitydescription.staphvac>Вакцина, которая подготавливает иммунную систему к борьбе со штаммами ‖color:gui.green‖стафилококков‖end‖. Инфекции крови могут вызвать пневмонию, которая пройдёт естественным образом при излечении от инфекции.</entitydescription.staphvac>
+        
+        <entityname.pseudovac>Вакцина против псевдомонад</entityname.pseudovac>
+        <entitydescription.pseudovac>Вакцина, которая подготавливает иммунную систему к борьбе со штаммами ‖color:gui.green‖псевдомонад‖end‖. Инфекции крови могут вызвать пневмонию, которая пройдёт естественным образом при излечении от инфекции.</entitydescription.pseudovac>
+
+        <entityname.provovac>Вакцина против провобактер</entityname.provovac>
+        <entitydescription.provovac>Вакцина, которая подготавливает иммунную систему к борьбе со штаммами ‖color:gui.green‖провобактер‖end‖. Инфекции крови могут вызвать пневмонию, которая пройдёт естественным образом при излечении от инфекции.</entitydescription.provovac>
+
+        <!-- Vaccine Afflictions -->
+        <afflictionname.afstrepvac>Вакцина против стрептококков</afflictionname.afstrepvac>
+        <afflictiondescription.afstrepvac>Имунная система готова противостоять стрептококковым инфекциям.</afflictiondescription.afstrepvac>
+
+        <afflictionname.afstaphvac>Вакцина против стафилококков</afflictionname.afstaphvac>
+        <afflictiondescription.afstaphvac>Имунная система готова противостоять стафилококковым инфекциям.</afflictiondescription.afstaphvac>
+
+        <afflictionname.afpseudovac>Вакцина против псевдомонад</afflictionname.afpseudovac>
+        <afflictiondescription.afpseudovac>Имунная система готова противостоять псевдомонадным инфекциям.</afflictiondescription.afpseudovac>
+
+        <afflictionname.afprovovac>Вакцина против провобактер</afflictionname.afprovovac>
+        <afflictiondescription.afprovovac>Имунная система готова противостоять провобактериальным инфекциям.</afflictiondescription.afprovovac>
+
+        <!-- Bioweapons-->
+        <entityname.weaponstrep>Оружейный стрептококк</entityname.weaponstrep>
+        <entitydescription.weaponstrep>Шприц, наполненный штаммом ‖color:gui.red‖стрептококка‖end‖ с целью заражения цели. Может быть возвращён в ‖color:gui.blue‖культуральную пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.weaponstrep>
+
+        <entityname.weaponstaph>Оружейный стафилококк</entityname.weaponstaph>
+        <entitydescription.weaponstaph>Шприц, наполненный штаммом ‖color:gui.red‖стафилококка‖end‖ с целью заражения цели. Может быть возвращён в ‖color:gui.blue‖культуральную пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.weaponstaph>
+
+        <entityname.weaponmrsa>Оружейный МРЗС</entityname.weaponmrsa>
+        <entitydescription.weaponmrsa>Шприц, наполненный штаммом ‖color:gui.red‖МРЗС‖end‖ с целью заражения цели. Может быть возвращён в ‖color:gui.blue‖культуральную пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.weaponmrsa>
+
+        <entityname.weaponpseudo>Оружейные псевдомонады</entityname.weaponpseudo>
+        <entitydescription.weaponpseudo>Шприц, наполненный штаммом ‖color:gui.red‖псевдомонады‖end‖ с целью заражения цели. Может быть возвращён в ‖color:gui.blue‖культуральную пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.weaponpseudo>
+
+        <entityname.weaponprovo>Оружейные провобактерии</entityname.weaponprovo>
+        <entitydescription.weaponprovo>Шприц, наполненный штаммом ‖color:gui.red‖провобактерий‖end‖ с целью заражения цели. Может быть возвращён в ‖color:gui.blue‖культуральную пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.weaponprovo>
+
+        <!-- Trauma -->
+        <afflictionname.pusyellow>Гнойное Выделение</afflictionname.pusyellow>
+        <afflictiondescription.pusyellow>Из раны сочится желтовато-белый гной. Явный признак инфекции, образец может быть собран при помощи Анализатора Культур. Гной такого типа не может быть вызван заражением псевдомонад.</afflictiondescription.pusyellow>
+
+        <afflictionname.pusgreen>Гнойное Выделение</afflictionname.pusgreen>
+        <afflictiondescription.pusgreen>Из раны сочится зеленоватый гной с неприятным запахом. Явный признак инфекции, образец может быть собран при помощи Анализатора Культур. Гной такого типа всегда вызван заражением псевдомонад.</afflictiondescription.pusgreen>
+
+        <afflictionname.abscess>Абсцесс</afflictionname.abscess>
+        <afflictiondescription.abscess>Под кожей скапливается большой очаг гноя. Раны нет, но это является признаком инфекции, образец может быть собран при помощи Анализатора Культур.</afflictiondescription.abscess>
+
+        <afflictionname.necfasc>Некротизирующий фасциит</afflictionname.necfasc>
+        <afflictiondescription.necfasc>Цвет кожи портится, а мягкие ткани отмирают. Вызвано заражением инфекцией при иммунодефиците, увеличивая шанс сепсиса. Инфекцию необходимо срочно излечить, ткани задетые некрозом можно вырезать при помощи скальпеля после расширения кожи или же можно ампутировать конечность.</afflictiondescription.necfasc>
+
+        <afflictionname.cellulitis>Флегмона</afflictionname.cellulitis>
+        <afflictiondescription.cellulitis>Участок кожи красный и болезненный. Вызвано инфекцией и пропадёт после её исцеления.</afflictiondescription.cellulitis>
+
+        <!-- Other Items -->
+        <entityname.cultureanalyzer>Сборщик Образцов</entityname.cultureanalyzer>
+        <entitydescription.cultureanalyzer>Собирает образцы бактерий и помещает их в ‖color:gui.blue‖культуральную пробирку‖end‖. Если присутствует ‖color:gui.red‖гной‖end‖ или ‖color:gui.red‖абсцесс‖end‖, образцы будут собраны из них в первую очередь. Если кожа оттянута при помощи ‖color:gui.blue‖расширителя‖end‖, будет собран образец тканей. В противном случае будет собран образец крови, который может оказаться неточным, если инфекция ещё не попала в кровоток.</entitydescription.cultureanalyzer>
+
+        <entityname.culturetube>Пробирка Культуральная</entityname.culturetube>
+        <entitydescription.culturetube>Пробирка с богатой питательной средой, в которой растут колонии бактерий. Используется ‖color:gui.blue‖сборщиком образцов‖end‖.</entitydescription.culturetube>
+
+        <entityname.incubatorcrate>Инкубационный ящик</entityname.incubatorcrate>
+        <entitydescription.incubatorcrate>Быстрый и переносной способ выращивания бактерий, способный держать в себе ‖color:gui.blue‖образцы культур‖end‖.</entitydescription.incubatorcrate>
+
+        <entityname.streptubeunk>Образец культуры (Неизвестный)</entityname.streptubeunk>
+        <entitydescription.streptubeunk>Культуральная пробирка с неизвестным образцом. После естественного роста культуры или выращивания в ‖color:gui.blue‖инкубаторе‖end‖, может быть опознана при помощи ‖color:gui.blue‖анализатора культур‖end‖.</entitydescription.streptubeunk>
+
+        <entityname.streptube>Образец культуры (Стрептококк)</entityname.streptube>
+        <entitydescription.streptube>Культуральная пробирка со штаммом стрептококка. Сделайте из него ‖color:gui.blue‖вакцину‖end‖, ‖color:gui.blue‖оружейный‖end‖ штамм или переместите часть культуры в другую ‖color:gui.blue‖пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.streptube>
+
+        <entityname.staphtubeunk>Образец культуры (Неизвестный)</entityname.staphtubeunk>
+        <entitydescription.staphtubeunk>Культуральная пробирка с неизвестным образцом. После естественного роста культуры или выращивания в ‖color:gui.blue‖инкубаторе‖end‖, может быть опознана при помощи ‖color:gui.blue‖анализатора культур‖end‖.</entitydescription.staphtubeunk>
+
+        <entityname.staphtube>Образец культуры (Стафилококк)</entityname.staphtube>
+        <entitydescription.staphtube>Культуральная пробирка со штаммом стафилококка. Сделайте из него ‖color:gui.blue‖вакцину‖end‖, ‖color:gui.blue‖оружейный‖end‖ штамм или переместите часть культуры в другую ‖color:gui.blue‖пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.staphtube>
+
+        <entityname.mrsatubeunk>Образец культуры (Неизвестный)</entityname.mrsatubeunk>
+        <entitydescription.mrsatubeunk>Культуральная пробирка с неизвестным образцом. После естественного роста культуры или выращивания в ‖color:gui.blue‖инкубаторе‖end‖, может быть опознана при помощи ‖color:gui.blue‖анализатора культур‖end‖.</entitydescription.mrsatubeunk>
+
+        <entityname.mrsatube>Образец культуры (МРЗС)</entityname.mrsatube>
+        <entitydescription.mrsatube>Культуральная пробирка с образцом МРЗС. Сделайте из него ‖color:gui.blue‖оружейный‖end‖ штамм или переместите часть культуры в другую ‖color:gui.blue‖пробирку‖end‖ на Медицинском Фабрикаторе. От МРЗС нет вакцины.</entitydescription.mrsatube>
+
+        <entityname.pseudotubeunk>Образец культуры (Неизвестный)</entityname.pseudotubeunk>
+        <entitydescription.pseudotubeunk>Культуральная пробирка с неизвестным образцом. После естественного роста культуры или выращивания в ‖color:gui.blue‖инкубаторе‖end‖, может быть опознана при помощи ‖color:gui.blue‖анализатора культур‖end‖.</entitydescription.pseudotubeunk>
+
+        <entityname.pseudotube>Образец культуры (Псевдомонады)</entityname.pseudotube>
+        <entitydescription.pseudotube>Культуральная пробирка с образцом псевдомонад. Сделайте из него ‖color:gui.blue‖вакцину‖end‖, ‖color:gui.blue‖оружейный‖end‖ штамм или переместите часть культуры в другую ‖color:gui.blue‖пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.pseudotube>
+
+        <entityname.provotubeunk>Образец культуры (Неизвестный)</entityname.provotubeunk>
+        <entitydescription.provotubeunk>Культуральная пробирка с неизвестным образцом. После естественного роста культуры или выращивания в ‖color:gui.blue‖инкубаторе‖end‖, может быть опознана при помощи ‖color:gui.blue‖анализатора культур‖end‖.</entitydescription.provotubeunk>
+
+        <entityname.provotube>Образец культуры (Провобактер)</entityname.provotube>
+        <entitydescription.provotube>Культуральная пробирка с образцом провобактер. Сделайте из него ‖color:gui.blue‖вакцину‖end‖, ‖color:gui.blue‖оружейный‖end‖ штамм или переместите часть культуры в другую ‖color:gui.blue‖пробирку‖end‖ на Медицинском Фабрикаторе.</entitydescription.provotube>
+
+        <entityname.emptytubeunk>Образец культуры (Неизвестный)</entityname.emptytubeunk>
+        <entitydescription.emptytubeunk>Культуральная пробирка с неизвестным образцом. После естественного роста культуры или выращивания в ‖color:gui.blue‖инкубаторе‖end‖, может быть опознана при помощи ‖color:gui.blue‖анализатора культур‖end‖.</entitydescription.emptytubeunk>
+
+        <entityname.cultureanalyzingterminal>Анализатор Культур</entityname.cultureanalyzingterminal>
+        <entitydescription.cultureanalyzingterminal>Машина для распознания ‖color:gui.blue‖образцов культур‖end‖ при помощи биохимических характеристик колоний бактерий.</entitydescription.cultureanalyzingterminal>
+
+        <cultureanalyzer.analyze>Проанализировать</cultureanalyzer.analyze>
+        <cultureanalyzer.info>Вставьте образец полностью выращенной культуры для анализа типа.</cultureanalyzer.info>
+
+        <entityname.incubatorterminal>Инкубатор</entityname.incubatorterminal>
+        <entitydescription.incubatorterminal>Машина, способная выращивать ‖color:gui.blue‖образцы культур‖end‖, поддерживая оптимальные условия для роста бактерий. Самый быстрый способ выращивания культур.</entitydescription.incubatorterminal>
+
+        <entityname.dextromethorphan>Декстрометорфан</entityname.dextromethorphan>
+        <entitydescription.dextromethorphan>Противокашлевый раствор, используемый для облегчения кашля. Часто используется для подавления заразного ‖color:gui.green‖Европианского кашля‖end‖, который может быть вылечен при помощи ‖color:gui.blue‖Ремдесивира‖end‖. При неудаче действует менее эффективно.</entitydescription.dextromethorphan>
+
+        <entityname.remdesivir>Ремдесивир</entityname.remdesivir>
+        <entitydescription.remdesivir>Противовирусный препарат широкого спектра действия, обычно используемый для лечения ‖color:gui.green‖Европианского кашля‖end‖. Вреден для ‖color:gui.red‖печени‖end‖ и должен быть использован умеренно. При неудаче наносит больше ‖color:gui.red‖урона печени‖end‖.</entitydescription.remdesivir>
+    </Override>
+</infotexts>

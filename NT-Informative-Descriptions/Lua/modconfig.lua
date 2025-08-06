@@ -65,7 +65,7 @@ local config = {
 
 	{
 		-- Infections
-		supportedlanguages = {"English"},
+		supportedlanguages = {"English","Russian"},
 		IgnoreTargetModState = false,
 		workshopId = "3286567141",
 		loadpriority = 2,

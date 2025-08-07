@@ -250,10 +250,10 @@
 		Донор для: AB+</entitydescription.abpluscard>
 
     <!-- NT Containers -->
-    <entityname.medtoolbox>Аптечка общего назначения</entityname.medtoolbox>
+    <entityname.medtoolbox>Медицинский контейнер</entityname.medtoolbox>
     <entitydescription.medtoolbox>Может хранить только медицинские предметы.</entitydescription.medtoolbox>
 
-    <entityname.surgerytoolbox>Аптечка хирурга</entityname.surgerytoolbox>
+    <entityname.surgerytoolbox>Ящик для хирургических инструментов</entityname.surgerytoolbox>
     <entitydescription.surgerytoolbox>Может хранить только хирургические предметы.</entitydescription.surgerytoolbox>
 
     <entityname.organtoolbox>Холодильный контейнер</entityname.organtoolbox>

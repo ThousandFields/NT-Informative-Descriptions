@@ -27,9 +27,12 @@ end
 function EnableNTID()
     if NTC ~= nil or NT ~= nil or IsNTEnabled() then
         dofile(NTID.Path .. '/Lua/main.lua')
+        -- Calling UpdateEntityList in short timer crashes subeditor with too many mods
         if CLIENT and Game.IsSubEditor then
-            LuaUserData.MakeMethodAccessible(Descriptors["Barotrauma.SubEditorScreen"], "UpdateEntityList")
-            Game.SubEditorScreen.UpdateEntityList()
+            Timer.Wait(function()
+                LuaUserData.MakeMethodAccessible(Descriptors["Barotrauma.SubEditorScreen"], "UpdateEntityList")
+                Game.SubEditorScreen.UpdateEntityList()
+            end, 5000)
         end
         return true
     end
@@ -38,7 +41,6 @@ end
 
 
 
--- Calling UpdateEntityList in short timer crashes subeditor with too many mods
 -- longer timer fallback in case NT isnt registered yet on first lua pass
 if EnableNTID() then
     return

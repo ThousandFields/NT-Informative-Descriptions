@@ -2,7 +2,7 @@ InfDescriptions = {}
 
 local rawconfig = require("rawconfig")
 
-config = {
+local config = {
     Name = "infdescriptions", --Internal name, used for rawconfig.Configs.Name
     Label = "infdescriptions.modname", --String displayed in menus, can be localization tag
     Entries = {

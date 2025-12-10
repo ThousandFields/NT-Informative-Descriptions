@@ -180,10 +180,10 @@
 		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals. Built-in are slots for placing an ‖color:gui.blue‖analgesic tank‖end‖, one of the ‖color:gui.blue‖filters‖end‖, and a ‖color:gui.blue‖refrigerated crate‖end‖.</entitydescription.operatingtable>
 
 		<entityname.organscalpel_liver>Liver Organ Scalpel</entityname.organscalpel_liver>
-		<entitydescription.organscalpel_liver>A specialized scalpel for the removal of livers. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_liver>
+		<entitydescription.organscalpel_liver>A specialized scalpel for the removal of the liver. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_liver>
 
 		<entityname.organscalpel_kidneys>Kidney Organ Scalpel</entityname.organscalpel_kidneys>
-		<entitydescription.organscalpel_kidneys>A specialized scalpel for the removal of kidneys. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_kidneys>
+		<entitydescription.organscalpel_kidneys>A specialized scalpel for the removal of the kidneys. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_kidneys>
 
 		<entityname.organscalpel_lungs>Lung Organ Scalpel</entityname.organscalpel_lungs>
 		<entitydescription.organscalpel_lungs>A specialized scalpel for the removal of the lungs. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_lungs>

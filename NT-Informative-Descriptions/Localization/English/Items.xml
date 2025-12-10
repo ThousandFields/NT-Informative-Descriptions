@@ -168,7 +168,7 @@
 		<entitydescription.drainage>Treats ‖color:gui.green‖pneumothorax‖end‖ by draining air out of the pleural cavity. Can be used after ‖color:gui.blue‖skin retraction‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.drainage>
 
 		<entityname.operatingtable>Surgery Table</entityname.operatingtable>
-		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals.</entitydescription.operatingtable>
+		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals. Built-in are slots for placing an ‖color:gui.blue‖analgesic tank‖end‖, one of the ‖color:gui.blue‖filters‖end‖, and a ‖color:gui.blue‖refrigerated crate‖end‖.</entitydescription.operatingtable>
 
 		<entityname.organscalpel_liver>Liver Organ Scalpel</entityname.organscalpel_liver>
 		<entitydescription.organscalpel_liver>A specialized scalpel for the removal of livers. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_liver>

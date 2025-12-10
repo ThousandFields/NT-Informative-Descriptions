@@ -130,6 +130,15 @@
 		<entitydescription.stasisbag>A bag that occupies a patient's Outerwear slot, protecting against pressure down to 7,000 meters. This will cause ‖color:gui.red‖cardiac arrest‖end‖, ‖color:gui.red‖respiratory arrest‖end‖, ‖color:gui.red‖unconsciousness‖end‖, and ‖color:gui.red‖prevent surgical operations‖end‖, but will ‖color:gui.green‖pause the progression of negative afflictions‖end‖ while worn. When worn, the bag deteriorates by 1% every four seconds.</entitydescription.stasisbag>
 		<stasisbagequipconfirmation>You will go unconscious. Are you sure you want to equip the stasis bag?</stasisbagequipconfirmation>
 
+		<entityname.analgesictank>Analgesic Tank</entityname.analgesictank>
+    	<entitydescription.analgesictank>A tank of analgesics which can be installed on a ‖color:gui.blue‖surgery table‖end‖ to provide the patient-laying-down enough analgesia to perform surgery. It can also be used in an ‖color:gui.blue‖ambubag‖end‖, but causes extra ‖color:gui.red‖addiction‖end‖.</entitydescription.analgesictank>
+
+		<entityname.dialyzer>Dialysis Filter</entityname.dialyzer>
+    	<entitydescription.dialyzer>An filter which can be installed on a ‖color:gui.blue‖surgery table‖end‖ to reduce ‖color:gui.green‖alkalosis‖end‖ and ‖color:gui.green‖acidosis‖end‖ for the patient-laying-down. Reducing the afflictions provides a minor risk of contracting ‖color:gui.red‖sepsis‖end‖.</entitydescription.dialyzer>
+
+		<entityname.toxfilter>Toxin Filter</entityname.toxfilter>
+    	<entitydescription.toxfilter>An filter which can be installed on a ‖color:gui.blue‖surgery table‖end‖ to treat ‖color:gui.green‖poisons‖end‖ for the patient-laying-down. While it is slower than antidotes, it can treat all vanilla poisons. Treating poisons provides a minor risk of contracting ‖color:gui.red‖sepsis‖end‖.</entitydescription.toxfilter>
+
 		<!-- NT Surgery -->
 		<entityname.advscalpel>Scalpel</entityname.advscalpel>
 		<entitydescription.advscalpel>A tool used to make ‖color:gui.green‖incisions‖end‖ during surgery. Incisions are the first step in all surgical operations, but will cause ‖color:gui.red‖bloodloss‖end‖ unless the ‖color:gui.blue‖hemostat‖end‖ is used afterwards. Additionally, incisions can only be performed if the patient does not feel pain, and patients who become pain-aware during surgery will gain ‖color:gui.red‖traumatic shock‖end‖. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖lacerations‖end‖.</entitydescription.advscalpel>

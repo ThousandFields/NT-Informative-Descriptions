@@ -30,8 +30,8 @@ config:LoadConfig()
 local pkg
 
 for package in ContentPackageManager.EnabledPackages.All do
-    local path = string.gsub(tostring(package.Dir),"\\","/")
-    if path == NTID.Path then
+    local path = tostring(package.Dir)
+    if path == NTID.Path or string.gsub(path,"\\","/") == NTID.Path then
         pkg = package
         break
     end

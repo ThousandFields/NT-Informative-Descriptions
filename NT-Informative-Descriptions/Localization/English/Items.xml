@@ -130,6 +130,15 @@
 		<entitydescription.stasisbag>A bag that occupies a patient's Outerwear slot, protecting against pressure down to 7,000 meters. This will cause ‖color:gui.red‖cardiac arrest‖end‖, ‖color:gui.red‖respiratory arrest‖end‖, ‖color:gui.red‖unconsciousness‖end‖, and ‖color:gui.red‖prevent surgical operations‖end‖, but will ‖color:gui.green‖pause the progression of negative afflictions‖end‖ while worn. When worn, the bag deteriorates by 1% every four seconds.</entitydescription.stasisbag>
 		<stasisbagequipconfirmation>You will go unconscious. Are you sure you want to equip the stasis bag?</stasisbagequipconfirmation>
 
+		<entityname.analgesictank>Analgesic Tank</entityname.analgesictank>
+    	<entitydescription.analgesictank>A tank of analgesics which can be installed on a ‖color:gui.blue‖surgery table‖end‖ to provide the patient-laying-down enough analgesia to perform surgery. It can also be used in an ‖color:gui.blue‖ambubag‖end‖, but causes extra ‖color:gui.red‖addiction‖end‖.</entitydescription.analgesictank>
+
+		<entityname.dialyzer>Dialysis Filter</entityname.dialyzer>
+    	<entitydescription.dialyzer>An filter which can be installed on a ‖color:gui.blue‖surgery table‖end‖ to reduce ‖color:gui.green‖alkalosis‖end‖ and ‖color:gui.green‖acidosis‖end‖ for the patient-laying-down. Reducing the afflictions provides a minor risk of contracting ‖color:gui.red‖sepsis‖end‖.</entitydescription.dialyzer>
+
+		<entityname.toxfilter>Toxin Filter</entityname.toxfilter>
+    	<entitydescription.toxfilter>An filter which can be installed on a ‖color:gui.blue‖surgery table‖end‖ to treat ‖color:gui.green‖poisons‖end‖ for the patient-laying-down. While it is slower than antidotes, it can treat all vanilla poisons. Treating poisons provides a minor risk of contracting ‖color:gui.red‖sepsis‖end‖.</entitydescription.toxfilter>
+
 		<!-- NT Surgery -->
 		<entityname.advscalpel>Scalpel</entityname.advscalpel>
 		<entitydescription.advscalpel>A tool used to make ‖color:gui.green‖incisions‖end‖ during surgery. Incisions are the first step in all surgical operations, but will cause ‖color:gui.red‖bloodloss‖end‖ unless the ‖color:gui.blue‖hemostat‖end‖ is used afterwards. Additionally, incisions can only be performed if the patient does not feel pain, and patients who become pain-aware during surgery will gain ‖color:gui.red‖traumatic shock‖end‖. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖lacerations‖end‖.</entitydescription.advscalpel>
@@ -168,13 +177,13 @@
 		<entitydescription.drainage>Treats ‖color:gui.green‖pneumothorax‖end‖ by draining air out of the pleural cavity. Can be used after ‖color:gui.blue‖skin retraction‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.drainage>
 
 		<entityname.operatingtable>Surgery Table</entityname.operatingtable>
-		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals.</entitydescription.operatingtable>
+		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals. Built-in are slots for placing an ‖color:gui.blue‖analgesic tank‖end‖, one of the ‖color:gui.blue‖filters‖end‖, and a ‖color:gui.blue‖refrigerated crate‖end‖.</entitydescription.operatingtable>
 
 		<entityname.organscalpel_liver>Liver Organ Scalpel</entityname.organscalpel_liver>
-		<entitydescription.organscalpel_liver>A specialized scalpel for the removal of livers. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_liver>
+		<entitydescription.organscalpel_liver>A specialized scalpel for the removal of the liver. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_liver>
 
 		<entityname.organscalpel_kidneys>Kidney Organ Scalpel</entityname.organscalpel_kidneys>
-		<entitydescription.organscalpel_kidneys>A specialized scalpel for the removal of kidneys. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_kidneys>
+		<entitydescription.organscalpel_kidneys>A specialized scalpel for the removal of the kidneys. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_kidneys>
 
 		<entityname.organscalpel_lungs>Lung Organ Scalpel</entityname.organscalpel_lungs>
 		<entitydescription.organscalpel_lungs>A specialized scalpel for the removal of the lungs. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_lungs>
@@ -194,7 +203,7 @@
 		<multiscalpel.heart>Mode: Extract heart</multiscalpel.heart>
 		<multiscalpel.brain>Mode: Extract brain</multiscalpel.brain>
 		<multiscalpel.bandage>Mode: Remove bandages, casts, and malpractice. Equip in hand to change mode.</multiscalpel.bandage>
-		<multiscalpel.speedflex>Mode: Adaptive organ extraction. After ‖color:gui.blue‖skin retraction‖end‖, use on the respective limb to obtain the following ‖color:gui.blue‖organs‖end‖. Equip in hand to change mode.
+		<multiscalpel.speedflex>Mode: Adaptive organ extraction. After ‖color:gui.blue‖skin retraction‖end‖, use on the respective limb to remove the following ‖color:gui.blue‖organs‖end‖. To extract ‖color:gui.blue‖organs‖end‖ without transplanting new ones, use on the respective limb twice. Equip in hand to change mode.
 Head: ‖color:gui.blue‖Brain‖end‖
 Left Arm: ‖color:gui.blue‖Kidneys‖end‖
 Torso: ‖color:gui.blue‖Liver‖end‖
@@ -357,7 +366,7 @@ Left Leg: ‖color:gui.blue‖Lungs‖end‖</multiscalpel.speedflex>
 		<entitydescription.mannitol>A sugar alcohol used to treat a significant amount of ‖color:gui.green‖neurotrauma‖end‖ and halve its rate of increase. However, it will not work unless the patient has over 70% blood pressure and oxygenated blood. Additionally, it will cause ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖. On failure, it is less effective and will cause more ‖color:gui.red‖heart‖end‖ and ‖color:gui.red‖kidney damage‖end‖.</entitydescription.mannitol>
 
 		<entityname.streptokinase>Streptokinase</entityname.streptokinase>
-		<entitydescription.streptokinase>An enzyme that breaks down blood clots, useful in the treatment of ‖color:gui.green‖heart attacks‖end‖. However, it will increase the chance of getting a ‖color:gui.red‖strokes‖end‖ if the user has more than 150% blood pressure. Additionally, it is used to treat ‖color:gui.green‖hemotransfusion shock‖end‖.</entitydescription.streptokinase>
+		<entitydescription.streptokinase>An enzyme that breaks down blood clots, useful in the treatment of ‖color:gui.green‖heart attacks‖end‖. However, it will increase the chance of getting ‖color:gui.red‖strokes‖end‖ if the user has more than 150% blood pressure. Additionally, it is used to treat ‖color:gui.green‖hemotransfusion shock‖end‖.</entitydescription.streptokinase>
 
 		<entityname.immunosuppressant>Azathioprine</entityname.immunosuppressant>
 		<entitydescription.immunosuppressant>An immunosuppressant that will reduce a patient's ‖color:gui.green‖immunity‖end‖. This is useful to prevent ‖color:gui.green‖organ rejection‖end‖ or to ‖color:gui.green‖administer incompatible blood types‖end‖ without triggering an immune response. However, a lower immunity will make the patient more susceptible to ‖color:gui.red‖sepsis‖end‖. If a patient is given an organ transplant but it immediately fails, it has been rejected by the immune system. On failure, causes ‖color:gui.red‖sepsis‖end‖.</entitydescription.immunosuppressant>

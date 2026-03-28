@@ -511,6 +511,11 @@ Game.AddCommand("reloadNTID", "Reloads NT Informative Descriptions.", function()
     print("NTID reloaded.")
 end, GetValidArguments)
 
+if not pkg then
+    print("NTID couldn't find its own folder to load texts, report to mod author")
+    return
+end
+
 ContentPackageManager.EnabledPackages.regular.Remove(pkg)
 ContentPackageManager.EnabledPackages.regular.Insert(0, pkg)
 

@@ -134,13 +134,7 @@
     
     <entityname.spinalimplant>脊柱植入物</entityname.spinalimplant>
     <entitydescription.spinalimplant>用于修复脊柱损伤的钛植入物。可以在‖color:gui.blue‖皮肤牵开‖end‖之后安装。然而，如果颈部骨折未用‖color:gui.blue‖骨折固定术‖end‖修复，脊柱将再次受伤。</entitydescription.spinalimplant>
-    
-    <entityname.endovascballoon>血管内球囊</entityname.endovascballoon>
-    <entitydescription.endovascballoon>插入破裂的主动脉中的球囊。这将防止破裂引起的‖color:gui.green‖失血‖end‖，但堵塞会随着时间的推移导致‖color:gui.red‖坏疽‖end‖。可以在‖color:gui.blue‖手术刀切口‖end‖之后安装。</entitydescription.endovascballoon>
-    
-    <entityname.medstent>医疗支架</entityname.medstent>
-    <entitydescription.medstent>可以插入主动脉以修复破裂的支架。必须在‖color:gui.blue‖血管内球囊‖end‖之后使用。</entitydescription.medstent>
-    
+
     <entityname.drainage>引流</entityname.drainage>
     <entitydescription.drainage>通过排出胸膜腔中的空气治疗‖color:gui.green‖气胸‖end‖。可以在‖color:gui.blue‖皮肤牵开‖end‖之后使用。气胸是一种潜在威胁的情况，因为它阻止低氧血症的减轻。</entitydescription.drainage>
     
@@ -330,10 +324,7 @@
     
     <entityname.thiamine>硫胺素</entityname.thiamine>
     <entitydescription.thiamine>维生素B1会稍微增强‖color:gui.green‖器官再生‖end‖。失败时效果较差。</entitydescription.thiamine>
-    
-    <entityname.pressuremeds>硝普钠</entityname.pressuremeds>
-    <entitydescription.pressuremeds>一种用于降低‖color:gui.green‖血压‖end‖的药物。失败时效果较差。</entitydescription.pressuremeds>
-    
+
     <entityname.ointment>抗生素软膏</entityname.ointment>
     <entitydescription.ointment>一种抗菌凝胶，有助于对抗‖color:gui.green‖感染伤口‖end‖并缓解轻微‖color:gui.green‖烧伤‖end‖。失败时效果较差。</entitydescription.ointment>
     
@@ -345,12 +336,6 @@
     
     <entityname.ringerssolution>林格氏溶液</entityname.ringerssolution>
     <entitydescription.ringerssolution>一种用于增加‖color:gui.green‖血压‖end‖的等渗溶液。</entitydescription.ringerssolution>
-    
-    <entityname.antiseptic>防腐剂</entityname.antiseptic>
-    <entitydescription.antiseptic>由‖color:gui.blue‖防腐喷雾器‖end‖使用，有效治疗‖color:gui.green‖感染伤口‖end‖。</entitydescription.antiseptic>
-    
-    <entityname.antisepticspray>防腐喷雾器</entityname.antisepticspray>
-    <entitydescription.antisepticspray>使用‖color:gui.blue‖防腐剂‖end‖对抗‖color:gui.green‖感染伤口‖end‖。</entitydescription.antisepticspray>
     
     <entityname.propofol>丙泊酚</entityname.propofol>
     <entitydescription.propofol>一种全身‖color:gui.green‖麻醉药‖end‖。其效果需要一段时间才能生效，并且不会持续很长时间。麻醉的患者在手术操作中不会获得‖color:gui.green‖创伤性休克‖end‖。使用可能会伴随各种非致命的‖color:gui.red‖副作用‖end‖。</entitydescription.propofol>

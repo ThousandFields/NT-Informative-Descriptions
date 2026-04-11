@@ -41,10 +41,10 @@
 
 		<!-- NT Trauma -->
 		<afflictionname.ra_fracture>Fractured right humerus</afflictionname.ra_fracture>
-		<afflictiondescription.ra_fracture>The right arm is broken, likely due to physical trauma. It will be painful and prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ra_fracture>
+		<afflictiondescription.ra_fracture>The right arm is broken, likely due to physical trauma. Using a weapon will immediately ‖color:gui.red‖make the arm unusable‖end‖. ‖color:gui.blue‖Bandaging‖end‖ it will ease the pain and prevent the arm from being unusable over time until a ‖color:gui.blue‖gypsum‖end‖ cast is put on, or it is surgically repaired.</afflictiondescription.ra_fracture>
 		
 		<afflictionname.la_fracture>Fractured left humerus</afflictionname.la_fracture>
-		<afflictiondescription.la_fracture>The left arm is broken, likely due to physical trauma. It will be painful and prevent the use of this arm until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.la_fracture>
+		<afflictiondescription.la_fracture>The left arm is broken, likely due to physical trauma. Using a weapon will immediately ‖color:gui.red‖make the arm unusable‖end‖. ‖color:gui.blue‖Bandaging‖end‖ it will ease the pain and prevent the arm from being unusable over time until a ‖color:gui.blue‖gypsum‖end‖ cast is put on, or it is surgically repaired.</afflictiondescription.la_fracture>
 		
 		<afflictionname.rl_fracture>Fractured right femur</afflictionname.rl_fracture>
 		<afflictiondescription.rl_fracture>The right leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.rl_fracture>
@@ -53,13 +53,13 @@
 		<afflictiondescription.ll_fracture>The right leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ll_fracture>
 		
 		<afflictionname.t_fracture>Fractured ribs</afflictionname.t_fracture>
-		<afflictiondescription.t_fracture>One or more ribs have been broken, likely due to physical trauma. The structural instability may cause pneumothorax. It must be repaired in an osteosynthesis surgery.</afflictiondescription.t_fracture>
+		<afflictiondescription.t_fracture>One or more ribs have been broken, likely due to physical trauma. Unless ‖color:gui.blue‖bandaged‖end‖, structural instability may cause ‖color:gui.red‖pneumothorax‖end‖. It must be repaired in an ‖color:gui.blue‖osteosynthesis‖end‖ surgery.</afflictiondescription.t_fracture>
 		
 		<afflictionname.h_fracture>Fractured skull</afflictionname.h_fracture>
-		<afflictiondescription.h_fracture>The skull has been broken, likely due to physical trauma. Compromised structural integrity will prevent neurotrauma from naturally decreasing. It must be repaired in an osteosynthesis surgery.</afflictiondescription.h_fracture>
+		<afflictiondescription.h_fracture>The skull has been broken, likely due to physical trauma. Compromised structural integrity will prevent neurotrauma from naturally decreasing. It must be repaired in an ‖color:gui.blue‖osteosynthesis‖end‖ surgery.</afflictiondescription.h_fracture>
 		
 		<afflictionname.n_fracture>Fractured neck</afflictionname.n_fracture>
-		<afflictiondescription.n_fracture>The neck has been broken due to trauma. Structural instability exposes the spinal cord, causing injury to it with ease. It must be repaired in an osteosynthesis surgery.</afflictiondescription.n_fracture>
+		<afflictiondescription.n_fracture>The neck has been broken due to trauma. ‖color:gui.blue‖Bandaging‖end‖ it will prevent a spinal cord injury from occurring. It must be repaired in an osteosynthesis surgery.</afflictiondescription.n_fracture>
 		
 		<afflictionname.tra_amputation>Traumatic amputation</afflictionname.tra_amputation>
 		<afflictiondescription.tra_amputation>Most of the right arm was torn off by physical trauma, causing an artery to rupture. This limb must be replaced after sawing bones.</afflictiondescription.tra_amputation>
@@ -77,7 +77,7 @@
 		<afflictiondescription.th_amputation>The head has been torn off by an explosion, causing immediate death.</afflictiondescription.th_amputation>
 
 		<afflictionname.t_paralysis>Spinal cord injury</afflictionname.t_paralysis>
-		<afflictiondescription.t_paralysis>The spine has been injured due to exposure from a neck fracture, causing full-body paralysis and analgesia. They are still conscious. It must be surgically repaired using spinal cord implants.</afflictiondescription.t_paralysis>
+		<afflictiondescription.t_paralysis>The spine has been injured due to exposure from a ‖color:gui.red‖neck fracture‖end‖, causing ‖color:gui.red‖full-body paralysis‖end‖ and ‖color:gui.green‖analgesia‖end‖. Does not cause unconsciousness. It must be surgically repaired using spinal cord implants.</afflictiondescription.t_paralysis>
 
 		<afflictionname.dislocation1>Dislocation</afflictionname.dislocation1>
 		<afflictiondescription.dislocation1>A bone in the right leg has been displaced by physical trauma, causing pain and making movement difficult. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation1>
@@ -86,10 +86,10 @@
 		<afflictiondescription.dislocation2>A bone in the left leg has been displaced by physical trauma, causing pain and making movement difficult. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation2>
 		
 		<afflictionname.dislocation3>Dislocation</afflictionname.dislocation3>
-		<afflictiondescription.dislocation3>A bone in the right arm has been displaced by physical trauma, causing pain and inability to use this limb. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation3>
+		<afflictiondescription.dislocation3>A bone in the right arm has been displaced by physical trauma, causing pain. If a weapon is used without ‖color:gui.blue‖bandaging‖end‖ the dislocation, the hand will ‖color:gui.red‖no longer be usable until‖end‖ the dislocation is fixed. A ‖color:gui.blue‖wrench‖end‖ may be used to relocate the bone.</afflictiondescription.dislocation3>
 		
 		<afflictionname.dislocation4>Dislocation</afflictionname.dislocation4>
-		<afflictiondescription.dislocation4>A bone in the left arm has been displaced by physical trauma, causing pain and inability to use this limb. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation4>
+		<afflictiondescription.dislocation4>A bone in the left arm has been displaced by physical trauma, causing pain. If a weapon is used without ‖color:gui.blue‖bandaging‖end‖ the dislocation, the hand will ‖color:gui.red‖no longer be usable until‖end‖ the dislocation is fixed. A ‖color:gui.blue‖wrench‖end‖ may be used to relocate the bone.</afflictiondescription.dislocation4>
 
 		<afflictionname.ll_arterialcut>Femoral artery bleeding</afflictionname.ll_arterialcut>
 		<afflictiondescription.ll_arterialcut>The left femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically fixed.</afflictiondescription.ll_arterialcut>
@@ -116,7 +116,7 @@
 		<afflictiondescription.burn_deg2>There are very painful blisters littering the affected area. There is a high rate of infection, which will lead to self-destructive sepsis. Bandages or antibiotic gels are sufficient treatment.</afflictiondescription.burn_deg2>
 		
 		<afflictionname.burn_deg3>Third-degree burn</afflictionname.burn_deg3>
-		<afflictiondescription.burn_deg3>It is painless in this leathery, stiff area. Infection is almost immediate, and the onset of sepsis is rapid. Antibiotic glue is the most rapid treatment.</afflictiondescription.burn_deg3>
+		<afflictiondescription.burn_deg3>It is painless in this leathery, stiff area. ‖color:gui.red‖Infection‖end‖ is almost immediate, and the onset of sepsis is rapid. ‖color:gui.blue‖Antibiotic glue‖end‖ is the most rapid treatment, and ‖color:gui.blue‖plastiseal‖end‖ can be used to treat it with surgery.</afflictiondescription.burn_deg3>
 
 		<!-- NT Symptoms -->
 		<afflictionname.tachycardia>Increased heartrate</afflictionname.tachycardia>
@@ -126,7 +126,7 @@
 		<afflictiondescription.fibrillation>Heartbeat has an abnormal pattern. Fibrillation is potentially lethal, usually caused by hypotension or hypoxemia.</afflictiondescription.fibrillation>
 
 		<afflictionname.cardiacarrest>Cardiac arrest</afflictionname.cardiacarrest>
-		<afflictiondescription.cardiacarrest>No heartbeat. A lethal status that will prevent blood pressure from normalizing, along with causing a coma if untreated. The ultimate result of fibrillation, as well being caused by hypoxemia. The heart must be restarted using a defibrillator, adrenaline, or AutoPulse.</afflictiondescription.cardiacarrest>
+		<afflictiondescription.cardiacarrest>No heartbeat. Prevents ‖color:gui.red‖blood pressure‖end‖ from normalizing, and causes a ‖color:gui.red‖coma‖end‖ if untreated. The ultimate result of ‖color:gui.red‖fibrillation‖end‖, as well being caused by ‖color:gui.red‖hypoxemia‖end‖. The heart must be restarted using a ‖color:gui.blue‖defibrillator‖end‖, ‖color:gui.blue‖adrenaline‖end‖, or ‖color:gui.blue‖AutoPulse‖end‖.</afflictiondescription.cardiacarrest>
 
 		<afflictionname.respiratoryarrest>Respiratory arrest</afflictionname.respiratoryarrest>
 		<afflictiondescription.respiratoryarrest>No breathing. A lethal status that will prevent oxygenation of blood. Typically caused by hypoxemia, neurotrauma, or opiate overdose. Artificial ventilation will bypass this affliction and the acidosis caused by it.</afflictiondescription.respiratoryarrest>
@@ -286,28 +286,28 @@
 		<afflictiondescription.boneclamp>Fracture has been splinted.</afflictiondescription.boneclamp>
 		
 		<afflictionname.bandaged>Bandaged</afflictionname.bandaged>
-		<afflictiondescription.bandaged>Protects from infection, stabilizes dislocations and fractures, and increases the natural speed of wound healing. It restricts movement slightly. Does not improve the healing of open wounds if they are too severe.</afflictiondescription.bandaged>
+		<afflictiondescription.bandaged>Protects from minor ‖color:gui.green‖infection‖end‖, stabilizes ‖color:gui.green‖dislocations‖end‖ and ‖color:gui.green‖fractures‖end‖, and increases the natural speed of wound healing. It restricts movement slightly. Does not improve the healing of open wounds if they are too severe.</afflictiondescription.bandaged>
 		
 		<afflictionname.dirtybandage>Dirty bandage</afflictionname.dirtybandage>
-		<afflictiondescription.dirtybandage>A bandage that has been overused and should be removed or replaced, as it promotes infections.</afflictiondescription.dirtybandage>
+		<afflictiondescription.dirtybandage>A ‖color:gui.blue‖bandage‖end‖ that has been overused and should be removed or replaced, as it promotes ‖color:gui.red‖infections‖end‖. It is still capable of stabilizing ‖color:gui.green‖dislocations‖end‖ and arm ‖color:gui.green‖fractures‖end‖.</afflictiondescription.dirtybandage>
 		
 		<afflictionname.gypsumcast>Plaster Cast</afflictionname.gypsumcast>
-		<afflictiondescription.gypsumcast>Fully stabilizes fractures, allowing them to heal. It restricts movement notably.</afflictiondescription.gypsumcast>
+		<afflictiondescription.gypsumcast>Allows ‖color:gui.green‖fractures‖end‖ to heal. Restricts movement noticeably.</afflictiondescription.gypsumcast>
 		
 		<afflictionname.ointmented>Ointment</afflictionname.ointmented>
-		<afflictiondescription.ointmented>A layer of antibiotic gel protects and cleans the wound from any germs.</afflictiondescription.ointmented>
+		<afflictiondescription.ointmented>A layer of antibiotic gel protects and cleans the wound from any germs. It is very difficult for an ‖color:gui.green‖infection‖end‖ to develop here.</afflictiondescription.ointmented>
 		
 		<afflictionname.needlec>Needle</afflictionname.needlec>
-		<afflictiondescription.needlec>A needle with an air valve in the chest is preventing pneumothorax from worsening.</afflictiondescription.needlec>
+		<afflictiondescription.needlec>A needle with an air valve in the chest is preventing ‖color:gui.green‖pneumothorax‖end‖ from worsening. However, having a needle will guarantee pneumothorax, requiring treatment with a ‖color:gui.blue‖drainage‖end‖.</afflictiondescription.needlec>
 
 		<afflictionname.bonegrowth>Stimulated Bone Growth</afflictionname.bonegrowth>
-		<afflictiondescription.bonegrowth>Bone regrowth has been stimulated. To cure bone death, this affliction needs to be on every bodypart.</afflictiondescription.bonegrowth>
+		<afflictiondescription.bonegrowth>Bone regrowth has been stimulated. To cure ‖color:gui.green‖bone death‖end‖, this affliction needs to be on every bodypart.</afflictiondescription.bonegrowth>
 
 		<afflictionname.analgesia>Analgesia</afflictionname.analgesia>
 		<afflictiondescription.analgesia>Painlessness suppresses certain symptoms and makes surgery possible. At high levels, increases damage and stun resistance.</afflictiondescription.analgesia>
 		
 		<afflictionname.anesthesia>Anesthesia</afflictionname.anesthesia>
-		<afflictiondescription.anesthesia>A drug has induced controlled unconsciousness. It is safe to perform surgery on this person.</afflictiondescription.anesthesia>
+		<afflictiondescription.anesthesia>Controlled ‖color:gui.green‖unconsciousness‖end‖, likely from a drug. It is safe to perform surgery on this person.</afflictiondescription.anesthesia>
 
 		<afflictionname.suturedw>Stitched wound</afflictionname.suturedw>
 		<afflictiondescription.suturedw>Wounds have been sutured shut. Sutured wounds will heal much faster than open wounds, and are impervious to infection.</afflictiondescription.suturedw>
@@ -316,8 +316,8 @@
 		<afflictiondescription.iced>A cold gel pack is greatly increasing the natural healing speed of blunt force trauma and treating internal bleeding over time. It restricts movement slightly and worsens infections.</afflictiondescription.iced>
 
 		<!-- NT Meta -->
-		<afflictionname.luabotomy>Lualess</afflictionname.luabotomy>
-		<afflictiondescription.luabotomy>Lua isn't running. That means neurotrauma and any other mods that use it won't work. Please read the workshop pages of mods you plan to use.</afflictiondescription.luabotomy>
+		<afflictionname.luabotomy>‖color:gui.blue‖Lualess‖end‖</afflictionname.luabotomy>
+		<afflictiondescription.luabotomy>Lua isn't running. That means neurotrauma and any other mods that use it won't work. Installing Lua is different from other mods! Please read the workshop pages of mods you plan to use. If Lua is installed anyways, check the debug console for errors.</afflictiondescription.luabotomy>
 		
 		<afflictionname.modconflict>Mod conflict</afflictionname.modconflict>
 		<afflictiondescription.modconflict>There is a mod conflict. A different mod is overriding some of the same items Neurotrauma does. Some things may not function correctly. Please adjust your load order, or if this is intended, disable the mod conflict check in the Neurotrauma config.</afflictiondescription.modconflict>

@@ -14,21 +14,21 @@
 
 		<entitydescription.alienblood>Blood extracted from a Europan lifeform. It is ‖color:gui.red‖incompatible‖end‖ with human blood.</entitydescription.alienblood>
 
-		<entitydescription.antibloodloss1>A sodium chloride infusion used to increase ‖color:gui.green‖blood pressure‖end‖, and additionally causes ‖color:gui.green‖acidosis‖end‖. On failure, it is less effective.</entitydescription.antibloodloss1>
+		<entitydescription.antibloodloss1>A sodium chloride infusion used to increase ‖color:gui.green‖blood pressure‖end‖, and additionally causes ‖color:gui.green‖acidosis‖end‖. On failure, it has less duration.</entitydescription.antibloodloss1>
 
-		<entitydescription.antibleeding1>Basic bandages, useful in the treatment of ‖color:gui.green‖bleeding‖end‖, and increases the natural healing of ‖color:gui.green‖minor burns‖end‖ and ‖color:gui.green‖wounds‖end‖. Additionally, bandages stabilize ‖color:gui.green‖fractures‖end‖, preventing them from causing internal damage, and stabilize ‖color:gui.green‖dislocations‖end‖, restoring their function. Effects which increase the speed of natural healing do not work if the injury is beyond its natural healing threshold. On failure, it is less effective.</entitydescription.antibleeding1>
+		<entitydescription.antibleeding1>Basic bandages, useful in the treatment of ‖color:gui.green‖bleeding‖end‖, and increases the natural healing of ‖color:gui.green‖minor burns‖end‖ and ‖color:gui.green‖wounds‖end‖. Additionally, being bandaged stabilizes ‖color:gui.green‖fractures‖end‖ and ‖color:gui.green‖dislocations‖end‖. Effects which increase the speed of natural healing do not work if the injury is beyond its natural healing threshold. On failure, it is less effective. Stabilization prevents: \n- Arm fractures from reaching 100% \n- Neck fractures from causing spinal injury and internal damage \n- Rib fractures from causing pneumothorax \n- Arm dislocations from locking \n- And restores the function of dislocated legs</entitydescription.antibleeding1>
 
-		<entitydescription.antibleeding2>A synthetic skin with hemostatic properties, able to effectively seal ‖color:gui.green‖bleeds‖end‖, and is a good treatment against ‖color:gui.green‖minor burns‖end‖ while increasing the natural healing of ‖color:gui.green‖wounds‖end‖. Additionally, plastiseal stabilizes ‖color:gui.green‖fractures‖end‖, preventing them from causing internal damage. Finally, they can be used to treat ‖color:gui.green‖third-degree burns‖end‖ after ‖color:gui.blue‖skin retraction‖end‖. On failure, it is less effective.</entitydescription.antibleeding2>
+		<entitydescription.antibleeding2>A synthetic skin with hemostatic properties able to effectively seal ‖color:gui.green‖bleeds‖end‖, and is a good treatment against ‖color:gui.green‖minor burns‖end‖ while increasing the natural healing of ‖color:gui.green‖wounds‖end‖. Additionally, stabilizes ‖color:gui.green‖fractures‖end‖ and ‖color:gui.green‖dislocations‖end‖. Finally, they can be used to treat ‖color:gui.green‖third-degree burns‖end‖ when used after ‖color:gui.blue‖skin retraction‖end‖. On failure, it is less effective.</entitydescription.antibleeding2>
 
-		<entitydescription.opium>A relatively mild opioid ‖color:gui.green‖analgesic‖end‖ obtained from aquatic poppy. Most commonly used to manufacture morphine and fentanyl. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.opium>
+		<entitydescription.opium>A relatively mild ‖color:gui.blue‖opioid‖end‖ ‖color:gui.green‖analgesic‖end‖ obtained from aquatic poppy. Most commonly used to manufacture morphine and fentanyl. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.opium>
 
-		<entitydescription.antidama1>A powerful opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama1>
+		<entitydescription.antidama1>A powerful ‖color:gui.blue‖opioid‖end‖ ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama1>
 		
-		<entitydescription.antidama2>A very potent opiate ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. Analgesia will not only prevent ‖color:gui.green‖pain‖end‖, but will also reduce ‖color:gui.green‖damage taken‖end‖ and increase ‖color:gui.green‖stun resistance‖end‖. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama2>
+		<entitydescription.antidama2>A very potent ‖color:gui.blue‖opioid‖end‖ ‖color:gui.green‖analgesic‖end‖, but overuse will cause ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖. Analgesia will not only prevent ‖color:gui.green‖pain‖end‖, but will also reduce ‖color:gui.green‖damage taken‖end‖ and increase ‖color:gui.green‖stun resistance‖end‖. On failure, it is less effective and there is a greater risk of ‖color:gui.red‖addiction‖end‖ and ‖color:gui.red‖overdose‖end‖.</entitydescription.antidama2>
 
-		<entitydescription.antinarc>An opioid antagonist for the treatment of opiate ‖color:gui.green‖withdrawal‖end‖ and ‖color:gui.green‖overdose‖end‖. Additionally, it will reduce the ‖color:gui.green‖analgesic‖end‖ effect of opiates. On failure, it is less effective and may cause a short ‖color:gui.red‖coma‖end‖.</entitydescription.antinarc>
+		<entitydescription.antinarc>An opioid antagonist for the treatment of opiate ‖color:gui.green‖withdrawal‖end‖ and ‖color:gui.green‖overdose‖end‖. Additionally, it will reduce ‖color:gui.green‖analgesia‖end‖. On failure, it is less effective and may cause a short ‖color:gui.red‖coma‖end‖.</entitydescription.antinarc>
 
-		<entitydescription.antibiotics>An antibiotic that acts against a wide range of disease-causing bacteria, making it an effective treatment for ‖color:gui.green‖sepsis‖end‖ and to a lesser extent, ‖color:gui.green‖husk infection‖end‖. However, it has low specificity and causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
+		<entitydescription.antibiotics>An antibiotic that acts against a wide range bacteria, making it an effective treatment for ‖color:gui.green‖sepsis‖end‖ and to a lesser extent, ‖color:gui.green‖husk infection‖end‖. However, its broad nature causes ‖color:gui.red‖organ damage‖end‖. Used as an ingredient in multiple medical compounds. On failure, it is less effective.</entitydescription.antibiotics>
 		
 		<entitydescription.adrenaline>A naturally occurring hormone. For a short amount of time, it will raise the patient's ‖color:gui.green‖blood pressure‖end‖, increase ‖color:gui.green‖melee damage‖end‖, halve ‖color:gui.green‖fibrillation rate‖end‖, and prevent ‖color:gui.green‖pain‖end‖. Upon use, it will also cure ‖color:gui.green‖cardiac arrest‖end‖, remove ‖color:gui.green‖stun‖end‖, and briefly reduce ‖color:gui.green‖incoming stuns‖end‖.</entitydescription.adrenaline>
 		
@@ -171,7 +171,7 @@
 		<entitydescription.drainage>Treats ‖color:gui.green‖pneumothorax‖end‖ by draining air out of the pleural cavity. Can be used after ‖color:gui.blue‖skin retraction‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.drainage>
 
 		<entityname.operatingtable>Surgery Table</entityname.operatingtable>
-		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals. Built-in are slots for placing an ‖color:gui.blue‖analgesic tank‖end‖, one of the ‖color:gui.blue‖filters‖end‖, and a ‖color:gui.blue‖refrigerated crate‖end‖.</entitydescription.operatingtable>
+		<entitydescription.operatingtable>A portable version of the hospital bed, intended to be installed on submarines. Like the hospital bed, it comes with ‖color:gui.green‖artificial ventilation‖end‖. Additionally, it has electrical pins installed that can output a person's vitals. Built-in are slots for placing an ‖color:gui.blue‖analgesic tank‖end‖, one of the ‖color:gui.blue‖filters‖end‖, and a ‖color:gui.blue‖refrigerated crate‖end‖. To use the ‖color:gui.blue‖analgesic tank‖end‖ and ‖color:gui.blue‖filters‖end‖ on an unconscious patient, they will have to be forced on the table.</entitydescription.operatingtable>
 
 		<entityname.organscalpel_liver>Liver Organ Scalpel</entityname.organscalpel_liver>
 		<entitydescription.organscalpel_liver>A specialized scalpel for the removal of the liver. Can be used after ‖color:gui.blue‖skin retraction‖end‖ on the torso.</entitydescription.organscalpel_liver>
@@ -198,11 +198,11 @@
 		<multiscalpel.brain>Mode: Extract brain</multiscalpel.brain>
 		<multiscalpel.bandage>Mode: Remove bandages, casts, and malpractice. Equip in hand to change mode.</multiscalpel.bandage>
 		<multiscalpel.speedflex>Mode: Adaptive organ extraction. After ‖color:gui.blue‖skin retraction‖end‖, use on the respective limb to remove the following ‖color:gui.blue‖organs‖end‖. To extract ‖color:gui.blue‖organs‖end‖ without transplanting new ones, use on the respective limb twice. Equip in hand to change mode.
-Head: ‖color:gui.blue‖Brain‖end‖
-Left Arm: ‖color:gui.blue‖Kidneys‖end‖
-Torso: ‖color:gui.blue‖Liver‖end‖
-Right Arm: ‖color:gui.blue‖Heart‖end‖
-Left Leg: ‖color:gui.blue‖Lungs‖end‖</multiscalpel.speedflex>
+- Head: ‖color:gui.blue‖Brain‖end‖
+- Left Arm: ‖color:gui.blue‖Kidneys‖end‖
+- Torso: ‖color:gui.blue‖Liver‖end‖
+- Right Arm: ‖color:gui.blue‖Heart‖end‖
+- Left Leg: ‖color:gui.blue‖Lungs‖end‖</multiscalpel.speedflex>
 
 		<multiscalpel.btn.incision>Incision</multiscalpel.btn.incision>
 		<multiscalpel.btn.kidneys>Kidneys</multiscalpel.btn.kidneys>
@@ -350,10 +350,10 @@ Left Leg: ‖color:gui.blue‖Lungs‖end‖</multiscalpel.speedflex>
 		<entitydescription.braintransplant>A human brain. Removal of the brain causes rapidly increasing ‖color:gui.red‖neurotrauma‖end‖. However, a person's brain can be transplanted into another individual for that person to take control of them. To transplant an organ, the old one must be removed with the appropriate ‖color:gui.blue‖organ scalpel‖end‖, and the new one placed in. Brains decay extremely quickly when not in a human, are exceedingly fragile, and are palatable to pets.</entitydescription.braintransplant>
 		
 		<entityname.armlock1>Non-functional Right Hand</entityname.armlock1>
-		<entitydescription.armlock1>This hand is not working, due to the right arm being ‖color:gui.red‖dislocated‖end‖, ‖color:gui.red‖fractured‖end‖, or ‖color:gui.red‖missing entirely‖end‖.</entitydescription.armlock1>
+		<entitydescription.armlock1>This hand is not working, due to weapon recoil while the right arm is ‖color:gui.red‖dislocated‖end‖ or ‖color:gui.red‖fractured‖end‖, or this hand is ‖color:gui.red‖missing entirely‖end‖.</entitydescription.armlock1>
 		
 		<entityname.armlock2>Non-functional Left Hand</entityname.armlock2>
-		<entitydescription.armlock2>This hand is not working, due to the left arm being ‖color:gui.red‖dislocated‖end‖, ‖color:gui.red‖fractured‖end‖, or ‖color:gui.red‖missing entirely‖end‖.</entitydescription.armlock2>
+		<entitydescription.armlock2>This hand is not working, due to weapon recoil while the left arm is ‖color:gui.red‖dislocated‖end‖ or ‖color:gui.red‖fractured‖end‖, or this hand is ‖color:gui.red‖missing entirely‖end‖.</entitydescription.armlock2>
 		
 		<!-- NT Treatments -->
 		<entityname.mannitol>Mannitol</entityname.mannitol>
@@ -378,7 +378,7 @@ Left Leg: ‖color:gui.blue‖Lungs‖end‖</multiscalpel.speedflex>
 		<entitydescription.needle>A specialized needle used to depressurize air in the pleural cavity, as a first aid option for ‖color:gui.green‖pneumothorax‖end‖. If the patient does not already have pneumothorax, it will ‖color:gui.red‖cause it instead‖end‖. On failure, causes ‖color:gui.red‖organ damage‖end‖ and ‖color:gui.red‖bleeding‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.needle>
 
 		<entityname.ringerssolution>Ringer's Solution</entityname.ringerssolution>
-		<entitydescription.ringerssolution>An isotonic solution used to increase ‖color:gui.green‖blood pressure‖end‖. On failure, it is less effective.</entitydescription.ringerssolution>
+		<entitydescription.ringerssolution>An isotonic solution used to increase ‖color:gui.green‖blood pressure‖end‖, and additionally causes ‖color:gui.green‖alkalosis‖end‖. On failure, it has less duration.</entitydescription.ringerssolution>
 
 		<entityname.propofol>Propofol</entityname.propofol>
 		<entitydescription.propofol>A general ‖color:gui.green‖anesthetic‖end‖. Its effects take place after some time, and will not last very long. Anesthesized patients are ‖color:gui.red‖unconscious‖end‖ and do not gain ‖color:gui.green‖traumatic shock‖end‖ from surgical operations. Usage may come with a variety of non-lethal ‖color:gui.red‖side effects‖end‖.</entitydescription.propofol>
@@ -386,7 +386,7 @@ Left Leg: ‖color:gui.blue‖Lungs‖end‖</multiscalpel.speedflex>
 		<entityname.gypsum>Gypsum</entityname.gypsum>
 		<entitydescription.gypsum>A powder that can be formed into a cast. It is used to encase ‖color:gui.green‖long bone fractures‖end‖, allowing them to heal. Used after ‖color:gui.blue‖bandaging‖end‖ the limb. On failure, it is consumed without forming a cast.</entitydescription.gypsum>
 	
-		<entityname.gelipack>Gel Ice Pack</entityname.gelipack>
+		<entityname.gelipack>Gel Coolant Pack</entityname.gelipack>
 		<entitydescription.gelipack>A package of cold gel that will greatly increase the natural healing of ‖color:gui.green‖blunt force trauma‖end‖ and treats ‖color:gui.green‖internal bleeding‖end‖ over time. It is ineffective against ‖color:gui.red‖other types of injuries‖end‖ and will worsen ‖color:gui.red‖infections‖end‖. Effects which increase natural healing speed will not work if the injury is beyond its natural healing threshold. Can be used up to thrice, and will lose effectiveness if not refrigerated. When refrigerated, its condition will regenerate over time. On failure, its chilling duration is decreased.</entitydescription.gelipack>
 	</Override>
 </infotexts>

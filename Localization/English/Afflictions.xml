@@ -313,10 +313,10 @@
 		<afflictiondescription.iced>A cold gel pack is greatly increasing the natural healing speed of blunt force trauma and treating internal bleeding over time. It restricts movement slightly and worsens infections.</afflictiondescription.iced>
 
 		<!-- NT Meta -->
-		<afflictionname.luabotomy>‖color:gui.blue‖Lualess‖end‖</afflictionname.luabotomy>
-		<afflictiondescription.luabotomy>Lua isn't running. That means neurotrauma and any other mods that use it won't work. Installing Lua is different from other mods! Please read the workshop pages of mods you plan to use. If Lua is installed anyways, check the debug console for errors.</afflictiondescription.luabotomy>
+		<afflictionname.luabotomy>Lualess</afflictionname.luabotomy>
+		<afflictiondescription.luabotomy>‖color:gui.red‖Lua isn't running‖end‖. That means neurotrauma and any other mods that use it won't work. Installing Lua is different from other mods! Please read the workshop pages of mods you plan to use. If Lua is installed anyways, check the debug console for errors.</afflictiondescription.luabotomy>
 		
 		<afflictionname.modconflict>Mod conflict</afflictionname.modconflict>
-		<afflictiondescription.modconflict>There is a mod conflict. A different mod is overriding some of the same items Neurotrauma does. Some things may not function correctly. Please adjust your load order, or if this is intended, disable the mod conflict check in the Neurotrauma config.</afflictiondescription.modconflict>
+		<afflictiondescription.modconflict>‖color:gui.red‖There is a mod conflict‖end‖. A different mod is overriding some of the same items Neurotrauma does. Some things may not function correctly. Please adjust your load order, or if this is intended, disable the mod conflict check in the Neurotrauma config.</afflictiondescription.modconflict>
 	</Override>
 </infotexts>

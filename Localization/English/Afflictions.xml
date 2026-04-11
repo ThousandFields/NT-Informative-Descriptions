@@ -41,10 +41,10 @@
 
 		<!-- NT Trauma -->
 		<afflictionname.ra_fracture>Fractured right humerus</afflictionname.ra_fracture>
-		<afflictiondescription.ra_fracture>The right arm is broken, likely due to physical trauma. Using a weapon will immediately ‖color:gui.red‖make the arm unusable‖end‖. ‖color:gui.blue‖Bandaging‖end‖ it will ease the pain and prevent the arm from being unusable over time until a ‖color:gui.blue‖gypsum‖end‖ cast is put on, or it is surgically repaired.</afflictiondescription.ra_fracture>
+		<afflictiondescription.ra_fracture>The right arm is broken, likely due to physical trauma. Using a weapon will immediately make the arm ‖color:gui.red‖unusable‖end‖. ‖color:gui.blue‖Bandaging‖end‖ it will ease the pain and prevent the arm from being unusable over time until a ‖color:gui.blue‖gypsum‖end‖ cast is put on, or it is surgically repaired.</afflictiondescription.ra_fracture>
 		
 		<afflictionname.la_fracture>Fractured left humerus</afflictionname.la_fracture>
-		<afflictiondescription.la_fracture>The left arm is broken, likely due to physical trauma. Using a weapon will immediately ‖color:gui.red‖make the arm unusable‖end‖. ‖color:gui.blue‖Bandaging‖end‖ it will ease the pain and prevent the arm from being unusable over time until a ‖color:gui.blue‖gypsum‖end‖ cast is put on, or it is surgically repaired.</afflictiondescription.la_fracture>
+		<afflictiondescription.la_fracture>The left arm is broken, likely due to physical trauma. Using a weapon will immediately make the arm ‖color:gui.red‖unusable‖end‖. ‖color:gui.blue‖Bandaging‖end‖ it will ease the pain and prevent the arm from being unusable over time until a ‖color:gui.blue‖gypsum‖end‖ cast is put on, or it is surgically repaired.</afflictiondescription.la_fracture>
 		
 		<afflictionname.rl_fracture>Fractured right femur</afflictionname.rl_fracture>
 		<afflictiondescription.rl_fracture>The right leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.rl_fracture>
@@ -86,10 +86,10 @@
 		<afflictiondescription.dislocation2>A bone in the left leg has been displaced by physical trauma, causing pain and making movement difficult. A bandage will restore use of this limb, and a wrench may be used to relocate the bone.</afflictiondescription.dislocation2>
 		
 		<afflictionname.dislocation3>Dislocation</afflictionname.dislocation3>
-		<afflictiondescription.dislocation3>A bone in the right arm has been displaced by physical trauma, causing pain. If a weapon is used without ‖color:gui.blue‖bandaging‖end‖ the dislocation, the hand will ‖color:gui.red‖no longer be usable until‖end‖ the dislocation is fixed. A ‖color:gui.blue‖wrench‖end‖ may be used to relocate the bone.</afflictiondescription.dislocation3>
+		<afflictiondescription.dislocation3>A bone in the right arm has been displaced by physical trauma, causing pain. If a weapon is used without ‖color:gui.blue‖bandaging‖end‖ the dislocation, the hand will be ‖color:gui.red‖unusable‖end‖ until the dislocation is fixed. A ‖color:gui.blue‖wrench‖end‖ may be used to relocate the bone.</afflictiondescription.dislocation3>
 		
 		<afflictionname.dislocation4>Dislocation</afflictionname.dislocation4>
-		<afflictiondescription.dislocation4>A bone in the left arm has been displaced by physical trauma, causing pain. If a weapon is used without ‖color:gui.blue‖bandaging‖end‖ the dislocation, the hand will ‖color:gui.red‖no longer be usable until‖end‖ the dislocation is fixed. A ‖color:gui.blue‖wrench‖end‖ may be used to relocate the bone.</afflictiondescription.dislocation4>
+		<afflictiondescription.dislocation4>A bone in the left arm has been displaced by physical trauma, causing pain. If a weapon is used without ‖color:gui.blue‖bandaging‖end‖ the dislocation, the hand will be ‖color:gui.red‖unusable‖end‖ until the dislocation is fixed. A ‖color:gui.blue‖wrench‖end‖ may be used to relocate the bone.</afflictiondescription.dislocation4>
 
 		<afflictionname.ll_arterialcut>Femoral artery bleeding</afflictionname.ll_arterialcut>
 		<afflictiondescription.ll_arterialcut>The left femoral artery has been cut by foreign bodies or induced by severe bleeding, and is causing severe bloodloss. It should be suppressed by a tourniquet until surgically fixed.</afflictiondescription.ll_arterialcut>

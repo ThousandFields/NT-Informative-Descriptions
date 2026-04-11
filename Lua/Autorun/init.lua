@@ -1,6 +1,6 @@
 NTID = {}
 NTID.Name="Informative Descriptions"
-NTID.Version = "1.17"
+NTID.Version = "1.19"
 NTID.Path = table.pack(...)[1]
 Timer.Wait(function() if NTC ~= nil and NTC.RegisterExpansion ~= nil then NTC.RegisterExpansion(NTID) end end,1)
 
@@ -28,12 +28,12 @@ function EnableNTID()
     if NTC ~= nil or NT ~= nil or IsNTEnabled() then
         dofile(NTID.Path .. '/Lua/main.lua')
         -- Calling UpdateEntityList in short timer crashes subeditor with too many mods
---[[         if CLIENT and Game.IsSubEditor then
+        if CLIENT and Game.IsSubEditor then
             Timer.Wait(function()
                 LuaUserData.MakeMethodAccessible(Descriptors["Barotrauma.SubEditorScreen"], "UpdateEntityList")
                 Game.SubEditorScreen.UpdateEntityList()
             end, 5000)
-        end ]]
+        end
         return true
     end
     return false

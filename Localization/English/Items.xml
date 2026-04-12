@@ -95,6 +95,10 @@
 
 		<entitydescription.wrench>Makes mechanical repairs possible. It is also used to fix ‖color:gui.green‖dislocations‖end‖, which only requires half the skill to do if the patient does not feel pain. Failing to fix a dislocation will result in a ‖color:gui.red‖fracture‖end‖, however.</entitydescription.wrench>
 
+		<entitydescription.syringegun>Launches syrettes containing drugs or poisons. Doesn't seem to be compatible with ‖color:gui.blue‖opioids‖end‖.</entitydescription.syringegun>
+
+		<entitydescription.advancedsyringegun>Launches syrettes containing drugs or poisons. Has a higher capacity and integrated health scanner. Doesn't seem to be compatible with ‖color:gui.blue‖opioids‖end‖.</entitydescription.advancedsyringegun>
+
 		<!-- NT Tools -->
 		<entityname.defibrillator>Manual Defibrillator</entityname.defibrillator>
 		<entitydescription.defibrillator>A tool that uses battery power to cure ‖color:gui.green‖cardiac arrest‖end‖ or reset ‖color:gui.green‖fibrillation‖end‖. For curing cardiac arrest, use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 80, and for curing fibrillation, use the ‖color:gui.blue‖AED‖end‖ instead if medical skill is below 100. On failure, causes ‖color:gui.red‖cardiac arrest‖end‖.</entitydescription.defibrillator>

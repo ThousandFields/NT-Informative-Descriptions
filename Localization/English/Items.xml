@@ -171,6 +171,12 @@
 		<entityname.spinalimplant>Spinal Cord Implants</entityname.spinalimplant>
 		<entitydescription.spinalimplant>Titanium implants used to repair spinal cord injuries. They can be installed after ‖color:gui.blue‖skin retraction‖end‖. However, the spinal cord will be injured again if the neck fracture is not repaired with ‖color:gui.blue‖osteosynthesis‖end‖. On failure, causes ‖color:gui.red‖bleeding‖end‖ and ‖color:gui.red‖internal damage‖end‖.</entitydescription.spinalimplant>
 
+		<entityname.endovascballoon>Endovascular Balloon</entityname.endovascballoon>
+		<entitydescription.endovascballoon>A balloon inserted into a ruptured aorta. This will prevent ‖color:gui.green‖bloodloss‖end‖ caused by the rupture, but the clog will cause ‖color:gui.red‖gangrene‖end‖ over time. It can be installed after a ‖color:gui.blue‖scalpel incision‖end‖.</entitydescription.endovascballoon>
+
+		<entityname.medstent>Medical Stent</entityname.medstent>
+		<entitydescription.medstent>A stent that can be inserted into the aorta to repair a rupture. It must be used after the ‖color:gui.blue‖endovascular balloon‖end‖.</entitydescription.medstent>
+
 		<entityname.drainage>Drainage</entityname.drainage>
 		<entitydescription.drainage>Treats ‖color:gui.green‖pneumothorax‖end‖ by draining air out of the pleural cavity. Can be used after ‖color:gui.blue‖skin retraction‖end‖. Pneumothorax is a potentially threatening condition, as it prevents hypoxemia from decreasing.</entitydescription.drainage>
 
@@ -372,6 +378,9 @@
 		<entityname.thiamine>Thiamine</entityname.thiamine>
 		<entitydescription.thiamine>Vitamin B1 will provide a slight boost to ‖color:gui.green‖organ regeneration‖end‖. On failure, it is less effective.</entitydescription.thiamine>
 
+		<entityname.pressuremeds>Sodium Nitroprusside</entityname.pressuremeds>
+		<entitydescription.pressuremeds>A medication used to lower ‖color:gui.green‖blood pressure‖end‖. On failure, it is less effective.</entitydescription.pressuremeds>
+
 		<entityname.ointment>Antibiotic Ointment</entityname.ointment>
 		<entitydescription.ointment>An antiseptic gel that will aid against fighting ‖color:gui.green‖infected wounds‖end‖ and relieve minor ‖color:gui.green‖burns‖end‖. On failure, it is less effective.</entitydescription.ointment>
 
@@ -383,6 +392,12 @@
 
 		<entityname.ringerssolution>Ringer's Solution</entityname.ringerssolution>
 		<entitydescription.ringerssolution>An isotonic solution used to increase ‖color:gui.green‖blood pressure‖end‖, and additionally causes ‖color:gui.green‖alkalosis‖end‖. On failure, it has less duration.</entitydescription.ringerssolution>
+
+		<entityname.antiseptic>Antiseptic</entityname.antiseptic>
+		<entitydescription.antiseptic>Used by the ‖color:gui.blue‖antiseptic spray‖end‖, it is effective against treating ‖color:gui.green‖infected wounds‖end‖.</entitydescription.antiseptic>
+
+		<entityname.antisepticspray>Antiseptic Spray</entityname.antisepticspray>
+		<entitydescription.antisepticspray>Applies ‖color:gui.blue‖antiseptic‖end‖ to combat ‖color:gui.green‖infected wounds‖end‖.</entitydescription.antisepticspray>
 
 		<entityname.propofol>Propofol</entityname.propofol>
 		<entitydescription.propofol>A general ‖color:gui.green‖anesthetic‖end‖. Its effects take place after some time, and will not last very long. Anesthesized patients are ‖color:gui.red‖unconscious‖end‖ and do not gain ‖color:gui.green‖traumatic shock‖end‖ from surgical operations. Usage may come with a variety of non-lethal ‖color:gui.red‖side effects‖end‖.</entitydescription.propofol>

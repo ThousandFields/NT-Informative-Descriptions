@@ -16,7 +16,7 @@
 
     <!-- Vanilla Items -->
     <entitydescription.idcard>Обеспечивает ограниченный доступ в различные части подлодки. Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</entitydescription.idcard>
-	  <NTID.idcard_suffix>Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</NTID.idcard_suffix>
+	<NTID.idcard_suffix>Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.</NTID.idcard_suffix>
 
     <entitydescription.alienblood>Кровь одного из обитателей Европы. Она ‖color:gui.red‖несовместима‖end‖ с кровью человека.</entitydescription.alienblood>
 
@@ -36,7 +36,7 @@
 
     <entitydescription.antibiotics>Антибиотик, уничтожающий большинство болезнетворных бактерий, делая его эффективным медикаментом от ‖color:gui.green‖сепсиса‖end‖ и в меньшей степени, ‖color:gui.green‖заражения паразитами‖end‖. Однако, он обладает пониженной специфичностью и вызывает ‖color:gui.red‖повреждение органов‖end‖. Используется в качестве компонента многих медикаментов. При неудачном применении действует менее эффективно.</entitydescription.antibiotics>
 
-    <entitydescription.adrenaline>Природный гормон. На короткое время повышает ‖color:gui.green‖кровяное давление‖end‖,  увеличивает ‖color:gui.green‖урон в ближнем бою‖end‖, сокращает вдвое ‖color:gui.green‖частоту фибрилляции‖end‖ и предотвращает ‖color:gui.green‖боль‖end‖. При применении  он также лечит ‖color:gui.green‖остановку сердца‖end‖, снимает ‖color:gui.green‖оглушение‖end‖ и ненадолго даёт ‖color:gui.green‖сопротивление к оглушению‖end‖.</entitydescription.adrenaline>
+	<entitydescription.adrenaline>Природный гормон. На короткое время повышает ‖color:gui.green‖кровяное давление‖end‖,  увеличивает ‖color:gui.green‖урон в ближнем бою‖end‖, сокращает вдвое ‖color:gui.green‖частоту фибрилляции‖end‖ и предотвращает ‖color:gui.green‖боль‖end‖. При применении  он также лечит ‖color:gui.green‖остановку сердца‖end‖, снимает ‖color:gui.green‖оглушение‖end‖ и ненадолго даёт ‖color:gui.green‖сопротивление к оглушению‖end‖.</entitydescription.adrenaline>
 
     <entitydescription.captainspipe>Для успокоения нервов, когда на море качка. Хотя, это будет вредно для легких.</entitydescription.captainspipe>
 
@@ -136,6 +136,12 @@
 
     <entityname.spinalimplant>Импланты позвоночного столба</entityname.spinalimplant>
     <entitydescription.spinalimplant>Титановые импланты для лечения травм позвоночного столба. Могут быть вставлены после ‖color:gui.blue‖растянутой кожи‖end‖. Однако, позвоночный столб будет снова травмирован, если перелом шеи не вылечен ‖color:gui.blue‖остеосинтетической‖end‖ процедурой.</entitydescription.spinalimplant>
+
+    <entityname.endovascballoon>Эндоваскулярный баллон</entityname.endovascballoon>
+    <entitydescription.endovascballoon>Баллон, вставляемый в аорту при его разрыве. Это остановит ‖color:gui.green‖кровопотерю‖end‖ вызываемой разрывом, но закупоренность со временем вызывает ‖color:gui.red‖гангрену‖end‖. Может быть вставлен после ‖color:gui.blue‖надреза скальепелем‖end‖.</entitydescription.endovascballoon>
+
+    <entityname.medstent>Медицинский стент</entityname.medstent>
+    <entitydescription.medstent>Пластиковая конструкция которая вставляется в аорту для лечения разрыва аорты. Может быть использован после ‖color:gui.blue‖закупоренной баллоном аорты‖end‖.</entitydescription.medstent>
 
     <entityname.drainage>Дренаж</entityname.drainage>
     <entitydescription.drainage>Используется для лечения ‖color:gui.green‖пневмоторакса‖end‖, удаляя воздух из плевральной полости. Может быть использован после ‖color:gui.blue‖растянутой кожи‖end‖. Пневмоторакс это потенциально опасный статус, потому что он предотвращает снижение гипоксемии.</entitydescription.drainage>
@@ -326,6 +332,9 @@
     <entityname.thiamine>Тиамин</entityname.thiamine>
     <entitydescription.thiamine>Витамин B1, немого ускоряющий ‖color:gui.green‖регенерацию органов‖end‖. При неудачном применении действует менее эффективно.</entitydescription.thiamine>
 
+    <entityname.pressuremeds>Нитропруссид натрия</entityname.pressuremeds>
+    <entitydescription.pressuremeds>Медикамент, предназначенный для снижения ‖color:gui.green‖кровяного давления‖end‖. При неудачном применении действует менее эффективно.</entitydescription.pressuremeds>
+
     <entityname.ointment>Антибиотическая мазь</entityname.ointment>
     <entitydescription.ointment>Антибиотическая мазь, предназначенная для устранения ‖color:gui.green‖зараженных ран‖end‖ и ‖color:gui.green‖ожогов 1-ой и 2-ой степени‖end‖. При неудачном применении действует менее эффективно.</entitydescription.ointment>
 
@@ -337,6 +346,12 @@
 
     <entityname.ringerssolution>Раствор Рингера</entityname.ringerssolution>
     <entitydescription.ringerssolution>Изотонический раствор, применяемый для повышения ‖color:gui.green‖кровяного давления‖end‖. При неудачном применении действует менее эффективно.</entitydescription.ringerssolution>
+
+    <entityname.antiseptic>Антисептик</entityname.antiseptic>
+    <entitydescription.antiseptic>Используется в ‖color:gui.blue‖антисептическом спрее‖end‖, который применяется для устранения ‖color:gui.green‖зараженных ран‖end‖.</entitydescription.antiseptic>
+
+    <entityname.antisepticspray>Антисептический спрей</entityname.antisepticspray>
+    <entitydescription.antisepticspray>Предназначен для устранения ‖color:gui.green‖зараженных ран‖end‖. Требует ‖color:gui.blue‖антисептик‖end‖ для применения.</entitydescription.antisepticspray>
 
     <entityname.propofol>Пропофол</entityname.propofol>
     <entitydescription.propofol>Вводит общий ‖color:gui.green‖наркоз‖end‖. Действует постепенно, переводя пациента в статус ‖color:gui.red‖без сознания‖end‖. После чего позволяет избегать ‖color:gui.green‖травматического шока‖end‖ во время операции. Для быстрого выведения из наркоза применяется ‖color:gui.blue‖анапарализатор‖end‖.</entitydescription.propofol>

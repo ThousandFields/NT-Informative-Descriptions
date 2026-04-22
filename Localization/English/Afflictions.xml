@@ -262,6 +262,9 @@
 		<afflictionname.arteriesclamp>Clamped arteries</afflictionname.arteriesclamp>
 		<afflictiondescription.arteriesclamp>Bleeding from artery has been stopped, but blood flow to the extremity is severely reduced, causing gangrene if left on for too long.</afflictiondescription.arteriesclamp>
 		
+		<afflictionname.balloonedaorta>Ballooned aorta</afflictionname.balloonedaorta>
+		<afflictiondescription.balloonedaorta>The aorta has stopped bleeding, but bloodflow to the extremities is gone, causing gangrene if left on for too long.</afflictiondescription.balloonedaorta>
+		
 		<afflictionname.sra_amputation>Amputation</afflictionname.sra_amputation>
 		<afflictiondescription.sra_amputation>The right arm has been surgically amputated. This procedure does not rupture arteries.</afflictiondescription.sra_amputation>
 		

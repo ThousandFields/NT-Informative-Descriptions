@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by UltimeCookie -->
+<infotexts language="French" nowhitespace="false" translatedname="French">
+	<Override>
+        <!-- Immersive Repairs Items -->
+        <entityname.weldingtorch>Chalumeau</entityname.weldingtorch>
+        <entitydescription.weldingtorch>Soude deux fois plus vite que l'outil de soudage, mais ne peut pas être utilisé sous l'eau. Peut également être utilisé pour réparer le ‖color:gui.green‖métal tordu‖end‖ d'un ‖color:gui.blue‖cybermembre‖end‖.</entitydescription.weldingtorch>
+
+        <entityname.multitool>Multioutil</entityname.multitool>
+        <entitydescription.multitool>Un outil de réparation incroyablement rapide et facile à utiliser. Aucune compétence requise ! Pointez directement vers ce que vous souhaitez réparer et appuyez sur la gâchette. Se détériore rapidement avec l'usage. Peut être réparé en installant un nouveau circuit fpga. Également utilisé pour ‖color:gui.green‖serrer les vis‖end‖ d'un ‖color:gui.blue‖cybermembre‖end‖.</entitydescription.multitool>
+    </Override>
+</infotexts>

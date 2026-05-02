@@ -3,7 +3,8 @@
 local suffixes = {
 	English = "A ‖color:gui.blue‖printed donor card‖end‖ can be slotted into it.",
 	Russian = "Можно вставить ‖color:gui.blue‖карту донора‖end‖ в слот.",
-	["Simplified Chinese"] = "可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。"
+	["Simplified Chinese"] = "可以插入一张‖color:gui.blue‖打印的捐赠卡‖end‖。",
+    French = "Une ‖color:gui.blue‖carte de donneur‖end‖ peut être insérée."
 }
 
 return suffixes

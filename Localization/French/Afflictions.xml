@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by UltimeCookie -->
+<infotexts language="French" nowhitespace="false" translatedname="French">
+	<Override>
+		<!-- Vanilla Visible Afflictions -->
+		<afflictiondescription.gunshotwound>Le point d'entrée est un petit trou sombre et meurtri suintant légèrement du sang. La plaie de sortie, en revanche, est un large enchevêtrement de tissus à vif, et le sang coule abondamment. Une infection est probable, et il y a probablement encore des balles à l'intérieur. Cette blessure ne guérit pas naturellement au-delà de 50 %.</afflictiondescription.gunshotwound>
+		<afflictiondescription.gunshotwound.low>La balle a raté les parties vitales, mais la douleur est bien réelle, tout comme le risque d'infection. Il pourrait encore y avoir des balles à l'intérieur.</afflictiondescription.gunshotwound.low>
+
+		<afflictiondescription.blunttrauma>La zone est d'un vilain violet et apparemment très douloureuse au toucher. Vous soupçonnez qu'un os est peut-être cassé. Cette blessure ne peut pas être suturée. Cette blessure ne guérit pas naturellement au-delà de 100 %.</afflictiondescription.blunttrauma>
+		<afflictiondescription.blunttrauma.low>Un léger bleu montre l'endroit où quelque chose a frappé, mais rien ne semble cassé. Cette blessure ne peut cependant pas être suturée.</afflictiondescription.blunttrauma.low>
+
+		<afflictiondescription.lacerations>La peau est percée et il y a des plaies profondes qui saignent. Cela provoquera probablement une infection. Cette blessure ne guérit pas naturellement au-delà de 50 %</afflictiondescription.lacerations>
+		<afflictiondescription.lacerations.low>Les coupures semblent pires qu'elles ne le sont, mais une éventuelle infection ne doit pas être exclue.</afflictiondescription.lacerations.low>
+
+		<afflictiondescription.bitewounds>Il y a des dommages étendus aux tissus mous dans la zone et des plaies asymétriques qui saignent. Cela provoquera probablement une infection. Cette blessure ne guérit pas naturellement au-delà de 100 %.</afflictiondescription.bitewounds>
+		<afflictiondescription.bitewounds.low>Quelque chose a tenté de mordre profondément mais n'a heureusement pris qu'une petite bouchée. Cela pourrait cependant causer une infection.</afflictiondescription.bitewounds.low>
+
+		<afflictiondescription.explosiondamage>La zone est colorée en violet. Le tissu en dessous semble différent de la peau environnante. Une infection est probable, tout comme des éclats d'obus. Cette blessure ne guérit pas naturellement au-delà de 50 %.</afflictiondescription.explosiondamage>
+		<afflictiondescription.explosiondamage.low>La zone de peau semble légèrement meurtrie. Il pourrait y avoir une infection ou des éclats d'obus résiduels.</afflictiondescription.explosiondamage.low>
+
+		<afflictiondescription.bleeding>Le sang coule librement de cette plaie ouverte déchiquetée et particulièrement grave. Si elle s'aggrave, elle pourrait provoquer une rupture artérielle.</afflictiondescription.bleeding>
+		<afflictiondescription.bleeding.low>Le sang s'écoule lentement de la plaie.</afflictiondescription.bleeding.low>
+		<afflictiondescription.bleeding.high>Le sang jaillit à un rythme alarmant. Cela pourrait provoquer une rupture artérielle.</afflictiondescription.bleeding.high>
+
+		<afflictiondescription.bleedingnonstop>Le sang coule librement de cette plaie ouverte déchiquetée et particulièrement grave. Si elle s'aggrave, elle pourrait provoquer une rupture artérielle.</afflictiondescription.bleedingnonstop>
+		<afflictiondescription.bleedingnonstop.low>Le sang s'écoule lentement de la plaie.</afflictiondescription.bleedingnonstop.low>
+		<afflictiondescription.bleedingnonstop.high>Le sang jaillit à un rythme alarmant. Cela pourrait provoquer une rupture artérielle.</afflictiondescription.bleedingnonstop.high>
+
+		<afflictiondescription.nausea>La peau est moite et le patient vomit périodiquement. Les vomissements provoqueront une alcalose.</afflictiondescription.nausea>
+		<afflictiondescription.nausea.low>Sensation de malaise, mais rien qu'un repos ne pourrait régler. Les vomissements provoqueront une alcalose.</afflictiondescription.nausea.low>
+		<afflictiondescription.nausea.high>Vous êtes vraiment malade. Faut-il s'en inquiéter ou simplement se reposer ? Les vomissements provoqueront une alcalose.</afflictiondescription.nausea.high>
+
+		<afflictiondescription.adrenalinerush>La montée d'adrénaline rend le patient moins facilement assommé.</afflictiondescription.adrenalinerush>
+		<afflictiondescription.adrenalinerush.self>La montée d'adrénaline vous rend moins facilement assommé.</afflictiondescription.adrenalinerush.self>
+
+		<afflictionname.miracleworker>Miracle en cours</afflictionname.miracleworker>
+		<afflictiondescription.miracleworker>Vos forces vitales s'estompent, pourtant un Médecin brille comme un phare. Tant qu'il est à proximité, vous ne vous rendrez pas, même face aux neurotraumatismes.</afflictiondescription.miracleworker>
+
+		<!-- NT Visible Afflictions -->
+
+		<!-- NT Trauma -->
+		<afflictionname.ra_fracture>Humérus droit fracturé</afflictionname.ra_fracture>
+		<afflictiondescription.ra_fracture>Le bras droit est cassé, probablement à cause d'un traumatisme physique. L'utilisation d'une arme rendra immédiatement le bras ‖color:gui.red‖inutilisable‖end‖. ‖color:gui.blue‖Bander‖end‖ le bras atténuera la douleur et empêchera le bras de devenir inutilisable avec le temps jusqu'à ce qu'un plâtre en ‖color:gui.blue‖gypse‖end‖ soit posé, ou qu'il soit réparé chirurgicalement.</afflictiondescription.ra_fracture>
+
+		<afflictionname.la_fracture>Humérus gauche fracturé</afflictionname.la_fracture>
+		<afflictiondescription.la_fracture>Le bras gauche est cassé, probablement à cause d'un traumatisme physique. L'utilisation d'une arme rendra immédiatement le bras ‖color:gui.red‖inutilisable‖end‖. ‖color:gui.blue‖Bander‖end‖ le bras atténuera la douleur et empêchera le bras de devenir inutilisable avec le temps jusqu'à ce qu'un plâtre en ‖color:gui.blue‖gypse‖end‖ soit posé, ou qu'il soit réparé chirurgicalement.</afflictiondescription.la_fracture>
+
+		<afflictionname.rl_fracture>Fémur droit fracturé</afflictionname.rl_fracture>
+		<afflictiondescription.rl_fracture>La jambe droite est cassée, probablement à cause d'un traumatisme physique. Ce sera douloureux et les mouvements seront difficiles jusqu'à ce qu'un plâtre soit posé, ou qu'elle soit réparée chirurgicalement.</afflictiondescription.rl_fracture>
+
+		<afflictionname.ll_fracture>Fémur gauche fracturé</afflictionname.ll_fracture>
+		<afflictiondescription.ll_fracture>La jambe gauche est cassée, probablement à cause d'un traumatisme physique. Ce sera douloureux et les mouvements seront difficiles jusqu'à ce qu'un plâtre soit posé, ou qu'elle soit réparée chirurgicalement.</afflictiondescription.ll_fracture>
+
+		<afflictionname.t_fracture>Côtes fracturées</afflictionname.t_fracture>
+		<afflictiondescription.t_fracture>Une ou plusieurs côtes ont été cassées, probablement à cause d'un traumatisme physique. Sans ‖color:gui.blue‖bandage‖end‖, l'instabilité structurelle peut causer un ‖color:gui.red‖pneumothorax‖end‖. Elle doit être réparée lors d'une chirurgie d'‖color:gui.blue‖ostéosynthèse‖end‖.</afflictiondescription.t_fracture>
+
+		<afflictionname.h_fracture>Crâne fracturé</afflictionname.h_fracture>
+		<afflictiondescription.h_fracture>Le crâne a été fracturé, probablement à cause d'un traumatisme physique. L'intégrité structurelle compromise empêchera les neurotraumatismes de se soigner naturellement. Il doit être réparé lors d'une chirurgie d'‖color:gui.blue‖ostéosynthèse‖end‖.</afflictiondescription.h_fracture>
+
+		<afflictionname.n_fracture>Cou fracturé</afflictionname.n_fracture>
+		<afflictiondescription.n_fracture>Le cou a été fracturé à cause d'un traumatisme. ‖color:gui.blue‖Bander‖end‖ le cou empêchera une lésion de la moelle épinière de se produire. Il doit être réparé lors d'une chirurgie d'ostéosynthèse.</afflictiondescription.n_fracture>
+
+		<afflictionname.tra_amputation>Amputation traumatique</afflictionname.tra_amputation>
+		<afflictiondescription.tra_amputation>La majeure partie du bras droit a été arrachée par un traumatisme physique, provoquant la rupture d'une artère. Ce membre doit être remplacé après avoir scié les os.</afflictiondescription.tra_amputation>
+
+		<afflictionname.tla_amputation>Amputation traumatique</afflictionname.tla_amputation>
+		<afflictiondescription.tla_amputation>La majeure partie du bras gauche a été arrachée par un traumatisme physique, provoquant la rupture d'une artère. Ce membre doit être remplacé après avoir scié les os.</afflictiondescription.tla_amputation>
+
+		<afflictionname.trl_amputation>Amputation traumatique</afflictionname.trl_amputation>
+		<afflictiondescription.trl_amputation>La majeure partie de la jambe droite a été arrachée par un traumatisme physique, provoquant la rupture d'une artère. Ce membre doit être remplacé après avoir scié les os.</afflictiondescription.trl_amputation>
+
+		<afflictionname.tll_amputation>Amputation traumatique</afflictionname.tll_amputation>
+		<afflictiondescription.tll_amputation>La majeure partie de la jambe gauche a été arrachée par un traumatisme physique, provoquant la rupture d'une artère. Ce membre doit être remplacé après avoir scié les os.</afflictiondescription.tll_amputation>
+
+		<afflictionname.th_amputation>Amputation traumatique</afflictionname.th_amputation>
+		<afflictiondescription.th_amputation>La tête a été arrachée par une explosion, causant la mort immédiate.</afflictiondescription.th_amputation>
+
+		<afflictionname.t_paralysis>Lésion de la moelle épinière</afflictionname.t_paralysis>
+		<afflictiondescription.t_paralysis>La colonne vertébrale a été endommagée à cause d'une ‖color:gui.red‖fracture du cou‖end‖, provoquant une ‖color:gui.red‖paralysie totale du corps‖end‖ et une ‖color:gui.green‖analgésie‖end‖. Ne cause pas de perte de conscience. Elle doit être réparée chirurgicalement à l'aide d'implants de moelle épinière.</afflictiondescription.t_paralysis>
+
+		<afflictionname.dislocation1>Dislocation</afflictionname.dislocation1>
+		<afflictiondescription.dislocation1>Un os de la jambe droite a été déplacé par un traumatisme physique, causant de la douleur et rendant les mouvements difficiles. Un bandage rétablira l'usage de ce membre, et une clé peut être utilisée pour replacer l'os.</afflictiondescription.dislocation1>
+
+		<afflictionname.dislocation2>Dislocation</afflictionname.dislocation2>
+		<afflictiondescription.dislocation2>Un os de la jambe gauche a été déplacé par un traumatisme physique, causant de la douleur et rendant les mouvements difficiles. Un bandage rétablira l'usage de ce membre, et une clé peut être utilisée pour replacer l'os.</afflictiondescription.dislocation2>
+
+		<afflictionname.dislocation3>Dislocation</afflictionname.dislocation3>
+		<afflictiondescription.dislocation3>Un os du bras droit a été déplacé par un traumatisme physique, causant de la douleur. Si une arme est utilisée sans ‖color:gui.blue‖bander‖end‖ la dislocation, la main sera ‖color:gui.red‖inutilisable‖end‖ jusqu'à ce que la dislocation soit corrigée. Une ‖color:gui.blue‖clé‖end‖ peut être utilisée pour replacer l'os.</afflictiondescription.dislocation3>
+
+		<afflictionname.dislocation4>Dislocation</afflictionname.dislocation4>
+		<afflictiondescription.dislocation4>Un os du bras gauche a été déplacé par un traumatisme physique, causant de la douleur. Si une arme est utilisée sans ‖color:gui.blue‖bander‖end‖ la dislocation, la main sera ‖color:gui.red‖inutilisable‖end‖ jusqu'à ce que la dislocation soit corrigée. Une ‖color:gui.blue‖clé‖end‖ peut être utilisée pour replacer l'os.</afflictiondescription.dislocation4>
+
+		<afflictionname.ll_arterialcut>Saignement de l'artère fémorale</afflictionname.ll_arterialcut>
+		<afflictiondescription.ll_arterialcut>L'artère fémorale gauche a été sectionnée par des corps étrangers ou induite par un saignement sévère, et cause une perte de sang importante. Elle devrait être supprimée par un garrot jusqu'à ce qu'elle soit réparée chirurgicalement.</afflictiondescription.ll_arterialcut>
+
+		<afflictionname.rl_arterialcut>Saignement de l'artère fémorale</afflictionname.rl_arterialcut>
+		<afflictiondescription.rl_arterialcut>L'artère fémorale droite a été sectionnée par des corps étrangers ou induite par un saignement sévère, et cause une perte de sang importante. Elle devrait être supprimée par un garrot jusqu'à ce qu'elle soit réparée chirurgicalement.</afflictiondescription.rl_arterialcut>
+
+		<afflictionname.la_arterialcut>Saignement de l'artère brachiale</afflictionname.la_arterialcut>
+		<afflictiondescription.la_arterialcut>L'artère brachiale gauche a été sectionnée par des corps étrangers ou induite par un saignement sévère, et cause une perte de sang importante. Elle devrait être supprimée par un garrot jusqu'à ce qu'elle soit réparée chirurgicalement.</afflictiondescription.la_arterialcut>
+
+		<afflictionname.ra_arterialcut>Saignement de l'artère brachiale</afflictionname.ra_arterialcut>
+		<afflictiondescription.ra_arterialcut>L'artère brachiale droite a été sectionnée par des corps étrangers ou induite par un saignement sévère, et cause une perte de sang importante. Elle devrait être supprimée par un garrot jusqu'à ce qu'elle soit réparée chirurgicalement.</afflictiondescription.ra_arterialcut>
+
+		<afflictionname.h_arterialcut>Saignement de l'artère carotide</afflictionname.h_arterialcut>
+		<afflictiondescription.h_arterialcut>L'artère carotide a été sectionnée par des corps étrangers ou induite par un saignement sévère, et cause une perte de sang importante. Il est dangereux de l'arrêter avec un garrot, et elle doit être réparée chirurgicalement.</afflictiondescription.h_arterialcut>
+
+		<afflictionname.gangrene>Gangrène</afflictionname.gangrene>
+		<afflictiondescription.gangrene>L'extrémité a rétréci et noirci, en raison d'une septicémie ou d'une circulation sanguine insuffisante. Le membre doit être amputé au-delà de 15 %, car il ne guérira plus.</afflictiondescription.gangrene>
+
+		<afflictionname.burn_deg1>Brûlure du premier degré</afflictionname.burn_deg1>
+		<afflictiondescription.burn_deg1>La zone est rouge et douloureuse au toucher, mais elle ne causera pas d'infection à moins d'être grave. Des bandages ou des gels antibiotiques constituent un traitement suffisant, si nécessaire.</afflictiondescription.burn_deg1>
+
+		<afflictionname.burn_deg2>Brûlure du deuxième degré</afflictionname.burn_deg2>
+		<afflictiondescription.burn_deg2>Il y a des cloques très douloureuses sur la zone affectée. Le taux d'infection est élevé, ce qui conduira à une septicémie auto-destructrice. Des bandages ou des gels antibiotiques constituent un traitement suffisant.</afflictiondescription.burn_deg2>
+
+		<afflictionname.burn_deg3>Brûlure du troisième degré</afflictionname.burn_deg3>
+		<afflictiondescription.burn_deg3>Cette zone coriace et rigide est indolore. L'‖color:gui.red‖infection‖end‖ est presque immédiate, et l'apparition de la septicémie est rapide. La ‖color:gui.blue‖colle antibiotique‖end‖ est le traitement le plus rapide, et le ‖color:gui.blue‖plastiseal‖end‖ peut être utilisé pour la traiter avec une chirurgie.</afflictiondescription.burn_deg3>
+
+		<!-- NT Symptoms -->
+		<afflictionname.tachycardia>Fréquence cardiaque élevée</afflictionname.tachycardia>
+		<afflictiondescription.tachycardia>La fréquence cardiaque est anormalement haute. Si elle augmente en intensité, une fibrillation potentiellement mortelle se produit, généralement due à une hypotension ou une hypoxémie.</afflictiondescription.tachycardia>
+
+		<afflictionname.fibrillation>Battement cardiaque irrégulier</afflictionname.fibrillation>
+		<afflictiondescription.fibrillation>Le battement cardiaque présente un rythme anormal. La fibrillation est potentiellement mortelle, généralement causée par une hypotension ou une hypoxémie.</afflictiondescription.fibrillation>
+
+		<afflictionname.cardiacarrest>Arrêt cardiaque</afflictionname.cardiacarrest>
+		<afflictiondescription.cardiacarrest>Aucun battement cardiaque. Empêche la ‖color:gui.red‖pression artérielle‖end‖ de se normaliser, et provoque un ‖color:gui.red‖coma‖end‖ si non traité. Résultat ultime de la ‖color:gui.red‖fibrillation‖end‖, également causé par l'‖color:gui.red‖hypoxémie‖end‖. Le cœur doit être redémarré à l'aide d'un ‖color:gui.blue‖défibrillateur‖end‖, d'‖color:gui.blue‖adrénaline‖end‖, ou d'un ‖color:gui.blue‖AutoPulse‖end‖.</afflictiondescription.cardiacarrest>
+
+		<afflictionname.respiratoryarrest>Arrêt respiratoire</afflictionname.respiratoryarrest>
+		<afflictiondescription.respiratoryarrest>Aucune respiration. Un état létal qui empêchera l'oxygénation du sang. Généralement causé par une hypoxémie, des neurotraumatismes, ou une surdose d'opiacés. La ventilation artificielle contournera cette affection et l'acidose qu'elle provoque.</afflictiondescription.respiratoryarrest>
+
+		<afflictionname.hyperventilation>Hyperventilation</afflictionname.hyperventilation>
+		<afflictiondescription.hyperventilation>La fréquence respiratoire est anormalement haute. Augmente progressivement une alcalose non létale, et est généralement causée par une hypotension, une hypoxémie, ou un pneumothorax.</afflictiondescription.hyperventilation>
+
+		<afflictionname.hypoventilation>Hypoventilation</afflictionname.hypoventilation>
+		<afflictiondescription.hypoventilation>La fréquence respiratoire est anormalement basse. Augmente progressivement une acidose potentiellement létale, qui peut être prévenue par une ventilation artificielle. Elle est généralement causée par une analgésie. Une acidose sévère provoquera une fibrillation.</afflictiondescription.hypoventilation>
+
+		<afflictionname.dyspnea>Essoufflement</afflictionname.dyspnea>
+		<afflictiondescription.dyspnea>La respiration est difficile. Généralement causée par une tamponnade cardiaque, un pneumothorax, ou une hypoxémie.</afflictiondescription.dyspnea>
+
+		<afflictionname.sym_cough>Toux</afflictionname.sym_cough>
+		<afflictiondescription.sym_cough>Toux périodique. Causée par une tamponnade cardiaque, des dommages aux poumons ou au cœur.</afflictiondescription.sym_cough>
+
+		<afflictionname.sym_paleskin>Peau pâle</afflictionname.sym_paleskin>
+		<afflictiondescription.sym_paleskin>La peau est pâle. Causée par une hypoxémie, une perte de sang ou une pression artérielle trop basse.</afflictiondescription.sym_paleskin>
+
+		<afflictionname.sym_lightheadedness>Étourdissement</afflictionname.sym_lightheadedness>
+		<afflictiondescription.sym_lightheadedness>Sensation de vertige. Causée par une hypotension.</afflictiondescription.sym_lightheadedness>
+
+		<afflictionname.sym_blurredvision>Vision floue</afflictionname.sym_blurredvision>
+		<afflictiondescription.sym_blurredvision>Difficulté à faire la mise au point oculaire. Généralement causée par une hypotension ou une commotion cérébrale.</afflictiondescription.sym_blurredvision>
+
+		<afflictionname.sym_confusion>Confusion</afflictionname.sym_confusion>
+		<afflictiondescription.sym_confusion>Difficulté à formuler des pensées. Généralement causée par une hypoxémie, une acidose ou une commotion cérébrale.</afflictiondescription.sym_confusion>
+
+		<afflictionname.sym_headache>Maux de tête</afflictionname.sym_headache>
+		<afflictiondescription.sym_headache>Douleur dans la tête. Généralement causée par une hypoxémie, une fracture du crâne, une acidose, une commotion cérébrale ou un AVC.</afflictiondescription.sym_headache>
+
+		<afflictionname.sym_legswelling>Gonflement des jambes</afflictionname.sym_legswelling>
+		<afflictiondescription.sym_legswelling>Accumulation de liquide dans les jambes. Causée par des dommages au foie, aux reins, ou au cœur sévèrement endommagé.</afflictiondescription.sym_legswelling>
+
+		<afflictionname.sym_weakness>Faiblesse</afflictionname.sym_weakness>
+		<afflictiondescription.sym_weakness>Capacité musculaire réduite dans les extrémités. Causée par une tamponnade cardiaque, une perte de sang, ou une acidose.</afflictiondescription.sym_weakness>
+
+		<afflictionname.sym_wheezing>Respiration sifflante</afflictionname.sym_wheezing>
+		<afflictiondescription.sym_wheezing>La respiration produit des sons aigus. Causée par un choc de transfusion sanguine.</afflictiondescription.sym_wheezing>
+
+		<afflictionname.sym_vomiting>Vomissements</afflictionname.sym_vomiting>
+		<afflictiondescription.sym_vomiting>Vomissements périodiques. Généralement causés par des dommages aux reins, l'alcool, ou un choc de transfusion sanguine. Les vomissements provoqueront une alcalose.</afflictiondescription.sym_vomiting>
+
+		<afflictionname.sym_hematemesis>Vomissement de sang</afflictionname.sym_hematemesis>
+		<afflictiondescription.sym_hematemesis>Vomissements périodiques de sang. Généralement causés par un saignement interne sévère ou une insuffisance hépatique.</afflictiondescription.sym_hematemesis>
+
+		<afflictionname.fever>Fièvre</afflictionname.fever>
+		<afflictiondescription.fever>Température corporelle anormalement élevée. Généralement causée par une septicémie.</afflictiondescription.fever>
+
+		<afflictionname.sym_abdomdiscomfort>Gêne abdominale</afflictionname.sym_abdomdiscomfort>
+		<afflictiondescription.sym_abdomdiscomfort>Gêne dans l'abdomen. Causée par des dommages au foie.</afflictiondescription.sym_abdomdiscomfort>
+
+		<afflictionname.sym_bloating>Ballonnement</afflictionname.sym_bloating>
+		<afflictiondescription.sym_bloating>Abdomen ballonné. Causé par des dommages au foie.</afflictiondescription.sym_bloating>
+
+		<afflictionname.sym_jaundice>Jaunisse</afflictionname.sym_jaundice>
+		<afflictiondescription.sym_jaundice>La peau est jaune. Causée par des dommages sévères au foie.</afflictiondescription.sym_jaundice>
+
+		<afflictionname.sym_sweating>Transpiration</afflictionname.sym_sweating>
+		<afflictiondescription.sym_sweating>Transpiration excessive anormale. Causée par une crise cardiaque ou un sevrage médicamenteux.</afflictiondescription.sym_sweating>
+
+		<afflictionname.sym_palpitations>Palpitations</afflictionname.sym_palpitations>
+		<afflictiondescription.sym_palpitations>Sensation de battements cardiaques forts. Causée par une alcalose.</afflictiondescription.sym_palpitations>
+
+		<afflictionname.sym_unconsciousness>Inconscience</afflictionname.sym_unconsciousness>
+		<afflictiondescription.sym_unconsciousness>La personne est inconsciente. Généralement causée par un traumatisme physique sévère, une hypoxémie, des neurotraumatismes, une rupture aortique, ou une surdose d'opiacés.</afflictiondescription.sym_unconsciousness>
+
+		<afflictionname.inflammation>Inflammation</afflictionname.inflammation>
+		<afflictiondescription.inflammation>Le tissu semble enflé. Causée par une infection ou des corps étrangers.</afflictiondescription.inflammation>
+
+		<afflictionname.spasm>Spasme</afflictionname.spasm>
+		<afflictiondescription.spasm>Contractions musculaires involontaires causées par une convulsion. Généralement causées par une acidose ou une alcalose sévère, un AVC, une surdose d'opiacés ou une maladie des radiations.</afflictiondescription.spasm>
+
+		<afflictionname.seizure>Convulsion</afflictionname.seizure>
+		<afflictiondescription.seizure>Le patient a une convulsion généralisée. Généralement causée par une acidose ou une alcalose sévère, un AVC, une surdose d'opiacés, ou des radiations.</afflictiondescription.seizure>
+
+		<afflictionname.sym_craving>Manque</afflictionname.sym_craving>
+		<afflictiondescription.sym_craving>Une envie de drogues, causée par un sevrage.</afflictiondescription.sym_craving>
+
+		<afflictionname.onfire>En feu !</afflictionname.onfire>
+		<afflictiondescription.onfire>Allumez le feu !</afflictiondescription.onfire>
+
+		<afflictionname.pain_chest>Douleur thoracique</afflictionname.pain_chest>
+		<afflictiondescription.pain_chest>Douleur perçante dans la poitrine. Causée par des fractures de côtes ou un choc de transfusion sanguine.</afflictiondescription.pain_chest>
+
+		<afflictionname.pain_abdominal>Douleur abdominale</afflictionname.pain_abdominal>
+		<afflictiondescription.pain_abdominal>Douleur dans l'abdomen. Causée par un choc de transfusion sanguine.</afflictiondescription.pain_abdominal>
+
+		<afflictionname.pain_extremity>Douleur intense</afflictionname.pain_extremity>
+		<afflictiondescription.pain_extremity>Douleur très forte. Généralement causée par des dislocations ou des fractures.</afflictiondescription.pain_extremity>
+
+		<afflictionname.sym_nausea>Nausée</afflictionname.sym_nausea>
+		<afflictiondescription.sym_nausea>Sensation de nausée. Généralement causée par des dommages aux reins, une commotion cérébrale, un sevrage médicamenteux, ou un choc de transfusion sanguine. Les vomissements provoqueront une alcalose.</afflictiondescription.sym_nausea>
+
+		<!-- NT Surgery -->
+		<!-- Ones that appear on the right side of BHUI have title casing, similar to buffs -->
+		<afflictionname.traumaticshock>Choc traumatique</afflictionname.traumaticshock>
+		<afflictiondescription.traumaticshock>Survient généralement lors de conditions chirurgicales non sécurisées, provoquant une hypotension potentiellement mortelle. Pour une chirurgie sûre, le patient doit être analgésié et près d'un lit quelconque, ou être inconscient.</afflictiondescription.traumaticshock>
+
+		<afflictionname.surgeryincision>Incision Chirurgicale</afflictionname.surgeryincision>
+		<afflictiondescription.surgeryincision>Une incision a été faite par un scalpel. C'est douloureux. Cela provoque également une perte de sang, qui est prévenue par un hémostatique.</afflictiondescription.surgeryincision>
+
+		<afflictionname.clampedbleeders>Saignement Clampé</afflictionname.clampedbleeders>
+		<afflictiondescription.clampedbleeders>Les saignements chirurgicaux ont été stoppés. Cela n'empêche pas la douleur causée par l'incision.</afflictiondescription.clampedbleeders>
+
+		<afflictionname.retractedskin>Peau Rétractée</afflictionname.retractedskin>
+		<afflictiondescription.retractedskin>La peau est maintenue ouverte par un ensemble d'écarteurs. C'est indescriptiblement inconfortable, et ne peut être fait en toute sécurité qu'à proximité d'une table chirurgicale ou d'un lit d'hôpital, allongé sur n'importe quel lit, ou lorsqu'on est inconscient.</afflictiondescription.retractedskin>
+
+		<afflictionname.suturedi>Incision Suturée</afflictionname.suturedi>
+		<afflictiondescription.suturedi>Une incision a été fermée par des sutures.</afflictiondescription.suturedi>
+
+		<afflictionname.drilledbones>Os Percés</afflictionname.drilledbones>
+		<afflictiondescription.drilledbones>Les os ont été percés, permettant l'installation d'implants d'ostéosynthèse. </afflictiondescription.drilledbones>
+
+		<afflictionname.bonecut>Os Sciés</afflictionname.bonecut>
+		<afflictiondescription.bonecut>L'os a été chirurgicalement scié pour retirer un membre, ou pour préparer l'installation d'un autre.</afflictiondescription.bonecut>
+
+		<afflictionname.heartremoved>Cœur retiré</afflictionname.heartremoved>
+		<afflictiondescription.heartremoved>Le cœur a été chirurgicalement retiré. Un cœur est nécessaire pour pomper le sang oxygéné. Les dommages cardiaques sont généralement causés par une hypoxémie, une crise cardiaque, ou des blessures par balle.</afflictiondescription.heartremoved>
+
+		<afflictionname.brainremoved>Cerveau retiré</afflictionname.brainremoved>
+		<afflictiondescription.brainremoved>Le cerveau a été chirurgicalement retiré. Un cerveau est nécessaire à la conscience. Les neurotraumatismes sont généralement causés par une hypoxémie, un AVC, ou l'absence de cerveau. De plus, ils s'écrasent lorsqu'ils touchent le sol.</afflictiondescription.brainremoved>
+
+		<afflictionname.lungremoved>Poumons retirés</afflictionname.lungremoved>
+		<afflictiondescription.lungremoved>Les poumons ont été chirurgicalement retirés. Les poumons sont nécessaires pour oxygéner le sang. Les dommages pulmonaires sont généralement causés par une hypoxémie, des blessures par balle, ou un tabagisme excessif.</afflictiondescription.lungremoved>
+
+		<afflictionname.kidneyremoved>Reins retirés</afflictionname.kidneyremoved>
+		<afflictiondescription.kidneyremoved>Les reins ont été chirurgicalement retirés. Les reins sont nécessaires pour réguler l'acidose, solidifier les os, et maintenir la pression artérielle, mais une personne peut vivre avec un seul rein. Les dommages rénaux sont généralement causés par une hypoxémie ou des blessures par balle.</afflictiondescription.kidneyremoved>
+
+		<afflictionname.liverremoved>Foie retiré</afflictionname.liverremoved>
+		<afflictiondescription.liverremoved>Le foie a été chirurgicalement retiré. Un foie est nécessaire pour coaguler les saignements et réguler la pression artérielle. Les dommages hépatiques sont généralement causés par une hypoxémie, des blessures par balle, ou une consommation excessive d'alcool.</afflictiondescription.liverremoved>
+
+		<afflictionname.arteriesclamp>Artères clampées</afflictionname.arteriesclamp>
+		<afflictiondescription.arteriesclamp>Le saignement de l'artère a été stoppé, mais le flux sanguin vers l'extrémité est sévèrement réduit, provoquant une gangrène si laissé trop longtemps.</afflictiondescription.arteriesclamp>
+
+		<afflictionname.balloonedaorta>Aorte ballonnisée</afflictionname.balloonedaorta>
+		<afflictiondescription.balloonedaorta>L'aorte a cessé de saigner, mais le flux sanguin vers les extrémités est interrompu, provoquant une gangrène si laissé trop longtemps.</afflictiondescription.balloonedaorta>
+
+		<afflictionname.sra_amputation>Amputation</afflictionname.sra_amputation>
+		<afflictiondescription.sra_amputation>Le bras droit a été chirurgicalement amputé. Cette procédure ne provoque pas de rupture des artères.</afflictiondescription.sra_amputation>
+
+		<afflictionname.sla_amputation>Amputation</afflictionname.sla_amputation>
+		<afflictiondescription.sla_amputation>Le bras gauche a été chirurgicalement amputé. Cette procédure ne provoque pas de rupture des artères.</afflictiondescription.sla_amputation>
+
+		<afflictionname.srl_amputation>Amputation</afflictionname.srl_amputation>
+		<afflictiondescription.srl_amputation>La jambe droite a été chirurgicalement amputée. Cette procédure ne provoque pas de rupture des artères.</afflictiondescription.srl_amputation>
+
+		<afflictionname.sll_amputation>Amputation</afflictionname.sll_amputation>
+		<afflictiondescription.sll_amputation>La jambe gauche a été chirurgicalement amputée. Cette procédure ne provoque pas de rupture des artères.</afflictiondescription.sll_amputation>
+
+		<afflictionname.sh_amputation>Amputation</afflictionname.sh_amputation>
+		<afflictiondescription.sh_amputation>La tête a été chirurgicalement amputée. Cette procédure ne provoque pas de rupture des artères... mais cause la mort immédiate.</afflictiondescription.sh_amputation>
+
+		<!-- NT Treatments -->
+		<!-- Ones that appear on the right side of BHUI have title casing, similar to buffs -->
+		<afflictionname.boneclamp>Attelle</afflictionname.boneclamp>
+		<afflictiondescription.boneclamp>La fracture a été immobilisée par une attelle.</afflictiondescription.boneclamp>
+
+		<afflictionname.bandaged>Bandagé</afflictionname.bandaged>
+		<afflictiondescription.bandaged>Protège des ‖color:gui.green‖infections‖end‖ mineures, stabilise les ‖color:gui.green‖dislocations‖end‖ et les ‖color:gui.green‖fractures‖end‖, et augmente la vitesse naturelle de guérison des plaies. Restreint légèrement les mouvements. N'améliore pas la guérison des plaies ouvertes si elles sont trop graves.</afflictiondescription.bandaged>
+
+		<afflictionname.dirtybandage>Bandage sale</afflictionname.dirtybandage>
+		<afflictiondescription.dirtybandage>Un ‖color:gui.blue‖bandage‖end‖ qui a été trop utilisé et devrait être retiré ou remplacé, car il favorise les ‖color:gui.red‖infections‖end‖. Il est toujours capable de stabiliser les ‖color:gui.green‖dislocations‖end‖ et les ‖color:gui.green‖fractures‖end‖ du bras.</afflictiondescription.dirtybandage>
+
+		<afflictionname.gypsumcast>Plâtre</afflictionname.gypsumcast>
+		<afflictiondescription.gypsumcast>Permet aux ‖color:gui.green‖fractures‖end‖ de guérir. Restreint notablement les mouvements.</afflictiondescription.gypsumcast>
+
+		<afflictionname.ointmented>Pommade antibiotique</afflictionname.ointmented>
+		<afflictiondescription.ointmented>Une couche de gel antibiotique protège et nettoie la plaie de tout germe. Il est très difficile pour une ‖color:gui.green‖infection‖end‖ de se développer ici.</afflictiondescription.ointmented>
+
+		<afflictionname.needlec>Aiguille</afflictionname.needlec>
+		<afflictiondescription.needlec>Une aiguille avec une valve à air dans la poitrine empêche le ‖color:gui.green‖pneumothorax‖end‖ de s'aggraver. Cependant, la présence d'une aiguille garantira un pneumothorax, nécessitant un traitement par ‖color:gui.blue‖drainage‖end‖.</afflictiondescription.needlec>
+
+		<afflictionname.bonegrowth>Croissance Osseuse Stimulée</afflictionname.bonegrowth>
+		<afflictiondescription.bonegrowth>La régénération osseuse a été stimulée. Pour soigner la ‖color:gui.green‖nécrose osseuse‖end‖, cette affection doit être présente sur chaque partie du corps.</afflictiondescription.bonegrowth>
+
+		<afflictionname.analgesia>Analgésie</afflictionname.analgesia>
+		<afflictiondescription.analgesia>L'absence de douleur supprime certains symptômes et rend la chirurgie possible. À des niveaux élevés, augmente la résistance aux dommages et aux étourdissements.</afflictiondescription.analgesia>
+
+		<afflictionname.anesthesia>Anesthésie</afflictionname.anesthesia>
+		<afflictiondescription.anesthesia>‖color:gui.green‖Inconscience‖end‖ contrôlée, probablement due à un médicament. Il est sûr d'opérer cette personne.</afflictiondescription.anesthesia>
+
+		<afflictionname.suturedw>Plaie suturée</afflictionname.suturedw>
+		<afflictiondescription.suturedw>Les plaies ont été suturées. Les plaies suturées guérissent beaucoup plus vite que les plaies ouvertes, et sont imperméables aux infections.</afflictiondescription.suturedw>
+
+		<afflictionname.iced>Refroidi</afflictionname.iced>
+		<afflictiondescription.iced>Une poche de gel froid augmente considérablement la vitesse naturelle de guérison des traumatismes contondants et traite les saignements internes au fil du temps. Elle restreint légèrement les mouvements et aggrave les infections.</afflictiondescription.iced>
+
+		<!-- NT Meta -->
+		<afflictionname.luabotomy>Sans Lua</afflictionname.luabotomy>
+		<afflictiondescription.luabotomy>‖color:gui.red‖Lua ne fonctionne pas‖end‖. Cela signifie que Neurotrauma et tout autre mod qui l'utilise ne fonctionneront pas. Installer Lua est différent des autres mods ! Veuillez lire les pages du workshop des mods que vous prévoyez d'utiliser. Si Lua est quand même installé, vérifiez la console de débogage pour les erreurs.</afflictiondescription.luabotomy>
+
+		<afflictionname.modconflict>Conflit de mods</afflictionname.modconflict>
+		<afflictiondescription.modconflict>‖color:gui.red‖Il y a un conflit de mods‖end‖. Un autre mod remplace certains des mêmes éléments que Neurotrauma. Certaines choses pourraient ne pas fonctionner correctement. Veuillez ajuster votre ordre de chargement, ou si c'est intentionnel, désactivez la vérification des conflits de mods dans la configuration de Neurotrauma.</afflictiondescription.modconflict>
+	</Override>
+</infotexts>

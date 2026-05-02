@@ -3,7 +3,7 @@
 local config = {
 	{
 		--Neurotrauma guns fork
-		supportedlanguages = {"English","Simplified Chinese","Russian"}, -- which languages patch supports for this specific mod {"English","German","Russian"} etc
+		supportedlanguages = {"English","Simplified Chinese","Russian", "French"}, -- which languages patch supports for this specific mod {"English","German","Russian"} etc
 		IgnoreTargetModState = false, -- doesnt check for target mod being enabled. Still respects supported languages.
 		workshopId = "3190189044", -- id of the mod being patched and which language files we disable, "" means nothing gets disabled
 		loadpriority = 0, -- patches with higher priotiry would override ones with lower when enabled. works similiar to game modlist
@@ -15,7 +15,7 @@ local config = {
 	
 	{
 		-- Curly's Surgery Plus (not yet ready)
-		supportedlanguages = {"English","Simplified Chinese","Russian"},
+		supportedlanguages = {"English","Simplified Chinese","Russian","French"},
 		IgnoreTargetModState = false,
 		workshopId = "",
 		loadpriority = 1,
@@ -26,7 +26,7 @@ local config = {
 	
 	{
 		-- Cybernetics
-		supportedlanguages = {"English","Russian"},
+		supportedlanguages = {"English","Russian","French"},
 		IgnoreTargetModState = false,
 		workshopId = "2788543375",
 		loadpriority = 0,
@@ -35,7 +35,7 @@ local config = {
 	
 	{
 		-- Cybernetics Improved
-		supportedlanguages = {"English"},
+		supportedlanguages = {"English","French"},
 		IgnoreTargetModState = false,
 		workshopId = "2963474291",
 		loadpriority = 0,
@@ -44,7 +44,7 @@ local config = {
 
 	{
 		-- Cybernetics Enhanced
-		supportedlanguages = {"English","Russian"},
+		supportedlanguages = {"English","Russian","French"},
 		IgnoreTargetModState = false,
 		workshopId = "3324062208",
 		loadpriority = 1,
@@ -53,7 +53,7 @@ local config = {
 
 	{
 		-- Neurotrauma experimental dev version
-		supportedlanguages = {"English","Simplified Chinese","Russian"},
+		supportedlanguages = {"English","Simplified Chinese","Russian","French"},
 		IgnoreTargetModState = false,
 		workshopId = "3439141713",
 		loadpriority = 0,
@@ -65,7 +65,7 @@ local config = {
 
 	{
 		-- Infections
-		supportedlanguages = {"English","Russian"},
+		supportedlanguages = {"English","Russian","French"},
 		IgnoreTargetModState = false,
 		workshopId = "",
 		loadpriority = 2,
@@ -89,7 +89,7 @@ local config = {
 
 	{
 		-- Immersive Repairs NT Cybernetics
-		supportedlanguages = {"English"},
+		supportedlanguages = {"English","French"},
 		IgnoreTargetModState = false,
 		workshopId = "3153498101",
 		loadpriority = 0,

@@ -50,7 +50,7 @@
 		<afflictiondescription.rl_fracture>The right leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.rl_fracture>
 		
 		<afflictionname.ll_fracture>Fractured left femur</afflictionname.ll_fracture>
-		<afflictiondescription.ll_fracture>The right leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ll_fracture>
+		<afflictiondescription.ll_fracture>The left leg is broken, likely due to physical trauma. It will be painful and movement will be difficult until a gypsum cast is put on, or it is surgically repaired.</afflictiondescription.ll_fracture>
 		
 		<afflictionname.t_fracture>Fractured ribs</afflictionname.t_fracture>
 		<afflictiondescription.t_fracture>One or more ribs have been broken, likely due to physical trauma. Unless ‖color:gui.blue‖bandaged‖end‖, structural instability may cause ‖color:gui.red‖pneumothorax‖end‖. It must be repaired in an ‖color:gui.blue‖osteosynthesis‖end‖ surgery.</afflictiondescription.t_fracture>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- By UltimeCookie -->
+<infotexts language="French" nowhitespace="false" translatedname="French">
+    <Override>
+        <!-- Vanilla Items -->
+        <entitydescription.antibiotics>Un antibiotique légèrement efficace contre les infections ‖color:gui.green‖streptococciques‖end‖ et ‖color:gui.green‖staphylococciques‖end‖, ainsi que contre l'‖color:gui.green‖infection husk‖end‖. Cependant, il a une faible spécificité et provoque des ‖color:gui.red‖lésions organiques‖end‖. Utilisé comme ingrédient dans plusieurs composés médicaux. En cas d'échec, il est moins efficace.</entitydescription.antibiotics>
+
+        <entitydescription.antirad>Ralentit la dégradation cellulaire causée par les radiations. En plus de dissoudre les organes, les radiations sévères compromettent le ‖color:gui.red‖système immunitaire‖end‖. En cas d'échec, il est moins efficace.</entitydescription.antirad>
+
+        <!-- NT Items -->
+        <entityname.bloodanalyzer>Analyseur Hématologique</entityname.bloodanalyzer>
+        <entitydescription.bloodanalyzer>Un outil qui affiche le groupe sanguin et l'immunité d'un patient. Indique également si un patient souffre de perte de sang, de sepsis, d'acidose, d'alcalose, de drogues dans le flux sanguin ou d'une infection sanguine. Si une ‖color:gui.blue‖carte de donneur vierge‖end‖ est insérée, elle imprimera le groupe sanguin du patient sur sa carte d'identité. Si une ‖color:gui.blue‖poche de sang‖end‖ est insérée, tout sepsis, alcalose ou acidose existant sera affiché. Chaque utilisation de l'analyseur nécessite un peu de ‖color:gui.red‖sang‖end‖.</entitydescription.bloodanalyzer>
+
+        <!-- NT Afflictions -->
+        <afflictionname.fever>Fièvre</afflictionname.fever>
+        <afflictiondescription.fever>Température corporelle anormalement élevée. Généralement causée par un sepsis ou la toux europane.</afflictiondescription.fever>
+
+        <afflictionname.sym_jaundice>Jaunisse</afflictionname.sym_jaundice>
+        <afflictiondescription.sym_jaundice>La peau est jaune. Causée par des lésions hépatiques sévères ou le Remdesivir.</afflictiondescription.sym_jaundice>
+
+        <afflictionname.sym_headache>Maux de tête</afflictionname.sym_headache>
+        <afflictiondescription.sym_headache>Douleur à la tête. Généralement causée par une hypoxémie, une fracture du crâne, une acidose, une commotion cérébrale, un accident vasculaire cérébral, ou la toux europane.</afflictiondescription.sym_headache>
+
+        <afflictionname.sym_weakness>Faiblesse</afflictionname.sym_weakness>
+        <afflictiondescription.sym_weakness>Capacité musculaire réduite dans les extrémités. Causée par une tamponnade cardiaque, une perte de sang, une acidose ou la toux europane.</afflictiondescription.sym_weakness>
+
+        <afflictionname.sym_wheezing>Respiration sifflante</afflictionname.sym_wheezing>
+        <afflictiondescription.sym_wheezing>La respiration produit des bruits aigus. Causée par un choc hémotransfusionnel ou la toux europane.</afflictiondescription.sym_wheezing>
+
+        <afflictionname.sym_nausea>Nausée</afflictionname.sym_nausea>
+        <afflictiondescription.sym_nausea>Une sensation nauséeuse. Généralement causée par des lésions rénales, une commotion cérébrale, un sevrage médicamenteux, un choc hémotransfusionnel ou la toux europane. Les vomissements provoqueront une alcalose.</afflictiondescription.sym_nausea>
+
+        <afflictionname.pain_abdominal>Douleur abdominale</afflictionname.pain_abdominal>
+        <afflictiondescription.pain_abdominal>Douleur dans l'abdomen. Causée par un choc hémotransfusionnel ou un sepsis.</afflictiondescription.pain_abdominal>
+
+        <afflictionname.pain_chest>Douleur thoracique</afflictionname.pain_chest>
+        <afflictiondescription.pain_chest>Douleur lancinante dans la poitrine. Causée par des fractures costales, un choc hémotransfusionnel, une pneumonie ou la toux europane.</afflictiondescription.pain_chest>
+
+        <afflictionname.pain_extremity>Douleur intense</afflictionname.pain_extremity>
+        <afflictiondescription.pain_extremity>Douleur très forte. Généralement causée par des luxations, des fractures, un sepsis ou une fasciite nécrosante.</afflictiondescription.pain_extremity>
+
+        <afflictionname.sym_cough>Toux</afflictionname.sym_cough>
+        <afflictiondescription.sym_cough>Toux périodique. Causée par une tamponnade cardiaque, des lésions pulmonaires, cardiaques, une pneumonie ou la toux europane.</afflictiondescription.sym_cough>
+
+        <afflictionname.dyspnea>Essoufflement</afflictionname.dyspnea>
+        <afflictiondescription.dyspnea>La respiration est difficile. Généralement causée par une tamponnade cardiaque, un pneumothorax, une hypoxémie, une pneumonie ou la toux europane.</afflictiondescription.dyspnea>
+
+        <afflictionname.respiratoryarrest>Arrêt respiratoire</afflictionname.respiratoryarrest>
+        <afflictiondescription.respiratoryarrest>Absence de respiration. Un état mortel qui empêchera l'oxygénation du sang. Typiquement causé par une hypoxémie, un neurotraumatisme, une surdose d'opiacés ou la toux europane. La ventilation artificielle contournera cette affliction et l'acidose qu'elle provoque.</afflictiondescription.respiratoryarrest>
+
+        <!-- Antibiotics -->
+        <entityname.ampicillin>Ampicillin</entityname.ampicillin>
+        <entitydescription.ampicillin>Un antibiotique de la classe des aminopénicillines. Il est efficace contre les infections ‖color:gui.green‖streptococciques‖end‖ et modérément efficace contre les infections ‖color:gui.green‖staphylococciques‖end‖. Légèrement ‖color:gui.red‖toxique‖end‖ pour les reins. En cas d'échec, il est plus ‖color:gui.red‖toxique‖end‖.</entitydescription.ampicillin>
+
+        <entityname.augmentin>Augmentin</entityname.augmentin>
+        <entitydescription.augmentin>Un antibiotique de la classe des aminopénicillines avec un inhibiteur de bêta-lactamase. Il est efficace contre les infections ‖color:gui.green‖streptococciques‖end‖, ‖color:gui.green‖staphylococciques‖end‖, et modérément efficace contre les ‖color:gui.green‖infections à provobacter‖end‖. Modérément ‖color:gui.red‖toxique‖end‖ pour les reins. En cas d'échec, il est plus ‖color:gui.red‖toxique‖end‖.</entitydescription.augmentin>
+
+        <entityname.vancomycin>Vancomycin</entityname.vancomycin>
+        <entitydescription.vancomycin>Un antibiotique glycopeptidique. Il est efficace contre les infections ‖color:gui.green‖streptococciques‖end‖, ‖color:gui.green‖staphylococciques‖end‖ et à ‖color:gui.green‖MRSA‖end‖. Fortement ‖color:gui.red‖toxique‖end‖ pour les reins. En cas d'échec, il est plus ‖color:gui.red‖toxique‖end‖.</entitydescription.vancomycin>
+
+        <entityname.gentamicin>Gentamicin</entityname.gentamicin>
+        <entitydescription.gentamicin>Un antibiotique aminoglycoside. Il est efficace contre les infections à ‖color:gui.green‖pseudomonas‖end‖, à ‖color:gui.green‖provobacter‖end‖, et légèrement efficace contre les infections ‖color:gui.green‖staphylococciques‖end‖. Fortement ‖color:gui.red‖toxique‖end‖ pour les reins. En cas d'échec, il est plus ‖color:gui.red‖toxique‖end‖.</entitydescription.gentamicin>
+
+        <entityname.cotrim>Co-trimoxazole</entityname.cotrim>
+        <entitydescription.cotrim>Un antibiotique de combinaison. Il est efficace contre les infections ‖color:gui.green‖streptococciques‖end‖, ‖color:gui.green‖staphylococciques‖end‖, et modérément efficace contre les infections à ‖color:gui.green‖MRSA‖end‖. Modérément ‖color:gui.red‖toxique‖end‖ pour les reins. En cas d'échec, il est plus ‖color:gui.red‖toxique‖end‖.</entitydescription.cotrim>
+
+        <entityname.imipenem>Imipenem</entityname.imipenem>
+        <entitydescription.imipenem>Un antibiotique carbapénème de combinaison. Il est modérément efficace contre les infections ‖color:gui.green‖streptococciques‖end‖, ‖color:gui.green‖staphylococciques‖end‖, à ‖color:gui.green‖pseudomonas‖end‖, et légèrement efficace contre les infections à ‖color:gui.green‖provobacter‖end‖. Modérément ‖color:gui.red‖toxique‖end‖ pour les reins. En cas d'échec, il est plus ‖color:gui.red‖toxique‖end‖.</entitydescription.imipenem>
+
+        <!-- Vaccine Items -->
+        <entityname.strepvac>Vaccin Streptococcus</entityname.strepvac>
+        <entitydescription.strepvac>Un vaccin qui prépare le système immunitaire à combattre les infections à ‖color:gui.green‖streptococcus‖end‖. Les infections sanguines peuvent provoquer une pneumonie, qui sera naturellement guérie lorsque l'infection sera traitée.</entitydescription.strepvac>
+
+        <entityname.staphvac>Vaccin Staphylococcus</entityname.staphvac>
+        <entitydescription.staphvac>Un vaccin qui prépare le système immunitaire à combattre les infections ‖color:gui.green‖staphylococciques‖end‖. Les infections sanguines peuvent provoquer une pneumonie, qui sera naturellement guérie lorsque l'infection sera traitée.</entitydescription.staphvac>
+
+        <entityname.pseudovac>Vaccin Pseudomonas</entityname.pseudovac>
+        <entitydescription.pseudovac>Un vaccin qui prépare le système immunitaire à combattre les infections à ‖color:gui.green‖pseudomonas‖end‖. Les infections sanguines peuvent provoquer une pneumonie, qui sera naturellement guérie lorsque l'infection sera traitée.</entitydescription.pseudovac>
+
+        <entityname.provovac>Vaccin Provobacter</entityname.provovac>
+        <entitydescription.provovac>Un vaccin qui prépare le système immunitaire à combattre les infections à ‖color:gui.green‖provobacter‖end‖. Les infections sanguines peuvent provoquer une pneumonie, qui sera naturellement guérie lorsque l'infection sera traitée.</entitydescription.provovac>
+
+        <!-- Vaccine Afflictions -->
+        <afflictionname.afstrepvac>Vaccin Streptococcus</afflictionname.afstrepvac>
+        <afflictiondescription.afstrepvac>Le système immunitaire est prêt à combattre les infections streptococciques.</afflictiondescription.afstrepvac>
+
+        <afflictionname.afstaphvac>Vaccin Staphylococcus</afflictionname.afstaphvac>
+        <afflictiondescription.afstaphvac>Le système immunitaire est prêt à combattre les infections staphylococciques.</afflictiondescription.afstaphvac>
+
+        <afflictionname.afpseudovac>Vaccin Pseudomonas</afflictionname.afpseudovac>
+        <afflictiondescription.afpseudovac>Le système immunitaire est prêt à combattre les infections à pseudomonas.</afflictiondescription.afpseudovac>
+
+        <afflictionname.afprovovac>Vaccin Provobacter</afflictionname.afprovovac>
+        <afflictiondescription.afprovovac>Le système immunitaire est prêt à combattre les infections à provobacter.</afflictiondescription.afprovovac>
+
+        <!-- Bioweapons-->
+        <entityname.weaponstrep>Streptococcus Militarisé</entityname.weaponstrep>
+        <entitydescription.weaponstrep>Une seringue remplie d'une souche de ‖color:gui.red‖streptococcus‖end‖, attendant un hôte. Elle peut également être retournée dans un ‖color:gui.blue‖tube de culture‖end‖ dans un Medical Fabricator.</entitydescription.weaponstrep>
+
+        <entityname.weaponstaph>Staphylococcus Militarisé</entityname.weaponstaph>
+        <entitydescription.weaponstaph>Une seringue remplie d'une souche de ‖color:gui.red‖staphylococcus‖end‖, attendant un hôte. Elle peut également être retournée dans un ‖color:gui.blue‖tube de culture‖end‖ dans un Medical Fabricator.</entitydescription.weaponstaph>
+
+        <entityname.weaponmrsa>MRSA Militarisé</entityname.weaponmrsa>
+        <entitydescription.weaponmrsa>Une seringue remplie d'une souche de ‖color:gui.red‖MRSA‖end‖, attendant un hôte. Elle peut également être retournée dans un ‖color:gui.blue‖tube de culture‖end‖ dans un Medical Fabricator.</entitydescription.weaponmrsa>
+
+        <entityname.weaponpseudo>Pseudomonas Militarisé</entityname.weaponpseudo>
+        <entitydescription.weaponpseudo>Une seringue remplie d'une souche de ‖color:gui.red‖pseudomonas‖end‖, attendant un hôte. Elle peut également être retournée dans un ‖color:gui.blue‖tube de culture‖end‖ dans un Medical Fabricator.</entitydescription.weaponpseudo>
+
+        <entityname.weaponprovo>Provobacter Militarisé</entityname.weaponprovo>
+        <entitydescription.weaponprovo>Une seringue remplie d'une souche de ‖color:gui.red‖provobacter‖end‖, attendant un hôte. Elle peut également être retournée dans un ‖color:gui.blue‖tube de culture‖end‖ dans un Medical Fabricator.</entitydescription.weaponprovo>
+
+        <!-- Trauma -->
+        <afflictionname.pusyellow>Écoulement purulent</afflictionname.pusyellow>
+        <afflictiondescription.pusyellow>Du pus blanc jaunâtre s'écoulant d'une plaie. Signe évident d'infection, pouvant être prélevé avec un ‖color:gui.blue‖préleveur de culture‖end‖. Ce type de pus n'est pas causé par des infections à pseudomonas.</afflictiondescription.pusyellow>
+
+        <afflictionname.pusgreen>Écoulement purulent</afflictionname.pusgreen>
+        <afflictiondescription.pusgreen>Du pus verdâtre à l'odeur nauséabonde, s'écoulant d'une plaie. Signe évident d'infection, pouvant être prélevé avec un ‖color:gui.blue‖préleveur de culture‖end‖. Ce type de pus est toujours causé par des infections à pseudomonas.</afflictiondescription.pusgreen>
+
+        <afflictionname.abscess>Abcès</afflictionname.abscess>
+        <afflictiondescription.abscess>Accumulation de pus sous la peau. Il n'y a pas de plaie ici, mais c'est un signe évident d'infection, et il peut être prélevé avec un ‖color:gui.blue‖préleveur de culture‖end‖.</afflictiondescription.abscess>
+
+        <afflictionname.necfasc>Fasciite nécrosante</afflictionname.necfasc>
+        <afflictiondescription.necfasc>La peau est en train de mourir et profondément décolorée. Causée par une infection chez un patient immunodéprimé, augmentant le risque de sepsis. L'infection doit être traitée, et le tissu nécrosé doit être retiré minutieusement avec un scalpel après rétraction de la peau, ou le membre peut être amputé.</afflictiondescription.necfasc>
+
+        <afflictionname.cellulitis>Cellulite</afflictionname.cellulitis>
+        <afflictiondescription.cellulitis>Peau rouge et douloureuse. Causée par une infection, et se résoudra lorsque l'infection sera traitée.</afflictiondescription.cellulitis>
+
+        <!-- Other Items -->
+        <entityname.cultureanalyzer>Préleveur de Culture</entityname.cultureanalyzer>
+        <entitydescription.cultureanalyzer>Collecte des échantillons bactériens dans un ‖color:gui.blue‖tube de culture‖end‖. S'il y a du ‖color:gui.red‖pus‖end‖ ou un ‖color:gui.red‖abcès‖end‖, il sera prélevé en premier. Si la peau est ‖color:gui.blue‖rétractée‖end‖, un échantillon tissulaire sera collecté. Sinon, un échantillon sanguin sera prélevé, ce qui peut ne pas être précis si l'infection n'a pas encore pénétré dans le sang.</entitydescription.cultureanalyzer>
+
+        <entityname.culturetube>Tube de culture</entityname.culturetube>
+        <entitydescription.culturetube>Un tube de milieu de culture riche dans lequel les colonies bactériennes se développeront. Utilisé par un ‖color:gui.blue‖préleveur de culture‖end‖.</entitydescription.culturetube>
+
+        <entityname.incubatorcrate>Caisse d'Incubateur</entityname.incubatorcrate>
+        <entitydescription.incubatorcrate>Une méthode rapide et portable pour faire croître des bactéries, contenant des emplacements pour des ‖color:gui.blue‖échantillons de culture‖end‖.</entitydescription.incubatorcrate>
+
+        <entityname.streptubeunk>Échantillon de Culture Inconnu</entityname.streptubeunk>
+        <entitydescription.streptubeunk>Un tube de culture avec un échantillon inconnu. Après que la culture ait poussé naturellement ou dans un ‖color:gui.blue‖incubateur‖end‖, elle peut être identifiée par un ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.streptubeunk>
+
+        <entityname.streptube>Échantillon de Culture Streptococcus</entityname.streptube>
+        <entitydescription.streptube>Un tube de culture avec une souche de streptococcus. Créez un ‖color:gui.blue‖vaccin‖end‖ avec, ‖color:gui.blue‖militarisez‖end‖-le, ou transférez une partie de la culture dans un autre ‖color:gui.blue‖tube‖end‖ dans un Medical Fabricator.</entitydescription.streptube>
+
+        <entityname.staphtubeunk>Échantillon de Culture Inconnu</entityname.staphtubeunk>
+        <entitydescription.staphtubeunk>Un tube de culture avec un échantillon inconnu. Après que la culture ait poussé naturellement ou dans un ‖color:gui.blue‖incubateur‖end‖, elle peut être identifiée par un ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.staphtubeunk>
+
+        <entityname.staphtube>Échantillon de Culture Staphylcoccus</entityname.staphtube>
+        <entitydescription.staphtube>Un tube de culture avec une souche de staphyloccocus. Créez un ‖color:gui.blue‖vaccin‖end‖ avec, ‖color:gui.blue‖militarisez‖end‖-le, ou transférez une partie de la culture dans un autre ‖color:gui.blue‖tube‖end‖ dans un Medical Fabricator.</entitydescription.staphtube>
+
+        <entityname.mrsatubeunk>Échantillon de Culture Inconnu</entityname.mrsatubeunk>
+        <entitydescription.mrsatubeunk>Un tube de culture avec un échantillon inconnu. Après que la culture ait poussé naturellement ou dans un ‖color:gui.blue‖incubateur‖end‖, elle peut être identifiée par un ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.mrsatubeunk>
+
+        <entityname.mrsatube>Échantillon de Culture MRSA</entityname.mrsatube>
+        <entitydescription.mrsatube>Un tube de culture avec un échantillon de MRSA. ‖color:gui.blue‖Militarisez‖end‖-le, ou transférez une partie de la culture dans un autre ‖color:gui.blue‖tube‖end‖ dans un Medical Fabricator. Il n'existe cependant aucun vaccin contre le MRSA.</entitydescription.mrsatube>
+
+        <entityname.pseudotubeunk>Échantillon de Culture Inconnu</entityname.pseudotubeunk>
+        <entitydescription.pseudotubeunk>Un tube de culture avec un échantillon inconnu. Après que la culture ait poussé naturellement ou dans un ‖color:gui.blue‖incubateur‖end‖, elle peut être identifiée par un ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.pseudotubeunk>
+
+        <entityname.pseudotube>Échantillon de Culture Pseudomonas</entityname.pseudotube>
+        <entitydescription.pseudotube>Un tube de culture avec un échantillon de pseudomonas. Créez un ‖color:gui.blue‖vaccin‖end‖ avec, ‖color:gui.blue‖militarisez‖end‖-le, ou transférez une partie de la culture dans un autre ‖color:gui.blue‖tube‖end‖ dans un Medical Fabricator.</entitydescription.pseudotube>
+
+        <entityname.provotubeunk>Échantillon de Culture Inconnu</entityname.provotubeunk>
+        <entitydescription.provotubeunk>Un tube de culture avec un échantillon inconnu. Après que la culture ait poussé naturellement ou dans un ‖color:gui.blue‖incubateur‖end‖, elle peut être identifiée par un ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.provotubeunk>
+
+        <entityname.provotube>Échantillon de Culture Provobacter</entityname.provotube>
+        <entitydescription.provotube>Un tube de culture avec un échantillon de provobacter. Créez un ‖color:gui.blue‖vaccin‖end‖ avec, ‖color:gui.blue‖militarisez‖end‖-le, ou transférez une partie de la culture dans un autre ‖color:gui.blue‖tube‖end‖ dans un Medical Fabricator.</entitydescription.provotube>
+
+        <entityname.emptytubeunk>Échantillon de Culture Inconnu</entityname.emptytubeunk>
+        <entitydescription.emptytubeunk>Un tube de culture avec un échantillon inconnu. Après que la culture ait poussé naturellement ou dans un ‖color:gui.blue‖incubateur‖end‖, elle peut être identifiée par un ‖color:gui.blue‖culture analyzer‖end‖.</entitydescription.emptytubeunk>
+
+        <entityname.cultureanalyzingterminal>Analyseur de Culture</entityname.cultureanalyzingterminal>
+        <entitydescription.cultureanalyzingterminal>Une machine utilisée pour identifier les ‖color:gui.blue‖échantillons de culture‖end‖ à partir de la signature biochimique des bactéries.</entitydescription.cultureanalyzingterminal>
+
+        <cultureanalyzer.analyze>Analyser</cultureanalyzer.analyze>
+        <cultureanalyzer.info>Insérez un échantillon de culture inconnu entièrement développé.</cultureanalyzer.info>
+
+        <entityname.incubatorterminal>Incubateur</entityname.incubatorterminal>
+        <entitydescription.incubatorterminal>La méthode la plus rapide pour faire croître des bactéries, contenant des emplacements pour des ‖color:gui.blue‖échantillons de culture‖end‖.</entitydescription.incubatorterminal>
+
+        <entityname.dextromethorphan>Dextromethorphan</entityname.dextromethorphan>
+        <entitydescription.dextromethorphan>Un médicament utilisé pour soulager la toux. Souvent utilisé pour supprimer la ‖color:gui.green‖toux europane‖end‖ contagieuse, qui peut être traitée avec du ‖color:gui.blue‖Remdesivir‖end‖. En cas d'échec, il est moins efficace.</entitydescription.dextromethorphan>
+
+        <entityname.remdesivir>Remdesivir</entityname.remdesivir>
+        <entitydescription.remdesivir>Un antiviral utilisé pour traiter la ‖color:gui.green‖toux europane‖end‖. Il est agressif pour le ‖color:gui.red‖foie‖end‖ et ne doit pas être surutilisé. En cas d'échec, il causera davantage de ‖color:gui.red‖dommages hépatiques‖end‖.</entitydescription.remdesivir>
+    </Override>
+</infotexts>

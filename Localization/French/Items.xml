@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- by UltimeCookie -->
+<infotexts language="French" nowhitespace="false" translatedname="French">
+	<Override>
+	<!-- Color Code Guide
+	Blue: refers to another item
+	Green: a beneficial affliction caused by the item, or a cured affliction
+	Red: a detrimental affliction caused by the item, or downside -->
+
+		<!-- Vanilla Items -->
+		<entitydescription.idcard>Permet un accès limité à certaines zones du sous-marin. Une ‖color:gui.blue‖carte de donneur imprimée‖end‖ peut y être insérée.</entitydescription.idcard>
+		<NTID.idcard_suffix>Une ‖color:gui.blue‖carte de donneur imprimée‖end‖ peut y être insérée.</NTID.idcard_suffix>
+
+		<entitydescription.alienblood>Sang extrait d'une forme de vie europanienne. Il est ‖color:gui.red‖incompatible‖end‖ avec le sang humain.</entitydescription.alienblood>
+
+		<entitydescription.antibloodloss1>Une perfusion de chlorure de sodium utilisée pour augmenter la ‖color:gui.green‖pression artérielle‖end‖, et provoque également une ‖color:gui.green‖acidose‖end‖. En cas d'échec, la durée d'effet est réduite.</entitydescription.antibloodloss1>
+
+		<entitydescription.antibleeding1>Des bandages basiques, utiles pour traiter les ‖color:gui.green‖saignements‖end‖, et accélèrent la guérison naturelle des ‖color:gui.green‖brûlures mineures‖end‖ et des ‖color:gui.green‖plaies‖end‖. De plus, être bandagé stabilise les ‖color:gui.green‖fractures‖end‖ et les ‖color:gui.green‖dislocations‖end‖. Les effets qui accélèrent la guérison naturelle ne fonctionnent pas si la blessure dépasse son seuil de guérison naturelle. Moins efficace en cas d'échec. La stabilisation empêche : \n- Les fractures du bras d'atteindre 100 % \n- Les fractures du cou de provoquer une lésion de la moelle épinière et des dommages internes \n- Les fractures des côtes de provoquer un pneumothorax \n- Les dislocations de provoquer des dommages internes \n- Les dislocations du bras de bloquer le bras \n- Et restaure la fonction des jambes dislocées</entitydescription.antibleeding1>
+
+		<entitydescription.antibleeding2>Une peau synthétique aux propriétés hémostatiques capable de sceller efficacement les ‖color:gui.green‖saignements‖end‖, et constitue un bon traitement contre les ‖color:gui.green‖brûlures mineures‖end‖ tout en accélérant la guérison naturelle des ‖color:gui.green‖plaies‖end‖. De plus, elle stabilise les ‖color:gui.green‖fractures‖end‖ et les ‖color:gui.green‖dislocations‖end‖. Enfin, elle peut être utilisée pour traiter les ‖color:gui.green‖brûlures du troisième degré‖end‖ lorsqu'elle est appliquée après une ‖color:gui.blue‖rétraction cutanée‖end‖. En cas d'échec, moins efficace.</entitydescription.antibleeding2>
+
+		<entitydescription.opium>Un ‖color:gui.blue‖opioïde‖end‖ ‖color:gui.green‖analgésique‖end‖ relativement doux obtenu à partir de pavot aquatique. Principalement utilisé pour fabriquer de la morphine et du fentanyl. En cas d'échec, moins efficace et risque accru de ‖color:gui.red‖dépendance‖end‖ et d'‖color:gui.red‖overdose‖end‖.</entitydescription.opium>
+
+		<entitydescription.antidama1>Un puissant ‖color:gui.blue‖opioïde‖end‖ ‖color:gui.green‖analgésique‖end‖, mais une utilisation excessive provoquera une ‖color:gui.red‖dépendance‖end‖ et une ‖color:gui.red‖overdose‖end‖. En cas d'échec, moins efficace et risque accru de ‖color:gui.red‖dépendance‖end‖ et d'‖color:gui.red‖overdose‖end‖.</entitydescription.antidama1>
+
+		<entitydescription.antidama2>Un ‖color:gui.blue‖opioïde‖end‖ ‖color:gui.green‖analgésique‖end‖ très puissant, mais une utilisation excessive provoquera une ‖color:gui.red‖dépendance‖end‖ et un ‖color:gui.red‖surdosage‖end‖. L'analgésie non seulement empêche la ‖color:gui.green‖douleur‖end‖, mais réduit également les ‖color:gui.green‖dégâts subis‖end‖ et augmente la ‖color:gui.green‖résistance aux étourdissements‖end‖. En cas d'échec, moins efficace et risque accru de ‖color:gui.red‖dépendance‖end‖ et de ‖color:gui.red‖surdosage‖end‖.</entitydescription.antidama2>
+
+		<entitydescription.antinarc>Un antagoniste opioïde pour le traitement du ‖color:gui.green‖manque‖end‖ et de l'‖color:gui.green‖overdose‖end‖ aux opiacés. De plus, il réduira l'‖color:gui.green‖analgésie‖end‖. En cas d'échec, moins efficace et peut provoquer un court ‖color:gui.red‖coma‖end‖.</entitydescription.antinarc>
+
+		<entitydescription.antibiotics>Un antibiotique agissant contre un large spectre de bactéries, en faisant un traitement efficace contre la ‖color:gui.green‖septicémie‖end‖ et, dans une moindre mesure, contre l'‖color:gui.green‖infection husk‖end‖. Cependant, son caractère général provoque des ‖color:gui.red‖dommages aux organes‖end‖. Utilisé comme ingrédient dans plusieurs composés médicaux. En cas d'échec, moins efficace.</entitydescription.antibiotics>
+
+		<entitydescription.adrenaline>Une hormone naturellement produite par l'organisme. Pendant un court moment, elle augmentera la ‖color:gui.green‖pression artérielle‖end‖ du patient, augmentera les ‖color:gui.green‖dégâts de mêlée‖end‖, divisera par deux le ‖color:gui.green‖taux de fibrillation‖end‖, préviendra la ‖color:gui.green‖douleur‖end‖, et empêchera le blocage des membres et les ralentissements causés par les ‖color:gui.green‖fractures‖end‖ et les ‖color:gui.green‖dislocations‖end‖. À l'utilisation, elle soignera également l'‖color:gui.green‖arrêt cardiaque‖end‖, supprimera l'‖color:gui.green‖étourdissement‖end‖, et réduira brièvement les ‖color:gui.green‖étourdissements entrants‖end‖.</entitydescription.adrenaline>
+
+		<entitydescription.captainspipe>Pour calmer les nerfs quand la mer est agitée. Difficile pour les poumons, cependant.</entitydescription.captainspipe>
+
+		<entitydescription.cigar>La vie d'un sous-marinier est mentalement éprouvante, mais peut-être que ce cigare exquisément fabriqué peut vous aider à calmer un peu vos nerfs. Difficile pour les poumons, cependant.</entitydescription.cigar>
+
+		<entitydescription.liquidoxygenite>Une seringue ‖color:gui.red‖volatile‖end‖ d'oxygénite pouvant être injectée, ‖color:gui.green‖oxygénant de force le sang‖end‖ pendant une courte période. Cependant, sa toxicité provoque de légers ‖color:gui.red‖dommages aux organes‖end‖. En cas d'échec, l'oxygénation est ‖color:gui.red‖momentanée‖end‖ et les ‖color:gui.red‖organes sont davantage endommagés‖end‖. L'hypoxémie endommage le cerveau et les organes, et est la principale cause de décès résultant des blessures de combat.</entitydescription.liquidoxygenite>
+
+		<entitydescription.deusizine>Un stimulant qui augmente l'‖color:gui.green‖endurance musculaire‖end‖ et peut être utilisé dans le traitement des ‖color:gui.green‖dommages internes‖end‖, de la ‖color:gui.green‖privation d'oxygène‖end‖ et de la ‖color:gui.green‖perte de sang‖end‖. En cas d'échec, moins efficace.</entitydescription.deusizine>
+
+		<entitydescription.antibleeding3>Une colle antibiotique aux propriétés hémostatiques. Scelle presque immédiatement les plaies ‖color:gui.green‖hémorragiques‖end‖ et empêche leur ‖color:gui.green‖infection‖end‖. Également efficace contre les ‖color:gui.green‖brûlures‖end‖. En cas d'échec, peut provoquer des ‖color:gui.red‖caillots mobiles‖end‖ dans la circulation sanguine.</entitydescription.antibleeding3>
+
+		<entitydescription.meth>Un puissant stimulant du système nerveux, augmentant temporairement la ‖color:gui.green‖vitesse musculaire‖end‖ de l'utilisateur. Cependant, il est ‖color:gui.red‖addictif‖end‖, endommage légèrement les ‖color:gui.red‖organes‖end‖, et causera des ‖color:gui.red‖lésions cérébrales‖end‖. En cas d'échec, moins efficace, plus ‖color:gui.red‖addictif‖end‖, et provoque des ‖color:gui.red‖dommages‖end‖ accrus.</entitydescription.meth>
+
+		<entitydescription.steroids>Augmente temporairement la ‖color:gui.green‖force musculaire‖end‖ et l'‖color:gui.green‖endurance‖end‖. Provoque une dépendance. En cas d'échec, moins efficace et plus ‖color:gui.red‖addictif‖end‖.</entitydescription.steroids>
+
+		<entitydescription.hyperzine>Un stimulant musculaire extrêmement puissant pour les moments où il faut aller vite. Augmente la ‖color:gui.green‖force musculaire‖end‖, l'‖color:gui.green‖endurance‖end‖ et la ‖color:gui.green‖vitesse‖end‖, et réduit la ‖color:gui.green‖susceptibilité aux étourdissements‖end‖. Il est ‖color:gui.red‖addictif‖end‖ et provoque une légère ‖color:gui.red‖lésion cérébrale‖end‖. En cas d'échec, plus ‖color:gui.red‖addictif‖end‖ et provoque davantage de ‖color:gui.red‖lésions cérébrales‖end‖.</entitydescription.hyperzine>
+
+		<entitydescription.antipsychosis>Un puissant médicament ‖color:gui.green‖antipsychotique‖end‖, efficace pour traiter le ‖color:gui.green‖sevrage alcoolique‖end‖. En cas d'échec, moins efficace.</entitydescription.antipsychosis>
+
+		<entitydescription.antiparalysis>Un remède contre la ‖color:gui.green‖paralysie‖end‖ qui met fin prématurément à l'‖color:gui.green‖anesthésie générale‖end‖. Un usage excessif peut provoquer une ‖color:gui.red‖psychose‖end‖. En cas d'échec, moins efficace et provoque davantage de ‖color:gui.red‖psychose‖end‖.</entitydescription.antiparalysis>
+
+		<entitydescription.tonicliquid>Une solution médicale légèrement efficace pour traiter les ‖color:gui.green‖dommages internes‖end‖, mais plus couramment utilisée pour ‖color:gui.green‖augmenter la durée‖end‖ des médicaments présents dans le sang et des stimulants de performance.</entitydescription.tonicliquid>
+
+		<entitydescription.nitroglycerin>Un liquide hautement instable qui peut exploser sous l'effet de la chaleur ou d'un choc physique. Administrée à un patient, elle provoque une vasodilatation et diminue la ‖color:gui.green‖pression artérielle‖end‖.</entitydescription.nitroglycerin>
+
+		<entitydescription.pomegrenadeextract>Jus de pomegrenade concentré. Offre de légères propriétés de ‖color:gui.green‖guérison des plaies‖end‖, y compris des ‖color:gui.green‖plaies suturées‖end‖. En cas d'échec, moins efficace.</entitydescription.pomegrenadeextract>
+
+		<entitydescription.combatstimulantsyringe>Un stimulant très avancé qui permet à l'utilisateur de récupérer rapidement des ‖color:gui.green‖dommages‖end‖, des ‖color:gui.green‖brûlures‖end‖ et des ‖color:gui.green‖pertes de sang‖end‖. De plus, l'utilisateur coagulera rapidement les ‖color:gui.green‖saignements externes‖end‖ et ‖color:gui.green‖internes‖end‖. Il est ‖color:gui.red‖addictif‖end‖. En cas d'échec, plus ‖color:gui.red‖addictif‖end‖.</entitydescription.combatstimulantsyringe>
+
+		<entitydescription.ethanol>Alcool médical utilisé comme ingrédient dans la fabrication de divers médicaments. Boire en service n'est pas conseillé, et une consommation excessive d'alcool est néfaste pour le foie.</entitydescription.ethanol>
+
+		<entitydescription.rum>Un alcool fin fabriqué à partir de raptor bane ou de jus de pomegrenade. Certains puristes insistent sur le fait que le vrai rhum est fabriqué à partir de canne à sucre, mais bonne chance pour en trouver sur Europa. Sa puissance est suffisante pour endommager les ‖color:gui.green‖infections husk débutantes‖end‖, mais une consommation excessive est néfaste pour le foie.</entitydescription.rum>
+
+		<entitydescription.divingknife>Poignarde, pique, coupe et taille. Peut également être utilisé pour retirer les vieux ‖color:gui.green‖bandages‖end‖. En cas d'échec, provoque des ‖color:gui.red‖lacérations‖end‖ et des ‖color:gui.red‖saignements‖end‖.</entitydescription.divingknife>
+
+		<entitydescription.raptorbaneextract>Jus de raptorbane concentré. Légèrement toxique pour les humains, catastrophiquement toxique pour les mudraptors. Il induira des vomissements chez les humains, ce qui en fait un traitement correct contre l'‖color:gui.green‖acidose‖end‖. En cas d'échec, ne provoque pas de vomissements.</entitydescription.raptorbaneextract>
+
+		<entitydescription.proteinbar>Peut contenir des traces de galena. Traite quelques ‖color:gui.green‖dommages‖end‖ externes et des ‖color:gui.green‖brûlures‖end‖.</entitydescription.proteinbar>
+
+		<entitydescription.stabilozine>Utilisé comme ingrédient dans la fabrication de divers médicaments. Seul, peut être utilisé pour ralentir les effets des ‖color:gui.green‖poisons‖end‖ et de la ‖color:gui.green‖maladie des radiations‖end‖. En cas d'échec, moins efficace.</entitydescription.stabilozine>
+
+		<entitydescription.hallucinogenicbufotoxin>Toxine hallucinogène sécrétée par certaines espèces europaniennes. Sert d'‖color:gui.green‖antiparalysant‖end‖ en cas d'urgence.</entitydescription.hallucinogenicbufotoxin>
+
+		<entitydescription.cyanide>Un produit chimique hautement toxique qui provoque une mort rapide une fois qu'une dose suffisamment importante a été administrée. Peut être utilisé comme méthode risquée pour éliminer les ‖color:gui.green‖infections husk‖end‖.</entitydescription.cyanide>
+
+		<entitydescription.europabrew>Un breuvage chimique à double tranchant. Bien qu'il active le système immunitaire pour traiter modérément les ‖color:gui.green‖poisons‖end‖, il affaiblit également considérablement la cible, la rendant plus vulnérable à tous les ‖color:gui.red‖dommages‖end‖, aux ‖color:gui.red‖brûlures‖end‖ et à l'‖color:gui.red‖infection husk‖end‖.</entitydescription.europabrew>
+
+		<entitydescription.sufforin>Une neurotoxine discrète, indétectable aux premiers stades. Provoque une perte de vision et, finalement, la mort. Peut être utilisée comme méthode risquée pour éliminer les ‖color:gui.green‖infections husk‖end‖.</entitydescription.sufforin>
+
+		<entitydescription.antirad>Ralentit la dégradation cellulaire causée par les radiations. En cas d'échec, moins efficace.</entitydescription.antirad>
+
+		<entitydescription.calyxanide>Un médicament antiparasitaire utilisé dans le traitement des ‖color:gui.green‖infections par le parasite husk‖end‖. En cas d'échec, moins efficace.</entitydescription.calyxanide>
+
+		<entitydescription.extinguisher>Un extincteur à dioxyde de carbone portatif. Éteint également les personnes en feu.</entitydescription.extinguisher>
+
+		<entitydescription.divingsuit>Une combinaison de plongée atmosphérique capable de résister à l'immense pression sous la croûte d'Europa. N'offre une protection adéquate que jusqu'à 4 000 mètres de profondeur — au-delà de ce point, une combinaison Abyss ou de Combat est requise. Les combinaisons hermétiques comme celles-ci étouffent facilement les flammes.</entitydescription.divingsuit>
+
+		<entitydescription.repairpack>Un outil polyvalent de fortune, capable de corriger rapidement des problèmes mécaniques et électriques. Comme la ‖color:gui.blue‖clé à molette‖end‖, il peut être utilisé pour soigner les ‖color:gui.green‖dislocations‖end‖. En cas d'échec, provoque une ‖color:gui.red‖fracture‖end‖.</entitydescription.repairpack>
+
+		<entityname.healthscanner>Scanner de Santé</entityname.healthscanner>
+		<entitydescription.healthscanner>Un outil utilisant de la batterie pour afficher les afflictions. Il peut être pointé vers une personne pour un scanner complet du corps, ou administré dans l'interface de Santé pour afficher les afflictions sur une partie du corps spécifique. L'utilisation du scanner provoque une légère ‖color:gui.red‖maladie des radiations‖end‖. N'affiche pas le groupe sanguin, la septicémie, l'immunité, l'acidose, l'alcalose ou les médicaments ; un ‖color:gui.blue‖analyseur hématologique‖end‖ est nécessaire pour cela.</entitydescription.healthscanner>
+
+		<entitydescription.wrench>Permet d'effectuer des réparations mécaniques. Elle est également utilisée pour soigner les ‖color:gui.green‖dislocations‖end‖, ce qui ne nécessite que la moitié de la compétence si le patient ne ressent pas de douleur. Échouer à soigner une dislocation résultera cependant en une ‖color:gui.red‖fracture‖end‖.</entitydescription.wrench>
+
+		<entitydescription.syringegun>Lance des seringues contenant des médicaments ou des poisons. Ne semble pas compatible avec les ‖color:gui.blue‖opioïdes‖end‖.</entitydescription.syringegun>
+
+		<entitydescription.advancedsyringegun>Lance des seringues contenant des médicaments ou des poisons. Possède une capacité plus élevée et un scanner de santé intégré. Ne semble pas compatible avec les ‖color:gui.blue‖opioïdes‖end‖.</entitydescription.advancedsyringegun>
+
+		<!-- NT Tools -->
+		<entityname.defibrillator>Défibrillateur Manuel</entityname.defibrillator>
+		<entitydescription.defibrillator>Un outil utilisant de la batterie pour soigner l'‖color:gui.green‖arrêt cardiaque‖end‖ ou réinitialiser la ‖color:gui.green‖fibrillation‖end‖. Pour soigner un arrêt cardiaque, utilisez plutôt l'‖color:gui.blue‖AED‖end‖ si la compétence médicale est inférieure à 80, et pour soigner une fibrillation, utilisez plutôt l'‖color:gui.blue‖AED‖end‖ si la compétence médicale est inférieure à 100. En cas d'échec, provoque un ‖color:gui.red‖arrêt cardiaque‖end‖.</entitydescription.defibrillator>
+
+		<entityname.aed>Défibrillateur Externe Automatisé</entityname.aed>
+		<entitydescription.aed>L'AED utilise de la batterie pour une petite chance de soigner l'‖color:gui.green‖arrêt cardiaque‖end‖ et est garanti de réinitialiser la ‖color:gui.green‖fibrillation‖end‖. Pour soigner un arrêt cardiaque, utilisez plutôt le ‖color:gui.blue‖défibrillateur manuel‖end‖ si la compétence médicale est supérieure à 80.</entitydescription.aed>
+
+		<entityname.bvm>Ambu Bag</entityname.bvm>
+		<entitydescription.bvm>Le BVM traitera le ‖color:gui.green‖manque d'oxygène‖end‖ lorsqu'il est fourni avec un réservoir d'oxygène, et traite également l'‖color:gui.green‖arrêt respiratoire‖end‖ lorsqu'il est fourni avec un réservoir d'oxygénite.</entitydescription.bvm>
+
+		<entityname.autocpr>AutoPulse</entityname.autocpr>
+		<entitydescription.autocpr>Une machine occupant l'emplacement Vêtements Externes du patient. Au fil du temps, soigne l'‖color:gui.green‖arrêt cardiaque‖end‖ et la ‖color:gui.green‖fibrillation‖end‖. Porter l'AutoPulse augmente également la ‖color:gui.green‖pression artérielle‖end‖, ce qui peut être utile en urgence. N'oubliez pas de le retirer lorsqu'il n'est plus nécessaire ! Il peut également être équipé via l'interface de Santé et déséquipé en utilisant une ‖color:gui.blue‖clé à molette‖end‖ sur le torse.</entitydescription.autocpr>
+
+		<entityname.bloodanalyzer>Analyseur Hématologique</entityname.bloodanalyzer>
+		<entitydescription.bloodanalyzer>Un outil qui affiche le groupe sanguin et l'immunité d'un patient. Indique également si un patient a une perte de sang, une septicémie, une acidose, une alcalose ou des médicaments dans la circulation sanguine. Si une ‖color:gui.blue‖carte de donneur vierge‖end‖ est insérée, il imprimera le groupe sanguin du patient sur sa carte d'identité. Si un ‖color:gui.blue‖sachet de sang‖end‖ est inséré, toute septicémie, alcalose ou acidose existante sera affichée. L'analyseur nécessite un peu de ‖color:gui.red‖sang‖end‖ pour imprimer les cartes de donneur.</entitydescription.bloodanalyzer>
+
+		<entityname.bloodcollector>Carte de Donneur Vierge</entityname.bloodcollector>
+		<entitydescription.bloodcollector>Une carte de donneur vide utilisée par l'‖color:gui.blue‖analyseur hématologique‖end‖ pour imprimer le groupe sanguin d'un patient.</entitydescription.bloodcollector>
+
+		<entityname.traumashears>Ciseaux de Trauma</entityname.traumashears>
+		<entitydescription.traumashears>Un outil utilisé pour retirer les ‖color:gui.green‖bandages‖end‖ ou les ‖color:gui.green‖plâtres‖end‖. En cas d'échec, provoque des ‖color:gui.red‖saignements‖end‖ et des ‖color:gui.red‖lacérations‖end‖.</entitydescription.traumashears>
+
+		<entityname.wheelchair>Fauteuil Roulant</entityname.wheelchair>
+		<entitydescription.wheelchair>Un outil occupant l'emplacement Vêtements Externes du patient. Permet d'utiliser les bras pour se déplacer, facilitant la marche avec des jambes endommagées.</entitydescription.wheelchair>
+
+		<entityname.blahaj>Requin Bleu</entityname.blahaj>
+		<entitydescription.blahaj>Une adorable peluche qui réduira légèrement la ‖color:gui.green‖psychose‖end‖ à chaque fois qu'elle est administrée à un patient.</entitydescription.blahaj>
+
+		<entityname.bodybag>Sac Mortuaire</entityname.bodybag>
+		<entitydescription.bodybag>Un sac occupant l'emplacement Vêtements Externes d'un patient ou d'un cadavre. Permet de les ‖color:gui.green‖traîner à pleine vitesse‖end‖, mais une personne vivante ne peut pas respirer à travers le sac, provoquant un ‖color:gui.red‖manque d'oxygène‖end‖.</entitydescription.bodybag>
+
+		<entityname.stasisbag>Sac de Stase</entityname.stasisbag>
+		<entitydescription.stasisbag>Un sac occupant l'emplacement Vêtements Externes du patient, protégeant contre la pression jusqu'à 7 000 mètres. Cela provoquera un ‖color:gui.red‖arrêt cardiaque‖end‖, un ‖color:gui.red‖arrêt respiratoire‖end‖, l'‖color:gui.red‖inconscience‖end‖, et ‖color:gui.red‖empêchera les opérations chirurgicales‖end‖, mais ‖color:gui.green‖suspendra la progression des afflictions négatives‖end‖ tant qu'il est porté. Lorsqu'il est porté, le sac se détériore de 1 % toutes les quatre secondes.</entitydescription.stasisbag>
+		<stasisbagequipconfirmation>Vous allez perdre connaissance. Êtes-vous sûr de vouloir équiper le sac de stase ?</stasisbagequipconfirmation>
+
+		<entityname.analgesictank>Réservoir d'Analgésiques</entityname.analgesictank>
+    	<entitydescription.analgesictank>Un réservoir d'analgésiques pouvant être installé sur une ‖color:gui.blue‖table d'opération‖end‖ pour fournir au patient allongé suffisamment d'analgésie pour pratiquer une chirurgie. Il peut également être utilisé dans un ‖color:gui.blue‖ambubag‖end‖, mais provoque une ‖color:gui.red‖dépendance‖end‖ supplémentaire.</entitydescription.analgesictank>
+
+		<entityname.dialyzer>Filtre de Dialyse</entityname.dialyzer>
+    	<entitydescription.dialyzer>Un filtre pouvant être installé sur une ‖color:gui.blue‖table d'opération‖end‖ pour réduire l'‖color:gui.green‖alcalose‖end‖ et l'‖color:gui.green‖acidose‖end‖ chez le patient allongé. La réduction de ces afflictions présente un risque mineur de contracter une ‖color:gui.red‖septicémie‖end‖.</entitydescription.dialyzer>
+
+		<entityname.toxfilter>Filtre à Toxines</entityname.toxfilter>
+    	<entitydescription.toxfilter>Un filtre pouvant être installé sur une ‖color:gui.blue‖table d'opération‖end‖ pour traiter les ‖color:gui.green‖poisons‖end‖ chez le patient allongé. Bien qu'il soit plus lent que les antidotes, il peut traiter tous les poisons du jeu de base. Le traitement des poisons présente un risque mineur de contracter une ‖color:gui.red‖septicémie‖end‖.</entitydescription.toxfilter>
+
+		<!-- NT Surgery -->
+		<entityname.advscalpel>Scalpel</entityname.advscalpel>
+		<entitydescription.advscalpel>Un outil utilisé pour effectuer des ‖color:gui.green‖incisions‖end‖ lors d'une chirurgie. Les incisions sont la première étape de toutes les opérations chirurgicales, mais provoqueront une ‖color:gui.red‖perte de sang‖end‖ sauf si l'‖color:gui.blue‖hémostat‖end‖ est utilisé ensuite. De plus, les incisions ne peuvent être réalisées que si le patient ne ressent pas de douleur, et les patients qui redeviennent sensibles à la douleur pendant une chirurgie subiront un ‖color:gui.red‖choc traumatique‖end‖. En cas d'échec, provoque des ‖color:gui.red‖saignements‖end‖ et des ‖color:gui.red‖lacérations‖end‖.</entitydescription.advscalpel>
+
+		<entityname.advhemostat>Hémostat</entityname.advhemostat>
+		<entitydescription.advhemostat>Un outil utilisé pour ‖color:gui.green‖clamper les vaisseaux sanguins‖end‖ lors d'une chirurgie. La deuxième étape de la plupart des opérations chirurgicales, effectuée après les ‖color:gui.blue‖incisions au scalpel‖end‖.</entitydescription.advhemostat>
+
+		<entityname.advretractors>Écarteurs Cutanés</entityname.advretractors>
+		<entitydescription.advretractors>Un outil utilisé pour ‖color:gui.green‖rétracter la peau‖end‖ lors d'une chirurgie. Rétracter la peau est la troisième étape de la plupart des opérations chirurgicales, mais provoquera un ‖color:gui.red‖choc traumatique‖end‖ si le patient est conscient et n'est pas allongé sur un lit, ou proche d'une ‖color:gui.blue‖table d'opération‖end‖ ou d'un lit d'hôpital. Utilisé après le ‖color:gui.blue‖clampage à l'hémostat‖end‖. En cas d'échec, provoque des ‖color:gui.red‖dommages internes‖end‖.</entitydescription.advretractors>
+
+		<entityname.tweezers>Pinces</entityname.tweezers>
+		<entitydescription.tweezers>Un petit outil permettant de retirer les tissus indésirables. Après la ‖color:gui.blue‖rétraction cutanée‖end‖, les pinces peuvent être utilisées pour retirer certains ‖color:gui.green‖corps étrangers‖end‖ ou convertir un ‖color:gui.green‖traumatisme contondant‖end‖ et des ‖color:gui.green‖dommages internes‖end‖ en ‖color:gui.red‖lacérations‖end‖ ‖color:gui.blue‖suturable‖end‖s. Les ‖color:gui.green‖corps étrangers‖end‖ peuvent également être retirés à travers des plaies par balle ouvertes ou des plaies profondes, mais cela provoquera un léger ‖color:gui.red‖choc traumatique‖end‖. En cas d'échec, provoque des ‖color:gui.red‖dommages internes‖end‖.</entitydescription.tweezers>
+
+		<entityname.surgerysaw>Scie Chirurgicale</entityname.surgerysaw>
+		<entitydescription.surgerysaw>Un outil utilisé pour ‖color:gui.green‖scier les os‖end‖. Après la ‖color:gui.blue‖rétraction cutanée‖end‖, les os peuvent être sciés pour retirer des membres existants ou en ajouter de nouveaux. Le remplacement des membres est obligatoire si la gangrène dépasse 15 %. En cas d'échec, provoque des ‖color:gui.red‖saignements‖end‖, des ‖color:gui.red‖dommages internes‖end‖ et des ‖color:gui.red‖lacérations‖end‖.</entitydescription.surgerysaw>
+
+		<entityname.suture>Suture</entityname.suture>
+		<entitydescription.suture>Des sutures biodégradables utilisées pour terminer une chirurgie. À l'utilisation, termine les opérations chirurgicales à n'importe quelle étape. De plus, elles peuvent être utilisées pour ‖color:gui.red‖suturer‖end‖ les ‖color:gui.green‖plaies ouvertes‖end‖ et réduire une quantité significative de ‖color:gui.green‖saignements‖end‖ externes. En cas d'échec, provoque des ‖color:gui.red‖dommages internes‖end‖.</entitydescription.suture>
+
+		<entityname.surgicaldrill>Perceuse Chirurgicale</entityname.surgicaldrill>
+		<entitydescription.surgicaldrill>Un outil utilisé pour ‖color:gui.green‖percer les os‖end‖ lors d'une chirurgie. Après la ‖color:gui.blue‖rétraction cutanée‖end‖, les os peuvent être percés pour effectuer une ‖color:gui.blue‖ostéosynthèse‖end‖ et corriger les fractures. En cas d'échec, provoque des ‖color:gui.red‖saignements‖end‖ et des ‖color:gui.red‖dommages internes‖end‖.</entitydescription.surgicaldrill>
+
+		<entityname.osteosynthesisimplants>Implants d'Ostéosynthèse</entityname.osteosynthesisimplants>
+		<entitydescription.osteosynthesisimplants>Des implants en titane utilisés pour réparer les fractures. Ils peuvent être installés après le ‖color:gui.blue‖perçage des os‖end‖. En cas de mort osseuse totale, l'ostéosynthèse doit être réalisée sur toutes les parties du corps. En cas d'échec, provoque des ‖color:gui.red‖saignements‖end‖ et des ‖color:gui.red‖dommages internes‖end‖.</entitydescription.osteosynthesisimplants>
+
+		<entityname.spinalimplant>Implants de Moelle Épinière</entityname.spinalimplant>
+		<entitydescription.spinalimplant>Des implants en titane utilisés pour réparer les lésions de la moelle épinière. Ils peuvent être installés après la ‖color:gui.blue‖rétraction cutanée‖end‖. Cependant, la moelle épinière sera à nouveau blessée si la fracture du cou n'est pas réparée par ‖color:gui.blue‖ostéosynthèse‖end‖. En cas d'échec, provoque des ‖color:gui.red‖saignements‖end‖ et des ‖color:gui.red‖dommages internes‖end‖.</entitydescription.spinalimplant>
+
+		<entityname.endovascballoon>Ballon Endovasculaire</entityname.endovascballoon>
+		<entitydescription.endovascballoon>Un ballon inséré dans une aorte rompue. Cela préviendra la ‖color:gui.green‖perte de sang‖end‖ causée par la rupture, mais l'obstruction provoquera de la ‖color:gui.red‖gangrène‖end‖ au fil du temps. Il peut être installé après une ‖color:gui.blue‖incision au scalpel‖end‖.</entitydescription.endovascballoon>
+
+		<entityname.medstent>Stent Médical</entityname.medstent>
+		<entitydescription.medstent>Un stent pouvant être inséré dans l'aorte pour réparer une rupture. Il doit être utilisé après le ‖color:gui.blue‖ballon endovasculaire‖end‖.</entitydescription.medstent>
+
+		<entityname.drainage>Drainage</entityname.drainage>
+		<entitydescription.drainage>Traite le ‖color:gui.green‖pneumothorax‖end‖ et la ‖color:gui.green‖tamponnade cardiaque‖end‖ en drainant respectivement l'air et le liquide. Peut être utilisé après la ‖color:gui.blue‖rétraction cutanée‖end‖. Le pneumothorax est une condition potentiellement dangereuse, car il empêche la diminution de l'hypoxémie. La tamponnade cardiaque provoquera une hypoventilation mettant en danger la vie si elle n'est pas traitée.</entitydescription.drainage>
+
+		<entityname.operatingtable>Table d'Opération</entityname.operatingtable>
+		<entitydescription.operatingtable>Une version portable du lit d'hôpital, destinée à être installée sur des sous-marins. Comme le lit d'hôpital, il est équipé d'une ‖color:gui.green‖ventilation artificielle‖end‖. De plus, il dispose de broches électriques installées pouvant transmettre les constantes vitales d'une personne. Intégrés, des emplacements pour placer un ‖color:gui.blue‖réservoir d'analgésiques‖end‖, l'un des ‖color:gui.blue‖filtres‖end‖, et une ‖color:gui.blue‖caisse réfrigérée‖end‖. Pour utiliser le ‖color:gui.blue‖réservoir d'analgésiques‖end‖ et les ‖color:gui.blue‖filtres‖end‖ sur un patient inconscient, celui-ci devra être placé de force sur la table.</entitydescription.operatingtable>
+
+		<entityname.organscalpel_liver>Scalpel d'Organe pour le Foie</entityname.organscalpel_liver>
+		<entitydescription.organscalpel_liver>Un scalpel spécialisé pour le retrait du foie. Peut être utilisé après la ‖color:gui.blue‖rétraction cutanée‖end‖ sur le torse.</entitydescription.organscalpel_liver>
+
+		<entityname.organscalpel_kidneys>Scalpel d'Organe pour les Reins</entityname.organscalpel_kidneys>
+		<entitydescription.organscalpel_kidneys>Un scalpel spécialisé pour le retrait des reins. Peut être utilisé après la ‖color:gui.blue‖rétraction cutanée‖end‖ sur le torse.</entitydescription.organscalpel_kidneys>
+
+		<entityname.organscalpel_lungs>Scalpel d'Organe pour les Poumons</entityname.organscalpel_lungs>
+		<entitydescription.organscalpel_lungs>Un scalpel spécialisé pour le retrait des poumons. Peut être utilisé après la ‖color:gui.blue‖rétraction cutanée‖end‖ sur le torse.</entitydescription.organscalpel_lungs>
+
+		<entityname.organscalpel_heart>Scalpel d'Organe pour le Cœur</entityname.organscalpel_heart>
+		<entitydescription.organscalpel_heart>Un scalpel spécialisé pour le retrait du cœur. Peut être utilisé après la ‖color:gui.blue‖rétraction cutanée‖end‖ sur le torse.</entitydescription.organscalpel_heart>
+
+		<entityname.organscalpel_brain>Scalpel d'Organe pour le Cerveau</entityname.organscalpel_brain>
+		<entitydescription.organscalpel_brain>Un scalpel spécialisé pour le retrait du cerveau. Peut être utilisé après la ‖color:gui.blue‖rétraction cutanée‖end‖ sur la tête.</entitydescription.organscalpel_brain>
+
+		<entityname.multiscalpel>Scalpel Multifonction</entityname.multiscalpel>
+		<entitydescription.multiscalpel>Un scalpel pouvant être utilisé pour les incisions, l'extraction d'organes, le retrait de bandages/plâtres, ou la mauvaise pratique médicale. Équiper en main pour changer de mode.</entitydescription.multiscalpel>
+		<multiscalpel.incision>Mode : Incision chirurgicale. Équiper en main pour changer de mode.</multiscalpel.incision>
+		<multiscalpel.kidneys>Mode : Extraire les reins</multiscalpel.kidneys>
+		<multiscalpel.liver>Mode : Extraire le foie</multiscalpel.liver>
+		<multiscalpel.lungs>Mode : Extraire les poumons</multiscalpel.lungs>
+		<multiscalpel.heart>Mode : Extraire le cœur</multiscalpel.heart>
+		<multiscalpel.brain>Mode : Extraire le cerveau</multiscalpel.brain>
+		<multiscalpel.bandage>Mode : Retirer les bandages, plâtres et mauvaises pratiques. Équiper en main pour changer de mode.</multiscalpel.bandage>
+		<multiscalpel.speedflex>Mode : Extraction d'organes adaptative. Après la ‖color:gui.blue‖rétraction cutanée‖end‖, utiliser sur le membre correspondant pour retirer les ‖color:gui.blue‖organes‖end‖ suivants. Pour extraire des ‖color:gui.blue‖organes‖end‖ sans en transplanter de nouveaux, utiliser deux fois sur le membre correspondant. Équiper en main pour changer de mode.
+- Tête : ‖color:gui.blue‖Cerveau‖end‖
+- Bras gauche : ‖color:gui.blue‖Reins‖end‖
+- Torse : ‖color:gui.blue‖Foie‖end‖
+- Bras droit : ‖color:gui.blue‖Cœur‖end‖
+- Jambe gauche : ‖color:gui.blue‖Poumons‖end‖</multiscalpel.speedflex>
+
+		<multiscalpel.btn.incision>Incision</multiscalpel.btn.incision>
+		<multiscalpel.btn.kidneys>Reins</multiscalpel.btn.kidneys>
+		<multiscalpel.btn.liver>Foie</multiscalpel.btn.liver>
+		<multiscalpel.btn.lungs>Poumons</multiscalpel.btn.lungs>
+		<multiscalpel.btn.heart>Cœur</multiscalpel.btn.heart>
+		<multiscalpel.btn.brain>Cerveau</multiscalpel.btn.brain>
+		<multiscalpel.btn.bandage>Bandages, plâtres, mauvaises pratiques</multiscalpel.btn.bandage>
+		<multiscalpel.btn.speedflex>Extraction d'organes adaptative</multiscalpel.btn.speedflex>
+
+		<!-- NT Blood -->
+		<entityname.emptybloodpack>Sachet de Sang Vide</entityname.emptybloodpack>
+		<entitydescription.emptybloodpack>Un sachet de sang vide pour prélever du sang. Le sang prélevé conservera une petite quantité de l'‖color:gui.red‖acidose‖end‖, de l'‖color:gui.red‖alcalose‖end‖ ou de la ‖color:gui.red‖septicémie‖end‖ du donneur, s'il en avait. Il est sûr de prélever un seul sachet de sang sur un patient, à condition qu'il soit en bonne santé. En cas d'échec, prélèvera une quantité ‖color:gui.red‖potentiellement létale‖end‖ de sang.</entitydescription.emptybloodpack>
+
+		<entityname.bloodpackoplus>Sachet de Sang O+</entityname.bloodpackoplus>
+		<entitydescription.bloodpackoplus>Peut être administré à : O+, A+, B+, et AB+</entitydescription.bloodpackoplus>
+
+		<entityname.bloodpackominus>Sachet de Sang O-</entityname.bloodpackominus>
+		<entitydescription.bloodpackominus>Peut être administré à : Tous</entitydescription.bloodpackominus>
+
+		<entityname.bloodpackaplus>Sachet de Sang A+</entityname.bloodpackaplus>
+		<entitydescription.bloodpackaplus>Peut être administré à : A+, AB+</entitydescription.bloodpackaplus>
+
+		<entityname.bloodpackbplus>Sachet de Sang B+</entityname.bloodpackbplus>
+		<entitydescription.bloodpackbplus>Peut être administré à : B+, AB+</entitydescription.bloodpackbplus>
+
+		<entityname.bloodpackabplus>Sachet de Sang AB+</entityname.bloodpackabplus>
+		<entitydescription.bloodpackabplus>Peut être administré à : AB+</entitydescription.bloodpackabplus>
+
+		<entityname.bloodpackaminus>Sachet de Sang A-</entityname.bloodpackaminus>
+		<entitydescription.bloodpackaminus>Peut être administré à : A-, A+, AB-, AB+</entitydescription.bloodpackaminus>
+
+		<entityname.bloodpackbminus>Sachet de Sang B-</entityname.bloodpackbminus>
+		<entitydescription.bloodpackbminus>Peut être administré à : B-, B+, AB-, AB+</entitydescription.bloodpackbminus>
+
+		<entityname.bloodpackabminus>Sachet de Sang AB-</entityname.bloodpackabminus>
+		<entitydescription.bloodpackabminus>Peut être administré à : AB-, AB+</entitydescription.bloodpackabminus>
+
+		<entityname.antibloodloss2>Sachet de Sang O-</entityname.antibloodloss2>
+		<entitydescription.antibloodloss2>Peut être administré à : Tous</entitydescription.antibloodloss2>
+
+		<entityname.ominuscard>Carte de Donneur O-</entityname.ominuscard>
+		<entitydescription.ominuscard>Peut prendre du sang de : O-
+		Peut donner du sang à : tous les groupes</entitydescription.ominuscard>
+
+		<entityname.opluscard>Carte de Donneur O+</entityname.opluscard>
+		<entitydescription.opluscard>Peut prendre du sang de : O-, O+
+		Peut donner du sang à : O+, A+, B+, AB+</entitydescription.opluscard>
+
+		<entityname.aminuscard>Carte de Donneur A-</entityname.aminuscard>
+		<entitydescription.aminuscard>Peut prendre du sang de : O-, A-
+		Peut donner du sang à : A-, A+, AB-, AB+</entitydescription.aminuscard>
+
+		<entityname.apluscard>Carte de Donneur A+</entityname.apluscard>
+		<entitydescription.apluscard>Peut prendre du sang de : O-, O+, A-, A+
+		Peut donner du sang à : A+, AB+</entitydescription.apluscard>
+
+		<entityname.bminuscard>Carte de Donneur B-</entityname.bminuscard>
+		<entitydescription.bminuscard>Peut prendre du sang de : O-, B-
+		Peut donner du sang à : B-, B+, AB-, AB+</entitydescription.bminuscard>
+
+		<entityname.bpluscard>Carte de Donneur B+</entityname.bpluscard>
+		<entitydescription.bpluscard>Peut prendre du sang de : O-, O+, B-, B+
+		Peut donner du sang à : B+, AB+</entitydescription.bpluscard>
+
+		<entityname.abminuscard>Carte de Donneur AB-</entityname.abminuscard>
+		<entitydescription.abminuscard>Peut prendre du sang de : O-, A-, B-, AB-
+		Peut donner du sang à : AB-, AB+</entitydescription.abminuscard>
+
+		<entityname.abpluscard>Carte de Donneur AB+</entityname.abpluscard>
+		<entitydescription.abpluscard>Peut prendre du sang de : tous les groupes
+		Peut donner du sang à : AB+</entitydescription.abpluscard>
+
+		<!-- NT Containers -->
+		<entityname.medtoolbox>Conteneur Médical</entityname.medtoolbox>
+		<entitydescription.medtoolbox>Peut stocker des médicaments et des instruments médicaux.</entitydescription.medtoolbox>
+
+		<entityname.surgerytoolbox>Caisse à Outils Chirurgicale</entityname.surgerytoolbox>
+		<entitydescription.surgerytoolbox>Peut stocker de nombreux petits objets utilisés lors d'une chirurgie.</entitydescription.surgerytoolbox>
+
+		<entityname.surgerytoolboxset>Caisse à Outils Chirurgicale</entityname.surgerytoolboxset>
+		<entitydescription.surgerytoolboxset>Peut stocker de nombreux petits objets utilisés lors d'une chirurgie.</entitydescription.surgerytoolboxset>
+
+		<entityname.organtoolbox>Conteneur Réfrigéré</entityname.organtoolbox>
+		<entitydescription.organtoolbox>Un conteneur pour stocker de précieux organes et membres prêts à la transplantation. Les organes se dégradent rapidement lorsqu'ils sont laissés à l'extérieur, tandis que les membres se dégradent plus lentement. Les organes et membres se régénèrent lorsqu'ils sont réfrigérés, mais seulement si l'organe est au-dessus de 90 % de condition, ou si le membre est au-dessus de 95 % de condition.</entitydescription.organtoolbox>
+
+		<entityname.organcrate>Caisse Réfrigérée</entityname.organcrate>
+		<entitydescription.organcrate>Une caisse pour stocker de précieux organes et membres prêts à la transplantation. Les organes se dégradent rapidement lorsqu'ils sont laissés à l'extérieur, tandis que les membres se dégradent plus lentement. Les organes et membres se régénèrent lorsqu'ils sont réfrigérés, mais seulement si l'organe est au-dessus de 90 % de condition, ou si le membre est au-dessus de 95 % de condition.</entitydescription.organcrate>
+
+		<entityname.medstartercrate>Caisse de Départ Médicale</entityname.medstartercrate>
+		<entitydescription.medstartercrate>Une fois obtenue, cette caisse génèrera le nécessaire de premiers secours et de chirurgie.</entitydescription.medstartercrate>
+
+		<!-- Human Resources -->
+		<entityname.rarm>Bras Droit</entityname.rarm>
+		<entitydescription.rarm>Un bras droit sectionné. Peut être réattaché chirurgicalement après le ‖color:gui.blue‖sciage des os‖end‖. Les membres sectionnés se dégradent lentement sauf s'ils sont réfrigérés, et l'état d'un membre n'a pas d'importance à des fins de transplantation. Les os sont riches en ‖color:gui.green‖calcium‖end‖, et sont appétissants pour les animaux de compagnie.</entitydescription.rarm>
+
+		<entityname.larm>Bras Gauche</entityname.larm>
+		<entitydescription.larm>Un bras gauche sectionné. Peut être réattaché chirurgicalement après le ‖color:gui.blue‖sciage des os‖end‖. Les membres sectionnés se dégradent lentement sauf s'ils sont réfrigérés, et l'état d'un membre n'a pas d'importance à des fins de transplantation. Les os sont riches en ‖color:gui.green‖calcium‖end‖, et sont appétissants pour les animaux de compagnie.</entitydescription.larm>
+
+		<entityname.rleg>Jambe Droite</entityname.rleg>
+		<entitydescription.rleg>Une jambe droite sectionnée. Peut être réattachée chirurgicalement après le ‖color:gui.blue‖sciage des os‖end‖. Les membres sectionnés se dégradent lentement sauf s'ils sont réfrigérés, et l'état d'un membre n'a pas d'importance à des fins de transplantation. Les os sont riches en ‖color:gui.green‖calcium‖end‖, et sont appétissants pour les animaux de compagnie.</entitydescription.rleg>
+
+		<entityname.lleg>Jambe Gauche</entityname.lleg>
+		<entitydescription.lleg>Une jambe gauche sectionnée. Peut être réattachée chirurgicalement après le ‖color:gui.blue‖sciage des os‖end‖. Les membres sectionnés se dégradent lentement sauf s'ils sont réfrigérés, et l'état d'un membre n'a pas d'importance à des fins de transplantation. Les os sont riches en ‖color:gui.green‖calcium‖end‖, et sont appétissants pour les animaux de compagnie.</entitydescription.lleg>
+
+		<entityname.headta>Restes de Tête</entityname.headta>
+		<entitydescription.headta>Les restes d'une tête humaine arrachée. Le visage est mutilé et méconnaissable, et se dégra de lentement sauf s'il est réfrigéré. Les os sont riches en ‖color:gui.green‖calcium‖end‖, et sont appétissants pour les animaux de compagnie. Non, vous ne pouvez pas la transplanter, n'y pensez même pas.</entitydescription.headta>
+
+		<entityname.headsa>Tête</entityname.headsa>
+		<entitydescription.headsa>Une tête amputée dans un sac. Ne peut pas être transplantée. Les membres sectionnés se dégradent lentement sauf s'ils sont réfrigérés. Les os sont riches en ‖color:gui.green‖calcium‖end‖, et sont appétissants pour les animaux de compagnie.</entitydescription.headsa>
+
+		<entityname.rarmp>Bras Droit Bionique</entityname.rarmp>
+		<entitydescription.rarmp>Un bras droit bionique. Peut être utilisé pour traiter une amputation, se transformant en un bras biologique. Peut être attaché après le ‖color:gui.blue‖sciage des os‖end‖.</entitydescription.rarmp>
+
+		<entityname.larmp>Bras Gauche Bionique</entityname.larmp>
+		<entitydescription.larmp>Un bras gauche bionique. Peut être utilisé pour traiter une amputation, se transformant en un bras biologique. Peut être attaché après le ‖color:gui.blue‖sciage des os‖end‖.</entitydescription.larmp>
+
+		<entityname.rlegp>Jambe Droite Bionique</entityname.rlegp>
+		<entitydescription.rlegp>Une jambe droite bionique. Peut être utilisée pour traiter une amputation, se transformant en une jambe biologique. Peut être attachée après le ‖color:gui.blue‖sciage des os‖end‖.</entitydescription.rlegp>
+
+		<entityname.llegp>Jambe Gauche Bionique</entityname.llegp>
+		<entitydescription.llegp>Une jambe gauche bionique. Peut être utilisée pour traiter une amputation, se transformant en une jambe biologique. Peut être attachée après le ‖color:gui.blue‖sciage des os‖end‖.</entitydescription.llegp>
+
+		<entityname.livertransplant>Foie</entityname.livertransplant>
+		<entitydescription.livertransplant>Un foie humain. Les dommages au foie compromettent la capacité naturelle du corps à guérir les ‖color:gui.red‖saignements‖end‖, provoquent également un certain ‖color:gui.red‖neurotraumatisme‖end‖, augmentent la ‖color:gui.red‖pression artérielle‖end‖, et provoquent des ‖color:gui.red‖saignements internes‖end‖ continus en cas de défaillance totale. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.livertransplant>
+		<entityname.livertransplant_q1>Foie</entityname.livertransplant_q1>
+		<entitydescription.livertransplant_q1>Un foie humain. Les dommages au foie compromettent la capacité naturelle du corps à guérir les ‖color:gui.red‖saignements‖end‖, provoquent également un certain ‖color:gui.red‖neurotraumatisme‖end‖, augmentent la ‖color:gui.red‖pression artérielle‖end‖, et provoquent des ‖color:gui.red‖saignements internes‖end‖ continus en cas de défaillance totale. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.livertransplant_q1>
+
+		<entityname.lungtransplant>Poumons</entityname.lungtransplant>
+		<entitydescription.lungtransplant>Une paire de poumons humains. La défaillance totale des poumons provoque un ‖color:gui.red‖arrêt respiratoire‖end‖. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.lungtransplant>
+		<entityname.lungtransplant_q1>Poumons</entityname.lungtransplant_q1>
+		<entitydescription.lungtransplant_q1>Une paire de poumons humains. La défaillance totale des poumons provoque un ‖color:gui.red‖arrêt respiratoire‖end‖. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.lungtransplant_q1>
+
+		<entityname.kidneytransplant>Rein</entityname.kidneytransplant>
+		<entitydescription.kidneytransplant>Un rein humain. De lourds dommages aux reins provoqueront une ‖color:gui.red‖acidose‖end‖, un certain ‖color:gui.red‖neurotraumatisme‖end‖, des ‖color:gui.red‖dommages osseux‖end‖, et augmenteront la ‖color:gui.red‖pression artérielle‖end‖. Les reins tombent en panne l'un après l'autre, l'un défaillant passé 50 % de dommage. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.kidneytransplant>
+		<entityname.kidneytransplant_q1>Rein</entityname.kidneytransplant_q1>
+		<entitydescription.kidneytransplant_q1>Un rein humain. De lourds dommages aux reins provoqueront une ‖color:gui.red‖acidose‖end‖, un ‖color:gui.red‖neurotraumatisme‖end‖, des ‖color:gui.red‖dommages osseux‖end‖, et augmenteront la ‖color:gui.red‖pression artérielle‖end‖. Les reins tombent en panne l'un après l'autre, l'un défaillant passé 50 % de dommage. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.kidneytransplant_q1>
+
+		<entityname.hearttransplant>Cœur</entityname.hearttransplant>
+		<entitydescription.hearttransplant>Un cœur humain. La défaillance totale du cœur provoque un ‖color:gui.red‖arrêt cardiaque‖end‖. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.hearttransplant>
+		<entityname.hearttransplant_q1>Cœur</entityname.hearttransplant_q1>
+		<entitydescription.hearttransplant_q1>Un cœur humain. La défaillance totale du cœur provoque un ‖color:gui.red‖arrêt cardiaque‖end‖. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les organes se dégradent rapidement s'ils ne sont pas réfrigérés ou dans un corps humain, et sont appétissants pour les animaux de compagnie.</entitydescription.hearttransplant_q1>
+
+		<entityname.braintransplant>Cerveau</entityname.braintransplant>
+		<entitydescription.braintransplant>Un cerveau humain. Le retrait du cerveau provoque un ‖color:gui.red‖neurotraumatisme‖end‖ qui augmente rapidement. Cependant, le cerveau d'une personne peut être transplanté dans un autre individu pour que cette personne prenne le contrôle de lui. Pour transplanter un organe, l'ancien doit être retiré avec le ‖color:gui.blue‖scalpel d'organe‖end‖ approprié, et le nouveau placé à la place. Les cerveaux se dégradent extrêmement rapidement lorsqu'ils ne sont pas dans un corps humain, sont excessivement fragiles, et sont appétissants pour les animaux de compagnie.</entitydescription.braintransplant>
+
+		<entityname.armlock1>Main Droite Non Fonctionnelle</entityname.armlock1>
+		<entitydescription.armlock1>Cette main ne fonctionne pas, en raison du recul des armes quand le bras droit est ‖color:gui.red‖luxé‖end‖ ou ‖color:gui.red‖fracturé‖end‖, ou parce que cette main est ‖color:gui.red‖totalement absente‖end‖.</entitydescription.armlock1>
+
+		<entityname.armlock2>Main Gauche Non Fonctionnelle</entityname.armlock2>
+		<entitydescription.armlock2>Cette main ne fonctionne pas, en raison du recul des armes quand le bras gauche est ‖color:gui.red‖luxé‖end‖ ou ‖color:gui.red‖fracturé‖end‖, ou parce que cette main est ‖color:gui.red‖totalement absente‖end‖.</entitydescription.armlock2>
+
+		<!-- NT Treatments -->
+		<entityname.mannitol>Mannitol</entityname.mannitol>
+		<entitydescription.mannitol>Un alcool de sucre utilisé pour traiter une quantité significative de ‖color:gui.green‖neurotraumatismes‖end‖ et diviser par deux son taux d'augmentation. Cependant, il ne fonctionnera pas sauf si le patient a plus de 70 % de pression artérielle et du sang oxygéné. De plus, il provoquera des dommages au ‖color:gui.red‖cœur‖end‖ et aux ‖color:gui.red‖reins‖end‖. En cas d'échec, moins efficace et provoquera davantage de dommages au ‖color:gui.red‖cœur‖end‖ et aux ‖color:gui.red‖reins‖end‖.</entitydescription.mannitol>
+
+		<entityname.streptokinase>Streptokinase</entityname.streptokinase>
+		<entitydescription.streptokinase>Une enzyme qui décompose les caillots sanguins, utile dans le traitement des ‖color:gui.green‖crises cardiaques‖end‖. Cependant, elle augmentera le risque d'‖color:gui.red‖AVC‖end‖ si l'utilisateur a plus de 150 % de pression artérielle. De plus, elle est utilisée pour traiter le ‖color:gui.green‖choc hémotransfusionnel‖end‖.</entitydescription.streptokinase>
+
+		<entityname.immunosuppressant>Azathioprine</entityname.immunosuppressant>
+		<entitydescription.immunosuppressant>Un immunosuppresseur qui réduira l'‖color:gui.green‖immunité‖end‖ d'un patient. Ceci est utile pour prévenir le ‖color:gui.green‖rejet d'organe‖end‖ ou pour ‖color:gui.green‖administrer des groupes sanguins incompatibles‖end‖ sans déclencher de réponse immunitaire. Cependant, une immunité réduite rendra le patient plus susceptible à la ‖color:gui.red‖septicémie‖end‖. Si un patient reçoit une greffe d'organe mais qu'elle échoue immédiatement, c'est qu'elle a été rejetée par le système immunitaire. En cas d'échec, provoque une ‖color:gui.red‖septicémie‖end‖.</entitydescription.immunosuppressant>
+
+		<entityname.thiamine>Thiamine</entityname.thiamine>
+		<entitydescription.thiamine>La vitamine B1 fournira un léger coup de pouce à la ‖color:gui.green‖régénération des organes‖end‖. En cas d'échec, moins efficace.</entitydescription.thiamine>
+
+		<entityname.pressuremeds>Nitroprussiate de Sodium</entityname.pressuremeds>
+		<entitydescription.pressuremeds>Un médicament utilisé pour abaisser la ‖color:gui.green‖pression artérielle‖end‖. En cas d'échec, moins efficace.</entitydescription.pressuremeds>
+
+		<entityname.ointment>Pommade Antibiotique</entityname.ointment>
+		<entitydescription.ointment>Un gel antiseptique qui aidera à combattre les ‖color:gui.green‖plaies infectées‖end‖ et à soulager les ‖color:gui.green‖brûlures‖end‖ mineures. En cas d'échec, moins efficace.</entitydescription.ointment>
+
+		<entityname.tourniquet>Garrot</entityname.tourniquet>
+		<entitydescription.tourniquet>Un objet qui empêche les ‖color:gui.green‖artères principales de saigner‖end‖. Il ne peut pas être utilisé sur l'‖color:gui.red‖artère carotide‖end‖. Le clampage des artères provoquera de la ‖color:gui.red‖gangrène‖end‖ au fil du temps, et il est retiré lors d'une chirurgie. En cas d'échec, provoque un ‖color:gui.red‖traumatisme contondant‖end‖.</entitydescription.tourniquet>
+
+		<entityname.needle>Aiguille</entityname.needle>
+		<entitydescription.needle>Une aiguille spécialisée utilisée pour dépressuriser l'accumulation d'air et de fluide, comme option de premiers secours pour le ‖color:gui.green‖pneumothorax‖end‖ et la ‖color:gui.green‖tamponnade cardiaque‖end‖. Si le patient n'a pas déjà un pneumothorax, elle en ‖color:gui.red‖provoquera un à la place‖end‖. En cas d'échec, provoque des ‖color:gui.red‖dommages aux organes‖end‖ et des ‖color:gui.red‖saignements‖end‖. Le pneumothorax est une condition potentiellement dangereuse, car il empêche la diminution de l'hypoxémie. La tamponnade cardiaque provoquera une hypoventilation mettant en danger la vie si elle n'est pas traitée.</entitydescription.needle>
+
+		<entityname.ringerssolution>Ringer's Solution</entityname.ringerssolution>
+		<entitydescription.ringerssolution>Une solution isotonique utilisée pour augmenter la ‖color:gui.green‖pression artérielle‖end‖, et provoque également une ‖color:gui.green‖alcalose‖end‖. En cas d'échec, la durée d'effet est réduite.</entitydescription.ringerssolution>
+
+		<entityname.antiseptic>Antiseptique</entityname.antiseptic>
+		<entitydescription.antiseptic>Utilisé par le ‖color:gui.blue‖spray antiseptique‖end‖, il est efficace pour traiter les ‖color:gui.green‖plaies infectées‖end‖.</entitydescription.antiseptic>
+
+		<entityname.antisepticspray>Spray Antiseptique</entityname.antisepticspray>
+		<entitydescription.antisepticspray>Applique de l'‖color:gui.blue‖antiseptique‖end‖ pour combattre les ‖color:gui.green‖plaies infectées‖end‖.</entitydescription.antisepticspray>
+
+		<entityname.propofol>Propofol</entityname.propofol>
+		<entitydescription.propofol>Un ‖color:gui.green‖anesthésique‖end‖ général. Ses effets se manifestent après un certain temps, et ne dureront pas très longtemps. Les patients anesthésiés sont ‖color:gui.red‖inconscients‖end‖ et ne subissent pas de ‖color:gui.green‖choc traumatique‖end‖ lors des opérations chirurgicales. L'utilisation peut s'accompagner de divers ‖color:gui.red‖effets secondaires‖end‖ non létaux.</entitydescription.propofol>
+
+		<entityname.gypsum>Plâtre</entityname.gypsum>
+		<entitydescription.gypsum>Une poudre pouvant être formée en plâtre. Elle est utilisée pour enfermer les ‖color:gui.green‖fractures des os longs‖end‖, permettant leur guérison. Utilisé après avoir ‖color:gui.blue‖bandagé‖end‖ le membre. En cas d'échec, il est consommé sans former de plâtre.</entitydescription.gypsum>
+
+		<entityname.gelipack>Poche de Gel Réfrigérante</entityname.gelipack>
+		<entitydescription.gelipack>Un paquet de gel froid qui augmentera considérablement la guérison naturelle des ‖color:gui.green‖traumatismes contondants‖end‖ et traite les ‖color:gui.green‖saignements internes‖end‖ au fil du temps. Il est inefficace contre les ‖color:gui.red‖autres types de blessures‖end‖ et aggravera les ‖color:gui.red‖infections‖end‖. Les effets qui accélèrent la guérison naturelle ne fonctionnent pas si la blessure dépasse son seuil de guérison naturelle. Peut être utilisé jusqu'à trois fois, et perdra son efficacité s'il n'est pas réfrigéré. Lorsqu'il est réfrigéré, sa condition se régénère au fil du temps. En cas d'échec, la durée de refroidissement est réduite.</entitydescription.gelipack>
+	</Override>
+</infotexts>
